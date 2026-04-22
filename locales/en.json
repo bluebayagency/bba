@@ -1,0 +1,311 @@
+{
+  "nav": {
+    "work": "Work",
+    "process": "Process",
+    "pricing": "Pricing",
+    "about": "About",
+    "faq": "FAQ",
+    "cta": "Book Strategy Call"
+  },
+  "hero": {
+    "eyebrow": "Web Design & Development · Hermosa Beach, CA",
+    "h1_1": "A Website That",
+    "h1_em": "Works as Hard",
+    "h1_2": "as You Do.",
+    "body": "We listen, solve problems, and build highly-converting websites that take your brand to whole new heights. Great design backed by structurally-sound development, so your business shows up online the way it truly deserves to.",
+    "cta_primary": "Let's Talk About Your Project",
+    "cta_secondary": "See Our Work",
+    "trust": ["Hermosa Beach, CA", "17 Years Experience", "Mobile-First", "Highly-Converting"],
+    "stats": [
+      { "num": "17+", "label": "Years of Experience" },
+      { "num": "2–14", "label": "Day Project Delivery" },
+      { "num": "100%", "label": "Mobile-First Builds" }
+    ],
+    "scroll": "Scroll"
+  },
+  "coreTruth": {
+    "eyebrow": "The Bluebay Agency Philosophy",
+    "h2": "There Is Often a Gap Between How Great a Business Is and How Clearly That Comes Across Online.",
+    "body1": "Our goal is to help bridge that gap, so you can connect more clearly with the people you are meant to serve, build genuine trust, and create a greater impact through your website.",
+    "body2": "When the experience feels right, taking the next step feels natural. That is what thoughtful design and purposeful development make possible.",
+    "quote": "Being part of that process, helping ideas come to life, is what drives everything we do."
+  },
+  "whyBluebay": {
+    "eyebrow": "Why Bluebay Agency",
+    "h2": "We Build Websites That Help Your Business Grow.",
+    "body": "Good design should do more than look beautiful, it should work. Every decision we make comes back to one question: does this help your business connect, build trust, and grow? Five principles guide every project we take on.",
+    "pillars": [
+      { "num": "01", "title": "Clarity", "desc": "Clear, natural messaging that helps visitors immediately understand who you are, what you offer, and why it matters to them." },
+      { "num": "02", "title": "Intentional Design", "desc": "Every layout, typeface, color, and detail is chosen with purpose, to create an experience that feels right and moves people forward." },
+      { "num": "03", "title": "Performance", "desc": "Fast, mobile-first builds grounded in how real people actually browse, because a beautiful site that loads slowly loses people before they even begin." },
+      { "num": "04", "title": "Transparency", "desc": "We keep you in the loop at every step, from the first strategy conversation through launch day, so you always know exactly where things stand." },
+      { "num": "05", "title": "Built to Convert", "desc": "Every page has a purpose. Every call-to-action has a role. We build websites designed to turn the right visitors into the right clients." }
+    ],
+    "differentiators": ["Mobile-First Approach", "Strategy-Led Design", "17 Years Experience", "Collaborative Process"]
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "h2": "A Clear, Collaborative Process from Start to Launch",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Discovery & Strategy",
+        "desc": "We start by listening. We dig into your business, your audience, and your goals, then identify exactly what your website needs to do to support them.",
+        "detail": "Conversion audit · UX analysis · Competitor review"
+      },
+      {
+        "num": "02",
+        "title": "Messaging & Structure",
+        "desc": "We map out your messaging, page structure, and user flow so every part of the site has a clear job, guiding the right people toward the right next step.",
+        "detail": "Messaging map · UX wireframe · Trust architecture"
+      },
+      {
+        "num": "03",
+        "title": "Design & Development",
+        "desc": "We bring everything to life with intentional design and structurally-sound development, mobile-first, fast, and built to last.",
+        "detail": "Design · Development · Integration · QA"
+      },
+      {
+        "num": "04",
+        "title": "Launch & Grow",
+        "desc": "We launch your site, set up analytics, and stay close during the early days, so you go live with confidence and keep improving from real data.",
+        "detail": "Launch · Analytics · Iteration · Growth"
+      }
+    ],
+    "cta": "Start the Conversation"
+  },
+  "portfolio": {
+    "eyebrow": "Selected Work",
+    "h2": "Conversion Systems in the Wild",
+    "body": "Every project is built around one objective: more leads, more bookings, more revenue.",
+    "mobile_label": "Mobile View",
+    "projects": [
+      {
+        "name": "Goldie Grace Beauty",
+        "category": "Beauty · Brand Identity · Web Design",
+        "desc": "A luxury beauty brand transformation from identity system to conversion-focused website that books clients automatically."
+      },
+      {
+        "name": "Nopalvia",
+        "category": "Food & Beverage · Brand · E-commerce",
+        "desc": "A modern wellness brand system built around authentic storytelling, conversion architecture, and mobile-first e-commerce performance."
+      }
+    ],
+    "more_text": "More case studies available during your strategy call",
+    "more_cta": "Book a Call to See More"
+  },
+  "pricing": {
+    "eyebrow": "Investment",
+    "h2": "Choose Your Growth Stage",
+    "body": "Every package is built around one goal: a website that genuinely works for your business, bringing in leads, building trust, and growing with you.",
+    "best_for_label": "Best for:",
+    "tech_label": "We build on",
+    "get_started": "Get Started",
+    "apply_cta": "Apply for Conversion Sprint",
+    "tiers": [
+      {
+        "badge": null,
+        "tier_num": "Tier 01",
+        "name": "Conversion Landing System",
+        "price": "$895",
+        "price_alt": "– $2,500",
+        "timeline": "2–3 Business Days",
+        "description": "Fast, high-converting landing pages built for campaigns, offers, and immediate lead generation.",
+        "best_for": "Campaigns, offers, and service providers needing fast lead generation.",
+        "includes": [
+          "1 high-converting landing page",
+          "Conversion-focused UX structure",
+          "Mobile-first design",
+          "Lead capture or booking integration (CRM-ready)",
+          "Basic SEO setup (metadata, OG tags)",
+          "Analytics setup",
+          "CTA optimization"
+        ]
+      },
+      {
+        "badge": "Most Popular",
+        "tier_num": "Tier 02",
+        "name": "Growth Website",
+        "price": "$3,000",
+        "price_alt": "– $7,500",
+        "timeline": "5–7 Business Days",
+        "description": "A full conversion-focused website system for established businesses ready to generate inbound leads and build real credibility.",
+        "best_for": "Established businesses ready for credibility and inbound leads.",
+        "includes": [
+          "Up to 5 pages (Home, About, Services, Contact + 1)",
+          "Conversion strategy across all pages",
+          "Messaging refinement",
+          "CRM integration",
+          "Analytics + tracking setup",
+          "SEO foundation",
+          "Mobile-first responsive design",
+          "2 revision rounds"
+        ]
+      },
+      {
+        "badge": "Premium",
+        "tier_num": "Tier 03",
+        "name": "Bluebay Conversion Sprint",
+        "price": "$5,000",
+        "price_alt": "– $10,000+",
+        "timeline": "10–14 Business Days",
+        "description": "Our flagship offer: a complete conversion strategy, design system, and engineered website built to generate predictable revenue growth.",
+        "best_for": "Businesses focused on predictable revenue growth at scale.",
+        "includes": [
+          "Full conversion strategy + audit",
+          "Messaging architecture",
+          "UX + UI system design",
+          "Full custom website build",
+          "Lead generation system integration",
+          "Analytics dashboard setup",
+          "SEO + technical optimization",
+          "Priority launch support"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "The Founder",
+    "h2": "Nearly Two Decades of Building Things That Actually Work.",
+    "body1": "Before founding Bluebay Agency, our founder spent nearly 17 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from conception through launch and refining them until they performed. That background is not common in a boutique agency, and it shapes how we approach every project we take on.",
+    "body2": "We work with a small number of clients at a time, intentionally, so every project gets the care and attention it deserves. If you are ready to build a website that works as hard as you do, we would love to be part of that journey.",
+    "stat_num": "17+",
+    "stat_label": "Years Engineering Conversion Systems",
+    "certs_label": "Certified",
+    "certifications": [
+      { "label": "CA DGS", "sub": "SB (Micro)" },
+      { "label": "LA SBE", "sub": "Small Business Enterprise" },
+      { "label": "LA EBE", "sub": "Emerging Business Enterprise" },
+      { "label": "LA VSBE", "sub": "Very Small Business Enterprise" }
+    ],
+    "chamber_label": "Manhattan Beach",
+    "chamber_sub": "Chamber of Commerce Member"
+  },
+  "blog": {
+    "eyebrow": "Insights",
+    "h2": "Conversion, Design & Digital Growth",
+    "cms_note": "Blog connects to Headless CMS · DigitalOcean",
+    "all_articles": "View All Articles",
+    "read_article": "Read Article",
+    "posts": [
+      {
+        "slug": "why-mobile-first-design-is-not-optional-in-2025",
+        "category": "Mobile Design",
+        "title": "Why Mobile-First Design Is Not Optional in 2025",
+        "excerpt": "Over 70% of your visitors arrive on mobile. If your site was designed for desktop first, you are designing for the minority and paying for it in lost conversions.",
+        "readTime": "5 min read",
+        "date": "Apr 2025"
+      },
+      {
+        "slug": "7-reasons-your-website-may-be-quietly-losing-clients",
+        "category": "Conversion Strategy",
+        "title": "The 7 Ways Websites Silently Lose Conversions",
+        "excerpt": "Most conversion problems are invisible. Slow load times, unclear CTAs, and poor trust signals are bleeding revenue daily without triggering a single error.",
+        "readTime": "8 min read",
+        "date": "Mar 2025"
+      },
+      {
+        "slug": "from-visitors-to-clients-how-to-build-a-website-that-converts",
+        "category": "Growth Systems",
+        "title": "From Traffic to Clients: Building Your Acquisition System",
+        "excerpt": "Traffic without conversion architecture is just noise. Learn how to architect your website as a system where every page has a role and every CTA has a purpose.",
+        "readTime": "6 min read",
+        "date": "Feb 2025"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "h2": "Frequently Asked Questions",
+    "still_question": "Don't see your question answered here?",
+    "ask_cta": "Ask Us Directly",
+    "items": [
+      {
+        "q": "How fast is the turnaround?",
+        "a": "Most projects are completed in 2–14 business days depending on scope. Landing systems ship in 2–3 days. Growth websites in 5–7 days. Full Conversion Sprints in 10–14 days. We maintain these timelines by keeping our client roster intentionally small."
+      },
+      {
+        "q": "Do you only design websites?",
+        "a": "We build highly-converting websites, but the work behind them goes deeper than design. Strategy, messaging, structure, and lead generation all work together so your website becomes a genuine business asset that keeps delivering over time."
+      },
+      {
+        "q": "What do I need to get started?",
+        "a": "Very little. We only need your business details, offer information, any available assets like photography or existing brand images, and access to your current website if applicable. We handle the strategy, copy direction, design, and engineering. Most clients are surprised by how streamlined the process is."
+      },
+      {
+        "q": "Do you offer ongoing support?",
+        "a": "Yes. Optional ongoing optimization, website and landing page improvements are available as a monthly retainer. Many clients find that ongoing refinement significantly compounds the ROI of their initial build."
+      },
+      {
+        "q": "Will my website be optimized for SEO?",
+        "a": "Yes. Every build includes technical SEO structure: metadata, OG tags, schema markup, performance optimization, and mobile-first architecture. SEO is woven into the engineering from day one, a foundational layer of every project we deliver."
+      },
+      {
+        "q": "What makes Bluebay Agency different from other agencies?",
+        "a": "We take the time to actually listen. Every project starts with understanding your business, your clients, and what success looks like for you, then we build around that. Nearly 17 years of experience means we know what works, and we bring that knowledge to every project we take on."
+      },
+      {
+        "q": "How many clients do you work with at once?",
+        "a": "We keep our roster intentionally small, usually 3–5 active projects at a time. It means more focus, faster turnaround, and a better experience for everyone we work with. It also means availability is limited, so if the timing feels right, it is worth reaching out sooner rather than later."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get Started",
+    "h2": "Let's Talk About Your Project",
+    "body": "Tell us a little about your business and what you are working toward. We would love to learn about your goals and figure out together how we can help.",
+    "email_cta": "Email Us Directly",
+    "call_cta": "Call Directly",
+    "response_note": "We respond within 1 business day",
+    "trust": [
+      "Strategy call is free",
+      "No obligation",
+      "Response within 1 business day",
+      "17+ years experience"
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Let's Work Together",
+    "h2_1": "Ready to Build a Website That",
+    "h2_em": "Truly Works for You?",
+    "body": "We work with a small number of businesses at a time, so when you work with us, you have our full attention. If you are ready to build something you are proud of and that delivers real results, we would love to hear about your project.",
+    "cta_primary": "Let's Talk",
+    "cta_secondary": "View Our Packages",
+    "note": "Limited availability · Serving clients nationally"
+  },
+  "footer": {
+    "tagline": "We listen, solve problems, and build highly-converting websites that help businesses connect more clearly, build trust, and grow.",
+    "location": "Hermosa Beach, California",
+    "nav_title": "Navigation",
+    "contact_title": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "Bluebay Agency, LLC. All rights reserved.",
+    "certs_label": "Certifications",
+    "chamber_label": "Manhattan Beach",
+    "chamber_sub": "Chamber of Commerce Member",
+    "book_cta": "Book Strategy Call"
+  },
+  "lang": {
+    "switch_label": "Español",
+    "current": "EN"
+  },
+  "blogPage": {
+    "eyebrow": "Insights",
+    "h1": "Conversion, Design & Digital Growth",
+    "subtitle": "Strategy, design, and growth insights for businesses building a stronger web presence.",
+    "read_article": "Read Article",
+    "back_to_blog": "Back to Blog",
+    "by": "By",
+    "published": "Published",
+    "all_posts": "All Articles",
+    "no_posts": "No articles found. Check back soon.",
+    "meta_description": "Web design, conversion strategy, and digital growth insights from Bluebay Agency.",
+    "share": "Share this article",
+    "related": "More from the Blog",
+    "cta_eyebrow": "Ready to Talk?",
+    "cta_heading": "Let's Build Something That Works.",
+    "cta_body": "If this article sparked some ideas, we would love to hear about your project.",
+    "cta_button": "Book a Free Strategy Call"
+  }
+}

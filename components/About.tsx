@@ -1,0 +1,96 @@
+'use client'
+
+import { useTranslation } from 'react-i18next'
+import Image from 'next/image'
+import ScrollReveal from './ScrollReveal'
+
+export default function About() {
+  const { t } = useTranslation()
+  const certifications = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
+
+  return (
+    <section id="about" className="bg-sand py-24 md:py-36 relative">
+      <div className="section-divider absolute top-0 left-0 right-0" />
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+          {/* Image */}
+          <ScrollReveal>
+            <div className="relative">
+              <div className="relative overflow-hidden bg-navy/5">
+                <img
+                  src="/images/founder/bluebay-agency-veronica-perez.png"
+                  alt="Bluebay Agency Founder"
+                  className="w-full h-auto object-cover object-top"
+                  style={{ maxHeight: '640px' }}
+                />
+                <div className="absolute -bottom-[104px] -right-4 w-2/3 h-2/3 border border-dusty-rose/30 pointer-events-none" />
+              </div>
+              <div className="absolute -bottom-6 left-6 md:left-10 bg-navy text-white p-6 shadow-2xl">
+                <div className="font-canela-deck text-4xl font-thin text-dusty-rose">{t('about.stat_num')}</div>
+                <div className="font-sans text-xs text-white/50 mt-1 tracking-wide leading-tight">{t('about.stat_label')}</div>
+              </div>
+            </div>
+          </ScrollReveal>
+
+          {/* Content */}
+          <div className="lg:pt-8">
+            <ScrollReveal>
+              <div className="flex items-center gap-4 mb-6">
+                <div className="h-px w-10 bg-dusty-rose/60" />
+                <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+                  {t('about.eyebrow')}
+                </span>
+              </div>
+            </ScrollReveal>
+
+            <ScrollReveal delay={1}>
+              <h2 className="font-canela-deck font-light text-navy leading-[1.1] mb-6" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
+                {t('about.h2')}
+              </h2>
+            </ScrollReveal>
+
+            <ScrollReveal delay={2}>
+              <p className="font-sans font-light text-charcoal/60 leading-relaxed mb-5">
+                {t('about.body1')}
+              </p>
+              <p className="font-sans font-light text-charcoal/50 text-sm leading-relaxed mb-10">
+                {t('about.body2')}
+              </p>
+            </ScrollReveal>
+
+            <ScrollReveal delay={3}>
+              <p className="font-sans text-xs font-medium text-charcoal/30 tracking-[0.2em] uppercase mb-5">
+                {t('about.certs_label')}
+              </p>
+              <div className="grid grid-cols-2 gap-3 mb-8">
+                {certifications.map((cert) => (
+                  <div key={cert.label} className="flex items-start gap-3 bg-white border border-gray-border p-4">
+                    <div className="w-1.5 h-1.5 rounded-full bg-navy/30 mt-1.5 flex-shrink-0" />
+                    <div>
+                      <div className="font-sans text-xs font-medium text-navy">{cert.label}</div>
+                      <div className="font-sans text-[11px] text-charcoal/40 leading-snug">{cert.sub}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex items-center gap-4 pt-6 border-t border-gray-border">
+                <Image
+                  src="/images/logos/mb-chamber-member.png"
+                  alt="Manhattan Beach Chamber of Commerce Member"
+                  width={80}
+                  height={80}
+                  className="h-14 w-auto object-contain opacity-70"
+                />
+                <div>
+                  <div className="font-sans text-xs font-medium text-charcoal/50">{t('about.chamber_label')}</div>
+                  <div className="font-sans text-xs text-charcoal/35">{t('about.chamber_sub')}</div>
+                </div>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

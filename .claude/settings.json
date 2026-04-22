@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ln -sfn /Users/veronicaperez/Documents/Business/BlueBayAgency/bbweb/images /Users/veronicaperez/Documents/Business/BlueBayAgency/bbweb/public/images)",
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/images/logos/bluebay-agency-white-collateral.png)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/images/stock/2025-oct-hermosa-beach-california-1694.jpg)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/images/founder/bluebay-agency-founder-1584.jpg)"
+    ]
+  }
+}
