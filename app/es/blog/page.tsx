@@ -26,26 +26,16 @@ interface DisplayPost {
 }
 
 async function buildDisplayPosts(): Promise<DisplayPost[]> {
-  // Try WordPress Spanish posts first
-  let posts: WPPost[] = await getPosts('es', 12)
-
-  // If none exist, fall back to English and auto-translate
-  const needsTranslation = posts.length === 0
-  if (needsTranslation) {
-    posts = await getPosts('en', 12)
-  }
-
+  const posts: WPPost[] = await getPosts('en', 12)
   if (posts.length === 0) return []
 
   const titles = posts.map((p) => p.title.rendered)
   const excerpts = posts.map((p) => p.excerpt.rendered)
 
-  const [translatedTitles, translatedExcerpts] = needsTranslation
-    ? await Promise.all([
-        translateHtmlTexts(titles, 'ES'),
-        translateHtmlTexts(excerpts, 'ES'),
-      ])
-    : [titles, excerpts]
+  const [translatedTitles, translatedExcerpts] = await Promise.all([
+    translateHtmlTexts(titles, 'ES'),
+    translateHtmlTexts(excerpts, 'ES'),
+  ])
 
   return posts.map((post, i) => ({
     id: post.id,

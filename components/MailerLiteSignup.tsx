@@ -32,8 +32,8 @@ const FORM_HTML = `
 <div class="ml-form-embedWrapper embedForm">
   <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
     <div class="ml-form-embedContent">
-      <h4>Newsletter</h4>
-      <p>Signup for news and special offers!</p>
+      <h4>Stay Ahead of What Makes Websites Convert</h4>
+      <p>Join for high-value ideas to help your business grow online.<br><br>Enter your email to subscribe:</p>
     </div>
     <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/2153473/forms/182156023212016988/subscribe" data-code="" method="post" target="_blank">
       <div class="ml-form-formContent">
@@ -60,6 +60,7 @@ const FORM_HTML = `
       <p>You have successfully joined our subscriber list.</p>
     </div>
   </div>
+
 </div>
 `
 
@@ -82,7 +83,7 @@ export default function MailerLiteSignup() {
         }
       `}</Script>
       <Script
-        src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b"
+        src="https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b"
         strategy="afterInteractive"
       />
       <Script strategy="afterInteractive">{`

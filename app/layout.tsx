@@ -50,13 +50,12 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bluebayagency.com'),
   title: {
-    default: 'Bluebay Agency | Web Design & Development — Hermosa Beach, CA',
+    default: 'Bluebay Agency | Web Design & Development',
     template: '%s | Bluebay Agency',
   },
   description:
-    'Bluebay Agency builds highly-converting, mobile-first websites for businesses ready to grow. Strategy-led design and development based in Hermosa Beach, California. 18+ years of experience.',
+    'Bluebay Agency builds highly-converting, mobile-first websites for businesses ready to grow. Strategy-led design and development with 17+ years of experience.',
   keywords: [
-    'web design Hermosa Beach',
     'web design California',
     'web development agency',
     'conversion-focused web design',
@@ -64,7 +63,7 @@ export const metadata: Metadata = {
     'landing page design',
     'lead generation website',
     'small business website',
-    'Hermosa Beach digital agency',
+    'boutique web design agency',
     'Los Angeles web design',
     'South Bay web design',
     'website redesign',
@@ -76,9 +75,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Bluebay Agency | Web Design & Development — Hermosa Beach, CA',
+    title: 'Bluebay Agency | Web Design & Development',
     description:
-      'We build highly-converting, mobile-first websites that help your business connect, build trust, and grow. Based in Hermosa Beach, California.',
+      'We build highly-converting, mobile-first websites that help your business connect, build trust, and grow. Strategy-led design backed by 17+ years of experience.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -117,7 +116,7 @@ const localBusinessSchema = {
   '@id': 'https://www.bluebayagency.com/#business',
   name: 'Bluebay Agency',
   description:
-    'Web design and development agency specializing in highly-converting, mobile-first websites. Based in Hermosa Beach, California with 18+ years of experience.',
+    'Web design and development agency specializing in highly-converting, mobile-first websites. Based in Hermosa Beach, California with 17+ years of experience.',
   url: 'https://www.bluebayagency.com',
   email: 'hello@bluebayagency.com',
   foundingDate: '2007',

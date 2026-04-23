@@ -24,7 +24,7 @@ function stripHtml(html: string): string {
 
 export default function Blog({ posts = [], lang = 'en' }: BlogProps) {
   const { t } = useTranslation()
-  const lngParam = lang === 'es' ? '?lng=es' : ''
+  const blogBase = lang === 'es' ? '/es/blog' : '/blog'
 
   return (
     <section id="blog" className="bg-french-blue py-24 md:py-36 relative">
@@ -47,7 +47,7 @@ export default function Blog({ posts = [], lang = 'en' }: BlogProps) {
           </div>
           <ScrollReveal delay={2}>
             <a
-              href={`/blog${lngParam}`}
+              href={blogBase}
               className="font-sans text-sm font-medium text-white border-b border-white/40 hover:border-white pb-0.5 transition-colors duration-200"
             >
               {t('blog.all_articles')} →
@@ -67,7 +67,7 @@ export default function Blog({ posts = [], lang = 'en' }: BlogProps) {
               <ScrollReveal key={post.id} delay={(i + 1) as 1 | 2 | 3}>
                 <article className="group bg-white border border-white/10 hover:border-white/30 transition-all duration-300 hover:shadow-lg hover:shadow-navy/10 overflow-hidden">
                   {/* Image */}
-                  <a href={`/blog/${post.slug}${lngParam}`}>
+                  <a href={`${blogBase}/${post.slug}`}>
                     <div className="overflow-hidden relative bg-navy/20" style={{ paddingTop: '60%' }}>
                       {post.image ? (
                         <img
@@ -93,13 +93,13 @@ export default function Blog({ posts = [], lang = 'en' }: BlogProps) {
                   <div className="p-6 md:p-7">
                     <p className="font-sans text-xs text-charcoal/40 mb-4">{post.date}</p>
                     <h3 className="font-canela-deck font-light text-xl text-navy leading-tight mb-3 group-hover:text-navy/80 transition-colors duration-200">
-                      <a href={`/blog/${post.slug}${lngParam}`} dangerouslySetInnerHTML={{ __html: post.title }} />
+                      <a href={`${blogBase}/${post.slug}`} dangerouslySetInnerHTML={{ __html: post.title }} />
                     </h3>
                     <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-6 line-clamp-3">
                       {stripHtml(post.excerpt)}
                     </p>
                     <a
-                      href={`/blog/${post.slug}${lngParam}`}
+                      href={`${blogBase}/${post.slug}`}
                       className="inline-flex items-center gap-2 font-sans text-xs font-medium text-navy/60 hover:text-navy transition-colors duration-200"
                     >
                       {t('blog.read_article')}

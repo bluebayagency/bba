@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import {
   getAllSlugs,
-  getPostBySlugWithFallback,
+  getPostBySlug,
   getFeaturedImage,
   getCategories,
   getAuthor,
@@ -25,23 +25,10 @@ export async function generateStaticParams() {
 }
 
 async function getSpanishPost(slug: string) {
-  const result = await getPostBySlugWithFallback(slug)
-  if (!result) return null
+  const post = await getPostBySlug(slug)
+  if (!post) return null
 
-  const { post, isTranslated } = result
-
-  if (isTranslated) {
-    // Real Spanish post from WordPress — use as-is
-    return {
-      post,
-      titleHtml: post.title.rendered,
-      excerptHtml: post.excerpt.rendered,
-      contentHtml: post.content.rendered,
-    }
-  }
-
-  // English post — translate title, excerpt, and content in two batch calls
-  // (title + excerpt are plain/light HTML; content is heavy HTML)
+  // Always translate English content to Spanish
   const [shortTranslations, [translatedContent]] = await Promise.all([
     translateHtmlTexts([post.title.rendered, post.excerpt.rendered], 'ES'),
     translateHtmlTexts([post.content.rendered], 'ES'),
