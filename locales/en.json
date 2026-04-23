@@ -91,7 +91,7 @@
         "desc": "A modern wellness brand system built around authentic storytelling, conversion architecture, and mobile-first e-commerce performance."
       }
     ],
-    "more_text": "More case studies available during your strategy call",
+    "more_text": "More case studies available upon request",
     "more_cta": "Book a Call to See More"
   },
   "pricing": {
@@ -173,7 +173,7 @@
     "eyebrow": "The Founder",
     "h2": "Nearly Two Decades of Building Things That Actually Work.",
     "body1": "Before founding Bluebay Agency, our founder spent nearly 17 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from conception through launch and refining them until they performed. That background is not common in a boutique agency, and it shapes how we approach every project we take on.",
-    "body2": "We work with a small number of clients at a time, intentionally, so every project gets the care and attention it deserves. If you are ready to build a website that works as hard as you do, we would love to be part of that journey.",
+    "body2": "Every project gets our full attention, from strategy through launch and beyond. If you are ready to build a website that works as hard as you do, we would love to be part of that journey.",
     "stat_num": "17+",
     "stat_label": "Years Engineering Conversion Systems",
     "certs_label": "Certified",
@@ -227,7 +227,7 @@
     "items": [
       {
         "q": "How fast is the turnaround?",
-        "a": "Most projects are completed in 2–14 business days depending on scope. Landing systems ship in 2–3 days. Growth websites in 5–7 days. Full Conversion Sprints in 10–14 days. We maintain these timelines by keeping our client roster intentionally small."
+        "a": "Most projects are completed in 2–14 business days depending on scope. Landing systems ship in 2–4 days. Growth websites in 7–10 days. Full Conversion Sprints in 10–21 days. Every timeline is set at the start and held throughout the project."
       },
       {
         "q": "Do you only design websites?",
@@ -250,8 +250,8 @@
         "a": "We take the time to actually listen. Every project starts with understanding your business, your clients, and what success looks like for you, then we build around that. Nearly 17 years of experience means we know what works, and we bring that knowledge to every project we take on."
       },
       {
-        "q": "How many clients do you work with at once?",
-        "a": "We keep our roster intentionally small, usually 3–5 active projects at a time. It means more focus, faster turnaround, and a better experience for everyone we work with. It also means availability is limited, so if the timing feels right, it is worth reaching out sooner rather than later."
+        "q": "How do you ensure quality across projects?",
+        "a": "Every project follows the same strategic process: discovery, messaging architecture, design, development, and a structured launch. We do not cut corners at any stage. Quality comes from process, not from limiting how many people we help."
       }
     ]
   },
@@ -273,10 +273,10 @@
     "eyebrow": "Let's Work Together",
     "h2_1": "Ready to Build a Website That",
     "h2_em": "Truly Works for You?",
-    "body": "We work with a small number of businesses at a time, so when you work with us, you have our full attention. If you are ready to build something you are proud of and that delivers real results, we would love to hear about your project.",
+    "body": "Every project we take on gets our full focus, from the first call through launch and beyond. If you are ready to build something you are proud of and that delivers real results, we would love to hear about your project.",
     "cta_primary": "Let's Talk",
     "cta_secondary": "View Our Packages",
-    "note": "Limited availability · Serving clients nationally"
+    "note": "US-Based · Serving Clients Nationally"
   },
   "footer": {
     "tagline": "We listen, solve problems, and build highly-converting websites that help businesses connect more clearly, build trust, and grow.",
