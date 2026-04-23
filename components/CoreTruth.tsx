@@ -15,7 +15,7 @@ export default function CoreTruth() {
           <ScrollReveal>
             <div className="relative overflow-hidden">
               <img
-                src="/images/founder/bluebay-agency-founder-and-pug.png"
+                src="/images/founder/bluebay-agency-founder-pug-laptop.png"
                 alt="Veronica Perez, Bluebay Agency founder, working with her pug"
                 className="w-full h-full object-cover object-center"
                 style={{ maxHeight: '640px', objectPosition: 'center 15%' }}

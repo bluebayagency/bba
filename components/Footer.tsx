@@ -20,7 +20,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-navy text-white">
-      <div className="max-w-7xl mx-auto lg:px-8 pt-20 pb-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 pt-20 pb-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-16">
           {/* Brand column */}
           <div className="lg:col-span-2">
@@ -76,10 +76,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+13105550000"
+                  href="tel:+12138677879"
                   className="font-sans text-sm font-light text-white/40 hover:text-white/80 transition-colors duration-200"
                 >
-                  (310) 555-0000
+                  (213) 867-7879
                 </a>
               </li>
               <li className="pt-4">
