@@ -2,19 +2,21 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import {
-  getPostBySlug,
   getAllSlugs,
+  getPostBySlugWithFallback,
   getFeaturedImage,
   getCategories,
   getAuthor,
   formatDate,
   stripHtml,
 } from '@/lib/blog'
-import { getT, getLang, getDateLocale } from '@/lib/i18n-server'
+import { getT } from '@/lib/i18n-server'
+import { translateHtmlTexts } from '@/lib/translate'
+
+export const revalidate = 3600
 
 type Props = {
   params: Promise<{ slug: string }>
-  searchParams: Promise<{ lng?: string }>
 }
 
 export async function generateStaticParams() {
@@ -22,42 +24,75 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }))
 }
 
-export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
-  const { slug } = await params
-  const { lng } = await searchParams
-  const post = await getPostBySlug(slug, lng)
-  if (!post) return {}
+async function getSpanishPost(slug: string) {
+  const result = await getPostBySlugWithFallback(slug)
+  if (!result) return null
 
-  const image = getFeaturedImage(post)
-  const description = stripHtml(post.excerpt.rendered).slice(0, 160)
+  const { post, isTranslated } = result
+
+  if (isTranslated) {
+    // Real Spanish post from WordPress — use as-is
+    return {
+      post,
+      titleHtml: post.title.rendered,
+      excerptHtml: post.excerpt.rendered,
+      contentHtml: post.content.rendered,
+    }
+  }
+
+  // English post — translate title, excerpt, and content in two batch calls
+  // (title + excerpt are plain/light HTML; content is heavy HTML)
+  const [shortTranslations, [translatedContent]] = await Promise.all([
+    translateHtmlTexts([post.title.rendered, post.excerpt.rendered], 'ES'),
+    translateHtmlTexts([post.content.rendered], 'ES'),
+  ])
 
   return {
-    title: stripHtml(post.title.rendered),
+    post,
+    titleHtml: shortTranslations[0],
+    excerptHtml: shortTranslations[1],
+    contentHtml: translatedContent,
+  }
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params
+  const data = await getSpanishPost(slug)
+  if (!data) return {}
+
+  const { post, titleHtml, excerptHtml } = data
+  const image = getFeaturedImage(post)
+  const title = stripHtml(titleHtml)
+  const description = stripHtml(excerptHtml).slice(0, 160)
+
+  return {
+    title,
     description,
-    alternates: { canonical: `/blog/${slug}`, languages: { es: `/es/blog/${slug}` } },
+    alternates: {
+      canonical: `/es/blog/${slug}`,
+      languages: { en: `/blog/${slug}` },
+    },
     openGraph: {
-      title: stripHtml(post.title.rendered),
+      title,
       description,
       type: 'article',
       publishedTime: post.date,
       modifiedTime: post.modified,
+      locale: 'es_ES',
+      alternateLocale: ['en_US'],
       authors: [getAuthor(post)],
       ...(image ? { images: [{ url: image.src, alt: image.alt }] } : {}),
     },
   }
 }
 
-export default async function BlogPostPage({ params, searchParams }: Props) {
+export default async function EsBlogPostPage({ params }: Props) {
   const { slug } = await params
-  const { lng } = await searchParams
-  const lang = getLang({ lng })
-  const t = getT(lang)
-  const dateLocale = getDateLocale(lang)
-  const lngParam = lang === 'es' ? '?lng=es' : ''
+  const t = getT('es')
+  const data = await getSpanishPost(slug)
+  if (!data) notFound()
 
-  const post = await getPostBySlug(slug, lang)
-  if (!post) notFound()
-
+  const { post, titleHtml, contentHtml } = data
   const image = getFeaturedImage(post)
   const categories = getCategories(post)
   const author = getAuthor(post)
@@ -71,7 +106,7 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
           {/* Breadcrumb */}
           <div className="flex items-center gap-3 mb-10">
             <Link
-              href={`/blog${lngParam}`}
+              href="/es/blog"
               className="inline-flex items-center gap-2 font-sans text-xs text-white/40 hover:text-white/70 transition-colors duration-200"
             >
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -99,7 +134,7 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
           <h1
             className="font-canela-deck font-light text-white leading-[1.1] mb-8"
             style={{ fontSize: 'clamp(2rem, 5vw, 3.8rem)' }}
-            dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+            dangerouslySetInnerHTML={{ __html: titleHtml }}
           />
 
           {/* Meta */}
@@ -108,7 +143,8 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
               {t.blogPage.by} <span className="text-white/60">{author}</span>
             </span>
             <span className="font-sans text-xs text-white/40">
-              {t.blogPage.published} <span className="text-white/60">{formatDate(post.date, dateLocale)}</span>
+              {t.blogPage.published}{' '}
+              <span className="text-white/60">{formatDate(post.date, 'es-ES')}</span>
             </span>
           </div>
         </div>
@@ -133,7 +169,7 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
         <div className="max-w-3xl mx-auto px-6 lg:px-8">
           <div
             className="wp-content"
-            dangerouslySetInnerHTML={{ __html: post.content.rendered }}
+            dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
         </div>
       </section>
@@ -159,7 +195,7 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href={`/${lngParam}#contact`}
+              href="/?lng=es#contact"
               className="inline-flex items-center gap-2 bg-navy text-white font-sans text-sm font-medium px-8 py-4 hover:bg-navy/80 transition-all duration-300 tracking-wide"
             >
               {t.blogPage.cta_button}
@@ -168,7 +204,7 @@ export default async function BlogPostPage({ params, searchParams }: Props) {
               </svg>
             </Link>
             <Link
-              href={`/blog${lngParam}`}
+              href="/es/blog"
               className="inline-flex items-center gap-2 font-sans text-sm text-navy/60 hover:text-navy border border-navy/20 hover:border-navy/40 px-6 py-4 transition-all duration-300"
             >
               {t.blogPage.all_posts}

@@ -99,3 +99,21 @@ export function formatDate(dateString: string, locale = 'en-US'): string {
 export function stripHtml(html: string): string {
   return html.replace(/<[^>]*>/g, '').trim()
 }
+
+/**
+ * For Spanish routes: try to fetch a real Spanish WordPress post first.
+ * If Polylang has no Spanish version, fall back to the English post.
+ * Returns { post, isTranslated } where isTranslated=false means the content
+ * is still in English and the caller should auto-translate it.
+ */
+export async function getPostBySlugWithFallback(
+  slug: string
+): Promise<{ post: WPPost; isTranslated: boolean } | null> {
+  const esPost = await getPostBySlug(slug, 'es')
+  if (esPost) return { post: esPost, isTranslated: true }
+
+  const enPost = await getPostBySlug(slug)
+  if (enPost) return { post: enPost, isTranslated: false }
+
+  return null
+}

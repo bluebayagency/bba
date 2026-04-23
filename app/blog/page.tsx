@@ -13,7 +13,7 @@ export async function generateMetadata({
   return {
     title: t.blogPage.h1,
     description: t.blogPage.meta_description,
-    alternates: { canonical: '/blog' },
+    alternates: { canonical: '/blog', languages: { es: '/es/blog' } },
   }
 }
 
