@@ -4,6 +4,16 @@ import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
 import ScrollReveal from './ScrollReveal'
 
+const industryLogos = [
+  { src: '/images/projects/industry-experience/logo1.png', alt: 'Industry client logo', width: 400, height: 225 },
+  { src: '/images/projects/industry-experience/logo2.png', alt: 'Industry client logo', width: 500, height: 150 },
+  { src: '/images/projects/industry-experience/logo3.png', alt: 'Industry client logo', width: 180, height: 200 },
+  { src: '/images/projects/industry-experience/logo4.png', alt: 'Industry client logo', width: 407, height: 253 },
+  { src: '/images/projects/industry-experience/logo5.png', alt: 'Industry client logo', width: 400, height: 225 },
+  { src: '/images/projects/industry-experience/logo6.png', alt: 'Industry client logo', width: 400, height: 187 },
+  { src: '/images/projects/industry-experience/logo7.svg', alt: 'Industry client logo', width: 400, height: 240, scale: 0.53 },
+]
+
 export default function About() {
   const { t } = useTranslation()
   const certifications = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
@@ -90,6 +100,35 @@ export default function About() {
             </ScrollReveal>
           </div>
         </div>
+
+        {/* Industry Experience */}
+        <ScrollReveal>
+          <div className="mt-16 md:mt-24 pt-12 md:pt-16 border-t border-gray-border">
+            <div className="flex items-center gap-4 mb-8 md:mb-10">
+              <div className="h-px w-10 bg-dusty-rose/60" />
+              <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+                {t('about.industry_title')}
+              </span>
+            </div>
+            <div className="relative overflow-hidden">
+              <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-16 z-10 bg-gradient-to-r from-sand to-transparent" />
+              <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-16 z-10 bg-gradient-to-l from-sand to-transparent" />
+              <div className="flex w-max animate-marquee">
+                {[...industryLogos, ...industryLogos].map((logo, i) => (
+                  <div key={i} className="flex-shrink-0 flex items-center justify-center px-6 md:px-10 h-10 md:h-12">
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      style={{ height: logo.scale ? `${logo.scale * 100}%` : '100%', width: 'auto', objectFit: 'contain' }}
+                      className="grayscale opacity-50"
+                    />
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </ScrollReveal>
+
       </div>
     </section>
   )

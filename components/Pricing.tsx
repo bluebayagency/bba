@@ -215,13 +215,12 @@ export default function Pricing() {
           <div className="order-3 md:order-3 flex flex-col">
             <ScrollReveal delay={3}>
               <div className="flex flex-col h-full bg-navy border border-navy text-white hover:shadow-xl hover:shadow-navy/20 transition-all duration-300">
-                {/* Gold top accent bar */}
-                <div className="h-1" style={{ backgroundColor: '#BF9456' }} />
+                <div className="h-1 bg-french-blue" />
 
                 <div className="p-8 md:p-9 flex flex-col flex-1">
                   {/* Badge */}
                   <div className="mb-5">
-                    <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase border border-white/20 text-white/70">
+                    <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase bg-french-blue text-white">
                       {tiers[2].badge}
                     </span>
                   </div>
@@ -266,13 +265,9 @@ export default function Pricing() {
                     </p>
                   </div>
 
-                  {/* Gold CTA */}
                   <a
                     href="#contact"
-                    className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide text-white transition-all duration-300"
-                    style={{ backgroundColor: '#BF9456' }}
-                    onMouseEnter={(e) => { (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#A8834A' }}
-                    onMouseLeave={(e) => { (e.currentTarget as HTMLAnchorElement).style.backgroundColor = '#BF9456' }}
+                    className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide text-white bg-french-blue hover:bg-french-blue/80 transition-all duration-300"
                   >
                     {tiers[2].cta}
                   </a>

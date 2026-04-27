@@ -33,7 +33,7 @@
   "whyBluebay": {
     "eyebrow": "Por Qué Bluebay Agency",
     "h2": "Ayudamos a los Negocios a Convertir su Sitio Web en un Sistema de Adquisición de Clientes.",
-    "body": "Cada decisión que tomamos parte de una sola pregunta: ¿esto genera más conversiones? Cinco principios fundamentales impulsan cada proyecto.",
+    "body": "Cada decisión que tomamos parte de una sola pregunta: ¿esto ayuda a tu negocio a conectar, generar confianza y crecer? Cinco principios guían cada proyecto que tomamos.",
     "pillars": [
       { "num": "01", "title": "Claridad", "desc": "Mensajes simples y naturales que eliminan la fricción y guían a los visitantes hacia la acción." },
       { "num": "02", "title": "Diseño Intencional", "desc": "Cada elemento, desde el diseño y la tipografía hasta el color y el espaciado, está elegido para apoyar un único objetivo: la conversión." },
@@ -108,13 +108,14 @@
         "badge": null,
         "tier_num": "Nivel 01",
         "name": "Sistema de Landing de Conversión",
-        "price": "Desde $1,500",
-        "timeline": "2–4 Días Hábiles",
+        "price": "Desde $1,250",
+        "timeline": "1–3 Días Hábiles",
         "description": "Landing pages enfocadas y rápidas para generar leads, reservas o consultas rápidamente.",
-        "best_for": "Campañas, eventos, lanzamientos, anuncios pagados y negocios de servicios que necesitan generación rápida de leads.",
+        "best_for": "Campañas, eventos y ticketing, lanzamientos, anuncios pagados y negocios de servicios que necesitan generación rápida de leads.",
         "cta": "Lanzar Mi Landing Page",
         "includes": [
           "1 landing page premium",
+          "Branding semi-personalizado (opcional)",
           "Diseño responsivo mobile-first",
           "Estructura enfocada en conversión",
           "Formulario de leads o integración de reservas",
@@ -128,13 +129,14 @@
         "badge": "Más Popular",
         "tier_num": "Nivel 02",
         "name": "Sistema de Sitio Web de Autoridad",
-        "price": "Desde $5,000",
-        "timeline": "7–10 Días Hábiles",
+        "price": "Desde $4,500",
+        "timeline": "5–7 Días Hábiles",
         "description": "Un sitio web completo diseñado para generar confianza, elevar tu marca y convertir visitantes en leads calificados.",
         "best_for": "Negocios establecidos listos para una presencia de marca más fuerte y más consultas entrantes.",
         "cta": "Construir Mi Sitio Web",
         "includes": [
           "Hasta 5 páginas estratégicas",
+          "Branding semi-personalizado (opcional)",
           "Estrategia de conversión para la página principal",
           "Diseño personalizado mobile-first",
           "Refinamiento de mensajes",
@@ -142,36 +144,39 @@
           "Fundamentos de SEO",
           "Configuración de analítica y seguimiento",
           "2 rondas de revisiones",
-          "Soporte de lanzamiento"
+          "5 días de soporte post-lanzamiento"
         ]
       },
       {
         "badge": "Premium",
         "tier_num": "Nivel 03",
         "name": "Bluebay Conversion Sprint",
-        "price": "Desde $10,000",
-        "timeline": "10–21 Días Hábiles",
+        "price": "Desde $8,000",
+        "timeline": "7–21 Días Hábiles+",
         "description": "Nuestro sistema de crecimiento insignia para negocios listos para convertir su sitio web en un activo generador de ingresos predecible.",
         "best_for": "Negocios enfocados en escalar ingresos, mejorar conversiones y crecimiento a largo plazo.",
         "cta": "Aplicar para Conversion Sprint",
         "includes": [
+          "10+ páginas estratégicas",
           "Auditoría profunda de estrategia de conversión",
+          "Branding semi-personalizado (opcional)",
           "Arquitectura de oferta y mensajes",
-          "Sistema personalizado de UX / UI",
+          "Sistema UX/UI mobile-first",
           "Construcción completa de sitio web personalizado",
           "Configuración de generación de leads enfocada en funnels",
           "Integración de CRM y automatización",
-          "Dashboard de analítica",
+          "Analítica y configuración de seguimiento",
           "Optimización SEO + técnica",
+          "3 rondas de revisiones",
           "Soporte prioritario durante el lanzamiento",
-          "Hoja de ruta de crecimiento post-lanzamiento"
+          "10 días de soporte post-lanzamiento"
         ]
       }
     ]
   },
   "about": {
     "eyebrow": "La Fundadora",
-    "h2": "Casi Dos Décadas Convirtiendo Visitantes en Clientes.",
+    "h2": "La Experiencia Detrás de Cada Decisión que Tomamos.",
     "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó casi 17 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde la concepción hasta el lanzamiento y refinandolos hasta que generaron resultados. Esa trayectoria no es común en una agencia boutique, y define cómo abordamos cada proyecto.",
     "body2": "Cada proyecto recibe nuestra atención completa, desde la estrategia hasta el lanzamiento y más allá. Si estás listo para invertir en tu crecimiento, estamos listos para construir tu sistema.",
     "stat_num": "17+",
@@ -184,7 +189,8 @@
       { "label": "LA VSBE", "sub": "Negocio Muy Pequeño" }
     ],
     "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Miembro de Cámara de Comercio"
+    "chamber_sub": "Miembro de Cámara de Comercio",
+    "industry_title": "Experiencia en la Industria"
   },
   "blog": {
     "eyebrow": "Perspectivas",

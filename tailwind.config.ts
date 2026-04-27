@@ -33,6 +33,7 @@ const config: Config = {
         'fade-up-delay-2': 'fadeUp 0.9s ease-out 0.4s forwards',
         'fade-up-delay-3': 'fadeUp 0.9s ease-out 0.6s forwards',
         'line-grow': 'lineGrow 1s ease-out 0.5s forwards',
+        'marquee': 'marquee 35s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -46,6 +47,10 @@ const config: Config = {
         lineGrow: {
           '0%': { width: '0px' },
           '100%': { width: '48px' },
+        },
+        marquee: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
       letterSpacing: {
