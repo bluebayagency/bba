@@ -17,9 +17,9 @@
     "cta_secondary": "See Our Work",
     "trust": ["Hermosa Beach, CA", "17 Years Experience", "Mobile-First", "Highly-Converting"],
     "stats": [
-      { "num": "17+", "label": "Years of Experience" },
-      { "num": "2–14", "label": "Day Project Delivery" },
-      { "num": "100%", "label": "Mobile-First Builds" }
+      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "45+", "label": "Websites Launched" },
+      { "num": "20+", "label": "Custom Web Applications" }
     ],
     "scroll": "Scroll"
   },

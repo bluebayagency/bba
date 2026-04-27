@@ -17,9 +17,9 @@
     "cta_secondary": "Ver Proyectos",
     "trust": ["Boutique Agency", "17 Años de Experiencia", "Mobile-First", "Enfocado en Conversión"],
     "stats": [
-      { "num": "17+", "label": "Años de Experiencia" },
-      { "num": "2–14", "label": "Días de Entrega" },
-      { "num": "100%", "label": "Diseño Mobile-First" }
+      { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
+      { "num": "45+", "label": "Sitios Web Lanzados" },
+      { "num": "20+", "label": "Aplicaciones Web Personalizadas" }
     ],
     "scroll": "Deslizar"
   },
