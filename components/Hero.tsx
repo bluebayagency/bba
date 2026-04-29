@@ -47,16 +47,10 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p
-            className="font-sans font-light text-white/75 leading-relaxed mb-4 opacity-0 animate-fade-up-delay"
+            className="font-sans font-light text-white/75 leading-relaxed mb-12 opacity-0 animate-fade-up-delay"
             style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)', maxWidth: '560px' }}
           >
             {t('hero.body')}
-          </p>
-          <p
-            className="font-sans font-light text-white/60 leading-relaxed mb-12 opacity-0 animate-fade-up-delay"
-            style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)', maxWidth: '560px' }}
-          >
-            {t('hero.body2')}
           </p>
 
           {/* CTAs */}
