@@ -8,14 +8,20 @@
     "cta": "Agendar Llamada"
   },
   "hero": {
-    "eyebrow": "Agencia Boutique Partner de Conversión y Crecimiento",
-    "h1_1": "Convierte Tu Sitio Web en un",
-    "h1_em": "Sistema Generador",
-    "h1_2": "de Ingresos.",
-    "body": "Bluebay Agency es un partner de conversión y crecimiento que ayuda a los negocios a transformar su sitio web en una fuente predecible de leads, confianza y clientes, a través del diseño y la ingeniería estratégica.",
-    "cta_primary": "Agendar Llamada",
+    "eyebrow": "Agencia Boutique · South Bay, California",
+    "h1_1": "Tu Sitio Web Debería Ser",
+    "h1_em": "Tu Mejor Vendedor.",
+    "h1_2": "",
+    "body": "Diseñamos y construimos sitios web mobile-first que atraen a los clientes correctos, generan confianza rápidamente y convierten visitantes en leads, reservas e ingresos.",
+    "cta_primary": "Agendar Llamada Gratuita",
     "cta_secondary": "Ver Proyectos",
-    "trust": ["Boutique Agency", "17 Años de Experiencia", "Mobile-First", "Enfocado en Conversión"],
+    "trust": ["Hermosa Beach, CA", "17 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
+    "scarcity": "Actualmente aceptando un número limitado de nuevos proyectos.",
+    "stats": [
+      { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
+      { "num": "45+", "label": "Sitios Web Lanzados" },
+      { "num": "20+", "label": "Aplicaciones Web Personalizadas" }
+    ],
     "stats": [
       { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
@@ -32,52 +38,52 @@
   },
   "whyBluebay": {
     "eyebrow": "Por Qué Bluebay Agency",
-    "h2": "Ayudamos a los Negocios a Convertir su Sitio Web en un Sistema de Adquisición de Clientes.",
-    "body": "Cada decisión que tomamos parte de una sola pregunta: ¿esto ayuda a tu negocio a conectar, generar confianza y crecer? Cinco principios guían cada proyecto que tomamos.",
+    "h2": "La Mayoría de los Sitios Web No Pierden Clientes Lentamente. Los Pierden al Instante.",
+    "body": "Cuando un visitante llega a tu sitio y no entiende de inmediato qué haces, a quién ayudas y por qué confiar en ti, se va. Construimos sitios web que resuelven ese problema desde el primer segundo. Ya sea que tu objetivo sea más consultas de clientes o una comunicación más clara con tus miembros, construimos sitios web que ayudan a las personas a dar el siguiente paso correcto.",
     "pillars": [
-      { "num": "01", "title": "Claridad", "desc": "Mensajes simples y naturales que eliminan la fricción y guían a los visitantes hacia la acción." },
-      { "num": "02", "title": "Diseño Intencional", "desc": "Cada elemento, desde el diseño y la tipografía hasta el color y el espaciado, está elegido para apoyar un único objetivo: la conversión." },
-      { "num": "03", "title": "Rendimiento", "desc": "Ingeniería rápida, mobile-first, construida sobre datos reales de comportamiento del usuario, no suposiciones." },
-      { "num": "04", "title": "Transparencia", "desc": "Comunicación clara desde la estrategia hasta el lanzamiento. Sin sorpresas, sin cambios de alcance, sin suposiciones." },
-      { "num": "05", "title": "Ingeniería de Conversión", "desc": "Construido para leads, reservas y ventas. Cada página es un sistema diseñado para generar resultados medibles." }
+      { "num": "01", "title": "Claridad", "desc": "Los visitantes entienden qué haces y a quién ayudas en segundos. Sin confusión, sin dudas, sin leads perdidos." },
+      { "num": "02", "title": "Diseño Intencional", "desc": "Cada decisión visual tiene su lugar. El diseño, la tipografía, el color y el espaciado están elegidos para guiar la atención y generar confianza, no solo para verse bien." },
+      { "num": "03", "title": "Rendimiento", "desc": "Construcción rápida y mobile-first, porque la mayoría de tus clientes están en su teléfono y un sitio lento es una oportunidad perdida." },
+      { "num": "04", "title": "Transparencia", "desc": "Siempre sabes en qué punto está tu proyecto. Un solo punto de contacto, plazos claros, sin sorpresas." },
+      { "num": "05", "title": "Construido para Convertir", "desc": "Cada página tiene un trabajo. Cada llamada a la acción tiene un propósito. Diseñamos sitios web hechos para generar resultados reales." }
     ],
     "differentiators": ["Enfoque Mobile-First", "Proyectos Estratégicos", "17 Años de Experiencia", "Proceso Colaborativo"]
   },
   "process": {
     "eyebrow": "Cómo Trabajamos",
-    "h2": "Del Diagnóstico de Ingresos al Sistema de Crecimiento",
+    "h2": "Un Proceso Simple y Estructurado. Un Sitio Web que Rinde.",
     "steps": [
       {
         "num": "01",
         "title": "Diagnóstico de Ingresos",
-        "desc": "Auditamos tu sitio web actual, mensajes y recorrido del usuario para identificar exactamente dónde se pierden conversiones y qué te cuesta.",
+        "desc": "Comenzamos por entender tu negocio, tus clientes y dónde tu sitio actual los está perdiendo. Todo lo que construimos desde aquí parte de esa base.",
         "detail": "Auditoría de conversión · Análisis UX · Revisión competitiva"
       },
       {
         "num": "02",
-        "title": "Estrategia de Conversión",
-        "desc": "Definimos tu arquitectura de mensajes, flujo UX, señales de confianza y jerarquía de llamadas a la acción: el plano de tu sistema de crecimiento.",
-        "detail": "Mapa de mensajes · Wireframe UX · Arquitectura de confianza"
+        "title": "Estrategia y Mensajes",
+        "desc": "Mapeamos tus mensajes, estructura de páginas y flujo de usuario para que cada sección de tu sitio tenga un rol claro, guiando a los visitantes correctos hacia el siguiente paso.",
+        "detail": "Arquitectura de mensajes · Wireframe · Jerarquía de confianza"
       },
       {
         "num": "03",
-        "title": "Ingeniería y Construcción",
-        "desc": "Diseñamos y desarrollamos un sistema de conversión de alto rendimiento, mobile-first, usando herramientas modernas, construido para cargar rápido y convertir más.",
+        "title": "Diseño y Construcción",
+        "desc": "Damos vida a todo con diseño intencional y desarrollo sólido. Mobile-first, rápido y construido para durar.",
         "detail": "Diseño · Desarrollo · Integración · QA"
       },
       {
         "num": "04",
         "title": "Lanzamiento y Optimización",
-        "desc": "Desplegamos tu sistema, monitoreamos el rendimiento inicial y refinamos con datos reales para que mejore con el tiempo, no solo al lanzar.",
+        "desc": "Lanzamos tu sitio, configuramos analítica y nos mantenemos cerca durante los primeros días para que salgas al aire con confianza y sigas mejorando con datos reales.",
         "detail": "Lanzamiento · Analítica · Iteración · Crecimiento"
       }
     ],
-    "cta": "Inicia Tu Diagnóstico de Ingresos"
+    "cta": "Inicia la Conversación"
   },
   "portfolio": {
     "eyebrow": "Trabajo Selecto",
-    "h2": "Sistemas de Conversión en Acción",
-    "body": "Cada proyecto está construido alrededor de un objetivo: más leads, más reservas, más ingresos.",
+    "h2": "Proyectos Reales. Resultados Reales.",
+    "body": "Una mirada a cómo la estrategia, el diseño y la ingeniería se combinan para construir sitios web que hacen crecer negocios.",
     "mobile_label": "Vista Móvil",
     "projects": [
       {
@@ -96,12 +102,12 @@
   },
   "pricing": {
     "eyebrow": "Inversión",
-    "h2": "Elige la Etapa de Crecimiento Correcta para Tu Negocio",
-    "body": "Ya sea que necesites leads rápidos, mayor credibilidad o un sistema completo generador de ingresos, construimos sitios web diseñados para hacer avanzar tu negocio.",
+    "h2": "Tres Formas de Crecer. Un Estándar de Calidad.",
+    "body": "Ya sea que necesites una página de leads enfocada o un sistema de crecimiento completo, cada proyecto se construye con la misma base estratégica y atención al detalle.",
     "best_for_label": "Ideal para:",
     "tech_label": "Construimos con",
-    "custom_heading": "¿Necesitas algo personalizado?",
-    "custom_body": "También creamos soluciones a medida para e-commerce, sitios multilingues, integraciones avanzadas y negocios enfocados en el crecimiento.",
+    "custom_heading": "¿Algo Más Personalizado?",
+    "custom_body": "También construimos sistemas de e-commerce, sitios multilingues, aplicaciones web y soluciones de crecimiento a medida para negocios con necesidades específicas.",
     "custom_cta": "Solicitar Cotización Personalizada",
     "tiers": [
       {
@@ -110,7 +116,7 @@
         "name": "Sistema de Landing de Conversión",
         "price": "Desde $1,250",
         "timeline": "1–3 Días Hábiles",
-        "description": "Landing pages enfocadas y rápidas para generar leads, reservas o consultas rápidamente.",
+        "description": "Una página enfocada y de alta conversión, construida para captar leads, impulsar reservas o apoyar una campaña rápidamente.",
         "best_for": "Campañas, eventos y ticketing, lanzamientos, anuncios pagados y negocios de servicios que necesitan generación rápida de leads.",
         "cta": "Lanzar Mi Landing Page",
         "includes": [
@@ -131,8 +137,8 @@
         "name": "Sistema de Sitio Web de Autoridad",
         "price": "Desde $4,500",
         "timeline": "5–7 Días Hábiles",
-        "description": "Un sitio web completo diseñado para generar confianza, elevar tu marca y convertir visitantes en leads calificados.",
-        "best_for": "Negocios establecidos listos para una presencia de marca más fuerte y más consultas entrantes.",
+        "description": "Un sitio web completo y enfocado en conversión, diseñado para generar confianza, elevar tu marca y atraer consultas de mayor calidad.",
+        "best_for": "Negocios de servicios establecidos listos para convertir su sitio web en una fuente confiable de nuevos clientes.",
         "cta": "Construir Mi Sitio Web",
         "includes": [
           "Hasta 5 páginas estratégicas",
@@ -153,8 +159,8 @@
         "name": "Bluebay Conversion Sprint",
         "price": "Desde $8,000",
         "timeline": "7–21 Días Hábiles",
-        "description": "Nuestro sistema de crecimiento insignia para negocios listos para convertir su sitio web en un activo generador de ingresos predecible.",
-        "best_for": "Negocios enfocados en escalar ingresos, mejorar conversiones y crecimiento a largo plazo.",
+        "description": "Nuestro sistema de crecimiento insignia. Un sitio web completo y estrategia de conversión para negocios serios sobre escalar ingresos y crear un flujo predecible de leads de alta calidad.",
+        "best_for": "Negocios enfocados en el crecimiento, listos para invertir en un sitio web que se convierte en su activo de negocio más productivo.",
         "cta": "Aplicar para Conversion Sprint",
         "includes": [
           "10+ páginas estratégicas",
@@ -177,8 +183,8 @@
   "about": {
     "eyebrow": "La Fundadora",
     "h2": "La Experiencia Detrás de Cada Decisión que Tomamos.",
-    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó casi 17 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde la concepción hasta el lanzamiento y refinandolos hasta que generaron resultados. Esa trayectoria define cómo abordamos cada proyecto.",
-    "body2": "Cada proyecto recibe nuestra atención completa, desde la estrategia hasta el lanzamiento y más allá. Si estás listo para invertir en tu crecimiento, estamos listos para construir tu sistema.",
+    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó 17 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde el concepto hasta el lanzamiento y refinándolos hasta que generaron resultados. Esa trayectoria define cómo abordamos cada proyecto.",
+    "body2": "Cada cliente recibe nuestra atención completa, desde la estrategia hasta el lanzamiento y más allá. Si estás listo para construir un sitio web que trabaje tan duro como tú, nos encantaría ser parte de eso.",
     "stat_num": "17+",
     "stat_label": "Años Diseñando Sistemas de Conversión",
     "certs_label": "Certificaciones",
@@ -190,6 +196,7 @@
     ],
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Miembro de Cámara de Comercio",
+    "certs_note": "Certificada por CA DGS y disponible para adquisiciones del sector público.",
     "industry_title": "Experiencia en la Industria"
   },
   "blog": {
@@ -230,38 +237,38 @@
     "items": [
       {
         "q": "¿Qué tan rápido es el tiempo de entrega?",
-        "a": "La mayoría de los proyectos se completan en 2–14 días hábiles según el alcance. Los sistemas de landing se entregan en 2–3 días. Los sitios de crecimiento en 5–7 días. Los Conversion Sprints completos en 10–14 días."
+        "a": "La mayoría de los proyectos se completan en 1 a 21 días hábiles según el alcance. Landing pages en 1 a 3 días. Sitios web completos en 5 a 7 días. Sistemas Conversion Sprint en 7 a 21 días. Cada plazo se establece al inicio y se cumple."
       },
       {
         "q": "¿Solo diseñan sitios web?",
-        "a": "No. Diseñamos sistemas de conversión enfocados en generar leads, reservas e ingresos. El sitio web es el vehículo; la estrategia, la arquitectura de mensajes y la infraestructura de generación de leads son el motor."
+        "a": "No. El sitio web es el vehículo. La estrategia, la arquitectura de mensajes y la estructura de conversión son el motor. Cada proyecto está construido alrededor de un objetivo: convertir a los visitantes correctos en clientes que pagan."
       },
       {
         "q": "¿Qué necesito para empezar?",
-        "a": "Muy poco. Solo necesitamos los detalles de tu negocio, información de tu oferta y acceso a tu sitio web actual si aplica. Nos encargamos de la estrategia, la dirección del texto, el diseño y la ingeniería."
+        "a": "Muy poco. Los detalles de tu negocio, información de tu oferta y los activos existentes que tengas. Nos encargamos de la estrategia, la dirección del texto, el diseño y la ingeniería. La mayoría de los clientes se sorprenden de lo ágil que es el proceso."
       },
       {
         "q": "¿Ofrecen soporte continuo?",
-        "a": "Sí. La optimización continua opcional, gestión de SEO y mejoras de landing page están disponibles como retainer mensual. Muchos clientes encuentran que el refinamiento continuo aumenta significativamente el ROI."
+        "a": "Sí. Optimización mensual, mejoras de landing page y soporte técnico continuo están disponibles como retainer. Los clientes que continúan refinando después del lanzamiento ven resultados que se acumulan con el tiempo."
       },
       {
         "q": "¿Mi sitio web estará optimizado para SEO?",
-        "a": "Sí. Cada proyecto incluye estructura técnica de SEO: metadatos, OG tags, marcado de esquema, optimización de rendimiento y arquitectura mobile-first. El SEO está integrado en la ingeniería desde el primer día."
+        "a": "Cada proyecto incluye fundamentos técnicos de SEO: metadatos, Open Graph tags, marcado de esquema, optimización de rendimiento y arquitectura mobile-first. La visibilidad en búsquedas está integrada desde el primer día, no añadida al final."
       },
       {
         "q": "¿Qué hace diferente a Bluebay Agency de otras agencias?",
-        "a": "Nos enfocamos en sistemas de conversión, no en entregables de diseño. Cada decisión está tomada para aumentar los resultados de negocio medibles. Casi 17 años refinando este enfoque significa que sabemos qué funciona."
+        "a": "La mayoría de las agencias construyen sitios web. Nosotros construimos sistemas de crecimiento. Cada decisión, desde la estructura hasta el copy y el diseño, está tomada para mover a tu cliente ideal hacia el siguiente paso. 17 años de experiencia significa que sabemos qué funciona de verdad."
       },
       {
         "q": "¿Cómo garantizan la calidad en cada proyecto?",
-        "a": "Cada proyecto sigue el mismo proceso estratégico: descubrimiento, arquitectura de mensajes, diseño, desarrollo y un lanzamiento estructurado. La calidad proviene del proceso, no de limitar cuántas personas ayudamos."
+        "a": "Cada proyecto sigue el mismo proceso estructurado: descubrimiento, estrategia de mensajes, diseño, desarrollo y un lanzamiento meticuloso. No tomamos atajos en ninguna etapa. La calidad viene del proceso."
       }
     ]
   },
   "contact": {
     "eyebrow": "Comenzar",
     "h2": "Agenda Tu Llamada de Estrategia",
-    "body": "Cuéntanos sobre tu negocio y objetivos. Identificaremos el camino más rápido para convertir tu sitio web en un sistema generador de ingresos.",
+    "body": "Cuéntanos sobre tu negocio, qué estás construyendo y hacia dónde quieres crecer. Revisaremos tus objetivos y exploraremos cómo Bluebay Agency puede ayudarte con un sitio web diseñado para generar leads, generar confianza y apoyar un crecimiento real.",
     "email_cta": "Escríbenos Directamente",
     "call_cta": "Llamar Directamente",
     "response_note": "Respondemos dentro de 1 día hábil",
@@ -274,15 +281,15 @@
   },
   "finalCta": {
     "eyebrow": "Construyamos Tu Sistema",
-    "h2_1": "¿Listo para Convertir Tu Sitio Web en un",
-    "h2_em": "Activo de Crecimiento?",
-    "body": "Cada proyecto que tomamos recibe nuestro enfoque completo, desde la primera llamada hasta el lanzamiento y más allá. Si estás listo para construir algo de lo que te sientas orgulloso y que genere resultados reales, nos encantaría escuchar sobre tu proyecto.",
-    "cta_primary": "Agendar Llamada",
-    "cta_secondary": "Aplicar para Conversion Sprint",
-    "note": "Disponibilidad limitada · Atendemos clientes a nivel nacional"
+    "h2_1": "¿Listo para Convertir Tu Sitio Web en",
+    "h2_em": "un Activo de Crecimiento?",
+    "body": "La mayoría de los sitios web se ven presentables pero pierden clientes silenciosamente todos los días. Si el tuyo no está generando leads activamente ni construyendo confianza, cambiemos eso. Actualmente aceptamos un número limitado de nuevos proyectos.",
+    "cta_primary": "Agendar Llamada Gratuita",
+    "cta_secondary": "Ver Paquetes",
+    "note": "Sin compromiso · Disponibilidad limitada · Atendemos clientes a nivel nacional"
   },
   "footer": {
-    "tagline": "Partner de Conversión y Crecimiento Mobile-First. Ayudamos a los negocios a convertir su sitio web en un sistema predecible de adquisición de clientes.",
+    "tagline": "Construimos sitios web mobile-first y sistemas de conversión que ayudan a negocios de servicios y organizaciones profesionales a atraer mejores clientes, generar confianza y crecer.",
     "location": "Hermosa Beach, California",
     "nav_title": "Navegación",
     "contact_title": "Contacto",

@@ -5,17 +5,23 @@
     "pricing": "Pricing",
     "about": "About",
     "faq": "FAQ",
-    "cta": "Book Strategy Call"
+    "cta": "Book a Free Strategy Call"
   },
   "hero": {
-    "eyebrow": "Web Design & Development Boutique Agency",
-    "h1_1": "A Website That",
-    "h1_em": "Works as Hard",
-    "h1_2": "as You Do.",
-    "body": "We listen, solve problems, and build highly-converting websites that take your brand to whole new heights. Great design backed by structurally-sound development, so your business shows up online the way it truly deserves to.",
-    "cta_primary": "Let's Talk About Your Project",
+    "eyebrow": "Boutique Web Agency · South Bay, California",
+    "h1_1": "Your Website Should Be",
+    "h1_em": "Your Best Salesperson.",
+    "h1_2": "",
+    "body": "We design and build mobile-first websites that attract the right clients, build trust fast, and turn visitors into leads, bookings, and revenue.",
+    "cta_primary": "Book a Free Strategy Call",
     "cta_secondary": "See Our Work",
-    "trust": ["Hermosa Beach, CA", "17 Years Experience", "Mobile-First", "Highly-Converting"],
+    "trust": ["Hermosa Beach, CA", "17 Years Experience", "Mobile-First", "Limited Availability"],
+    "scarcity": "Currently accepting a limited number of new projects.",
+    "stats": [
+      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "45+", "label": "Websites Launched" },
+      { "num": "20+", "label": "Custom Web Applications" }
+    ],
     "stats": [
       { "num": "120+", "label": "Landing & Event Pages" },
       { "num": "45+", "label": "Websites Launched" },
@@ -32,43 +38,43 @@
   },
   "whyBluebay": {
     "eyebrow": "Why Bluebay Agency",
-    "h2": "We Build Websites That Help Your Business Grow.",
-    "body": "Every decision we make comes back to one question: does this help your business connect, build trust, and grow? Five principles guide every project we take on.",
+    "h2": "Most Websites Don't Lose Business Slowly. They Lose It Instantly.",
+    "body": "When a visitor lands on your site and doesn't immediately understand what you do, who you help, and why they should trust you, they leave. We build websites that solve that problem from the first second. Whether your goal is more client inquiries or clearer member communication, we build websites that help people take the right next step.",
     "pillars": [
-      { "num": "01", "title": "Clarity", "desc": "Clear, natural messaging that helps visitors immediately understand who you are, what you offer, and why it matters to them." },
-      { "num": "02", "title": "Intentional Design", "desc": "Every layout, typeface, color, and detail is chosen with purpose, to create an experience that feels right and moves people forward." },
-      { "num": "03", "title": "Performance", "desc": "Fast, mobile-first builds grounded in how real people actually browse, because a beautiful site that loads slowly loses people before they even begin." },
-      { "num": "04", "title": "Transparency", "desc": "We keep you in the loop at every step, from the first strategy conversation through launch day, so you always know exactly where things stand." },
-      { "num": "05", "title": "Built to Convert", "desc": "Every page has a purpose. Every call-to-action has a role. We build websites designed to turn the right visitors into the right clients." }
+      { "num": "01", "title": "Clarity", "desc": "Visitors understand what you do and who you help within seconds. No confusion, no hesitation, no lost leads." },
+      { "num": "02", "title": "Intentional Design", "desc": "Every visual decision earns its place. Layout, type, color, and spacing are chosen to guide attention and build trust, not just to look good." },
+      { "num": "03", "title": "Performance", "desc": "Fast, mobile-first builds, because most of your clients are on their phones and a slow site is a lost opportunity." },
+      { "num": "04", "title": "Transparency", "desc": "You always know where your project stands. One point of contact, clear timelines, no surprises." },
+      { "num": "05", "title": "Built to Convert", "desc": "Every page has a job. Every call to action has a purpose. We design websites built to generate real business results." }
     ],
     "differentiators": ["Mobile-First Approach", "Strategy-Led Design", "17 Years Experience", "Collaborative Process"]
   },
   "process": {
     "eyebrow": "How We Work",
-    "h2": "A Clear, Collaborative Process from Start to Launch",
+    "h2": "A Simple, Structured Process. A Website That Performs.",
     "steps": [
       {
         "num": "01",
-        "title": "Discovery & Strategy",
-        "desc": "We start by listening. We dig into your business, your audience, and your goals, then identify exactly what your website needs to do to support them.",
+        "title": "Revenue Diagnosis",
+        "desc": "We start by understanding your business, your clients, and where your current website is losing them. Everything we build from here is grounded in that foundation.",
         "detail": "Conversion audit · UX analysis · Competitor review"
       },
       {
         "num": "02",
-        "title": "Messaging & Structure",
-        "desc": "We map out your messaging, page structure, and user flow so every part of the site has a clear job, guiding the right people toward the right next step.",
-        "detail": "Messaging map · UX wireframe · Trust architecture"
+        "title": "Strategy & Messaging",
+        "desc": "We map your messaging, page structure, and user flow so every section of your site has a clear role, moving the right visitors toward the right next step.",
+        "detail": "Messaging architecture · Wireframe · Trust hierarchy"
       },
       {
         "num": "03",
-        "title": "Design & Development",
-        "desc": "We bring everything to life with intentional design and structurally-sound development, mobile-first, fast, and built to last.",
+        "title": "Design & Build",
+        "desc": "We bring everything to life with intentional design and structurally sound development. Mobile-first, fast, and built to last.",
         "detail": "Design · Development · Integration · QA"
       },
       {
         "num": "04",
-        "title": "Launch & Grow",
-        "desc": "We launch your site, set up analytics, and stay close during the early days, so you go live with confidence and keep improving from real data.",
+        "title": "Launch & Optimize",
+        "desc": "We launch your site, set up analytics, and stay close during the early days so you go live with confidence and keep improving from real data.",
         "detail": "Launch · Analytics · Iteration · Growth"
       }
     ],
@@ -76,8 +82,8 @@
   },
   "portfolio": {
     "eyebrow": "Selected Work",
-    "h2": "Conversion Systems in the Wild",
-    "body": "Every project is built around one objective: more leads, more bookings, more revenue.",
+    "h2": "Real Projects. Real Results.",
+    "body": "A look at how strategy, design, and engineering come together to build websites that grow businesses.",
     "mobile_label": "Mobile View",
     "projects": [
       {
@@ -96,12 +102,12 @@
   },
   "pricing": {
     "eyebrow": "Investment",
-    "h2": "Choose the Right Growth Stage for Your Business",
-    "body": "Whether you need fast leads, stronger credibility, or a full revenue-generating system, we build websites designed to move your business forward.",
+    "h2": "Three Ways to Grow. One Standard of Quality.",
+    "body": "Whether you need a focused lead page or a full growth system, every project is built with the same strategic foundation and attention to detail.",
     "best_for_label": "Best for:",
     "tech_label": "We build on",
-    "custom_heading": "Need something custom?",
-    "custom_body": "We also create tailored solutions for e-commerce, multilingual websites, advanced integrations, and growth-focused businesses.",
+    "custom_heading": "Something More Custom?",
+    "custom_body": "We also build e-commerce systems, multilingual websites, web applications, and tailored growth solutions for businesses with specific needs.",
     "custom_cta": "Request Custom Quote",
     "tiers": [
       {
@@ -110,7 +116,7 @@
         "name": "Conversion Landing System",
         "price": "Starting at $1,250",
         "timeline": "1–3 Business Days",
-        "description": "Fast, focused landing pages built to generate leads, bookings, or inquiries quickly.",
+        "description": "A focused, high-converting page built to capture leads, drive bookings, or support a campaign fast.",
         "best_for": "Campaigns, events & ticketing, launches, paid ads, and service businesses needing quick lead generation.",
         "cta": "Launch My Landing Page",
         "includes": [
@@ -131,8 +137,8 @@
         "name": "Authority Website System",
         "price": "Starting at $4,500",
         "timeline": "5–7 Business Days",
-        "description": "A complete website designed to build trust, elevate your brand, and convert visitors into qualified leads.",
-        "best_for": "Established businesses ready for a stronger brand presence and more inbound inquiries.",
+        "description": "A complete, conversion-focused website designed to build trust, elevate your brand, and bring in better quality inquiries.",
+        "best_for": "Established service businesses ready to turn their website into a reliable source of new clients.",
         "cta": "Build My Website",
         "includes": [
           "Up to 5 strategic pages",
@@ -153,8 +159,8 @@
         "name": "Bluebay Conversion Sprint",
         "price": "Starting at $8,000",
         "timeline": "7–21 Business Days",
-        "description": "Our flagship growth system for businesses ready to turn their website into a predictable revenue-generating asset.",
-        "best_for": "Businesses focused on scaling revenue, improving conversions, and long-term growth.",
+        "description": "Our flagship growth system. A comprehensive website and conversion strategy built for businesses serious about scaling revenue and creating a predictable stream of high-quality leads.",
+        "best_for": "Growth-focused businesses ready to invest in a website that becomes their most productive business asset.",
         "cta": "Apply for Conversion Sprint",
         "includes": [
           "10+ strategic pages",
@@ -177,8 +183,8 @@
   "about": {
     "eyebrow": "The Founder",
     "h2": "The Experience Behind Every Decision We Make.",
-    "body1": "Before founding Bluebay Agency, our founder spent nearly 17 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from conception through launch and refining them until they performed. That background shapes how we approach every project we take on.",
-    "body2": "Every project gets our full attention, from strategy through launch and beyond. If you are ready to build a website that works as hard as you do, we would love to be part of that journey.",
+    "body1": "Before founding Bluebay Agency, our founder spent 17 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from concept through launch and refining them until they performed. That background shapes how we approach every project we take on.",
+    "body2": "Every client gets our full attention, from strategy through launch and beyond. If you are ready to build a website that works as hard as you do, we would love to be part of that.",
     "stat_num": "17+",
     "stat_label": "Years Engineering Conversion Systems",
     "certs_label": "Certified",
@@ -190,6 +196,7 @@
     ],
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
+    "certs_note": "CA DGS certified and available for public sector procurement.",
     "industry_title": "Industry Experience"
   },
   "blog": {
@@ -233,38 +240,38 @@
     "items": [
       {
         "q": "How fast is the turnaround?",
-        "a": "Most projects are completed in 2–14 business days depending on scope. Landing systems ship in 2–4 days. Growth websites in 7–10 days. Full Conversion Sprints in 10–21 days. Every timeline is set at the start and held throughout the project."
+        "a": "Most projects are completed in 1 to 21 business days depending on scope. Landing pages in 1 to 3 days. Full websites in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
       },
       {
         "q": "Do you only design websites?",
-        "a": "We build highly-converting websites, but the work behind them goes deeper than design. Strategy, messaging, structure, and lead generation all work together so your website becomes a genuine business asset that keeps delivering over time."
+        "a": "No. The website is the vehicle. The strategy, messaging architecture, and conversion structure are the engine. Every project is built around one goal: turning the right visitors into paying clients."
       },
       {
         "q": "What do I need to get started?",
-        "a": "Very little. We only need your business details, offer information, any available assets like photography or existing brand images, and access to your current website if applicable. We handle the strategy, copy direction, design, and engineering. Most clients are surprised by how streamlined the process is."
+        "a": "Very little. Your business details, offer information, and any existing assets you have. We handle strategy, copy direction, design, and engineering. Most clients are surprised by how streamlined the process is."
       },
       {
         "q": "Do you offer ongoing support?",
-        "a": "Yes. Optional ongoing optimization, website and landing page improvements are available as a monthly retainer. Many clients find that ongoing refinement significantly compounds the ROI of their initial build."
+        "a": "Yes. Monthly optimization, landing page improvements, and ongoing technical support are available as a retainer. Clients who continue refining after launch consistently see compounding results over time."
       },
       {
         "q": "Will my website be optimized for SEO?",
-        "a": "Yes. Every build includes technical SEO structure: metadata, OG tags, schema markup, performance optimization, and mobile-first architecture. SEO is woven into the engineering from day one, a foundational layer of every project we deliver."
+        "a": "Every build includes technical SEO foundations: metadata, Open Graph tags, schema markup, performance optimization, and mobile-first architecture. Search visibility is built in from day one, not added at the end."
       },
       {
         "q": "What makes Bluebay Agency different from other agencies?",
-        "a": "We take the time to actually listen. Every project starts with understanding your business, your clients, and what success looks like for you, then we build around that. Nearly 17 years of experience means we know what works, and we bring that knowledge to every project we take on."
+        "a": "Most agencies build websites. We build growth systems. Every decision, from structure to copy to design, is made to move your ideal client toward the next step. Seventeen years of experience means we know what actually works, and we bring that to every project."
       },
       {
         "q": "How do you ensure quality across projects?",
-        "a": "Every project follows the same strategic process: discovery, messaging architecture, design, development, and a structured launch. We do not cut corners at any stage. Quality comes from process, not from limiting how many people we help."
+        "a": "Every project follows the same structured process: discovery, messaging strategy, design, development, and a thorough launch. We do not cut corners at any stage. Quality comes from process."
       }
     ]
   },
   "contact": {
     "eyebrow": "Get Started",
     "h2": "Let's Talk About Your Project",
-    "body": "Tell us a little about your business and what you are working toward. We would love to learn about your goals and figure out together how we can help.",
+    "body": "Tell us about your business, what you're building, and where you want to grow next. We'll review your goals and explore how Bluebay Agency can help with a website designed to generate leads, build trust, and support real growth.",
     "email_cta": "Email Us Directly",
     "call_cta": "Call Directly",
     "response_note": "We respond within 1 business day",
@@ -277,15 +284,15 @@
   },
   "finalCta": {
     "eyebrow": "Let's Work Together",
-    "h2_1": "Ready to Build a Website That",
-    "h2_em": "Truly Works for You?",
-    "body": "Every project we take on gets our full focus, from the first call through launch and beyond. If you are ready to build something you are proud of and that delivers real results, we would love to hear about your project.",
-    "cta_primary": "Let's Talk",
+    "h2_1": "Ready to Turn Your Website Into",
+    "h2_em": "a Growth Asset?",
+    "body": "Most websites look presentable but quietly lose clients every single day. If yours is not actively generating leads and building trust, let's change that. We are currently accepting a limited number of new projects.",
+    "cta_primary": "Book a Free Strategy Call",
     "cta_secondary": "View Our Packages",
-    "note": "US-Based · Serving Clients Nationally"
+    "note": "No obligation · US-Based · Serving Clients Nationally"
   },
   "footer": {
-    "tagline": "We listen, solve problems, and build highly-converting websites that help businesses connect more clearly, build trust, and grow.",
+    "tagline": "We build mobile-first websites and conversion systems that help service businesses and professional organizations attract better clients, build trust, and grow.",
     "location": "Hermosa Beach, California",
     "nav_title": "Navigation",
     "contact_title": "Contact",
@@ -295,7 +302,7 @@
     "certs_label": "Certifications",
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
-    "book_cta": "Book Strategy Call"
+    "book_cta": "Book a Free Strategy Call"
   },
   "lang": {
     "switch_label": "Español",

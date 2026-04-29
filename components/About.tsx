@@ -18,6 +18,7 @@ export default function About() {
   const { t } = useTranslation()
   const certifications = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
 
+
   return (
     <section id="about" className="bg-sand py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
@@ -33,11 +34,10 @@ export default function About() {
                   className="w-full h-auto object-cover object-top"
                   style={{ maxHeight: '640px' }}
                 />
-                <div className="absolute -bottom-[104px] -right-4 w-2/3 h-2/3 border border-dusty-rose/30 pointer-events-none" />
-              </div>
-              <div className="absolute -bottom-6 left-6 md:left-10 bg-navy text-white p-6 shadow-2xl">
-                <div className="font-canela-deck text-4xl font-thin text-dusty-rose">{t('about.stat_num')}</div>
-                <div className="font-sans text-xs text-white/50 mt-1 tracking-wide leading-tight">{t('about.stat_label')}</div>
+                <div className="absolute bottom-6 left-6 md:left-10 bg-navy text-white p-6 shadow-2xl">
+                  <div className="font-canela-deck text-4xl font-thin text-dusty-rose">{t('about.stat_num')}</div>
+                  <div className="font-sans text-xs text-white/50 mt-1 tracking-wide leading-tight">{t('about.stat_label')}</div>
+                </div>
               </div>
             </div>
           </ScrollReveal>
@@ -83,6 +83,8 @@ export default function About() {
                   </div>
                 ))}
               </div>
+
+              <p className="font-sans text-xs text-charcoal/40 mb-8">{t('about.certs_note')}</p>
 
               <div className="flex items-center gap-4 pt-6 border-t border-gray-border">
                 <Image

@@ -73,6 +73,11 @@ export default function Hero() {
             </a>
           </div>
 
+          {/* Scarcity */}
+          <p className="font-sans text-xs text-white/40 tracking-wide -mt-10 mb-14">
+            {t('hero.scarcity')}
+          </p>
+
           {/* Trust badges */}
           <div className="flex flex-wrap items-center gap-x-6 gap-y-3 opacity-0 animate-fade-up-delay-3">
             {trust.map((item: string) => (
