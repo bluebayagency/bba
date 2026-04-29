@@ -85,7 +85,7 @@ export default function Hero() {
         </div>
 
         {/* Stats row */}
-        <div className="mt-20 pt-8 border-t border-white/10 grid grid-cols-3 gap-8 opacity-0 animate-fade-up-delay-3">
+        <div className="mt-20 pt-8 mb-16 md:mb-0 border-t border-white/10 grid grid-cols-3 gap-8 opacity-0 animate-fade-up-delay-3">
           {stats.map((stat) => (
             <div key={stat.label} className="text-left">
               <div className="stat-num">{stat.num}</div>
