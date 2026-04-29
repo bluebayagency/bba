@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
   const { t } = useTranslation()
-  const stats = t('hero.stats', { returnObjects: true }) as Array<{ num: string; label: string }>
   const trust = t('hero.trust', { returnObjects: true }) as string[]
 
   return (
@@ -48,10 +47,16 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p
-            className="font-sans font-light text-white/75 leading-relaxed mb-12 opacity-0 animate-fade-up-delay"
+            className="font-sans font-light text-white/75 leading-relaxed mb-4 opacity-0 animate-fade-up-delay"
             style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)', maxWidth: '560px' }}
           >
             {t('hero.body')}
+          </p>
+          <p
+            className="font-sans font-light text-white/60 leading-relaxed mb-12 opacity-0 animate-fade-up-delay"
+            style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)', maxWidth: '560px' }}
+          >
+            {t('hero.body2')}
           </p>
 
           {/* CTAs */}
@@ -89,15 +94,6 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Stats row */}
-        <div className="mt-20 pt-8 mb-16 md:mb-0 border-t border-white/10 grid grid-cols-3 gap-8 opacity-0 animate-fade-up-delay-3">
-          {stats.map((stat) => (
-            <div key={stat.label} className="text-left">
-              <div className="stat-num">{stat.num}</div>
-              <div className="font-sans text-xs text-white/45 mt-1 tracking-wide leading-snug">{stat.label}</div>
-            </div>
-          ))}
-        </div>
       </div>
 
       {/* Scroll indicator */}

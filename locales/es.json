@@ -9,10 +9,11 @@
   },
   "hero": {
     "eyebrow": "Agencia Boutique · South Bay, California",
-    "h1_1": "Un Gran Sitio Web Debería",
-    "h1_em": "Hacer Crecer Tu Negocio.",
+    "h1_1": "Convierte Tu Sitio Web en",
+    "h1_em": "una Fuente Constante de Leads.",
     "h1_2": "",
-    "body": "Diseñamos y construimos sitios web mobile-first que atraen a los clientes correctos, generan confianza rápidamente y convierten visitantes en leads, reservas e ingresos.",
+    "body": "Tu sitio web debe hacer más que verse bien. Debe generar confianza, comunicar con claridad y facilitar que las personas correctas den el siguiente paso.",
+    "body2": "En Bluebay Agency, diseñamos sitios web mobile-first que ayudan a los negocios a convertir la atención en oportunidades reales, desde consultas y reservas hasta clientes a largo plazo.",
     "cta_primary": "Agendar Llamada Gratuita",
     "cta_secondary": "Ver Proyectos",
     "trust": ["Hermosa Beach, CA", "17 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
@@ -82,7 +83,7 @@
   },
   "portfolio": {
     "eyebrow": "Trabajo Selecto",
-    "h2": "Proyectos Reales. Resultados Reales.",
+    "h2": "Construido con la Conversión en Mente.",
     "body": "Una mirada a cómo la estrategia, el diseño y la ingeniería se combinan para construir sitios web que hacen crecer negocios.",
     "mobile_label": "Vista Móvil",
     "projects": [
