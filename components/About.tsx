@@ -26,15 +26,15 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Image */}
           <ScrollReveal>
-            <div className="relative">
-              <div className="relative overflow-hidden bg-navy/5">
+            <div className="relative pb-10">
+              <div className="relative bg-navy/5">
                 <img
                   src="/images/founder/bluebay-agency-veronica-perez.png"
                   alt="Bluebay Agency Founder"
                   className="w-full h-auto object-cover object-top"
                   style={{ maxHeight: '640px' }}
                 />
-                <div className="absolute bottom-6 left-6 md:left-10 bg-navy text-white p-6 shadow-2xl">
+                <div className="absolute -bottom-8 left-6 md:left-10 bg-navy text-white p-6 shadow-2xl">
                   <div className="font-canela-deck text-4xl font-thin text-dusty-rose">{t('about.stat_num')}</div>
                   <div className="font-sans text-xs text-white/50 mt-1 tracking-wide leading-tight">{t('about.stat_label')}</div>
                 </div>

@@ -136,8 +136,23 @@ export default function Portfolio() {
           })}
         </div>
 
+        {/* More coming soon strip */}
         <ScrollReveal delay={3}>
-          <div className="mt-12 text-center">
+          <div className="mt-6 border border-dashed border-white/[0.08] px-8 md:px-12 py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
+            <div>
+              <span className="font-sans text-[10px] font-medium text-white/25 tracking-[0.22em] uppercase block mb-2">More Work in Progress</span>
+              <p className="font-sans text-sm font-light text-white/30 max-w-md leading-relaxed">
+                Additional case studies are in production. Book a call to preview work currently in progress.
+              </p>
+            </div>
+            <span className="flex-shrink-0 font-sans text-[10px] font-medium text-white/20 border border-dashed border-white/[0.08] px-4 py-2 tracking-[0.18em] uppercase whitespace-nowrap">
+              Coming Soon
+            </span>
+          </div>
+        </ScrollReveal>
+
+        <ScrollReveal delay={3}>
+          <div className="mt-8 text-center">
             <a
               href="#contact"
               className="inline-flex items-center gap-2 font-sans text-sm font-medium text-white/60 border border-white/20 hover:border-white/50 hover:text-white px-6 py-3 transition-all duration-300"
