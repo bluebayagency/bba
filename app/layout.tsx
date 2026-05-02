@@ -111,6 +111,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  other: {
+    'p:domain_verify': '6bc3ab6c893e73eb8c0d6889c47f4775',
+  },
 }
 
 const localBusinessSchema = {
