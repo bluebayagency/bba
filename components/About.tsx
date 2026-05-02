@@ -99,13 +99,15 @@ export default function About() {
               <p className="font-sans text-xs text-charcoal/40 mb-8">{t('about.certs_note')}</p>
 
               <div className="flex items-center gap-4 pt-6 border-t border-gray-border">
-                <Image
-                  src="/images/logos/mb-chamber-member.png"
-                  alt="Manhattan Beach Chamber of Commerce Member"
-                  width={80}
-                  height={80}
-                  className="h-14 w-auto object-contain opacity-70"
-                />
+                <a href="https://www.manhattanbeachchamber.com/directory#!biz/id/69b31e10007ee52f4f0140d3" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/images/logos/mb-chamber-member.png"
+                    alt="Manhattan Beach Chamber of Commerce Member"
+                    width={80}
+                    height={80}
+                    className="h-14 w-auto object-contain opacity-70 hover:opacity-90 transition-opacity duration-200"
+                  />
+                </a>
                 <div>
                   <div className="font-sans text-xs font-medium text-charcoal/50">{t('about.chamber_label')}</div>
                   <div className="font-sans text-xs text-charcoal/35">{t('about.chamber_sub')}</div>

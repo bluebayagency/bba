@@ -16,17 +16,17 @@
     "body2": "",
     "cta_primary": "Book a Free Strategy Call",
     "cta_secondary": "See Our Work",
-    "trust": ["Hermosa Beach, CA", "15 Years Experience", "Mobile-First", "Limited Availability"],
+    "trust": ["South Bay, CA", "15 Years Experience", "Mobile-First", "Limited Availability"],
     "scarcity": "Currently accepting a limited number of new projects.",
     "stats": [
-      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "81+", "label": "Landing & Event Pages" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "20+", "label": "Custom Web Applications" }
+      { "num": "23+", "label": "Custom Web Applications" }
     ],
     "stats": [
-      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "81+", "label": "Landing & Event Pages" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "20+", "label": "Custom Web Applications" }
+      { "num": "23+", "label": "Custom Web Applications" }
     ],
     "scroll": "Scroll"
   },
@@ -189,9 +189,9 @@
     "stat_num": "15+",
     "stat_label": "Years Engineering Conversion Systems",
     "stats": [
-      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "81+", "label": "Landing & Event Pages" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "20+", "label": "Custom Web Applications" }
+      { "num": "23+", "label": "Custom Web Applications" }
     ],
     "certs_label": "Certified",
     "certifications": [
@@ -299,8 +299,8 @@
   },
   "footer": {
     "tagline": "We build mobile-first websites and conversion systems that help service businesses and professional organizations attract better clients, build trust, and grow.",
-    "location": "Hermosa Beach, California",
-    "address": "2629 Manhattan Ave, Suite 120, Hermosa Beach CA 90254",
+    "location": "South Bay, California",
+    "address": "South Bay, CA",
     "nav_title": "Navigation",
     "contact_title": "Contact",
     "privacy": "Privacy Policy",

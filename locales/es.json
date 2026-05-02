@@ -16,17 +16,17 @@
     "body2": "",
     "cta_primary": "Agendar Llamada Gratuita",
     "cta_secondary": "Ver Proyectos",
-    "trust": ["Hermosa Beach, CA", "15 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
+    "trust": ["South Bay, CA", "15 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
     "scarcity": "Actualmente aceptando un número limitado de nuevos proyectos.",
     "stats": [
-      { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
+      { "num": "81+", "label": "Landing Pages y Páginas de Eventos" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "20+", "label": "Aplicaciones Web Personalizadas" }
+      { "num": "23+", "label": "Aplicaciones Web Personalizadas" }
     ],
     "stats": [
-      { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
+      { "num": "81+", "label": "Landing Pages y Páginas de Eventos" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "20+", "label": "Aplicaciones Web Personalizadas" }
+      { "num": "23+", "label": "Aplicaciones Web Personalizadas" }
     ],
     "scroll": "Deslizar"
   },
@@ -189,9 +189,9 @@
     "stat_num": "15+",
     "stat_label": "Años Diseñando Sistemas de Conversión",
     "stats": [
-      { "num": "120+", "label": "Landing Pages y Eventos" },
+      { "num": "81+", "label": "Landing Pages y Eventos" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "20+", "label": "Aplicaciones Web" }
+      { "num": "23+", "label": "Aplicaciones Web" }
     ],
     "certs_label": "Certificaciones",
     "certifications": [
@@ -296,8 +296,8 @@
   },
   "footer": {
     "tagline": "Construimos sitios web mobile-first y sistemas de conversión que ayudan a negocios de servicios y organizaciones profesionales a atraer mejores clientes, generar confianza y crecer.",
-    "location": "Hermosa Beach, California",
-    "address": "2629 Manhattan Ave, Suite 120, Hermosa Beach CA 90254",
+    "location": "South Bay, California",
+    "address": "South Bay, CA",
     "nav_title": "Navegación",
     "contact_title": "Contacto",
     "privacy": "Política de Privacidad",

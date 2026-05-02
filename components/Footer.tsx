@@ -139,13 +139,15 @@ export default function Footer() {
               ))}
             </div>
             <div className="md:ml-auto flex items-center gap-3">
-              <Image
-                src="/images/logos/mb-chamber-member.png"
-                alt="Manhattan Beach Chamber of Commerce"
-                width={48}
-                height={48}
-                className="h-10 w-auto object-contain opacity-40 hover:opacity-60 transition-opacity duration-200"
-              />
+              <a href="https://www.manhattanbeachchamber.com/directory#!biz/id/69b31e10007ee52f4f0140d3" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/images/logos/mb-chamber-member.png"
+                  alt="Manhattan Beach Chamber of Commerce"
+                  width={48}
+                  height={48}
+                  className="h-10 w-auto object-contain opacity-40 hover:opacity-60 transition-opacity duration-200"
+                />
+              </a>
               <span className="font-sans text-xs text-white/25 leading-tight">
                 {t('footer.chamber_label')}<br />{t('footer.chamber_sub')}
               </span>
