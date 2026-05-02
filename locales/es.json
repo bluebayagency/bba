@@ -16,7 +16,7 @@
     "body2": "",
     "cta_primary": "Agendar Llamada Gratuita",
     "cta_secondary": "Ver Proyectos",
-    "trust": ["Hermosa Beach, CA", "17 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
+    "trust": ["Hermosa Beach, CA", "15 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
     "scarcity": "Actualmente aceptando un número limitado de nuevos proyectos.",
     "stats": [
       { "num": "120+", "label": "Landing Pages y Páginas de Eventos" },
@@ -48,7 +48,7 @@
       { "num": "04", "title": "Transparencia", "desc": "Siempre sabes en qué punto está tu proyecto. Un solo punto de contacto, plazos claros, sin sorpresas." },
       { "num": "05", "title": "Construido para Convertir", "desc": "Cada página tiene un trabajo. Cada llamada a la acción tiene un propósito. Diseñamos sitios web hechos para generar resultados reales." }
     ],
-    "differentiators": ["Enfoque Mobile-First", "Proyectos Estratégicos", "17 Años de Experiencia", "Proceso Colaborativo"]
+    "differentiators": ["Enfoque Mobile-First", "Proyectos Estratégicos", "15 Años de Experiencia", "Proceso Colaborativo"]
   },
   "process": {
     "eyebrow": "Cómo Trabajamos",
@@ -184,10 +184,15 @@
   "about": {
     "eyebrow": "La Fundadora",
     "h2": "La Experiencia Detrás de Cada Decisión que Tomamos.",
-    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó 17 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde el concepto hasta el lanzamiento y refinándolos hasta que generaron resultados. Esa trayectoria define cómo abordamos cada proyecto.",
+    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó 15 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde el concepto hasta el lanzamiento y refinándolos hasta que generaron resultados. Esa trayectoria define cómo abordamos cada proyecto.",
     "body2": "Cada cliente recibe nuestra atención completa, desde la estrategia hasta el lanzamiento y más allá. Si estás listo para construir un sitio web que trabaje tan duro como tú, nos encantaría ser parte de eso.",
-    "stat_num": "17+",
+    "stat_num": "15+",
     "stat_label": "Años Diseñando Sistemas de Conversión",
+    "stats": [
+      { "num": "120+", "label": "Landing Pages y Eventos" },
+      { "num": "45+", "label": "Sitios Web Lanzados" },
+      { "num": "20+", "label": "Aplicaciones Web" }
+    ],
     "certs_label": "Certificaciones",
     "certifications": [
       { "label": "CA DGS", "sub": "SB (Micro)" },
@@ -258,7 +263,7 @@
       },
       {
         "q": "¿Qué hace diferente a Bluebay Agency de otras agencias?",
-        "a": "La mayoría de las agencias construyen sitios web. Nosotros construimos sistemas de crecimiento. Cada decisión, desde la estructura hasta el copy y el diseño, está tomada para mover a tu cliente ideal hacia el siguiente paso. 17 años de experiencia significa que sabemos qué funciona de verdad."
+        "a": "La mayoría de las agencias construyen sitios web. Nosotros construimos sistemas de crecimiento. Cada decisión, desde la estructura hasta el copy y el diseño, está tomada para mover a tu cliente ideal hacia el siguiente paso. 15 años de experiencia significa que sabemos qué funciona de verdad."
       },
       {
         "q": "¿Cómo garantizan la calidad en cada proyecto?",
@@ -277,7 +282,7 @@
       "Llamada de estrategia gratuita",
       "Sin compromiso",
       "Respuesta en 1 día hábil",
-      "17+ años de experiencia"
+      "15+ años de experiencia"
     ]
   },
   "finalCta": {
@@ -292,6 +297,7 @@
   "footer": {
     "tagline": "Construimos sitios web mobile-first y sistemas de conversión que ayudan a negocios de servicios y organizaciones profesionales a atraer mejores clientes, generar confianza y crecer.",
     "location": "Hermosa Beach, California",
+    "address": "2629 Manhattan Ave, Suite 120, Hermosa Beach CA 90254",
     "nav_title": "Navegación",
     "contact_title": "Contacto",
     "privacy": "Política de Privacidad",

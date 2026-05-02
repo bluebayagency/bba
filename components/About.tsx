@@ -17,6 +17,7 @@ const industryLogos = [
 export default function About() {
   const { t } = useTranslation()
   const certifications = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
+  const stats = t('about.stats', { returnObjects: true }) as Array<{ num: string; label: string }>
 
 
   return (
@@ -66,6 +67,17 @@ export default function About() {
               <p className="font-sans font-light text-charcoal/50 text-sm leading-relaxed mb-10">
                 {t('about.body2')}
               </p>
+            </ScrollReveal>
+
+            <ScrollReveal delay={3}>
+              <div className="grid grid-cols-3 gap-6 mb-10 pb-10 border-b border-gray-border">
+                {stats.map((stat) => (
+                  <div key={stat.label}>
+                    <div className="font-canela-deck font-light text-3xl text-navy leading-none mb-1">{stat.num}</div>
+                    <div className="font-sans text-[11px] text-charcoal/40 leading-snug tracking-wide">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
             </ScrollReveal>
 
             <ScrollReveal delay={3}>

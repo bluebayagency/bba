@@ -16,7 +16,7 @@
     "body2": "",
     "cta_primary": "Book a Free Strategy Call",
     "cta_secondary": "See Our Work",
-    "trust": ["Hermosa Beach, CA", "17 Years Experience", "Mobile-First", "Limited Availability"],
+    "trust": ["Hermosa Beach, CA", "15 Years Experience", "Mobile-First", "Limited Availability"],
     "scarcity": "Currently accepting a limited number of new projects.",
     "stats": [
       { "num": "120+", "label": "Landing & Event Pages" },
@@ -48,7 +48,7 @@
       { "num": "04", "title": "Transparency", "desc": "You always know where your project stands. One point of contact, clear timelines, no surprises." },
       { "num": "05", "title": "Built to Convert", "desc": "Every page has a job. Every call to action has a purpose. We design websites built to generate real business results." }
     ],
-    "differentiators": ["Mobile-First Approach", "Strategy-Led Design", "17 Years Experience", "Collaborative Process"]
+    "differentiators": ["Mobile-First Approach", "Strategy-Led Design", "15 Years Experience", "Collaborative Process"]
   },
   "process": {
     "eyebrow": "How We Work",
@@ -184,10 +184,15 @@
   "about": {
     "eyebrow": "The Founder",
     "h2": "The Experience Behind Every Decision We Make.",
-    "body1": "Before founding Bluebay Agency, our founder spent 17 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from concept through launch and refining them until they performed. That background shapes how we approach every project we take on.",
+    "body1": "Before founding Bluebay Agency, our founder spent 15 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from concept through launch and refining them until they performed. That background shapes how we approach every project we take on.",
     "body2": "Every client gets our full attention, from strategy through launch and beyond. If you are ready to build a website that works as hard as you do, we would love to be part of that.",
-    "stat_num": "17+",
+    "stat_num": "15+",
     "stat_label": "Years Engineering Conversion Systems",
+    "stats": [
+      { "num": "120+", "label": "Landing & Event Pages" },
+      { "num": "45+", "label": "Websites Launched" },
+      { "num": "20+", "label": "Custom Web Applications" }
+    ],
     "certs_label": "Certified",
     "certifications": [
       { "label": "CA DGS", "sub": "SB (Micro)" },
@@ -280,7 +285,7 @@
       "Strategy call is free",
       "No obligation",
       "Response within 1 business day",
-      "17+ years experience"
+      "15+ years experience"
     ]
   },
   "finalCta": {
@@ -295,6 +300,7 @@
   "footer": {
     "tagline": "We build mobile-first websites and conversion systems that help service businesses and professional organizations attract better clients, build trust, and grow.",
     "location": "Hermosa Beach, California",
+    "address": "2629 Manhattan Ave, Suite 120, Hermosa Beach CA 90254",
     "nav_title": "Navigation",
     "contact_title": "Contact",
     "privacy": "Privacy Policy",

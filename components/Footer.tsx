@@ -35,9 +35,8 @@ export default function Footer() {
             <p className="font-sans font-light text-white/40 text-sm leading-relaxed max-w-xs mb-6">
               {t('footer.tagline')}
             </p>
-            <div className="flex items-center gap-2 mb-6">
-              <div className="w-1.5 h-1.5 rounded-full bg-white/30" />
-              <span className="font-sans text-xs text-white/35">{t('footer.location')}</span>
+            <div className="flex items-start gap-2 mb-6">
+              <span className="font-sans text-xs text-white/25 leading-relaxed">{t('footer.address')}</span>
             </div>
             <div className="flex items-center gap-4">
               <a href="https://www.instagram.com/bluebayagency/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white/30 hover:text-white/70 transition-colors duration-200">

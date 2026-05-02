@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     template: '%s | Bluebay Agency',
   },
   description:
-    'Bluebay Agency builds highly-converting, mobile-first websites for businesses ready to grow. Strategy-led design and development with 17+ years of experience.',
+    'Bluebay Agency builds highly-converting, mobile-first websites for businesses ready to grow. Strategy-led design and development with 15+ years of experience.',
   keywords: [
     'web design California',
     'web development agency',
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Bluebay Agency | Web Design & Development',
     description:
-      'We build highly-converting, mobile-first websites that help your business connect, build trust, and grow. Strategy-led design backed by 17+ years of experience.',
+      'We build highly-converting, mobile-first websites that help your business connect, build trust, and grow. Strategy-led design backed by 15+ years of experience.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -119,7 +119,7 @@ const localBusinessSchema = {
   '@id': 'https://www.bluebayagency.com/#business',
   name: 'Bluebay Agency',
   description:
-    'Web design and development agency specializing in highly-converting, mobile-first websites. Based in Hermosa Beach, California with 17+ years of experience.',
+    'Web design and development agency specializing in highly-converting, mobile-first websites. Based in Hermosa Beach, California with 15+ years of experience.',
   url: 'https://www.bluebayagency.com',
   email: 'hello@bluebayagency.com',
   foundingDate: '2007',
