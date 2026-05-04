@@ -36,7 +36,14 @@ export default function Footer() {
               {t('footer.tagline')}
             </p>
             <div className="flex items-start gap-2 mb-6">
-              <span className="font-sans text-xs text-white/25 leading-relaxed">{t('footer.address')}</span>
+              <a
+                href="https://share.google/EeYIuooVMIY5BSS2X"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-sans text-xs text-white/25 hover:text-white/50 leading-relaxed transition-colors duration-200"
+              >
+                {t('footer.address')}
+              </a>
             </div>
             <div className="flex items-center gap-4">
               <a href="https://www.instagram.com/bluebayagency/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-white/30 hover:text-white/70 transition-colors duration-200">

@@ -157,7 +157,12 @@ const localBusinessSchema = {
   priceRange: '$895 - $10,000+',
   image: 'https://www.bluebayagency.com/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
   logo: 'https://www.bluebayagency.com/images/logos/bluebay-agency-secondary-blue.svg',
-  sameAs: [],
+  sameAs: [
+    'https://share.google/EeYIuooVMIY5BSS2X',
+    'https://www.instagram.com/bluebayagency/',
+    'https://www.pinterest.com/bluebayagencyllc/',
+    'https://www.linkedin.com/company/bluebay-agency-llc',
+  ],
 }
 
 const websiteSchema = {
