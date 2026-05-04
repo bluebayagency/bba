@@ -30,8 +30,17 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
 
   const image = getFeaturedImage(post)
   const description = stripHtml(post.excerpt.rendered).slice(0, 160)
-
   const tags = getCategories(post)
+
+  const slugImageOverrides: Record<string, string> = {
+    'how-to-build-a-website-that-converts-traffic-into-clients':
+      'https://bluebayagency.com/images/social/pinterest/website-conversion-guide-pinterest.png',
+  }
+  const ogImage = slugImageOverrides[slug]
+    ? [{ url: slugImageOverrides[slug] }]
+    : image
+    ? [{ url: image.src, alt: image.alt }]
+    : []
 
   return {
     title: stripHtml(post.title.rendered),
@@ -48,7 +57,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
       modifiedTime: post.modified,
       authors: ['Bluebay Agency'],
       tags,
-      ...(image ? { images: [{ url: image.src, alt: image.alt }] } : {}),
+      images: ogImage,
     },
     other: {
       'pinterest-rich-pin': 'true',
