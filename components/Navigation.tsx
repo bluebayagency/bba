@@ -23,6 +23,17 @@ export default function Navigation() {
   const contactHref = isHome ? '#contact' : '/#contact'
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [bannerOffset, setBannerOffset] = useState(0)
+
+  useEffect(() => {
+    const update = () => {
+      setBannerOffset(document.documentElement.classList.contains('has-banner') ? 36 : 0)
+    }
+    update()
+    const observer = new MutationObserver(update)
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] })
+    return () => observer.disconnect()
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20)
@@ -45,9 +56,10 @@ export default function Navigation() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-soft-white border-b border-gray-border ${
+        className={`fixed left-0 right-0 z-50 transition-all duration-300 bg-soft-white border-b border-gray-border ${
           scrolled ? 'shadow-sm shadow-navy/5' : ''
         } py-4`}
+        style={{ top: bannerOffset }}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
           {/* Primary logo — navy on soft-white */}

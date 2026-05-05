@@ -40,6 +40,7 @@ export default function Pricing() {
     price: string
     timeline: string
     description: string
+    subline: string
     best_for: string
     cta: string
     includes: string[]
@@ -99,8 +100,11 @@ export default function Pricing() {
                   <h3 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-4">
                     {tiers[0].name}
                   </h3>
-                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-8 pb-8 border-b border-gray-border">
+                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-2">
                     {tiers[0].description}
+                  </p>
+                  <p className="font-sans text-xs font-light text-charcoal/35 italic leading-relaxed mb-8 pb-8 border-b border-gray-border">
+                    {tiers[0].subline}
                   </p>
 
                   {/* Price */}
@@ -166,8 +170,11 @@ export default function Pricing() {
                   <h3 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-4">
                     {tiers[1].name}
                   </h3>
-                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-8 pb-8 border-b border-gray-border">
+                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-2">
                     {tiers[1].description}
+                  </p>
+                  <p className="font-sans text-xs font-light text-charcoal/35 italic leading-relaxed mb-8 pb-8 border-b border-gray-border">
+                    {tiers[1].subline}
                   </p>
 
                   {/* Price */}
@@ -232,8 +239,11 @@ export default function Pricing() {
                   <h3 className="font-canela-deck font-light text-2xl text-white leading-tight mb-4">
                     {tiers[2].name}
                   </h3>
-                  <p className="font-sans text-sm font-light text-white/50 leading-relaxed mb-8 pb-8 border-b border-white/[0.08]">
+                  <p className="font-sans text-sm font-light text-white/50 leading-relaxed mb-2">
                     {tiers[2].description}
+                  </p>
+                  <p className="font-sans text-xs font-light text-white/30 italic leading-relaxed mb-8 pb-8 border-b border-white/[0.08]">
+                    {tiers[2].subline}
                   </p>
 
                   {/* Price */}
