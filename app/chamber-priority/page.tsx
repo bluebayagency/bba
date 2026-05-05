@@ -69,140 +69,13 @@ export default function ChamberPriorityPage() {
             2026 and 2028 bring two global events to Southern California. Millions of visitors. Phones in hand. Decisions made in seconds. We are offering 10 Chamber members a complimentary readiness review before the surge begins.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-8 justify-center">
-            <a
-              href="#apply"
-              className="inline-flex items-center justify-center gap-2 bg-white text-navy font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group hover:bg-white/90"
-            >
-              Apply for One of 10 Priority Spots
-              <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-              </svg>
-            </a>
-            <a
-              href="#eligibility"
-              className="inline-flex items-center justify-center border border-white/25 hover:border-white/50 text-white/70 hover:text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide"
-            >
-              Check Eligibility
-            </a>
+          <div className="max-w-md mx-auto text-left">
+            <MailerLiteChamberForm />
           </div>
 
-          <p className="font-sans text-xs text-white/30 tracking-wide">
+          <p className="font-sans text-xs text-white/30 tracking-wide mt-6">
             10 spots · Chamber members only · Closes when full
           </p>
-        </div>
-      </section>
-
-      {/* PROBLEM */}
-      <section className="bg-soft-white py-20 md:py-28">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-
-          <div className="flex items-center gap-4 mb-8">
-            <div className="h-px w-10 bg-dusty-rose/60" />
-            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">The Problem</span>
-          </div>
-
-          <h2
-            className="font-canela-deck font-light text-navy leading-[1.1] mb-14 max-w-2xl"
-            style={{ fontSize: 'clamp(1.9rem, 4vw, 3.2rem)' }}
-          >
-            Most Local Businesses Will Watch This Opportunity Pass.
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-gray-200/50">
-            {[
-              {
-                num: '01',
-                heading: 'Your Website Was Not Built for This Moment',
-                body: 'Most small business sites were built for a different era. When millions of new visitors start searching for what you offer, outdated pages lose them immediately.',
-              },
-              {
-                num: '02',
-                heading: 'Mobile Search Will Spike. Seconds Matter.',
-                body: 'During major events, mobile local searches surge 3 to 5 times. Visitors decide in under eight seconds. A slow load or unclear page sends that lead to a competitor.',
-              },
-              {
-                num: '03',
-                heading: 'The Preparation Window Is Closing',
-                body: 'Local search rankings take time to build. Businesses that act now carry a structural advantage into 2026 that cannot be replicated at the last minute.',
-              },
-            ].map((item) => (
-              <div key={item.num} className="bg-white p-10 md:p-12">
-                <p className="font-sans text-[11px] font-medium text-navy/25 tracking-[0.22em] uppercase mb-5">{item.num}</p>
-                <h3 className="font-canela-deck font-light text-xl text-navy leading-snug mb-4">{item.heading}</h3>
-                <p className="font-sans font-light text-charcoal/55 text-sm leading-relaxed">{item.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* PHOTO BREAK */}
-      <div className="relative h-[282px] md:h-[352px] overflow-hidden">
-        <img
-          src="/images/stock/bluebay-agency-chamber-women-phone.jpg"
-          alt="Woman searching on mobile"
-          className="w-full h-full object-cover object-center"
-        />
-        <div className="absolute inset-0 bg-charcoal/40" />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <p className="font-canela-deck font-light text-white text-center leading-snug px-6" style={{ fontSize: 'clamp(1.4rem, 3vw, 2.2rem)' }}>
-            They are already searching.<br />
-            <em className="font-thin italic text-white/70">The question is whether they'll find you.</em>
-          </p>
-        </div>
-      </div>
-
-      {/* OPPORTUNITY */}
-      <section className="bg-charcoal py-20 md:py-28">
-        <div className="max-w-6xl mx-auto px-6 lg:px-8">
-
-          <div className="flex items-center gap-4 mb-8">
-            <div className="h-px w-10 bg-dusty-rose/60" />
-            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">The Opportunity</span>
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
-            <div>
-              <h2
-                className="font-canela-deck font-light text-white leading-[1.1] mb-6"
-                style={{ fontSize: 'clamp(1.9rem, 4vw, 3.2rem)' }}
-              >
-                Early Movers Win Disproportionately.
-              </h2>
-              <p className="font-sans font-light text-white/50 leading-relaxed text-sm max-w-md">
-                Global events do not distribute traffic equally. The first credible, visible result gets the click. Businesses that build their digital position now will be ranked and trusted before millions of visitors open their phones in Southern California.
-              </p>
-            </div>
-
-            <div className="space-y-5">
-              {[
-                {
-                  year: '2026',
-                  event: 'International Soccer Tournament · USA',
-                  detail: 'The tournament is 6 weeks away and visitors are already here. There is still time to get your digital presence in front of them, but the window is closing fast.',
-                },
-                {
-                  year: '2028',
-                  event: 'International Games · Los Angeles',
-                  detail: 'The largest sustained global audience ever focused on one American city. Pre-surge search traffic starts building now.',
-                },
-                {
-                  year: 'Now',
-                  event: 'The Preparation Window',
-                  detail: 'Rankings, mobile performance, and conversion architecture take time to compound. The advantage belongs to businesses that move first.',
-                },
-              ].map((item) => (
-                <div key={item.year} className="border border-white/[0.08] p-7">
-                  <div className="flex items-center gap-4 mb-2">
-                    <span className="font-canela-deck font-light text-2xl text-dusty-rose">{item.year}</span>
-                    <span className="font-sans text-xs font-medium text-white/50 tracking-wide">{item.event}</span>
-                  </div>
-                  <p className="font-sans font-light text-white/35 text-sm leading-relaxed">{item.detail}</p>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
@@ -212,26 +85,18 @@ export default function ChamberPriorityPage() {
 
           <div className="flex items-center gap-4 mb-8">
             <div className="h-px w-10 bg-dusty-rose/60" />
-            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">What You Receive</span>
+            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">Complimentary · What You Receive</span>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">
             <div>
-              <div className="relative overflow-hidden mb-8">
-                <img
-                  src="/images/stock/bluebay-agency-laptop-mobile-preview-cafe.jpg"
-                  alt="Strategic website review in progress"
-                  className="w-full h-64 object-cover object-center"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-sand/60 to-transparent" />
-              </div>
               <h2
                 className="font-canela-deck font-light text-navy leading-[1.1] mb-5"
                 style={{ fontSize: 'clamp(1.9rem, 4vw, 3.2rem)' }}
               >
                 The Global Event Traffic Readiness Review
               </h2>
-              <p className="font-sans font-light text-charcoal/55 leading-relaxed mb-8 text-sm max-w-sm">
+              <p className="font-sans font-light text-charcoal/55 leading-relaxed mb-8 text-sm">
                 A hands-on strategic assessment of your digital position. Conducted personally. Specific to your business. No automated reports.
               </p>
               <div className="border-t border-gray-border pt-6">
@@ -240,7 +105,7 @@ export default function ChamberPriorityPage() {
               </div>
             </div>
 
-            <div className="space-y-3">
+            <ul className="space-y-5">
               {[
                 {
                   title: 'Mobile UX Audit',
@@ -262,18 +127,18 @@ export default function ChamberPriorityPage() {
                   title: 'Priority Recommendations',
                   desc: 'The highest-impact actions, ranked by return, that we would take first if this were our business.',
                 },
-              ].map((item, i) => (
-                <div key={item.title} className="flex gap-5 bg-white border border-gray-border p-6">
-                  <span className="font-sans text-[11px] font-medium text-navy/25 tracking-[0.2em] mt-0.5 flex-shrink-0">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
+              ].map((item) => (
+                <li key={item.title} className="flex items-start gap-4">
+                  <svg className="w-4 h-4 text-dusty-rose mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
                   <div>
-                    <p className="font-sans text-sm font-medium text-navy mb-1">{item.title}</p>
+                    <p className="font-sans text-sm font-medium text-navy mb-0.5">{item.title}</p>
                     <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">{item.desc}</p>
                   </div>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
       </section>
