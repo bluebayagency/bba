@@ -18,7 +18,7 @@ const projectMeta = [
     mobilePreview: '/images/projects/nopalvia/bluebay-agency-nopalvia-mobile-preview.png',
     bgColor: 'from-[#0d1a0a] to-[#1a2e14]',
     comingSoon: false,
-    href: 'https://nopalvia.com/',
+    href: null,
   },
 ]
 
@@ -112,11 +112,7 @@ export default function Portfolio() {
                           </svg>
                         </a>
                       ) : (
-                        <div className="flex-shrink-0 w-10 h-10 flex items-center justify-center border border-white/10 group-hover:border-white/30 transition-colors duration-300">
-                          <svg className="w-4 h-4 text-white/40 group-hover:text-white transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
-                          </svg>
-                        </div>
+                        null
                       )}
                     </div>
                     <p className="font-sans text-sm font-light text-white/50 leading-relaxed mb-6">
