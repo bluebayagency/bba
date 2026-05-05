@@ -5,127 +5,122 @@
     "pricing": "Pricing",
     "about": "About",
     "faq": "FAQ",
-    "cta": "Book a Free Strategy Call"
+    "cta": "Schedule a Conversation"
   },
   "hero": {
-    "eyebrow": "Boutique Web Agency · South Bay, California",
-    "h1_1": "Turn Your Website Into",
-    "h1_em": "a Consistent Source of Leads.",
+    "eyebrow": "Conversion Systems for Appointment-Based Local Businesses",
+    "h1_1": "Turn Your Existing Traffic Into",
+    "h1_em": "Consistent, Qualified Bookings.",
     "h1_2": "",
-    "body": "We build mobile-first websites that earn trust, communicate clearly, and turn the right visitors into real opportunities.",
+    "body": "We design and build mobile-first websites for med spas, dental offices, clinics, and local service businesses, structured to turn existing traffic into a reliable flow of booked appointments. Live in as little as 3 business days.",
     "body2": "",
-    "cta_primary": "Book a Free Strategy Call",
-    "cta_secondary": "See Our Offers",
-    "trust": ["South Bay, CA", "15 Years Experience", "Mobile-First", "Limited Availability"],
-    "scarcity": "Currently accepting a limited number of new projects.",
+    "cta_primary": "Schedule a Conversation",
+    "cta_secondary": "See Our Systems",
+    "trust": ["South Bay, CA", "15 Years Experience", "Mobile-First", "Live in 3 Days"],
+    "scarcity": "Currently accepting a limited number of new clients.",
     "stats": [
-      { "num": "81+", "label": "Landing & Event Pages" },
+      { "num": "81+", "label": "Landing Pages Built" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Web Applications" }
-    ],
-    "stats": [
-      { "num": "81+", "label": "Landing & Event Pages" },
-      { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Web Applications" }
+      { "num": "23+", "label": "Custom Booking Integrations" }
     ],
     "scroll": "Scroll"
   },
   "coreTruth": {
-    "eyebrow": "The Bluebay Agency Philosophy",
-    "h2": "There Is Often a Gap Between How Great a Business Is and How Clearly That Comes Across Online.",
-    "body1": "Our goal is to help bridge that gap, so you can connect more clearly with the people you are meant to serve, build genuine trust, and create a greater impact through your website.",
-    "body2": "When the experience feels right, taking the next step feels natural. That is what thoughtful design and purposeful development make possible.",
-    "quote": "Being part of that process, helping ideas come to life, is what drives everything we do."
+    "eyebrow": "The Bluebay Approach",
+    "h2": "Your Traffic Is Already There. Let's Make It Work Harder for You.",
+    "body1": "Most appointment-based businesses have more visitors than booked appointments. The gap is rarely about awareness. It is about what happens after someone finds you.",
+    "body2": "We build mobile-first conversion systems that close that gap. Clear structure, qualified intake, and a booking experience your clients feel confident using from the first tap.",
+    "quote": "Helping the right people take the next step is what drives everything we do."
   },
   "whyBluebay": {
     "eyebrow": "Why Bluebay Agency",
-    "h2": "Most Websites Don't Lose Business Slowly. They Lose It Instantly.",
-    "body": "When a visitor lands on your site and doesn't immediately understand what you do, who you help, and why they should trust you, they leave. We build websites that solve that problem from the first second. Whether your goal is more client inquiries or clearer member communication, we build websites that help people take the right next step.",
+    "h2": "We Build Websites That Work as Booking Systems.",
+    "body": "Most local service businesses have solid traffic and still struggle to convert it into a consistent flow of booked appointments. We specialize in building mobile-first websites structured to close that gap. Whether your goal is more consistent bookings or higher quality inquiries, we design every page to help the right clients find their way to your calendar.",
     "pillars": [
-      { "num": "01", "title": "Clarity", "desc": "Visitors understand what you do and who you help within seconds. No confusion, no hesitation, no lost leads." },
-      { "num": "02", "title": "Intentional Design", "desc": "Every visual decision earns its place. Layout, type, color, and spacing are chosen to guide attention and build trust, not just to look good." },
-      { "num": "03", "title": "Performance", "desc": "Fast, mobile-first builds, because most of your clients are on their phones and a slow site is a lost opportunity." },
-      { "num": "04", "title": "Transparency", "desc": "You always know where your project stands. One point of contact, clear timelines, no surprises." },
-      { "num": "05", "title": "Built to Convert", "desc": "Every page has a job. Every call to action has a purpose. We design websites built to generate real business results." }
+      { "num": "01", "title": "Conversion-First", "desc": "We focus on booked appointments, not aesthetics. Every decision is made to move the right visitor toward scheduling." },
+      { "num": "02", "title": "Speed", "desc": "Systems go live in as little as 72 hours. Faster implementation means faster impact on your appointment flow." },
+      { "num": "03", "title": "Lead Qualification", "desc": "We build intake and booking flows that filter for your ideal client before they ever reach your calendar." },
+      { "num": "04", "title": "Full Funnel Integration", "desc": "We connect mobile UX, messaging, booking flow, and CRM follow-up into one cohesive system." },
+      { "num": "05", "title": "Mobile-First", "desc": "Your clients are on their phones. We build for the device they use to make decisions, not as an afterthought." }
     ],
-    "differentiators": ["Mobile-First Approach", "Strategy-Led Design", "15 Years Experience", "Collaborative Process"]
+    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Lead Qualification Built In"]
   },
   "process": {
     "eyebrow": "How We Work",
-    "h2": "A Simple, Structured Process. A Website That Performs.",
+    "h2": "A Clear Process. A System That Performs.",
     "steps": [
       {
         "num": "01",
-        "title": "Revenue Diagnosis",
-        "desc": "We start by understanding your business, your clients, and where your current website is losing them. Everything we build from here is grounded in that foundation.",
-        "detail": "Conversion audit · UX analysis · Competitor review"
+        "title": "Understand Your Booking Flow",
+        "desc": "We start by learning your business, your ideal client, and how your current traffic and booking flow are working. Everything we build is grounded in that foundation.",
+        "detail": "Traffic analysis · Booking flow review · Intake audit"
       },
       {
         "num": "02",
-        "title": "Strategy & Messaging",
-        "desc": "We map your messaging, page structure, and user flow so every section of your site has a clear role, moving the right visitors toward the right next step.",
-        "detail": "Messaging architecture · Wireframe · Trust hierarchy"
+        "title": "Design Your Conversion System",
+        "desc": "We map your messaging, booking structure, and intake flow so every part of your system has a clear role in moving the right visitors toward a confirmed appointment.",
+        "detail": "Messaging architecture · Booking flow design · Lead qualification structure"
       },
       {
         "num": "03",
-        "title": "Design & Build",
-        "desc": "We bring everything to life with intentional design and structurally sound development. Mobile-first, fast, and built to last.",
-        "detail": "Design · Development · Integration · QA"
+        "title": "Build and Integrate",
+        "desc": "We bring everything to life with a mobile-first conversion system built for speed, clarity, and seamless integration with your booking and CRM tools.",
+        "detail": "Mobile-first build · Booking integration · CRM connection · QA"
       },
       {
         "num": "04",
-        "title": "Launch & Optimize",
-        "desc": "We launch your site, set up analytics, and stay close during the early days so you go live with confidence and keep improving from real data.",
-        "detail": "Launch · Analytics · Iteration · Growth"
+        "title": "Launch and Optimize",
+        "desc": "We launch your system, connect your analytics, and stay close during the early period so you go live with confidence and keep improving from real data.",
+        "detail": "Launch · Analytics · Booking flow optimization · Growth"
       }
     ],
     "cta": "Start the Conversation"
   },
   "portfolio": {
     "eyebrow": "Selected Work",
-    "h2": "Built with Conversion in Mind.",
-    "body": "A look at how strategy, design, and engineering come together to build websites that grow businesses.",
+    "h2": "Websites Built Around Booking and Conversion.",
+    "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that guide the right visitors toward a booked appointment.",
     "mobile_label": "Mobile View",
     "projects": [
       {
         "name": "Goldie Grace Beauty",
-        "category": "Beauty · Brand Identity · Web Design",
-        "desc": "A luxury beauty brand transformation from identity system to conversion-focused website that books clients automatically."
+        "category": "Beauty · Brand Identity · Conversion System",
+        "desc": "A luxury beauty brand transformation from identity system to a conversion-focused booking experience that captures and qualifies clients automatically."
       },
       {
         "name": "Nopalvia",
         "category": "Food & Beverage · Brand · E-commerce",
-        "desc": "A modern wellness brand system built around authentic storytelling, conversion architecture, and mobile-first e-commerce performance."
+        "desc": "A modern wellness brand system built around authentic storytelling, conversion architecture, and mobile-first performance."
       }
     ],
     "more_text": "More case studies available upon request",
-    "more_cta": "Book a Call to See More"
+    "more_cta": "Schedule a Call to See More"
   },
   "pricing": {
     "eyebrow": "Investment",
-    "h2": "Three Ways to Grow. One Standard of Quality.",
-    "body": "Whether you need a focused lead page or a full growth system, every project is built with the same strategic foundation and attention to detail.",
+    "h2": "Three Conversion Systems. One Standard of Quality.",
+    "body": "Whether you need a focused booking page or a complete conversion system, every project is built with the same strategic foundation and attention to what actually drives appointments.",
     "best_for_label": "Best for:",
     "tech_label": "We build on",
-    "custom_heading": "Something More Custom?",
-    "custom_body": "We also build e-commerce systems, multilingual websites, web applications, and tailored growth solutions for businesses with specific needs.",
+    "custom_heading": "Need Something More Specific?",
+    "custom_body": "We also build multilingual systems, multi-location booking flows, and custom conversion architectures for practices with specific intake or compliance requirements.",
     "custom_cta": "Request Custom Quote",
     "tiers": [
       {
         "badge": null,
         "tier_num": "Tier 01",
-        "name": "Conversion Landing System",
+        "name": "Conversion Booking System",
         "price": "Starting at $1,250",
-        "timeline": "1–3 Business Days",
-        "description": "A focused, high-converting page built to capture leads, drive bookings, or support a campaign fast.",
-        "best_for": "Campaigns, events & ticketing, launches, paid ads, and service businesses needing quick lead generation.",
-        "cta": "Launch My Landing Page",
+        "timeline": "1 to 3 Business Days",
+        "description": "A focused, high-converting booking page built to capture qualified appointments fast.",
+        "best_for": "Med spas, dental offices, and local service businesses running a campaign, launching a new service, or needing a fast-moving booking solution.",
+        "cta": "Launch My Booking System",
         "includes": [
-          "1 premium landing page",
-          "Semi-custom branding (optional)",
+          "1 high-converting booking page",
           "Mobile-first responsive design",
-          "Conversion-focused structure",
-          "Lead form or booking integration",
+          "Conversion-focused messaging",
+          "Qualified intake form design",
+          "Booking tool integration",
           "Clear CTA strategy",
           "Basic SEO setup",
           "Analytics installation",
@@ -135,21 +130,21 @@
       {
         "badge": "Most Popular",
         "tier_num": "Tier 02",
-        "name": "Authority Website System",
+        "name": "Authority Booking System",
         "price": "Starting at $4,500",
-        "timeline": "5–7 Business Days",
-        "description": "A complete, conversion-focused website designed to build trust, elevate your brand, and bring in better quality inquiries.",
-        "best_for": "Established service businesses ready to turn their website into a reliable source of new clients.",
-        "cta": "Build My Website",
+        "timeline": "5 to 7 Business Days",
+        "description": "A complete mobile-first conversion system designed to build trust, communicate clearly, and bring in consistent, qualified appointment inquiries.",
+        "best_for": "Established local service businesses ready to turn their existing traffic into a reliable source of booked appointments.",
+        "cta": "Build My Booking System",
         "includes": [
           "Up to 5 strategic pages",
-          "Semi-custom branding (optional)",
           "Homepage conversion strategy",
           "Mobile-first custom design",
+          "Qualified intake and booking flow",
           "Messaging refinement",
-          "Lead capture integration",
+          "Booking tool integration",
           "SEO foundations",
-          "Analytics + tracking setup",
+          "Analytics and tracking setup",
           "2 rounds of revisions",
           "5-day post-launch support"
         ]
@@ -159,21 +154,21 @@
         "tier_num": "Tier 03",
         "name": "Bluebay Conversion Sprint",
         "price": "Starting at $8,000",
-        "timeline": "7–21 Business Days",
-        "description": "Our flagship growth system. A comprehensive website and conversion strategy built for businesses serious about scaling revenue and creating a predictable stream of high-quality leads.",
-        "best_for": "Growth-focused businesses ready to invest in a website that becomes their most productive business asset.",
+        "timeline": "7 to 21 Business Days",
+        "description": "Our flagship conversion system. A comprehensive mobile-first booking and intake architecture built for practices serious about consistent appointment flow and qualified lead quality.",
+        "best_for": "Growth-focused local service businesses ready to invest in a conversion system that becomes their most productive source of booked appointments.",
         "cta": "Apply for Conversion Sprint",
         "includes": [
           "10+ strategic pages",
-          "Deep conversion strategy audit",
-          "Semi-custom branding (optional)",
-          "Offer + messaging architecture",
+          "Deep conversion and booking audit",
+          "Offer and messaging architecture",
           "Mobile-first UX/UI system",
-          "Full custom website build",
-          "Funnel-focused lead generation setup",
-          "CRM + automation integration",
-          "Analytics + tracking setup",
-          "SEO + technical optimization",
+          "Full custom conversion system build",
+          "Qualified intake and lead filtering",
+          "CRM and automation integration",
+          "Booking flow optimization",
+          "Analytics and tracking setup",
+          "SEO and technical optimization",
           "3 rounds of revisions",
           "Priority support during launch",
           "10-day post-launch support"
@@ -183,15 +178,15 @@
   },
   "about": {
     "eyebrow": "The Founder",
-    "h2": "The Experience Behind Every Decision We Make.",
-    "body1": "Before founding Bluebay Agency, our founder spent 15 years building and optimizing digital products for companies ranging from funded startups to billion-dollar enterprises, taking projects from concept through launch and refining them until they performed. That background shapes how we approach every project we take on.",
-    "body2": "Every client gets our full attention, from strategy through launch and beyond. If you are ready to build a website that works as hard as you do, we would love to be part of that.",
+    "h2": "The Experience Behind Every System We Build.",
+    "body1": "Before founding Bluebay Agency, our founder spent 15 years building and optimizing digital systems for companies ranging from funded startups to billion-dollar enterprises, taking projects from strategy through launch and refining them until they performed. That background shapes how we approach every conversion system we build.",
+    "body2": "Every client receives our full attention, from strategy through launch and beyond. If you are ready to build a system that turns your existing traffic into consistent, qualified bookings, we would love to be part of that.",
     "stat_num": "15+",
-    "stat_label": "Years Engineering Conversion Systems",
+    "stat_label": "Years Building Conversion Systems",
     "stats": [
-      { "num": "81+", "label": "Landing & Event Pages" },
+      { "num": "81+", "label": "Landing Pages Built" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Web Applications" }
+      { "num": "23+", "label": "Custom Booking Integrations" }
     ],
     "certs_label": "Certified",
     "certifications": [
@@ -245,39 +240,39 @@
     "ask_cta": "Ask Us Directly",
     "items": [
       {
-        "q": "How fast is the turnaround?",
-        "a": "Most projects are completed in 1 to 21 business days depending on scope. Landing pages in 1 to 3 days. Full websites in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
+        "q": "How fast can my system go live?",
+        "a": "Most systems go live in 1 to 21 business days depending on scope. Booking landing pages in 1 to 3 days. Full conversion systems in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
       },
       {
-        "q": "Do you only design websites?",
-        "a": "No. The website is the vehicle. The strategy, messaging architecture, and conversion structure are the engine. Every project is built around one goal: turning the right visitors into paying clients."
+        "q": "Do you only build booking pages?",
+        "a": "No. The booking page is one part of a larger system. We design the full conversion architecture including messaging, intake flow, lead qualification, and CRM integration, everything needed to turn traffic into booked appointments."
       },
       {
         "q": "What do I need to get started?",
-        "a": "Very little. Your business details, offer information, and any existing assets you have. We handle strategy, copy direction, design, and engineering. Most clients are surprised by how streamlined the process is."
+        "a": "Very little. Your business details, your ideal client profile, and any existing assets you have. We handle strategy, messaging, design, and build. Most clients are surprised by how streamlined the process is."
       },
       {
         "q": "Do you offer ongoing support?",
-        "a": "Yes. Monthly optimization, landing page improvements, and ongoing technical support are available as a retainer. Clients who continue refining after launch consistently see compounding results over time."
+        "a": "Yes. Monthly conversion optimization, booking flow improvements, and ongoing technical support are available as a retainer. Practices that continue refining after launch consistently see compounding results over time."
       },
       {
-        "q": "Will my website be optimized for SEO?",
+        "q": "Will my system be optimized for search?",
         "a": "Every build includes technical SEO foundations: metadata, Open Graph tags, schema markup, performance optimization, and mobile-first architecture. Search visibility is built in from day one, not added at the end."
       },
       {
-        "q": "What makes Bluebay Agency different from other agencies?",
-        "a": "Most agencies build websites. We build growth systems. Every decision, from structure to copy to design, is made to move your ideal client toward the next step. Seventeen years of experience means we know what actually works, and we bring that to every project."
+        "q": "What makes Bluebay Agency different?",
+        "a": "We specialize in conversion systems for appointment-based local businesses. Every decision, from structure to messaging to design, is made to move your ideal client toward booking. Fifteen years of experience means we know what actually works, and we bring that to every system we build."
       },
       {
-        "q": "How do you ensure quality across projects?",
-        "a": "Every project follows the same structured process: discovery, messaging strategy, design, development, and a thorough launch. We do not cut corners at any stage. Quality comes from process."
+        "q": "How do you ensure quality?",
+        "a": "Every system follows the same structured process: discovery, conversion strategy, design, build, and a thorough launch review. We do not cut corners at any stage. Quality comes from process."
       }
     ]
   },
   "contact": {
     "eyebrow": "Get Started",
-    "h2": "Let's Talk About Your Project",
-    "body": "Tell us about your business, what you're building, and where you want to grow next. We'll review your goals and explore how Bluebay Agency can help with a website designed to generate leads, build trust, and support real growth.",
+    "h2": "Let's Talk About Your Booking System",
+    "body": "Tell us about your practice, the clients you serve, and where you want to grow. We will review your current booking flow and explore how Bluebay Agency can help you turn your existing traffic into consistent, qualified appointments.",
     "email_cta": "Email Us Directly",
     "call_cta": "Call Directly",
     "response_note": "We respond within 1 business day",
@@ -290,15 +285,15 @@
   },
   "finalCta": {
     "eyebrow": "Let's Work Together",
-    "h2_1": "Ready to Turn Your Website Into",
-    "h2_em": "a Growth Asset?",
-    "body": "Most websites look presentable but quietly lose clients every single day. If yours is not actively generating leads and building trust, let's change that. We are currently accepting a limited number of new projects.",
-    "cta_primary": "Book a Free Strategy Call",
-    "cta_secondary": "View Our Packages",
-    "note": "No obligation · US-Based · Serving Clients Nationally"
+    "h2_1": "Ready to Turn Your Traffic Into",
+    "h2_em": "Consistent, Qualified Bookings?",
+    "body": "Most appointment-based businesses have more traffic than booked appointments. If yours is leaving qualified bookings on the table, let's explore what a better website system could look like. We are currently accepting a limited number of new clients.",
+    "cta_primary": "Schedule a Conversation",
+    "cta_secondary": "View Our Systems",
+    "note": "No obligation · US-Based · Serving Local Businesses Nationally"
   },
   "footer": {
-    "tagline": "We build mobile-first websites and conversion systems that help service businesses and professional organizations attract better clients, build trust, and grow.",
+    "tagline": "We build mobile-first conversion systems that help appointment-based local businesses turn existing traffic into consistent, qualified booked appointments.",
     "location": "South Bay, California",
     "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
     "nav_title": "Navigation",
@@ -309,7 +304,7 @@
     "certs_label": "Certifications",
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
-    "book_cta": "Book a Free Strategy Call"
+    "book_cta": "Schedule a Conversation"
   },
   "lang": {
     "switch_label": "Español",
@@ -331,6 +326,6 @@
     "cta_eyebrow": "Ready to Talk?",
     "cta_heading": "Let's Build Something That Works.",
     "cta_body": "If this article sparked some ideas, we would love to hear about your project.",
-    "cta_button": "Book a Free Strategy Call"
+    "cta_button": "Schedule a Conversation"
   }
 }

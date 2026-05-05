@@ -5,153 +5,148 @@
     "pricing": "Precios",
     "about": "Nosotros",
     "faq": "Preguntas",
-    "cta": "Agendar Llamada"
+    "cta": "Agendar una Conversacion"
   },
   "hero": {
-    "eyebrow": "Agencia Boutique · South Bay, California",
-    "h1_1": "Convierte Tu Sitio Web en",
-    "h1_em": "una Fuente Constante de Leads.",
+    "eyebrow": "Sistemas de Conversion para Negocios Locales con Citas",
+    "h1_1": "Convierte Tu Trafico Existente en",
+    "h1_em": "Reservas Constantes y Calificadas.",
     "h1_2": "",
-    "body": "Construimos sitios web mobile-first que generan confianza, comunican con claridad y convierten a los visitantes correctos en oportunidades reales.",
+    "body": "Disenamos y construimos sitios web mobile-first para spas medicos, consultorios dentales, clinicas y negocios de servicios locales, estructurados para convertir el trafico existente en un flujo confiable de citas reservadas. En funcionamiento en tan solo 3 dias habiles.",
     "body2": "",
-    "cta_primary": "Agendar Llamada Gratuita",
-    "cta_secondary": "Ver Ofertas",
-    "trust": ["South Bay, CA", "15 Años de Experiencia", "Mobile-First", "Disponibilidad Limitada"],
-    "scarcity": "Actualmente aceptando un número limitado de nuevos proyectos.",
+    "cta_primary": "Agendar una Conversacion",
+    "cta_secondary": "Ver Nuestros Sistemas",
+    "trust": ["South Bay, CA", "15 Anos de Experiencia", "Mobile-First", "En Vivo en 3 Dias"],
+    "scarcity": "Actualmente aceptando un numero limitado de nuevos clientes.",
     "stats": [
-      { "num": "81+", "label": "Landing Pages y Páginas de Eventos" },
+      { "num": "81+", "label": "Landing Pages Construidas" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "23+", "label": "Aplicaciones Web Personalizadas" }
-    ],
-    "stats": [
-      { "num": "81+", "label": "Landing Pages y Páginas de Eventos" },
-      { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "23+", "label": "Aplicaciones Web Personalizadas" }
+      { "num": "23+", "label": "Integraciones de Reservas Personalizadas" }
     ],
     "scroll": "Deslizar"
   },
   "coreTruth": {
-    "eyebrow": "La Filosofía de Bluebay Agency",
-    "h2": "Tu Sitio Web Debe Facilitar que las Personas Tomen el Siguiente Paso.",
-    "body1": "Cuando la experiencia se siente correcta, actuar se siente natural.",
-    "body2": "Un sitio web bien pensado crea claridad, confianza y momentum, convirtiendo visitantes en conversaciones y conversaciones en clientes.",
-    "quote": "Construimos sistemas que generan ingresos."
+    "eyebrow": "El Enfoque de Bluebay",
+    "h2": "Tu Trafico Ya Esta Ahi. Hagamoslo Trabajar Mas para Ti.",
+    "body1": "La mayoria de los negocios con citas tienen mas visitantes que citas reservadas. La brecha raramente es de visibilidad. Es lo que sucede despues de que alguien te encuentra.",
+    "body2": "Construimos sistemas de conversion mobile-first que cierran esa brecha. Estructura clara, intake calificado y una experiencia de reserva que tus clientes usan con confianza desde el primer toque.",
+    "quote": "Ayudar a las personas correctas a dar el siguiente paso es lo que nos impulsa."
   },
   "whyBluebay": {
-    "eyebrow": "Por Qué Bluebay Agency",
-    "h2": "La Mayoría de los Sitios Web No Pierden Clientes Lentamente. Los Pierden al Instante.",
-    "body": "Cuando un visitante llega a tu sitio y no entiende de inmediato qué haces, a quién ayudas y por qué confiar en ti, se va. Construimos sitios web que resuelven ese problema desde el primer segundo. Ya sea que tu objetivo sea más consultas de clientes o una comunicación más clara con tus miembros, construimos sitios web que ayudan a las personas a dar el siguiente paso correcto.",
+    "eyebrow": "Por Que Bluebay Agency",
+    "h2": "Construimos Sitios Web que Funcionan como Sistemas de Reservas.",
+    "body": "La mayoria de los negocios de servicios locales tienen trafico solido y aun luchan por convertirlo en un flujo constante de citas reservadas. Nos especializamos en construir sitios web mobile-first estructurados para cerrar esa brecha. Ya sea que tu objetivo sea mas reservas constantes o consultas de mayor calidad, disenamos cada pagina para ayudar a los clientes correctos a llegar a tu calendario.",
     "pillars": [
-      { "num": "01", "title": "Claridad", "desc": "Los visitantes entienden qué haces y a quién ayudas en segundos. Sin confusión, sin dudas, sin leads perdidos." },
-      { "num": "02", "title": "Diseño Intencional", "desc": "Cada decisión visual tiene su lugar. El diseño, la tipografía, el color y el espaciado están elegidos para guiar la atención y generar confianza, no solo para verse bien." },
-      { "num": "03", "title": "Rendimiento", "desc": "Construcción rápida y mobile-first, porque la mayoría de tus clientes están en su teléfono y un sitio lento es una oportunidad perdida." },
-      { "num": "04", "title": "Transparencia", "desc": "Siempre sabes en qué punto está tu proyecto. Un solo punto de contacto, plazos claros, sin sorpresas." },
-      { "num": "05", "title": "Construido para Convertir", "desc": "Cada página tiene un trabajo. Cada llamada a la acción tiene un propósito. Diseñamos sitios web hechos para generar resultados reales." }
+      { "num": "01", "title": "Conversion Primero", "desc": "Nos enfocamos en citas reservadas, no en estetica. Cada decision se toma para mover al visitante correcto hacia agendar." },
+      { "num": "02", "title": "Velocidad", "desc": "Los sistemas estan en vivo en tan solo 72 horas. Una implementacion mas rapida significa un impacto mas rapido en tu flujo de citas." },
+      { "num": "03", "title": "Calificacion de Leads", "desc": "Construimos flujos de intake y reservas que filtran a tu cliente ideal antes de que lleguen a tu calendario." },
+      { "num": "04", "title": "Integracion del Funnel Completo", "desc": "Conectamos UX movil, mensajeria, flujo de reservas e integracion de CRM en un sistema cohesivo." },
+      { "num": "05", "title": "Mobile-First", "desc": "Tus clientes estan en sus telefonos. Construimos para el dispositivo que usan para tomar decisiones, no como un segundo pensamiento." }
     ],
-    "differentiators": ["Enfoque Mobile-First", "Proyectos Estratégicos", "15 Años de Experiencia", "Proceso Colaborativo"]
+    "differentiators": ["Enfoque Conversion-First", "Implementacion en 72 Horas", "15 Anos de Experiencia", "Calificacion de Leads Integrada"]
   },
   "process": {
-    "eyebrow": "Cómo Trabajamos",
-    "h2": "Un Proceso Simple y Estructurado. Un Sitio Web que Rinde.",
+    "eyebrow": "Como Trabajamos",
+    "h2": "Un Proceso Claro. Un Sistema que Rinde.",
     "steps": [
       {
         "num": "01",
-        "title": "Diagnóstico de Ingresos",
-        "desc": "Comenzamos por entender tu negocio, tus clientes y dónde tu sitio actual los está perdiendo. Todo lo que construimos desde aquí parte de esa base.",
-        "detail": "Auditoría de conversión · Análisis UX · Revisión competitiva"
+        "title": "Entender Tu Flujo de Reservas",
+        "desc": "Comenzamos por aprender sobre tu negocio, tu cliente ideal y como funcionan actualmente tu trafico y flujo de reservas. Todo lo que construimos se basa en esa fundacion.",
+        "detail": "Analisis de trafico · Revision del flujo de reservas · Auditoria de intake"
       },
       {
         "num": "02",
-        "title": "Estrategia y Mensajes",
-        "desc": "Mapeamos tus mensajes, estructura de páginas y flujo de usuario para que cada sección de tu sitio tenga un rol claro, guiando a los visitantes correctos hacia el siguiente paso.",
-        "detail": "Arquitectura de mensajes · Wireframe · Jerarquía de confianza"
+        "title": "Disenar Tu Sistema de Conversion",
+        "desc": "Mapeamos tu mensajeria, estructura de reservas y flujo de intake para que cada parte de tu sistema tenga un rol claro en mover a los visitantes correctos hacia una cita confirmada.",
+        "detail": "Arquitectura de mensajes · Diseno del flujo de reservas · Estructura de calificacion de leads"
       },
       {
         "num": "03",
-        "title": "Diseño y Construcción",
-        "desc": "Damos vida a todo con diseño intencional y desarrollo sólido. Mobile-first, rápido y construido para durar.",
-        "detail": "Diseño · Desarrollo · Integración · QA"
+        "title": "Construir e Integrar",
+        "desc": "Damos vida a todo con un sistema de conversion mobile-first construido para velocidad, claridad e integracion perfecta con tus herramientas de reservas y CRM.",
+        "detail": "Construccion mobile-first · Integracion de reservas · Conexion de CRM · QA"
       },
       {
         "num": "04",
-        "title": "Lanzamiento y Optimización",
-        "desc": "Lanzamos tu sitio, configuramos analítica y nos mantenemos cerca durante los primeros días para que salgas al aire con confianza y sigas mejorando con datos reales.",
-        "detail": "Lanzamiento · Analítica · Iteración · Crecimiento"
+        "title": "Lanzar y Optimizar",
+        "desc": "Lanzamos tu sistema, conectamos tu analitica y nos mantenemos cerca durante el periodo inicial para que salgas al aire con confianza y sigas mejorando con datos reales.",
+        "detail": "Lanzamiento · Analitica · Optimizacion del flujo de reservas · Crecimiento"
       }
     ],
-    "cta": "Inicia la Conversación"
+    "cta": "Inicia la Conversacion"
   },
   "portfolio": {
     "eyebrow": "Trabajo Selecto",
-    "h2": "Construido con la Conversión en Mente.",
-    "body": "Una mirada a cómo la estrategia, el diseño y la ingeniería se combinan para construir sitios web que hacen crecer negocios.",
-    "mobile_label": "Vista Móvil",
+    "h2": "Sitios Web Construidos para Reservas y Conversion.",
+    "body": "Una mirada a como la estrategia, el diseno y la ingenieria mobile-first se combinan para construir sitios web que guian a los visitantes correctos hacia una cita reservada.",
+    "mobile_label": "Vista Movil",
     "projects": [
       {
         "name": "Goldie Grace Beauty",
-        "category": "Belleza · Identidad de Marca · Diseño Web",
-        "desc": "Una transformación de marca de lujo, desde el sistema de identidad hasta un sitio web enfocado en conversión que reserva clientes automáticamente."
+        "category": "Belleza · Identidad de Marca · Sistema de Conversion",
+        "desc": "Una transformacion de marca de lujo desde el sistema de identidad hasta una experiencia de reservas enfocada en conversion que captura y califica clientes automaticamente."
       },
       {
         "name": "Nopalvia",
         "category": "Alimentos y Bebidas · Marca · E-commerce",
-        "desc": "Un sistema de marca wellness moderno construido alrededor de la narración auténtica, la arquitectura de conversión y el rendimiento e-commerce mobile-first."
+        "desc": "Un sistema de marca wellness moderno construido alrededor de la narracion autentica, arquitectura de conversion y rendimiento mobile-first."
       }
     ],
-    "more_text": "Más estudios de caso disponibles bajo solicitud",
-    "more_cta": "Agenda una Llamada para Ver Más"
+    "more_text": "Mas casos de estudio disponibles bajo solicitud",
+    "more_cta": "Agenda una Llamada para Ver Mas"
   },
   "pricing": {
-    "eyebrow": "Inversión",
-    "h2": "Tres Formas de Crecer. Un Estándar de Calidad.",
-    "body": "Ya sea que necesites una página de leads enfocada o un sistema de crecimiento completo, cada proyecto se construye con la misma base estratégica y atención al detalle.",
+    "eyebrow": "Inversion",
+    "h2": "Tres Sistemas de Conversion. Un Estandar de Calidad.",
+    "body": "Ya sea que necesites una pagina de reservas enfocada o un sistema de conversion completo, cada proyecto se construye con la misma base estrategica y atencion a lo que realmente impulsa las citas.",
     "best_for_label": "Ideal para:",
     "tech_label": "Construimos con",
-    "custom_heading": "¿Algo Más Personalizado?",
-    "custom_body": "También construimos sistemas de e-commerce, sitios multilingues, aplicaciones web y soluciones de crecimiento a medida para negocios con necesidades específicas.",
-    "custom_cta": "Solicitar Cotización Personalizada",
+    "custom_heading": "Necesitas Algo Mas Especifico?",
+    "custom_body": "Tambien construimos sistemas multilingues, flujos de reservas para multiples ubicaciones y arquitecturas de conversion personalizadas para practicas con requisitos especificos de intake o cumplimiento.",
+    "custom_cta": "Solicitar Cotizacion Personalizada",
     "tiers": [
       {
         "badge": null,
         "tier_num": "Nivel 01",
-        "name": "Sistema de Landing de Conversión",
+        "name": "Sistema de Reservas de Conversion",
         "price": "Desde $1,250",
-        "timeline": "1–3 Días Hábiles",
-        "description": "Una página enfocada y de alta conversión, construida para captar leads, impulsar reservas o apoyar una campaña rápidamente.",
-        "best_for": "Campañas, eventos y ticketing, lanzamientos, anuncios pagados y negocios de servicios que necesitan generación rápida de leads.",
-        "cta": "Lanzar Mi Landing Page",
+        "timeline": "1 a 3 Dias Habiles",
+        "description": "Una pagina de reservas enfocada y de alta conversion construida para captar citas calificadas rapidamente.",
+        "best_for": "Spas medicos, consultorios dentales y negocios de servicios locales que ejecutan una campana, lanzan un nuevo servicio o necesitan una solucion de reservas rapida.",
+        "cta": "Lanzar Mi Sistema de Reservas",
         "includes": [
-          "1 landing page premium",
-          "Branding semi-personalizado (opcional)",
-          "Diseño responsivo mobile-first",
-          "Estructura enfocada en conversión",
-          "Formulario de leads o integración de reservas",
-          "Estrategia clara de llamada a la acción",
-          "Configuración básica de SEO",
-          "Instalación de analítica",
-          "Entrega rápida"
+          "1 pagina de reservas de alta conversion",
+          "Diseno responsivo mobile-first",
+          "Mensajeria enfocada en conversion",
+          "Diseno de formulario de intake calificado",
+          "Integracion de herramienta de reservas",
+          "Estrategia clara de llamada a la accion",
+          "Configuracion basica de SEO",
+          "Instalacion de analitica",
+          "Entrega rapida"
         ]
       },
       {
-        "badge": "Más Popular",
+        "badge": "Mas Popular",
         "tier_num": "Nivel 02",
-        "name": "Sistema de Sitio Web de Autoridad",
+        "name": "Sistema de Reservas de Autoridad",
         "price": "Desde $4,500",
-        "timeline": "5–7 Días Hábiles",
-        "description": "Un sitio web completo y enfocado en conversión, diseñado para generar confianza, elevar tu marca y atraer consultas de mayor calidad.",
-        "best_for": "Negocios de servicios establecidos listos para convertir su sitio web en una fuente confiable de nuevos clientes.",
-        "cta": "Construir Mi Sitio Web",
+        "timeline": "5 a 7 Dias Habiles",
+        "description": "Un sistema de conversion mobile-first completo disenado para generar confianza, comunicar con claridad y atraer consultas de citas constantes y calificadas.",
+        "best_for": "Negocios de servicios locales establecidos listos para convertir su trafico existente en una fuente confiable de citas reservadas.",
+        "cta": "Construir Mi Sistema de Reservas",
         "includes": [
-          "Hasta 5 páginas estratégicas",
-          "Branding semi-personalizado (opcional)",
-          "Estrategia de conversión para la página principal",
-          "Diseño personalizado mobile-first",
-          "Refinamiento de mensajes",
-          "Integración de captura de leads",
+          "Hasta 5 paginas estrategicas",
+          "Estrategia de conversion para la pagina principal",
+          "Diseno personalizado mobile-first",
+          "Flujo de intake y reservas calificado",
+          "Refinamiento de mensajeria",
+          "Integracion de herramienta de reservas",
           "Fundamentos de SEO",
-          "Configuración de analítica y seguimiento",
+          "Configuracion de analitica y seguimiento",
           "2 rondas de revisiones",
-          "5 días de soporte post-lanzamiento"
+          "5 dias de soporte post-lanzamiento"
         ]
       },
       {
@@ -159,77 +154,77 @@
         "tier_num": "Nivel 03",
         "name": "Bluebay Conversion Sprint",
         "price": "Desde $8,000",
-        "timeline": "7–21 Días Hábiles",
-        "description": "Nuestro sistema de crecimiento insignia. Un sitio web completo y estrategia de conversión para negocios serios sobre escalar ingresos y crear un flujo predecible de leads de alta calidad.",
-        "best_for": "Negocios enfocados en el crecimiento, listos para invertir en un sitio web que se convierte en su activo de negocio más productivo.",
+        "timeline": "7 a 21 Dias Habiles",
+        "description": "Nuestro sistema de conversion insignia. Una arquitectura completa de reservas e intake mobile-first para practicas serias sobre flujo constante de citas y calidad de leads.",
+        "best_for": "Negocios de servicios locales enfocados en el crecimiento listos para invertir en un sistema de conversion que se convierte en su fuente mas productiva de citas reservadas.",
         "cta": "Aplicar para Conversion Sprint",
         "includes": [
-          "10+ páginas estratégicas",
-          "Auditoría profunda de estrategia de conversión",
-          "Branding semi-personalizado (opcional)",
-          "Arquitectura de oferta y mensajes",
+          "10+ paginas estrategicas",
+          "Auditoria profunda de conversion y reservas",
+          "Arquitectura de oferta y mensajeria",
           "Sistema UX/UI mobile-first",
-          "Construcción completa de sitio web personalizado",
-          "Configuración de generación de leads enfocada en funnels",
-          "Integración de CRM y automatización",
-          "Analítica y configuración de seguimiento",
-          "Optimización SEO + técnica",
+          "Construccion completa del sistema de conversion",
+          "Intake calificado y filtracion de leads",
+          "Integracion de CRM y automatizacion",
+          "Optimizacion del flujo de reservas",
+          "Configuracion de analitica y seguimiento",
+          "Optimizacion SEO y tecnica",
           "3 rondas de revisiones",
           "Soporte prioritario durante el lanzamiento",
-          "10 días de soporte post-lanzamiento"
+          "10 dias de soporte post-lanzamiento"
         ]
       }
     ]
   },
   "about": {
     "eyebrow": "La Fundadora",
-    "h2": "La Experiencia Detrás de Cada Decisión que Tomamos.",
-    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora pasó 15 años construyendo y optimizando productos digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde el concepto hasta el lanzamiento y refinándolos hasta que generaron resultados. Esa trayectoria define cómo abordamos cada proyecto.",
-    "body2": "Cada cliente recibe nuestra atención completa, desde la estrategia hasta el lanzamiento y más allá. Si estás listo para construir un sitio web que trabaje tan duro como tú, nos encantaría ser parte de eso.",
+    "h2": "La Experiencia Detras de Cada Sistema que Construimos.",
+    "body1": "Antes de fundar Bluebay Agency, nuestra fundadora paso 15 anos construyendo y optimizando sistemas digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde la estrategia hasta el lanzamiento y refinandolos hasta que generaron resultados. Esa trayectoria define como abordamos cada sistema de conversion que construimos.",
+    "body2": "Cada cliente recibe nuestra atencion completa, desde la estrategia hasta el lanzamiento y mas alla. Si estas listo para construir un sistema que convierta tu trafico existente en reservas constantes y calificadas, nos encantaria ser parte de eso.",
     "stat_num": "15+",
-    "stat_label": "Años Diseñando Sistemas de Conversión",
+    "stat_label": "Anos Construyendo Sistemas de Conversion",
     "stats": [
-      { "num": "81+", "label": "Landing Pages y Eventos" },
+      { "num": "81+", "label": "Landing Pages Construidas" },
       { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "23+", "label": "Aplicaciones Web" }
+      { "num": "23+", "label": "Integraciones de Reservas Personalizadas" }
     ],
     "certs_label": "Certificaciones",
     "certifications": [
       { "label": "CA DGS", "sub": "SB (Micro)" },
-      { "label": "LA SBE", "sub": "Pequeño Negocio" },
+      { "label": "LA SBE", "sub": "Pequeno Negocio" },
       { "label": "LA EBE", "sub": "Negocio Emergente" },
-      { "label": "LA VSBE", "sub": "Negocio Muy Pequeño" }
+      { "label": "LA VSBE", "sub": "Negocio Muy Pequeno" }
     ],
     "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Miembro de Cámara de Comercio",
-    "certs_note": "Certificada por CA DGS y disponible para adquisiciones del sector público.",
+    "chamber_sub": "Miembro de Camara de Comercio",
+    "certs_note": "Certificada por CA DGS y disponible para adquisiciones del sector publico.",
     "industry_title": "Experiencia en la Industria"
   },
   "blog": {
     "eyebrow": "Perspectivas",
-    "h2": "Conversión, Diseño y Crecimiento Digital",
+    "h2": "Conversion, Diseno y Crecimiento Digital",
     "cms_note": "Blog conectado a Headless CMS · DigitalOcean",
-    "all_articles": "Ver Todos los Artículos",
-    "read_article": "Leer Artículo",
+    "all_articles": "Ver Todos los Articulos",
+    "read_article": "Leer Articulo",
     "posts": [
       {
-        "category": "Diseño Móvil",
-        "title": "Por Qué el Diseño Mobile-First No Es Opcional en 2025",
-        "excerpt": "Más del 70% de tus visitantes llegan en móvil. Si tu sitio fue diseñado primero para escritorio, estás diseñando para la minoría y pagándolo en conversiones perdidas.",
+        "category": "Diseno Movil",
+        "title": "Por Que el Diseno Mobile-First No Es Opcional en 2025",
+        "excerpt": "Mas del 70% de tus visitantes llegan en movil. Si tu sitio fue disenado primero para escritorio, estas disenando para la minoria y pagandolo en conversiones perdidas.",
         "readTime": "5 min de lectura",
         "date": "Abr 2025"
       },
       {
-        "category": "Estrategia de Conversión",
+        "category": "Estrategia de Conversion",
         "title": "Las 7 Formas en que los Sitios Web Pierden Conversiones Silenciosamente",
-        "excerpt": "La mayoría de los problemas de conversión son invisibles. Tiempos de carga lentos, CTAs poco claros y señales de confianza deficientes sangran ingresos diariamente sin generar ningún error.",
+        "excerpt": "La mayoria de los problemas de conversion son invisibles. Tiempos de carga lentos, CTAs poco claros y senales de confianza deficientes sangran ingresos diariamente sin generar ningun error.",
         "readTime": "8 min de lectura",
         "date": "Mar 2025"
       },
       {
         "category": "Sistemas de Crecimiento",
-        "title": "Del Tráfico a los Clientes: Construyendo Tu Sistema de Adquisición",
-        "excerpt": "El tráfico sin arquitectura de conversión es solo ruido. Aprende a arquitectar tu sitio web como un sistema donde cada página tiene un rol y cada CTA tiene un propósito.",
+        "title": "Del Trafico a los Clientes: Construyendo Tu Sistema de Adquisicion",
+        "excerpt": "El trafico sin arquitectura de conversion es solo ruido. Aprende a arquitectar tu sitio web como un sistema donde cada pagina tiene un rol y cada CTA tiene un proposito.",
         "readTime": "6 min de lectura",
         "date": "Feb 2025"
       }
@@ -238,75 +233,75 @@
   "faq": {
     "eyebrow": "FAQ",
     "h2": "Preguntas Frecuentes",
-    "still_question": "¿No ves tu pregunta respondida aquí?",
-    "ask_cta": "Pregúntanos Directamente",
+    "still_question": "No ves tu pregunta respondida aqui?",
+    "ask_cta": "Preguntanos Directamente",
     "items": [
       {
-        "q": "¿Qué tan rápido es el tiempo de entrega?",
-        "a": "La mayoría de los proyectos se completan en 1 a 21 días hábiles según el alcance. Landing pages en 1 a 3 días. Sitios web completos en 5 a 7 días. Sistemas Conversion Sprint en 7 a 21 días. Cada plazo se establece al inicio y se cumple."
+        "q": "Que tan rapido puede estar en vivo mi sistema?",
+        "a": "La mayoria de los sistemas estan en vivo en 1 a 21 dias habiles segun el alcance. Paginas de reservas en 1 a 3 dias. Sistemas de conversion completos en 5 a 7 dias. Sistemas Conversion Sprint en 7 a 21 dias. Cada plazo se establece al inicio y se cumple."
       },
       {
-        "q": "¿Solo diseñan sitios web?",
-        "a": "No. El sitio web es el vehículo. La estrategia, la arquitectura de mensajes y la estructura de conversión son el motor. Cada proyecto está construido alrededor de un objetivo: convertir a los visitantes correctos en clientes que pagan."
+        "q": "Solo construyen paginas de reservas?",
+        "a": "No. La pagina de reservas es una parte de un sistema mas grande. Disenamos la arquitectura de conversion completa incluyendo mensajeria, flujo de intake, calificacion de leads e integracion de CRM, todo lo necesario para convertir trafico en citas reservadas."
       },
       {
-        "q": "¿Qué necesito para empezar?",
-        "a": "Muy poco. Los detalles de tu negocio, información de tu oferta y los activos existentes que tengas. Nos encargamos de la estrategia, la dirección del texto, el diseño y la ingeniería. La mayoría de los clientes se sorprenden de lo ágil que es el proceso."
+        "q": "Que necesito para empezar?",
+        "a": "Muy poco. Los detalles de tu negocio, tu perfil de cliente ideal y los activos existentes que tengas. Nos encargamos de la estrategia, mensajeria, diseno y construccion. La mayoria de los clientes se sorprenden de lo agil que es el proceso."
       },
       {
-        "q": "¿Ofrecen soporte continuo?",
-        "a": "Sí. Optimización mensual, mejoras de landing page y soporte técnico continuo están disponibles como retainer. Los clientes que continúan refinando después del lanzamiento ven resultados que se acumulan con el tiempo."
+        "q": "Ofrecen soporte continuo?",
+        "a": "Si. Optimizacion mensual de conversion, mejoras del flujo de reservas y soporte tecnico continuo estan disponibles como retainer. Las practicas que continuan refinando despues del lanzamiento ven resultados que se acumulan con el tiempo."
       },
       {
-        "q": "¿Mi sitio web estará optimizado para SEO?",
-        "a": "Cada proyecto incluye fundamentos técnicos de SEO: metadatos, Open Graph tags, marcado de esquema, optimización de rendimiento y arquitectura mobile-first. La visibilidad en búsquedas está integrada desde el primer día, no añadida al final."
+        "q": "Mi sistema estara optimizado para busqueda?",
+        "a": "Cada construccion incluye fundamentos tecnicos de SEO: metadatos, Open Graph tags, marcado de esquema, optimizacion de rendimiento y arquitectura mobile-first. La visibilidad en busquedas esta integrada desde el primer dia, no anadida al final."
       },
       {
-        "q": "¿Qué hace diferente a Bluebay Agency de otras agencias?",
-        "a": "La mayoría de las agencias construyen sitios web. Nosotros construimos sistemas de crecimiento. Cada decisión, desde la estructura hasta el copy y el diseño, está tomada para mover a tu cliente ideal hacia el siguiente paso. 15 años de experiencia significa que sabemos qué funciona de verdad."
+        "q": "Que hace diferente a Bluebay Agency?",
+        "a": "Nos especializamos en sistemas de conversion para negocios locales con citas. Cada decision, desde la estructura hasta la mensajeria y el diseno, esta tomada para mover a tu cliente ideal hacia reservar. Quince anos de experiencia significa que sabemos que funciona de verdad."
       },
       {
-        "q": "¿Cómo garantizan la calidad en cada proyecto?",
-        "a": "Cada proyecto sigue el mismo proceso estructurado: descubrimiento, estrategia de mensajes, diseño, desarrollo y un lanzamiento meticuloso. No tomamos atajos en ninguna etapa. La calidad viene del proceso."
+        "q": "Como garantizan la calidad?",
+        "a": "Cada sistema sigue el mismo proceso estructurado: descubrimiento, estrategia de conversion, diseno, construccion y una revision minuciosa del lanzamiento. No tomamos atajos en ninguna etapa. La calidad viene del proceso."
       }
     ]
   },
   "contact": {
     "eyebrow": "Comenzar",
-    "h2": "Agenda Tu Llamada de Estrategia",
-    "body": "Cuéntanos sobre tu negocio, qué estás construyendo y hacia dónde quieres crecer. Revisaremos tus objetivos y exploraremos cómo Bluebay Agency puede ayudarte con un sitio web diseñado para generar leads, generar confianza y apoyar un crecimiento real.",
-    "email_cta": "Escríbenos Directamente",
+    "h2": "Hablemos Sobre Tu Sistema de Reservas",
+    "body": "Cuentanos sobre tu practica, los clientes que atiendes y hacia donde quieres crecer. Revisaremos tu flujo de reservas actual y exploraremos como Bluebay Agency puede ayudarte a convertir tu trafico existente en citas constantes y calificadas.",
+    "email_cta": "Escribenos Directamente",
     "call_cta": "Llamar Directamente",
-    "response_note": "Respondemos dentro de 1 día hábil",
+    "response_note": "Respondemos dentro de 1 dia habil",
     "trust": [
       "Llamada de estrategia gratuita",
       "Sin compromiso",
-      "Respuesta en 1 día hábil",
-      "15+ años de experiencia"
+      "Respuesta en 1 dia habil",
+      "15+ anos de experiencia"
     ]
   },
   "finalCta": {
-    "eyebrow": "Construyamos Tu Sistema",
-    "h2_1": "¿Listo para Convertir Tu Sitio Web en",
-    "h2_em": "un Activo de Crecimiento?",
-    "body": "La mayoría de los sitios web se ven presentables pero pierden clientes silenciosamente todos los días. Si el tuyo no está generando leads activamente ni construyendo confianza, cambiemos eso. Actualmente aceptamos un número limitado de nuevos proyectos.",
-    "cta_primary": "Agendar Llamada Gratuita",
-    "cta_secondary": "Ver Paquetes",
-    "note": "Sin compromiso · Disponibilidad limitada · Atendemos clientes a nivel nacional"
+    "eyebrow": "Trabajemos Juntos",
+    "h2_1": "Listo para Convertir Tu Trafico en",
+    "h2_em": "Reservas Constantes y Calificadas?",
+    "body": "La mayoria de los negocios con citas tienen mas trafico que citas reservadas. Si el tuyo esta dejando reservas calificadas sin capturar, exploremos como podria verse un mejor sitio web. Actualmente aceptamos un numero limitado de nuevos clientes.",
+    "cta_primary": "Agendar una Conversacion",
+    "cta_secondary": "Ver Nuestros Sistemas",
+    "note": "Sin compromiso · Con sede en EE.UU. · Atendemos negocios locales a nivel nacional"
   },
   "footer": {
-    "tagline": "Construimos sitios web mobile-first y sistemas de conversión que ayudan a negocios de servicios y organizaciones profesionales a atraer mejores clientes, generar confianza y crecer.",
+    "tagline": "Construimos sistemas de conversion mobile-first que ayudan a negocios locales con citas a convertir trafico existente en reservas constantes y calificadas.",
     "location": "South Bay, California",
     "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
-    "nav_title": "Navegación",
+    "nav_title": "Navegacion",
     "contact_title": "Contacto",
-    "privacy": "Política de Privacidad",
-    "terms": "Términos de Servicio",
+    "privacy": "Politica de Privacidad",
+    "terms": "Terminos de Servicio",
     "copyright": "Bluebay Agency, LLC. Todos los derechos reservados.",
     "certs_label": "Certificaciones",
     "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Miembro de Cámara",
-    "book_cta": "Agendar Llamada"
+    "chamber_sub": "Miembro de Camara de Comercio",
+    "book_cta": "Agendar una Conversacion"
   },
   "lang": {
     "switch_label": "English",
@@ -314,8 +309,8 @@
   },
   "blogPage": {
     "eyebrow": "Perspectivas",
-    "h1": "Conversión, Diseño y Crecimiento Digital",
-    "subtitle": "Estrategia, diseño y crecimiento para negocios que quieren una presencia web mas fuerte.",
+    "h1": "Conversion, Diseno y Crecimiento Digital",
+    "subtitle": "Estrategia, diseno y crecimiento para negocios que quieren una presencia web mas fuerte.",
     "read_article": "Leer Articulo",
     "back_to_blog": "Volver al Blog",
     "by": "Por",
@@ -327,7 +322,7 @@
     "related": "Mas del Blog",
     "cta_eyebrow": "Listo para Hablar?",
     "cta_heading": "Construyamos Algo que Funcione.",
-    "cta_body": "Si este articulo despert algunas ideas, nos encantaria escuchar sobre tu proyecto.",
-    "cta_button": "Agendar Llamada Gratuita"
+    "cta_body": "Si este articulo desperto algunas ideas, nos encantaria escuchar sobre tu proyecto.",
+    "cta_button": "Agendar una Conversacion"
   }
 }

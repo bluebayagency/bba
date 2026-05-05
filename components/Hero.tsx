@@ -24,14 +24,13 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-20 md:pt-36 md:pb-28">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl">
           {/* Eyebrow */}
-          <div className="flex items-center justify-center gap-4 mb-8 opacity-0 animate-fade-in">
+          <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-in">
             <div className="h-px w-8 bg-dusty-rose/60" />
             <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
               {t('hero.eyebrow')}
             </span>
-            <div className="h-px w-8 bg-dusty-rose/60" />
           </div>
 
           {/* Headline */}
@@ -48,14 +47,14 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p
-            className="font-sans font-light text-white/75 leading-relaxed mb-12 opacity-0 animate-fade-up-delay mx-auto max-w-xl"
+            className="font-sans font-light text-white/75 leading-relaxed mb-12 opacity-0 animate-fade-up-delay max-w-xl"
             style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)' }}
           >
             {t('hero.body')}
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16 opacity-0 animate-fade-up-delay-2 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 mb-16 opacity-0 animate-fade-up-delay-2">
             <a
               href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-navy font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group hover:bg-white/90"
@@ -79,7 +78,7 @@ export default function Hero() {
           </p>
 
           {/* Trust badges */}
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 opacity-0 animate-fade-up-delay-3">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 opacity-0 animate-fade-up-delay-3">
             {trust.map((item: string) => (
               <div key={item} className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-white/40" />
@@ -88,13 +87,6 @@ export default function Hero() {
             ))}
           </div>
         </div>
-
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-0 animate-fade-in">
-        <span className="font-sans text-xs text-white/30 tracking-widest uppercase">{t('hero.scroll')}</span>
-        <div className="w-px h-10 bg-gradient-to-b from-white/30 to-transparent" />
       </div>
     </section>
   )
