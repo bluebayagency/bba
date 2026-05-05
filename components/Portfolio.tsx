@@ -155,7 +155,7 @@ export default function Portfolio() {
           <div className="mt-8 text-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 font-sans text-sm font-medium text-white/60 border border-white/20 hover:border-white/50 hover:text-white px-6 py-3 transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-white/60 border border-white/20 hover:border-white/50 hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
             >
               {t('portfolio.more_cta')}
             </a>

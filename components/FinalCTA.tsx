@@ -51,7 +51,7 @@ export default function FinalCTA() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-white text-navy hover:bg-white/90 font-sans text-sm font-medium px-10 py-4 transition-all duration-300 tracking-wide group"
+              className="inline-flex items-center justify-center gap-2 bg-white text-navy hover:bg-white/90 font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group w-full sm:w-auto"
             >
               {t('finalCta.cta_primary')}
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -60,7 +60,7 @@ export default function FinalCTA() {
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 border border-white/20 hover:border-french-blue/40 text-white/70 hover:text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide"
+              className="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-french-blue/40 text-white/70 hover:text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide w-full sm:w-auto"
             >
               {t('finalCta.cta_secondary')}
             </a>

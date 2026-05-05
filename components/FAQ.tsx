@@ -66,7 +66,7 @@ export default function FAQ() {
         <ScrollReveal delay={2}>
           <div className="mt-14 text-center">
             <p className="font-sans text-sm text-charcoal/40 mb-4">{t('faq.still_question')}</p>
-            <a href="#contact" className="inline-flex items-center gap-2 font-sans text-sm font-medium text-navy border border-navy/30 hover:bg-navy hover:text-white px-6 py-3 transition-all duration-300">
+            <a href="#contact" className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy/30 hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto">
               {t('faq.ask_cta')}
             </a>
           </div>

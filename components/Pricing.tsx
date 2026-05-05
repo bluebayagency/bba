@@ -290,7 +290,7 @@ export default function Pricing() {
             </div>
             <a
               href="#contact"
-              className="flex-shrink-0 inline-flex items-center gap-2 border border-navy text-navy font-sans text-sm font-medium px-7 py-3.5 hover:bg-navy hover:text-white transition-all duration-300 tracking-wide whitespace-nowrap"
+              className="inline-flex items-center justify-center gap-2 border border-navy text-navy font-sans text-sm font-medium px-8 py-4 hover:bg-navy hover:text-white transition-all duration-300 tracking-wide w-full md:w-auto"
             >
               {t('pricing.custom_cta')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

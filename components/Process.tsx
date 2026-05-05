@@ -67,7 +67,7 @@ export default function Process() {
           <div className="mt-16 text-center">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 font-sans text-sm font-medium text-navy border border-navy hover:bg-navy hover:text-white px-8 py-3.5 transition-all duration-300"
+              className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
             >
               {t('process.cta')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

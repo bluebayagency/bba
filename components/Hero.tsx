@@ -57,7 +57,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 mb-16 opacity-0 animate-fade-up-delay-2">
             <a
               href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-white text-navy font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group hover:bg-white/90"
+              className="inline-flex items-center justify-center gap-2 bg-white text-navy font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group hover:bg-white/90 w-full sm:w-auto"
             >
               {t('hero.cta_primary')}
               <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -66,7 +66,7 @@ export default function Hero() {
             </a>
             <a
               href="#pricing"
-              className="inline-flex items-center justify-center border border-white/30 hover:border-white/60 text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide backdrop-blur-sm"
+              className="inline-flex items-center justify-center border border-white/30 hover:border-white/60 text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide backdrop-blur-sm w-full sm:w-auto"
             >
               {t('hero.cta_secondary')}
             </a>
