@@ -77,23 +77,17 @@ export default function Pricing() {
           </ScrollReveal>
         </div>
 
-        {/* Cards grid
-            Mobile stack order: Tier 2 (index 1) first, Tier 1 (index 0) second, Tier 3 (index 2) third
-            Desktop: natural left-to-right order, Tier 2 elevated */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-5 md:items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 md:items-stretch">
 
           {/* ── Tier 01 ── */}
-          <div className="order-2 md:order-1 flex flex-col">
+          <div className="flex flex-col">
             <ScrollReveal delay={2}>
               <div className="flex flex-col h-full bg-white border border-gray-border hover:border-navy/20 hover:shadow-lg hover:shadow-navy/5 transition-all duration-300">
-                {/* Top label strip */}
                 <div className="h-1 bg-navy/8" />
 
-                <div className="p-8 md:p-9 flex flex-col flex-1">
-                  {/* Badge placeholder for alignment */}
+                <div className="p-8 md:p-10 flex flex-col flex-1">
                   <div className="h-7 mb-5" />
 
-                  {/* Tier label + name */}
                   <p className="font-sans text-[11px] font-medium text-navy/40 tracking-[0.22em] uppercase mb-3">
                     {tiers[0].tier_num}
                   </p>
@@ -107,7 +101,6 @@ export default function Pricing() {
                     {tiers[0].subline}
                   </p>
 
-                  {/* Price */}
                   <div className="mb-6">
                     <p className="font-canela-deck font-light text-3xl text-navy leading-none mb-3">
                       {tiers[0].price}
@@ -118,7 +111,6 @@ export default function Pricing() {
                     </div>
                   </div>
 
-                  {/* Includes */}
                   <ul className="space-y-3 mb-8 flex-1">
                     {tiers[0].includes.map((item) => (
                       <li key={item} className="flex items-start gap-3">
@@ -128,7 +120,6 @@ export default function Pricing() {
                     ))}
                   </ul>
 
-                  {/* Best for */}
                   <div className="mb-8 p-4 border border-gray-border bg-soft-white">
                     <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">
                       <span className="font-medium text-charcoal/70">{t('pricing.best_for_label')} </span>
@@ -136,7 +127,6 @@ export default function Pricing() {
                     </p>
                   </div>
 
-                  {/* CTA */}
                   <a
                     href="#contact"
                     className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
@@ -149,21 +139,18 @@ export default function Pricing() {
           </div>
 
           {/* ── Tier 02 (Most Popular) ── */}
-          <div className="order-1 md:order-2 flex flex-col md:-mt-5 md:-mb-5">
+          <div className="flex flex-col">
             <ScrollReveal delay={1}>
               <div className="flex flex-col h-full bg-white border-2 border-navy shadow-2xl shadow-navy/10 relative">
-                {/* Navy top accent bar */}
                 <div className="h-1.5 bg-navy" />
 
                 <div className="p-8 md:p-10 flex flex-col flex-1">
-                  {/* Badge */}
                   <div className="mb-5">
                     <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase bg-dusty-rose text-white">
                       {tiers[1].badge}
                     </span>
                   </div>
 
-                  {/* Tier label + name */}
                   <p className="font-sans text-[11px] font-medium text-navy/40 tracking-[0.22em] uppercase mb-3">
                     {tiers[1].tier_num}
                   </p>
@@ -177,7 +164,6 @@ export default function Pricing() {
                     {tiers[1].subline}
                   </p>
 
-                  {/* Price */}
                   <div className="mb-6">
                     <p className="font-canela-deck font-light text-3xl text-navy leading-none mb-3">
                       {tiers[1].price}
@@ -188,7 +174,6 @@ export default function Pricing() {
                     </div>
                   </div>
 
-                  {/* Includes */}
                   <ul className="space-y-3 mb-8 flex-1">
                     {tiers[1].includes.map((item) => (
                       <li key={item} className="flex items-start gap-3">
@@ -198,7 +183,6 @@ export default function Pricing() {
                     ))}
                   </ul>
 
-                  {/* Best for */}
                   <div className="mb-8 p-4 border border-navy/10 bg-navy/[0.03]">
                     <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">
                       <span className="font-medium text-charcoal/70">{t('pricing.best_for_label')} </span>
@@ -206,80 +190,11 @@ export default function Pricing() {
                     </p>
                   </div>
 
-                  {/* CTA */}
                   <a
                     href="#contact"
                     className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
                   >
                     {tiers[1].cta}
-                  </a>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
-
-          {/* ── Tier 03 (Premium / Dark) ── */}
-          <div className="order-3 md:order-3 flex flex-col">
-            <ScrollReveal delay={3}>
-              <div className="flex flex-col h-full bg-navy border border-navy text-white hover:shadow-xl hover:shadow-navy/20 transition-all duration-300">
-                <div className="h-1 bg-french-blue" />
-
-                <div className="p-8 md:p-9 flex flex-col flex-1">
-                  {/* Badge */}
-                  <div className="mb-5">
-                    <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase bg-french-blue text-white">
-                      {tiers[2].badge}
-                    </span>
-                  </div>
-
-                  {/* Tier label + name */}
-                  <p className="font-sans text-[11px] font-medium text-white/35 tracking-[0.22em] uppercase mb-3">
-                    {tiers[2].tier_num}
-                  </p>
-                  <h3 className="font-canela-deck font-light text-2xl text-white leading-tight mb-4">
-                    {tiers[2].name}
-                  </h3>
-                  <p className="font-sans text-sm font-light text-white/50 leading-relaxed mb-2">
-                    {tiers[2].description}
-                  </p>
-                  <p className="font-sans text-xs font-light text-white/30 italic leading-relaxed mb-8 pb-8 border-b border-white/[0.08]">
-                    {tiers[2].subline}
-                  </p>
-
-                  {/* Price */}
-                  <div className="mb-6">
-                    <p className="font-canela-deck font-light text-3xl text-white leading-none mb-3">
-                      {tiers[2].price}
-                    </p>
-                    <div className="flex items-center gap-2">
-                      <ClockIcon muted />
-                      <span className="font-sans text-xs text-white/40">{tiers[2].timeline}</span>
-                    </div>
-                  </div>
-
-                  {/* Includes */}
-                  <ul className="space-y-3 mb-8 flex-1">
-                    {tiers[2].includes.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <CheckIcon muted />
-                        <span className="font-sans text-sm font-light text-white/55 leading-snug">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  {/* Best for */}
-                  <div className="mb-8 p-4 border border-white/[0.08] bg-white/[0.04]">
-                    <p className="font-sans text-xs font-light text-white/40 leading-relaxed">
-                      <span className="font-medium text-white/60">{t('pricing.best_for_label')} </span>
-                      {tiers[2].best_for}
-                    </p>
-                  </div>
-
-                  <a
-                    href="#contact"
-                    className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide text-white bg-french-blue hover:bg-french-blue/80 transition-all duration-300"
-                  >
-                    {tiers[2].cta}
                   </a>
                 </div>
               </div>
