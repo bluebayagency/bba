@@ -5,92 +5,92 @@
     "pricing": "Pricing",
     "about": "About",
     "faq": "FAQ",
-    "cta": "Schedule a Conversation"
+    "cta": "Start the Conversation"
   },
   "hero": {
-    "eyebrow": "Websites for Service-Based Businesses",
-    "h1_1": "Turn Your Existing Traffic Into",
-    "h1_em": "Consistent, Qualified Bookings.",
+    "eyebrow": "Websites for Health, Wellness & Modern Brands",
+    "h1_1": "Turn Your Traffic Into",
+    "h1_em": "Clients Who Convert.",
     "h1_2": "",
-    "body": "We design and build mobile-first websites for health, wellness, and service-based businesses, structured to turn existing traffic into a reliable flow of booked appointments. Live in as little as 3 business days.",
+    "body": "We design and build high-performance, mobile-first websites for health, wellness, and modern brands engineered to convert visitors the moment they arrive. Strategy-first design that turns attention into revenue.",
     "body2": "",
-    "cta_primary": "Schedule a Conversation",
-    "cta_secondary": "See Our Systems",
+    "cta_primary": "Start the Conversation",
+    "cta_secondary": "See Our Work",
     "trust": ["South Bay, CA", "15 Years Experience", "Mobile-First", "Live in 3 Days"],
     "scarcity": "Currently accepting a limited number of new clients.",
     "stats": [
       { "num": "81+", "label": "Landing Pages Built" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Booking Integrations" }
+      { "num": "23+", "label": "Custom Conversion Systems" }
     ],
     "scroll": "Scroll"
   },
   "coreTruth": {
     "eyebrow": "The Bluebay Approach",
-    "h2": "Your Traffic Is Already There. Let's Make It Work Harder for You.",
-    "body1": "Most appointment-based businesses have more visitors than booked appointments. The gap is rarely about awareness. It is about what happens after someone finds you.",
-    "body2": "We build mobile-first conversion systems that close that gap. Clear structure, qualified intake, and a booking experience your clients feel confident using from the first tap.",
-    "quote": "Helping the right people take the next step is what drives everything we do."
+    "h2": "Your Traffic Is Already There. Your Website Should Be Converting It.",
+    "body1": "Most health and wellness brands have solid traffic and still struggle to turn visitors into paying clients. The gap is rarely about awareness. It is about what happens the moment someone lands on your site.",
+    "body2": "We build websites engineered to convert. Strategic messaging, intuitive flow, and a user experience that makes it easy for the right people to say yes from the very first visit.",
+    "quote": "The right website does not just look good. It works."
   },
   "whyBluebay": {
     "eyebrow": "Why Bluebay Agency",
-    "h2": "We Build Websites That Work as Booking Systems.",
-    "body": "Most local service businesses have solid traffic and still struggle to convert it into a consistent flow of booked appointments. We specialize in building mobile-first websites structured to close that gap. Whether your goal is more consistent bookings or higher quality inquiries, we design every page to help the right clients find their way to your calendar.",
+    "h2": "We Build Websites That Turn Visitors Into Clients.",
+    "body": "Health, wellness, and modern brands do not just need a beautiful website they need one that performs. We specialize in building mobile-first websites structured to convert existing traffic into leads, clients, and revenue. Every page is built with one purpose: turning attention into action.",
     "pillars": [
-      { "num": "01", "title": "Conversion-First", "desc": "We focus on booked appointments, not aesthetics. Every decision is made to move the right visitor toward scheduling." },
-      { "num": "02", "title": "Speed", "desc": "Systems go live in as little as 72 hours. Faster implementation means faster impact on your appointment flow." },
-      { "num": "03", "title": "Lead Qualification", "desc": "We build intake and booking flows that filter for your ideal client before they ever reach your calendar." },
-      { "num": "04", "title": "Full Funnel Integration", "desc": "We connect mobile UX, messaging, booking flow, and CRM follow-up into one cohesive system." },
-      { "num": "05", "title": "Mobile-First", "desc": "Your clients are on their phones. We build for the device they use to make decisions, not as an afterthought." }
+      { "num": "01", "title": "Conversion-First", "desc": "Every decision from layout to messaging to CTA placement is made to move the right visitor toward taking action." },
+      { "num": "02", "title": "Speed", "desc": "Systems go live in as little as 72 hours. Faster implementation means faster results from your existing traffic." },
+      { "num": "03", "title": "Lead Quality", "desc": "We build intake flows that pre-qualify your audience so the people who reach out are already the right fit." },
+      { "num": "04", "title": "Full Funnel", "desc": "We connect mobile UX, brand messaging, conversion flow, and CRM follow-up into one cohesive system that performs." },
+      { "num": "05", "title": "Mobile-First", "desc": "Your clients are on their phones. We build for the device they use to make decisions not as an afterthought." }
     ],
-    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Lead Qualification Built In"]
+    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Built for Health & Wellness"]
   },
   "process": {
     "eyebrow": "How We Work",
-    "h2": "A Clear Process. A System That Performs.",
+    "h2": "A Clear Process. A Website That Performs.",
     "steps": [
       {
         "num": "01",
-        "title": "Understand Your Booking Flow",
-        "desc": "We start by learning your business, your ideal client, and how your current traffic and booking flow are working. Everything we build is grounded in that foundation.",
-        "detail": "Traffic analysis · Booking flow review · Intake audit"
+        "title": "Understand Your Brand & Audience",
+        "desc": "We start by learning your business, your ideal client, and how your current site is performing. Everything we build is grounded in that foundation.",
+        "detail": "Traffic analysis · Brand audit · Audience profiling"
       },
       {
         "num": "02",
-        "title": "Design Your Conversion System",
-        "desc": "We map your messaging, booking structure, and intake flow so every part of your system has a clear role in moving the right visitors toward a confirmed appointment.",
-        "detail": "Messaging architecture · Booking flow design · Lead qualification structure"
+        "title": "Design Your Conversion Strategy",
+        "desc": "We map your messaging, user flow, and CTA architecture so every part of your site has a clear role in moving the right visitors toward action.",
+        "detail": "Messaging architecture · UX flow design · Conversion structure"
       },
       {
         "num": "03",
         "title": "Build and Integrate",
-        "desc": "We bring everything to life with a mobile-first conversion system built for speed, clarity, and seamless integration with your booking and CRM tools.",
-        "detail": "Mobile-first build · Booking integration · CRM connection · QA"
+        "desc": "We bring everything to life with a mobile-first website built for speed, clarity, and seamless integration with your tools and platforms.",
+        "detail": "Mobile-first build · Platform integration · CRM connection · QA"
       },
       {
         "num": "04",
         "title": "Launch and Optimize",
-        "desc": "We launch your system, connect your analytics, and stay close during the early period so you go live with confidence and keep improving from real data.",
-        "detail": "Launch · Analytics · Booking flow optimization · Growth"
+        "desc": "We launch your site, connect your analytics, and stay close during the early period so you go live with confidence and keep improving from real data.",
+        "detail": "Launch · Analytics · Conversion optimization · Growth"
       }
     ],
     "cta": "Start the Conversation"
   },
   "portfolio": {
     "eyebrow": "Selected Work",
-    "h2": "Websites Built Around Booking and Conversion.",
-    "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that guide the right visitors toward a booked appointment.",
+    "h2": "Websites Built for Brands That Mean Business.",
+    "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that convert visitors into clients.",
     "mobile_label": "Mobile View",
     "projects": [
       {
         "name": "Goldie Grace Beauty",
         "category": "Beauty · Brand Identity · Conversion System",
-        "desc": "A luxury beauty brand transformation from identity system to a conversion-focused booking experience that captures and qualifies clients automatically."
+        "desc": "A luxury beauty brand transformation from identity system to a conversion-focused website experience that captures and qualifies clients automatically."
       },
       {
         "name": "Nopalvia",
         "category": "Food & Beverage · Brand · E-commerce",
-        "desc": "A modern wellness brand system built around authentic storytelling, conversion architecture, and mobile-first performance."
+        "desc": "A modern wellness brand built around authentic storytelling, conversion architecture, and mobile-first performance."
       }
     ],
     "more_text": "More case studies available upon request",
@@ -99,29 +99,28 @@
   "pricing": {
     "eyebrow": "Investment",
     "h2": "Two Conversion Systems. One Standard of Quality.",
-    "body": "Whether you need a focused booking page or a complete conversion system, every project is built with the same strategic foundation and attention to what actually drives appointments.",
+    "body": "Whether you need a focused landing page or a complete conversion website, every project is built with the same strategic foundation and attention to what actually drives results.",
     "best_for_label": "Best for:",
     "tech_label": "We build on",
     "custom_heading": "Need Something More Specific?",
-    "custom_body": "We also build multilingual systems, multi-location booking flows, and custom conversion architectures for practices with specific intake or compliance requirements.",
+    "custom_body": "We also build multilingual systems, multi-location websites, and custom conversion architectures for brands with specific requirements.",
     "custom_cta": "Request Custom Quote",
     "tiers": [
       {
         "badge": null,
         "tier_num": "Tier 01",
-        "name": "Conversion Booking System",
+        "name": "Conversion Landing Page",
         "price": "Starting at $1,250",
         "timeline": "1 to 3 Business Days",
-        "description": "Launch a high-converting booking page that turns traffic into appointments in days.",
-        "subline": "Built for speed, clarity, and immediate appointment capture.",
-        "best_for": "Businesses running campaigns, promotions, or needing immediate appointment flow improvement.",
-        "cta": "Launch My Booking System",
+        "description": "Launch a high-converting page that turns traffic into clients in days.",
+        "subline": "Built for speed, clarity, and immediate conversion.",
+        "best_for": "Brands running campaigns, promotions, or needing an immediate lift in conversions from existing traffic.",
+        "cta": "Launch My Landing Page",
         "includes": [
-          "1 focused high-converting booking page",
+          "1 focused high-converting landing page",
           "Mobile-first responsive design",
           "Conversion-driven messaging framework",
-          "Qualified intake form (lead filtering)",
-          "Booking system integration",
+          "Qualified lead intake form",
           "Clear CTA and scroll flow design",
           "Basic SEO setup for visibility",
           "Analytics and tracking setup",
@@ -131,20 +130,20 @@
       {
         "badge": "Most Popular",
         "tier_num": "Tier 02",
-        "name": "Authority Booking System",
+        "name": "Authority Conversion Website",
         "price": "Starting at $4,500",
         "timeline": "5 to 7 Business Days",
-        "description": "Build a structured conversion system that turns your website into a consistent source of qualified appointments.",
+        "description": "Build a structured website that turns your digital presence into a consistent source of qualified clients.",
         "subline": "Designed to convert existing traffic more reliably and build trust at scale.",
-        "best_for": "Established local service businesses already getting traffic but not converting it consistently into booked appointments.",
-        "cta": "Build My Booking System",
+        "best_for": "Established health, wellness, and modern brands already getting traffic but not converting it consistently.",
+        "cta": "Build My Conversion Website",
         "includes": [
           "Up to 5 to 10 strategic conversion pages",
           "Full homepage conversion architecture",
           "Mobile-first custom UX design",
           "Messaging refinement and clarity positioning",
           "Lead qualification and intake system",
-          "Booking flow optimization",
+          "Conversion flow optimization",
           "SEO foundation for long-term visibility",
           "Analytics and conversion tracking",
           "3 rounds of revisions",
@@ -157,9 +156,9 @@
         "name": "Bluebay Conversion Sprint",
         "price": "Starting at $8,000",
         "timeline": "7 to 21 Business Days",
-        "description": "A full conversion architecture designed to turn your digital presence into a predictable appointment-generating system.",
-        "subline": "This is a conversion system overhaul.",
-        "best_for": "Businesses ready to scale appointment volume and improve lead quality through a fully engineered conversion system.",
+        "description": "A full conversion architecture designed to turn your digital presence into a predictable, client-generating system.",
+        "subline": "This is a complete website and conversion system overhaul.",
+        "best_for": "Brands ready to scale and convert more of their existing traffic through a fully engineered conversion system.",
         "cta": "Apply for Conversion Sprint",
         "includes": [
           "10+ strategic conversion pages",
@@ -169,7 +168,7 @@
           "Complete conversion system build",
           "Lead qualification and intake optimization",
           "CRM and automation integration",
-          "Booking flow optimization and routing logic",
+          "Conversion flow optimization and routing logic",
           "SEO and technical performance optimization",
           "Analytics and conversion tracking system",
           "3 rounds of revisions",
@@ -181,15 +180,15 @@
   },
   "about": {
     "eyebrow": "The Founder",
-    "h2": "The Experience Behind Every System We Build.",
-    "body1": "Before founding Bluebay Agency, our founder spent 15 years building and optimizing digital systems for companies ranging from funded startups to billion-dollar enterprises, taking projects from strategy through launch and refining them until they performed. That background shapes how we approach every conversion system we build.",
-    "body2": "Every client receives our full attention, from strategy through launch and beyond. If you are ready to build a system that turns your existing traffic into consistent, qualified bookings, we would love to be part of that.",
+    "h2": "The Experience Behind Every Website We Build.",
+    "body1": "Before founding Bluebay Agency, our founder spent 15 years building and optimizing digital systems for companies ranging from funded startups to billion-dollar enterprises taking projects from strategy through launch and refining them until they performed. That background shapes how we approach every website we build.",
+    "body2": "Every client receives our full attention, from strategy through launch and beyond. If you are ready to build a website that turns your existing traffic into consistent, paying clients, we would love to be part of that.",
     "stat_num": "15+",
     "stat_label": "Years Building Conversion Systems",
     "stats": [
       { "num": "81+", "label": "Landing Pages Built" },
       { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Booking Integrations" }
+      { "num": "23+", "label": "Custom Conversion Systems" }
     ],
     "certs_label": "Certified",
     "certifications": [
@@ -229,7 +228,7 @@
       {
         "slug": "from-visitors-to-clients-how-to-build-a-website-that-converts",
         "category": "Growth Systems",
-        "title": "From Traffic to Clients: Building Your Acquisition System",
+        "title": "From Traffic to Clients: Building Your Conversion System",
         "excerpt": "Traffic without conversion architecture is just noise. Learn how to architect your website as a system where every page has a role and every CTA has a purpose.",
         "readTime": "6 min read",
         "date": "Feb 2025"
@@ -243,12 +242,12 @@
     "ask_cta": "Ask Us Directly",
     "items": [
       {
-        "q": "How fast can my system go live?",
-        "a": "Most systems go live in 1 to 21 business days depending on scope. Booking landing pages in 1 to 3 days. Full conversion systems in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
+        "q": "How fast can my website go live?",
+        "a": "Most projects go live in 1 to 21 business days depending on scope. Conversion landing pages in 1 to 3 days. Full authority websites in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
       },
       {
-        "q": "Do you only build booking pages?",
-        "a": "No. The booking page is one part of a larger system. We design the full conversion architecture including messaging, intake flow, lead qualification, and CRM integration, everything needed to turn traffic into booked appointments."
+        "q": "Do you only build landing pages?",
+        "a": "No. The landing page is one part of a larger system. We design the full conversion architecture messaging, user flow, lead qualification, and CRM integration everything needed to turn your traffic into clients."
       },
       {
         "q": "What do I need to get started?",
@@ -256,26 +255,26 @@
       },
       {
         "q": "Do you offer ongoing support?",
-        "a": "Yes. Monthly conversion optimization, booking flow improvements, and ongoing technical support are available as a retainer. Practices that continue refining after launch consistently see compounding results over time."
+        "a": "Yes. Monthly conversion optimization, UX improvements, and ongoing technical support are available as a retainer. Brands that continue refining after launch consistently see compounding results over time."
       },
       {
-        "q": "Will my system be optimized for search?",
+        "q": "Will my site be optimized for search?",
         "a": "Every build includes technical SEO foundations: metadata, Open Graph tags, schema markup, performance optimization, and mobile-first architecture. Search visibility is built in from day one, not added at the end."
       },
       {
         "q": "What makes Bluebay Agency different?",
-        "a": "We specialize in conversion systems for appointment-based local businesses. Every decision, from structure to messaging to design, is made to move your ideal client toward booking. Fifteen years of experience means we know what actually works, and we bring that to every system we build."
+        "a": "We specialize in building conversion-focused websites for health, wellness, and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what actually works, and we bring that to every project."
       },
       {
         "q": "How do you ensure quality?",
-        "a": "Every system follows the same structured process: discovery, conversion strategy, design, build, and a thorough launch review. We do not cut corners at any stage. Quality comes from process."
+        "a": "Every project follows the same structured process: discovery, conversion strategy, design, build, and a thorough launch review. We do not cut corners at any stage. Quality comes from process."
       }
     ]
   },
   "contact": {
     "eyebrow": "Get Started",
-    "h2": "Your Business Deserves a Website That Actually Books Clients.",
-    "body": "Tell us about your practice, the clients you serve, and where you want to grow. We will review your current booking flow and explore how Bluebay Agency can help you turn your existing traffic into consistent, qualified appointments.",
+    "h2": "Your Brand Deserves a Website That Actually Converts.",
+    "body": "Tell us about your brand, the clients you serve, and where you want to grow. We will review your current digital presence and explore how Bluebay Agency can help you turn your existing traffic into consistent, paying clients.",
     "email_cta": "Email Us Directly",
     "call_cta": "Call Directly",
     "response_note": "We respond within 1 business day",
@@ -289,14 +288,14 @@
   "finalCta": {
     "eyebrow": "Let's Work Together",
     "h2_1": "Ready to Turn Your Traffic Into",
-    "h2_em": "Consistent, Qualified Bookings?",
-    "body": "Most appointment-based businesses have more traffic than booked appointments. If yours is leaving qualified bookings on the table, let's explore what a better website system could look like. We are currently accepting a limited number of new clients.",
-    "cta_primary": "Schedule a Conversation",
-    "cta_secondary": "View Our Systems",
-    "note": "No obligation · US-Based · Serving Local Businesses Nationally"
+    "h2_em": "Consistent, Paying Clients?",
+    "body": "Most health, wellness, and modern brands have more traffic than conversions. If yours is leaving clients on the table, let's explore what a better website could look like. We are currently accepting a limited number of new clients.",
+    "cta_primary": "Start the Conversation",
+    "cta_secondary": "View Our Work",
+    "note": "No obligation · US-Based · Serving Brands Nationally"
   },
   "footer": {
-    "tagline": "We build mobile-first conversion systems that help appointment-based local businesses turn existing traffic into consistent, qualified booked appointments.",
+    "tagline": "We build high-performance, mobile-first websites for health, wellness, and modern brands engineered to convert visitors into clients.",
     "location": "South Bay, California",
     "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
     "nav_title": "Navigation",
@@ -307,7 +306,7 @@
     "certs_label": "Certifications",
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
-    "book_cta": "Schedule a Conversation"
+    "book_cta": "Start the Conversation"
   },
   "lang": {
     "switch_label": "Español",
@@ -316,7 +315,7 @@
   "blogPage": {
     "eyebrow": "Insights",
     "h1": "Conversion, Design & Digital Growth",
-    "subtitle": "Strategy, design, and growth insights for businesses building a stronger web presence.",
+    "subtitle": "Strategy, design, and growth insights for health, wellness, and modern brands building a stronger web presence.",
     "read_article": "Read Article",
     "back_to_blog": "Back to Blog",
     "by": "By",
@@ -327,8 +326,8 @@
     "share": "Share this article",
     "related": "More from the Blog",
     "cta_eyebrow": "Ready to Talk?",
-    "cta_heading": "Let's Build Something That Works.",
+    "cta_heading": "Let's Build Something That Converts.",
     "cta_body": "If this article sparked some ideas, we would love to hear about your project.",
-    "cta_button": "Schedule a Conversation"
+    "cta_button": "Start the Conversation"
   }
 }
