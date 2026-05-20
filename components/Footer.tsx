@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import { useTranslation } from 'react-i18next'
 import MailerLiteSignup from './MailerLiteSignup'
 
@@ -15,8 +14,6 @@ export default function Footer() {
     { key: 'nav.faq', href: '#faq' },
     { key: 'contact.eyebrow', href: '#contact' },
   ]
-
-  const certBadges = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
 
   return (
     <footer className="bg-navy text-white">
@@ -122,43 +119,6 @@ export default function Footer() {
               Newsletter
             </h4>
             <MailerLiteSignup />
-          </div>
-        </div>
-
-        {/* Certifications row */}
-        <div className="py-10 border-t border-white/[0.07] border-b border-b-white/[0.07]">
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-            <span className="font-sans text-xs text-white/25 tracking-[0.15em] uppercase flex-shrink-0">
-              {t('footer.certs_label')}
-            </span>
-            <div className="flex flex-wrap gap-3">
-              {certBadges.map((cert) => (
-                <div
-                  key={cert.label}
-                  className="flex items-center gap-2 border border-white/[0.08] px-4 py-2"
-                >
-                  <div className="w-1 h-1 rounded-full bg-white/25" />
-                  <span className="font-sans text-xs text-white/40">
-                    <span className="text-white/60 font-medium">{cert.label}</span>
-                    {' '}{cert.sub}
-                  </span>
-                </div>
-              ))}
-            </div>
-            <div className="md:ml-auto flex items-center gap-3">
-              <a href="https://www.manhattanbeachchamber.com/directory#!biz/id/69b31e10007ee52f4f0140d3" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/images/logos/mb-chamber-member.png"
-                  alt="Manhattan Beach Chamber of Commerce"
-                  width={48}
-                  height={48}
-                  className="h-10 w-auto object-contain opacity-40 hover:opacity-60 transition-opacity duration-200"
-                />
-              </a>
-              <span className="font-sans text-xs text-white/25 leading-tight">
-                {t('footer.chamber_label')}<br />{t('footer.chamber_sub')}
-              </span>
-            </div>
           </div>
         </div>
 
