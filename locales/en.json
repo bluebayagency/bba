@@ -78,19 +78,19 @@
   },
   "portfolio": {
     "eyebrow": "Selected Work",
-    "h2": "Websites Built for Brands That Mean Business.",
+    "h2": "",
     "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that convert visitors into clients.",
     "mobile_label": "Mobile View",
     "projects": [
       {
         "name": "Goldie Grace Beauty",
         "category": "Beauty · Brand Identity · Conversion System",
-        "desc": "A luxury beauty brand transformation from identity system to a conversion-focused website experience that captures and qualifies clients automatically."
+        "desc": "A luxury beauty brand transformation."
       },
       {
         "name": "Nopalvia",
         "category": "Food & Beverage · Brand · E-commerce",
-        "desc": "A modern wellness brand built around authentic storytelling, conversion architecture, and mobile-first performance."
+        "desc": "A modern wellness brand."
       }
     ],
     "more_text": "More case studies available upon request",

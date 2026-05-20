@@ -78,19 +78,19 @@
   },
   "portfolio": {
     "eyebrow": "Trabajo Selecto",
-    "h2": "Sitios Web Construidos para Marcas que Van en Serio.",
+    "h2": "",
     "body": "Una mirada a como la estrategia, el diseno y la ingenieria mobile-first se combinan para construir sitios web que convierten visitantes en clientes.",
     "mobile_label": "Vista Movil",
     "projects": [
       {
         "name": "Goldie Grace Beauty",
         "category": "Belleza · Identidad de Marca · Sistema de Conversion",
-        "desc": "Una transformacion de marca de lujo desde el sistema de identidad hasta un sitio web enfocado en conversion que captura y califica clientes automaticamente."
+        "desc": "Una transformacion de marca de lujo."
       },
       {
         "name": "Nopalvia",
         "category": "Alimentos y Bebidas · Marca · E-commerce",
-        "desc": "Una marca wellness moderna construida alrededor de la narracion autentica, arquitectura de conversion y rendimiento mobile-first."
+        "desc": "Una marca wellness moderna."
       }
     ],
     "more_text": "Mas casos de estudio disponibles bajo solicitud",

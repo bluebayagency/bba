@@ -41,11 +41,13 @@ export default function Portfolio() {
                 </span>
               </div>
             </ScrollReveal>
-            <ScrollReveal delay={1}>
-              <h2 className="font-canela-deck font-light text-white leading-[1.1]" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
-                {t('portfolio.h2')}
-              </h2>
-            </ScrollReveal>
+            {t('portfolio.h2') && (
+              <ScrollReveal delay={1}>
+                <h2 className="font-canela-deck font-light text-white leading-[1.1]" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
+                  {t('portfolio.h2')}
+                </h2>
+              </ScrollReveal>
+            )}
           </div>
           <ScrollReveal delay={2}>
             <p className="font-sans text-sm font-light text-white/40 max-w-xs leading-relaxed">

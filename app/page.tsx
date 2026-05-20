@@ -1,7 +1,6 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import CoreTruth from '@/components/CoreTruth'
-import WhyBluebay from '@/components/WhyBluebay'
 import Process from '@/components/Process'
 import Portfolio from '@/components/Portfolio'
 import Pricing from '@/components/Pricing'
@@ -39,7 +38,6 @@ export default async function Home({
       <Navigation />
       <Hero />
       <CoreTruth />
-      <WhyBluebay />
       <Process />
       <Portfolio />
       <Pricing />
