@@ -64,12 +64,6 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
               </svg>
             </a>
-            <a
-              href="#pricing"
-              className="inline-flex items-center justify-center border border-white/30 hover:border-white/60 text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide backdrop-blur-sm w-full sm:w-auto"
-            >
-              {t('hero.cta_secondary')}
-            </a>
           </div>
 
           {/* Scarcity */}

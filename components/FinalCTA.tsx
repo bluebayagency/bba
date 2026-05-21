@@ -58,12 +58,6 @@ export default function FinalCTA() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
               </svg>
             </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-french-blue/40 text-white/70 hover:text-white font-sans text-sm font-light px-8 py-4 transition-all duration-300 tracking-wide w-full sm:w-auto"
-            >
-              {t('finalCta.cta_secondary')}
-            </a>
           </div>
           <p className="mt-8 font-sans text-xs text-white/20 tracking-wide">
             {t('finalCta.note')}
