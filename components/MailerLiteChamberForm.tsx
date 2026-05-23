@@ -54,29 +54,41 @@ export default function MailerLiteChamberForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-3">
-      <input
-        type="email"
-        required
-        placeholder="Email"
-        value={fields.email}
-        onChange={(e) => setFields({ ...fields, email: e.target.value })}
-        className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
-      />
-      <input
-        type="text"
-        placeholder="Full Name"
-        value={fields.name}
-        onChange={(e) => setFields({ ...fields, name: e.target.value })}
-        className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
-      />
-      <input
-        type="text"
-        required
-        placeholder="Business Name and Website"
-        value={fields.company}
-        onChange={(e) => setFields({ ...fields, company: e.target.value })}
-        className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
-      />
+      <div>
+        <label htmlFor="mlc-email" className="sr-only">Email</label>
+        <input
+          id="mlc-email"
+          type="email"
+          required
+          placeholder="Email"
+          value={fields.email}
+          onChange={(e) => setFields({ ...fields, email: e.target.value })}
+          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+        />
+      </div>
+      <div>
+        <label htmlFor="mlc-name" className="sr-only">Full Name</label>
+        <input
+          id="mlc-name"
+          type="text"
+          placeholder="Full Name"
+          value={fields.name}
+          onChange={(e) => setFields({ ...fields, name: e.target.value })}
+          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+        />
+      </div>
+      <div>
+        <label htmlFor="mlc-company" className="sr-only">Business Name and Website</label>
+        <input
+          id="mlc-company"
+          type="text"
+          required
+          placeholder="Business Name and Website"
+          value={fields.company}
+          onChange={(e) => setFields({ ...fields, company: e.target.value })}
+          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+        />
+      </div>
       <button
         type="submit"
         disabled={status === 'loading'}
@@ -85,7 +97,7 @@ export default function MailerLiteChamberForm() {
         {status === 'loading' ? 'Submitting…' : 'Apply for One of 10 Priority Spots'}
       </button>
       {status === 'error' && (
-        <p className="font-sans text-xs text-red-500 text-center pt-1">
+        <p role="alert" className="font-sans text-xs text-red-500 text-center pt-1">
           Something went wrong. Please try again or email us directly.
         </p>
       )}

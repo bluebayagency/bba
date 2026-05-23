@@ -66,7 +66,9 @@ export default function ResourceDownloadForm() {
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-3">
       <div>
+        <label htmlFor="rdf-name" className="sr-only">First Name</label>
         <input
+          id="rdf-name"
           type="text"
           placeholder="First Name"
           value={fields.name}
@@ -75,7 +77,9 @@ export default function ResourceDownloadForm() {
         />
       </div>
       <div>
+        <label htmlFor="rdf-email" className="sr-only">Email Address</label>
         <input
+          id="rdf-email"
           type="email"
           required
           placeholder="Email Address"
@@ -83,30 +87,34 @@ export default function ResourceDownloadForm() {
           onChange={(e) => { setFields({ ...fields, email: e.target.value }); setErrors({ ...errors, email: undefined }) }}
           className={`w-full bg-white border focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200 ${errors.email ? 'border-red-400' : 'border-gray-200'}`}
         />
-        {errors.email && <p className="font-sans text-xs text-red-500 mt-1">{errors.email}</p>}
+        {errors.email && <p role="alert" className="font-sans text-xs text-red-500 mt-1">{errors.email}</p>}
       </div>
       <div className="flex items-start gap-3 pt-1">
         <button
           type="button"
+          id="rdf-optin"
           onClick={() => { setOptIn(!optIn); setErrors({ ...errors, optIn: undefined }) }}
           className={`w-4 h-4 mt-0.5 flex-shrink-0 border transition-colors duration-200 flex items-center justify-center ${optIn ? 'bg-navy border-navy' : 'bg-white border-gray-300'}`}
           aria-checked={optIn}
+          aria-labelledby="rdf-optin-label"
           role="checkbox"
+          onKeyDown={(e) => { if (e.key === ' ') { e.preventDefault(); setOptIn(!optIn); setErrors({ ...errors, optIn: undefined }) } }}
         >
           {optIn && (
-            <svg className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+            <svg aria-hidden="true" className="w-2.5 h-2.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
             </svg>
           )}
         </button>
         <label
+          id="rdf-optin-label"
           className="font-sans text-xs font-light text-charcoal/50 leading-relaxed cursor-pointer"
           onClick={() => { setOptIn(!optIn); setErrors({ ...errors, optIn: undefined }) }}
         >
           I agree to receive helpful web design and conversion tips from Bluebay Agency. Unsubscribe anytime.
         </label>
       </div>
-      {errors.optIn && <p className="font-sans text-xs text-red-500">{errors.optIn}</p>}
+      {errors.optIn && <p role="alert" className="font-sans text-xs text-red-500">{errors.optIn}</p>}
 
       <button
         type="submit"
@@ -117,8 +125,8 @@ export default function ResourceDownloadForm() {
       </button>
 
       {status === 'error' && (
-        <p className="font-sans text-xs text-red-500 text-center pt-1">
-          Something went wrong. Please try again or email us at hello@bluebayagency.com.
+        <p role="alert" className="font-sans text-xs text-red-500 text-center pt-1">
+          Something went wrong. Please try again or <a href="mailto:hello@bluebayagency.com" className="underline">email us</a>.
         </p>
       )}
 

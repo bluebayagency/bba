@@ -1,5 +1,6 @@
 'use client'
 
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Image from 'next/image'
 import ScrollReveal from './ScrollReveal'
@@ -16,6 +17,7 @@ const industryLogos = [
 
 export default function About() {
   const { t } = useTranslation()
+  const [marqueuPaused, setMarqueuPaused] = useState(false)
   const certifications = t('about.certifications', { returnObjects: true }) as Array<{ label: string; sub: string }>
 
 
@@ -117,7 +119,11 @@ export default function About() {
             <div className="relative overflow-hidden">
               <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-16 z-10 bg-gradient-to-r from-sand to-transparent" />
               <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-16 z-10 bg-gradient-to-l from-sand to-transparent" />
-              <div className="flex w-max animate-marquee">
+              <div
+                className="flex w-max animate-marquee"
+                style={{ animationPlayState: marqueuPaused ? 'paused' : 'running' }}
+                aria-label="Industry logos"
+              >
                 {[...industryLogos, ...industryLogos].map((logo, i) => (
                   <div key={i} className="flex-shrink-0 flex items-center justify-center px-6 md:px-10 h-10 md:h-12">
                     <img
@@ -129,6 +135,17 @@ export default function About() {
                   </div>
                 ))}
               </div>
+              <button
+                onClick={() => setMarqueuPaused(!marqueuPaused)}
+                className="absolute right-0 top-1/2 -translate-y-1/2 z-20 bg-sand border border-gray-border p-1.5 text-charcoal/40 hover:text-charcoal/70 transition-colors duration-200"
+                aria-label={marqueuPaused ? 'Play animation' : 'Pause animation'}
+              >
+                {marqueuPaused ? (
+                  <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                ) : (
+                  <svg aria-hidden="true" className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+                )}
+              </button>
             </div>
           </div>
         </ScrollReveal>

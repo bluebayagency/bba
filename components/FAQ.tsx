@@ -37,13 +37,15 @@ export default function FAQ() {
                 onClick={() => setOpenIndex(openIndex === i ? null : i)}
                 className="w-full flex items-center justify-between gap-6 py-6 text-left group"
                 aria-expanded={openIndex === i}
+                aria-controls={`faq-answer-${i}`}
+                id={`faq-question-${i}`}
               >
                 <span className={`font-canela-deck font-light text-lg leading-tight transition-colors duration-200 ${
                   openIndex === i ? 'text-navy' : 'text-charcoal/80 group-hover:text-navy'
                 }`}>
                   {item.q}
                 </span>
-                <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center border transition-all duration-300 ${
+                <span aria-hidden="true" className={`flex-shrink-0 w-8 h-8 flex items-center justify-center border transition-all duration-300 ${
                   openIndex === i ? 'border-navy bg-navy text-white rotate-45' : 'border-gray-border text-charcoal/30 group-hover:border-navy/40 group-hover:text-navy'
                 }`}>
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -52,6 +54,9 @@ export default function FAQ() {
                 </span>
               </button>
               <div
+                id={`faq-answer-${i}`}
+                role="region"
+                aria-labelledby={`faq-question-${i}`}
                 className="faq-answer"
                 style={{ maxHeight: openIndex === i ? '300px' : '0px', opacity: openIndex === i ? 1 : 0 }}
               >

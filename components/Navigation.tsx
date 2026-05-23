@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next'
 
@@ -9,7 +9,7 @@ const navAnchors = ['#work', '#process', '#pricing', '#about', '#faq']
 
 function GlobeIcon() {
   return (
-    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+    <svg aria-hidden="true" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
       <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
     </svg>
   )
@@ -24,6 +24,8 @@ export default function Navigation() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [bannerOffset, setBannerOffset] = useState(0)
+  const hamburgerRef = useRef<HTMLButtonElement>(null)
+  const menuPanelRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const update = () => {
@@ -43,7 +45,21 @@ export default function Navigation() {
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
+    if (menuOpen) {
+      const firstFocusable = menuPanelRef.current?.querySelector<HTMLElement>('a, button')
+      firstFocusable?.focus()
+    } else {
+      hamburgerRef.current?.focus()
+    }
     return () => { document.body.style.overflow = '' }
+  }, [menuOpen])
+
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && menuOpen) setMenuOpen(false)
+    }
+    document.addEventListener('keydown', onKeyDown)
+    return () => document.removeEventListener('keydown', onKeyDown)
   }, [menuOpen])
 
   const switchLang = () => {
@@ -105,9 +121,12 @@ export default function Navigation() {
 
             {/* Hamburger */}
             <button
+              ref={hamburgerRef}
               onClick={() => setMenuOpen(!menuOpen)}
               className="lg:hidden flex flex-col gap-1.5 p-2"
-              aria-label="Toggle menu"
+              aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={menuOpen}
+              aria-controls="mobile-menu"
             >
               <span className={`block w-5 h-px bg-navy transition-all duration-300 origin-center ${menuOpen ? 'rotate-45 translate-y-2.5' : ''}`} />
               <span className={`block w-5 h-px bg-navy transition-all duration-300 ${menuOpen ? 'opacity-0 scale-x-0' : ''}`} />
@@ -127,6 +146,11 @@ export default function Navigation() {
 
       {/* Mobile panel */}
       <div
+        id="mobile-menu"
+        ref={menuPanelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Navigation menu"
         className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-soft-white flex flex-col pt-20 pb-10 px-8 transition-transform duration-300 ease-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <div className="flex flex-col gap-1">

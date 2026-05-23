@@ -34,6 +34,8 @@ export default function I18nProvider({ children }: { children: React.ReactNode }
     if (lang !== i18n.language) {
       i18n.changeLanguage(lang)
     }
+
+    document.documentElement.lang = lang
   }, [])
 
   return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>

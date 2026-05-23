@@ -259,6 +259,12 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[9999] focus:bg-navy focus:text-white focus:px-4 focus:py-2 focus:text-sm focus:font-sans"
+        >
+          Skip to main content
+        </a>
         <I18nProvider>{children}</I18nProvider>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}

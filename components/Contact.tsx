@@ -38,6 +38,7 @@ export default function Contact() {
           <div className="bg-white border border-gray-border">
             <iframe
               src="https://hello.dubsado.com/public/form/view/69cd745fdaed1883b751ed8d?iframe=true"
+              title="Contact form"
               frameBorder={0}
               width="100%"
               height="750"
@@ -58,7 +59,7 @@ export default function Contact() {
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
             {trust.map((item: string) => (
               <div key={item} className="flex items-center gap-2">
-                <svg className="w-3.5 h-3.5 text-navy/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <svg aria-hidden="true" className="w-3.5 h-3.5 text-navy/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                 </svg>
                 <span className="font-sans text-xs text-charcoal/40">{item}</span>
