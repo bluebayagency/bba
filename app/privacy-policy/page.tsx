@@ -170,7 +170,7 @@ export default function PrivacyPolicyPage() {
             </Section>
 
             <Section title="Exercising Your Rights">
-              <p>To exercise rights, submit requests to hello@bluebayagency.com specifying which right applies and providing identity verification information. The company responds within thirty to forty-five calendar days and may request additional time or deny requests if legal exceptions apply. You may appeal decisions using the same contact method.</p>
+              <p>To exercise rights, submit requests to <a href="mailto:hello@bluebayagency.com">Email</a> specifying which right applies and providing identity verification information. The company responds within thirty to forty-five calendar days and may request additional time or deny requests if legal exceptions apply. You may appeal decisions using the same contact method.</p>
             </Section>
 
             <Section title="Use and Transfer of Your Information Out of the EEA or Canada">
@@ -178,7 +178,7 @@ export default function PrivacyPolicyPage() {
             </Section>
 
             <Section title="Contact Us">
-              <p>For privacy questions or concerns, use the web form at bluebayagency.com/contact or email <a href="mailto:hello@bluebayagency.com">hello@bluebayagency.com</a>.</p>
+              <p>For privacy questions or concerns, use the web form at bluebayagency.com/contact or <a href="mailto:hello@bluebayagency.com">Email</a>.</p>
             </Section>
 
             <Section title="Changes to this Privacy Policy">

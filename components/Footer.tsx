@@ -88,14 +88,6 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="mailto:hello@bluebayagency.com"
-                  className="font-sans text-sm font-light text-white/40 hover:text-white/80 transition-colors duration-200"
-                >
-                  hello@bluebayagency.com
-                </a>
-              </li>
-              <li>
-                <a
                   href="tel:+12138677879"
                   className="font-sans text-sm font-light text-white/40 hover:text-white/80 transition-colors duration-200"
                 >
