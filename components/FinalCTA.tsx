@@ -23,11 +23,9 @@ export default function FinalCTA() {
       <div className="relative max-w-4xl mx-auto px-6 lg:px-8 text-center">
         <ScrollReveal>
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="h-px w-12 bg-dusty-rose/60" />
-            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
               {t('finalCta.eyebrow')}
             </span>
-            <div className="h-px w-12 bg-dusty-rose/60" />
           </div>
         </ScrollReveal>
 

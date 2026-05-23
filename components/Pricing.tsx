@@ -55,11 +55,9 @@ export default function Pricing() {
         <div className="text-center max-w-2xl mx-auto mb-16 md:mb-20">
           <ScrollReveal>
             <div className="flex items-center justify-center gap-4 mb-6">
-              <div className="h-px w-10 bg-dusty-rose/60" />
-              <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                 {t('pricing.eyebrow')}
               </span>
-              <div className="h-px w-10 bg-dusty-rose/60" />
             </div>
           </ScrollReveal>
           <ScrollReveal delay={1}>

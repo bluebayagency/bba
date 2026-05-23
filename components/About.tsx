@@ -48,8 +48,7 @@ export default function About() {
           <div className="lg:pt-8">
             <ScrollReveal>
               <div className="flex items-center gap-4 mb-6">
-                <div className="h-px w-10 bg-dusty-rose/60" />
-                <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                   {t('about.eyebrow')}
                 </span>
               </div>
@@ -111,7 +110,6 @@ export default function About() {
         <ScrollReveal>
           <div className="mt-16 md:mt-24 pt-12 md:pt-16 border-t border-gray-border">
             <div className="flex items-center gap-4 mb-8 md:mb-10">
-              <div className="h-px w-10 bg-dusty-rose/60" />
               <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                 {t('about.industry_title')}
               </span>

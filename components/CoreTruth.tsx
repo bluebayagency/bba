@@ -27,8 +27,7 @@ export default function CoreTruth() {
           <div>
             <ScrollReveal>
               <div className="flex items-center gap-4 mb-10">
-                <div className="h-px w-12 bg-dusty-rose/60" />
-                <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                   {t('coreTruth.eyebrow')}
                 </span>
               </div>

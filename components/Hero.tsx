@@ -26,16 +26,15 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full pt-28 pb-20 md:pt-36 md:pb-28">
         <div className="max-w-3xl">
           {/* Eyebrow */}
-          <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-in">
-            <div className="h-px w-8 bg-dusty-rose/60" />
-            <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+          <div className="flex items-center gap-4 mb-8">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
               {t('hero.eyebrow')}
             </span>
           </div>
 
           {/* Headline */}
           <h1
-            className="font-canela-deck font-light text-white leading-[1.05] mb-8 opacity-0 animate-fade-up"
+            className="font-canela-deck font-light text-white leading-[1.05] mb-8"
             style={{ fontSize: 'clamp(2.8rem, 7vw, 5.5rem)' }}
           >
             {t('hero.h1_1')}{' '}
@@ -47,14 +46,14 @@ export default function Hero() {
 
           {/* Subheadline */}
           <p
-            className="font-sans font-light text-white/75 leading-relaxed mb-12 opacity-0 animate-fade-up-delay max-w-xl"
+            className="font-sans font-light text-white/75 leading-relaxed mb-12 max-w-xl"
             style={{ fontSize: 'clamp(1rem, 1.8vw, 1.2rem)' }}
           >
             {t('hero.body')}
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-16 opacity-0 animate-fade-up-delay-2">
+          <div className="flex flex-col sm:flex-row gap-4 mb-16">
             <a
               href="#contact"
               className="inline-flex items-center justify-center gap-2 bg-white text-navy font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group hover:bg-white/90 w-full sm:w-auto"
@@ -72,7 +71,7 @@ export default function Hero() {
           </p>
 
           {/* Trust badges */}
-          <div className="flex flex-wrap items-center gap-x-6 gap-y-3 opacity-0 animate-fade-up-delay-3">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
             {trust.map((item: string) => (
               <div key={item} className="flex items-center gap-2">
                 <div className="w-1.5 h-1.5 rounded-full bg-white/40" />

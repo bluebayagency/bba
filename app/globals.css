@@ -68,37 +68,6 @@ body {
   );
 }
 
-/* Divider line (dark sections) */
-.gold-line {
-  display: block;
-  width: 0;
-  height: 1px;
-  background-color: #C4A49A;
-  animation: lineGrow 1.2s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards;
-}
-
-/* French-blue divider line (light sections) */
-.blue-line {
-  display: block;
-  width: 40px;
-  height: 1px;
-  background-color: var(--french-blue);
-  opacity: 0.5;
-}
-
-@keyframes lineGrow {
-  to { width: 48px; }
-}
-
-/* Pricing card hover */
-.pricing-card {
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
-    box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.pricing-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 32px 72px rgba(9, 28, 54, 0.1);
-}
 
 /* FAQ accordion */
 .faq-answer {
@@ -138,14 +107,6 @@ body {
   transform: scale(1.04);
 }
 
-/* Process step connector */
-.step-connector {
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(to right, var(--french-blue), transparent);
-  margin-top: -28px;
-  opacity: 0.3;
-}
 
 /* Section divider */
 .section-divider {
@@ -153,14 +114,6 @@ body {
   background: linear-gradient(to right, transparent, var(--gray-border), transparent);
 }
 
-/* Stat counter */
-.stat-num {
-  font-family: var(--font-canela-deck);
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 100;
-  line-height: 1;
-  color: #C4A49A;
-}
 
 /* WordPress post content */
 .wp-content {
@@ -211,14 +164,6 @@ body {
 .wp-content code { font-size: 0.85em; background: var(--french-blue-light); padding: 0.15em 0.4em; }
 .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
-/* Mobile menu */
-.mobile-menu-enter {
-  transform: translateX(100%);
-}
-.mobile-menu-enter-active {
-  transform: translateX(0);
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
-}
 
 /* Global focus-visible styles */
 :focus-visible {

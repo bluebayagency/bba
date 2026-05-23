@@ -33,8 +33,7 @@ export default function WhyBluebay() {
         <div className="max-w-3xl mb-16 md:mb-20">
           <ScrollReveal>
             <div className="flex items-center gap-4 mb-6">
-              <div className="h-px w-10 bg-dusty-rose/60" />
-              <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                 {t('whyBluebay.eyebrow')}
               </span>
             </div>

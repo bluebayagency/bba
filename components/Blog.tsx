@@ -33,8 +33,7 @@ export default function Blog({ posts = [], lang = 'en' }: BlogProps) {
           <div>
             <ScrollReveal>
               <div className="flex items-center gap-4 mb-6">
-                <div className="h-px w-10 bg-dusty-rose/60" />
-                <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
                   {t('blog.eyebrow')}
                 </span>
               </div>
