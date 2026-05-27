@@ -31,30 +31,20 @@ export default function Process() {
           </ScrollReveal>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {steps.map((step, i) => (
             <ScrollReveal key={step.num} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
               <div className="relative group h-full">
-                <div className="relative z-10 bg-white border border-gray-border hover:border-french-blue/30 p-8 md:p-7 transition-all duration-300 h-full group-hover:shadow-lg group-hover:shadow-navy/5 flex flex-col">
+                <div className="relative z-10 bg-white border border-gray-border hover:border-french-blue/30 px-8 py-12 md:px-7 md:py-10 transition-all duration-300 h-full group-hover:shadow-lg group-hover:shadow-navy/5 flex flex-col">
                   <div className="flex items-center gap-3 mb-6">
-                    <div className="w-10 h-10 flex items-center justify-center bg-navy text-white font-sans text-xs font-medium tracking-wider flex-shrink-0">
+                    <div className="w-10 h-10 flex items-center justify-center bg-navy text-white font-sans text-xs font-medium tracking-wider flex-shrink-0 py-6">
                       {step.num}
                     </div>
                     <div className="flex-1 h-px bg-gray-border" />
                   </div>
-                  <h3 className="font-canela-deck font-light text-xl text-navy mb-3 leading-tight">
+                  <h3 className="font-canela-deck font-light text-xl text-navy leading-tight">
                     {step.title}
                   </h3>
-                  <p className="font-sans text-sm font-light text-charcoal/60 leading-relaxed mb-6 flex-1">
-                    {step.desc}
-                  </p>
-                  <div className="flex flex-wrap gap-1.5">
-                    {step.detail.split(' · ').map((tag) => (
-                      <span key={tag} className="font-sans text-[10px] font-medium text-navy/50 bg-navy/5 border border-navy/10 px-2 py-0.5 tracking-wide">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
                   <div className="absolute top-0 left-0 w-0 h-0.5 bg-navy/30 group-hover:w-full transition-all duration-500" />
                 </div>
               </div>

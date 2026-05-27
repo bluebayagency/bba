@@ -52,13 +52,6 @@ export default function CoreTruth() {
             </ScrollReveal>
 
             <ScrollReveal delay={3}>
-              <div className="mt-12 flex items-center gap-6">
-                <div className="h-px flex-1 max-w-[80px] bg-gray-border" />
-                <div aria-hidden="true" className="font-canela-deck text-4xl font-thin text-navy/15 select-none leading-none">&ldquo;</div>
-              </div>
-              <blockquote className="mt-4 font-canela-deck text-xl md:text-2xl font-thin italic text-navy/60 leading-relaxed">
-                {t('coreTruth.quote')}
-              </blockquote>
             </ScrollReveal>
           </div>
 
