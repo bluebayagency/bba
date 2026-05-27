@@ -51,8 +51,7 @@ export default function CoreTruth() {
               </p>
             </ScrollReveal>
 
-            <ScrollReveal delay={3}>
-            </ScrollReveal>
+
           </div>
 
         </div>
