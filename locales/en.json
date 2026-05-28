@@ -12,7 +12,7 @@
     "h1_1": "Turn Your Traffic Into",
     "h1_em": "Clients Who Convert.",
     "h1_2": "",
-    "body": "We design and build high-performance, mobile-first websites for health, wellness, and modern brands.",
+    "body": "We design and build high-performance, mobile-first websites for wellness and modern brands.",
     "body2": "",
     "cta_primary": "Start the Conversation",
     "cta_secondary": "See Our Work",
@@ -28,14 +28,14 @@
   "coreTruth": {
     "eyebrow": "The Bluebay Approach",
     "h2": "Your Traffic Is Already There. Your Website Should Be Converting It.",
-    "body1": "Most health and wellness brands have solid traffic and still struggle to turn visitors into paying clients. The gap is rarely about awareness. It is about what happens the moment someone lands on your site.",
+    "body1": "Most wellness brands have solid traffic and still struggle to turn visitors into paying clients. The gap is rarely about awareness. It is about what happens the moment someone lands on your site.",
     "body2": "We build websites engineered to convert. Strategic messaging, intuitive flow, and a seamless user experience.",
     "quote": "The right website does not just look good. It works."
   },
   "whyBluebay": {
     "eyebrow": "Why Bluebay Agency",
     "h2": "We Build Websites That Turn Visitors Into Clients.",
-    "body": "Health, wellness, and modern brands do not just need a beautiful website they need one that performs. We specialize in building mobile-first websites structured to convert existing traffic into leads, clients, and revenue. Every page is built with one purpose: turning attention into action.",
+    "body": "Wellness and modern brands do not just need a beautiful website they need one that performs. We specialize in building mobile-first websites structured to convert existing traffic into leads, clients, and revenue. Every page is built with one purpose: turning attention into action.",
     "pillars": [
       { "num": "01", "title": "Conversion-First", "desc": "Every decision from layout to messaging to CTA placement is made to move the right visitor toward taking action." },
       { "num": "02", "title": "Speed", "desc": "Systems go live in as little as 72 hours. Faster implementation means faster results from your existing traffic." },
@@ -43,7 +43,7 @@
       { "num": "04", "title": "Full Funnel", "desc": "We connect mobile UX, brand messaging, conversion flow, and CRM follow-up into one cohesive system that performs." },
       { "num": "05", "title": "Mobile-First", "desc": "Your clients are on their phones. We build for the device they use to make decisions not as an afterthought." }
     ],
-    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Built for Health & Wellness"]
+    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Built for Wellness"]
   },
   "process": {
     "eyebrow": "How We Work",
@@ -98,12 +98,12 @@
   },
   "pricing": {
     "eyebrow": "Investment",
-    "h2": "Two Conversion Systems. One Standard of Quality.",
+    "h2": "Three Conversion Systems. One Standard of Quality.",
     "body": "Whether you need a focused landing page or a complete conversion website, every project is built with the same strategic foundation and attention to what actually drives results.",
     "best_for_label": "Best for:",
     "tech_label": "We build on",
     "custom_heading": "Need Something More Specific?",
-    "custom_body": "We also build multilingual systems, multi-location websites, and custom conversion architectures for brands with specific requirements.",
+    "custom_body": "We also build e-commerce stores, multilingual systems, multi-location websites, and custom conversion architectures for brands with specific requirements.",
     "custom_cta": "Request Custom Quote",
     "tiers": [
       {
@@ -120,7 +120,6 @@
           "1 focused high-converting landing page",
           "Mobile-first responsive design",
           "Conversion-driven messaging framework",
-          "Qualified lead intake form",
           "Clear CTA and scroll flow design",
           "Basic SEO setup for visibility",
           "Analytics and tracking setup",
@@ -128,14 +127,35 @@
         ]
       },
       {
-        "badge": "Most Popular",
+        "badge": "Best Value",
         "tier_num": "Tier 02",
+        "name": "Essential Website System",
+        "price": "Starting at $2,500",
+        "timeline": "3 to 5 Business Days",
+        "description": "A clean, focused multi-page website that builds credibility and captures leads.",
+        "subline": "More depth than a landing page. Built for growing brands.",
+        "best_for": "Wellness and modern brands that need a professional web presence beyond a single page but aren't ready for a full conversion system.",
+        "cta": "Build My Essential Website",
+        "includes": [
+          "Up to 3 to 5 strategic pages",
+          "Mobile-first responsive design",
+          "Homepage conversion architecture",
+          "Lead intake form and CTA setup",
+          "Basic SEO foundation",
+          "Analytics and tracking setup",
+          "2 rounds of revisions",
+          "3-day post-launch support"
+        ]
+      },
+      {
+        "badge": null,
+        "tier_num": "Tier 03",
         "name": "Authority Conversion Website",
         "price": "Starting at $4,500",
         "timeline": "5 to 7 Business Days",
         "description": "Build a structured website that turns your digital presence into a consistent source of qualified clients.",
         "subline": "Designed to convert existing traffic more reliably and build trust at scale.",
-        "best_for": "Established health, wellness, and modern brands already getting traffic but not converting it consistently.",
+        "best_for": "Established wellness and modern brands already getting traffic but not converting it consistently.",
         "cta": "Build My Conversion Website",
         "includes": [
           "Up to 5 to 10 strategic conversion pages",
@@ -263,7 +283,7 @@
       },
       {
         "q": "What makes Bluebay Agency different?",
-        "a": "We specialize in building conversion-focused websites for health, wellness, and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what actually works, and we bring that to every project."
+        "a": "We specialize in building conversion-focused websites for wellness and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what actually works, and we bring that to every project."
       },
       {
         "q": "How do you ensure quality?",
@@ -289,13 +309,13 @@
     "eyebrow": "Let's Work Together",
     "h2_1": "Ready to Turn Your Traffic Into",
     "h2_em": "Clients?",
-    "body": "Most health, wellness, and modern brands have more traffic than conversions. If yours is leaving clients on the table, let's explore what a better website could look like. We are currently accepting a limited number of new clients.",
+    "body": "Most wellness and modern brands have more traffic than conversions. If yours is leaving clients on the table, let's explore what a better website could look like. We are currently accepting a limited number of new clients.",
     "cta_primary": "Start the Conversation",
     "cta_secondary": "View Our Work",
     "note": "No obligation · US-Based · Serving Brands Nationally"
   },
   "footer": {
-    "tagline": "We build high-performance, mobile-first websites for health, wellness, and modern brands engineered to convert visitors into clients.",
+    "tagline": "We build high-performance, mobile-first websites for wellness and modern brands engineered to convert visitors into clients.",
     "location": "South Bay, California",
     "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
     "nav_title": "Navigation",
@@ -315,7 +335,7 @@
   "blogPage": {
     "eyebrow": "Insights",
     "h1": "Conversion, Design & Digital Growth",
-    "subtitle": "Strategy, design, and growth insights for health, wellness, and modern brands building a stronger web presence.",
+    "subtitle": "Strategy, design, and growth insights for wellness and modern brands building a stronger web presence.",
     "read_article": "Read Article",
     "back_to_blog": "Back to Blog",
     "by": "By",

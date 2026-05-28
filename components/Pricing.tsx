@@ -75,129 +75,75 @@ export default function Pricing() {
           </ScrollReveal>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 md:items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 md:items-stretch">
+          {tiers.slice(0, 3).map((tier, i) => {
+            const isPopular = !!tier.badge
+            return (
+              <div key={tier.tier_num} className="flex flex-col">
+                <ScrollReveal delay={((i + 1) as 1 | 2 | 3)}>
+                  <div className={`flex flex-col h-full bg-white transition-all duration-300 ${isPopular ? 'border-2 border-navy shadow-2xl shadow-navy/10' : 'border border-gray-border hover:border-navy/20 hover:shadow-lg hover:shadow-navy/5'}`}>
+                    <div className={`${isPopular ? 'h-1.5 bg-navy' : 'h-1 bg-navy/8'}`} />
 
-          {/* ── Tier 01 ── */}
-          <div className="flex flex-col">
-            <ScrollReveal delay={2}>
-              <div className="flex flex-col h-full bg-white border border-gray-border hover:border-navy/20 hover:shadow-lg hover:shadow-navy/5 transition-all duration-300">
-                <div className="h-1 bg-navy/8" />
+                    <div className="p-8 md:p-10 flex flex-col flex-1">
+                      <div className="h-7 mb-5">
+                        {tier.badge && (
+                          <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase bg-dusty-rose text-white">
+                            {tier.badge}
+                          </span>
+                        )}
+                      </div>
 
-                <div className="p-8 md:p-10 flex flex-col flex-1">
-                  <div className="h-7 mb-5" />
+                      <p className="font-sans text-[11px] font-medium text-navy/40 tracking-[0.22em] uppercase mb-3">
+                        {tier.tier_num}
+                      </p>
+                      <h3 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-4">
+                        {tier.name}
+                      </h3>
+                      <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-2">
+                        {tier.description}
+                      </p>
+                      <p className="font-sans text-xs font-light text-charcoal/35 italic leading-relaxed mb-8 pb-8 border-b border-gray-border">
+                        {tier.subline}
+                      </p>
 
-                  <p className="font-sans text-[11px] font-medium text-navy/40 tracking-[0.22em] uppercase mb-3">
-                    {tiers[0].tier_num}
-                  </p>
-                  <h3 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-4">
-                    {tiers[0].name}
-                  </h3>
-                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-2">
-                    {tiers[0].description}
-                  </p>
-                  <p className="font-sans text-xs font-light text-charcoal/35 italic leading-relaxed mb-8 pb-8 border-b border-gray-border">
-                    {tiers[0].subline}
-                  </p>
+                      <div className="mb-6">
+                        <p className="font-canela-deck font-light text-3xl text-navy leading-none mb-3">
+                          {tier.price}
+                        </p>
+                        <div className="flex items-center gap-2">
+                          <ClockIcon muted={isPopular} />
+                          <span className="font-sans text-xs text-charcoal/45">{tier.timeline}</span>
+                        </div>
+                      </div>
 
-                  <div className="mb-6">
-                    <p className="font-canela-deck font-light text-3xl text-navy leading-none mb-3">
-                      {tiers[0].price}
-                    </p>
-                    <div className="flex items-center gap-2">
-                      <ClockIcon />
-                      <span className="font-sans text-xs text-charcoal/45">{tiers[0].timeline}</span>
+                      <ul className="space-y-3 mb-8 flex-1">
+                        {tier.includes.map((item) => (
+                          <li key={item} className="flex items-start gap-3">
+                            <CheckIcon muted={isPopular} />
+                            <span className="font-sans text-sm font-light text-charcoal/65 leading-snug">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      <div className={`mb-8 p-4 ${isPopular ? 'border border-navy/10 bg-navy/[0.03]' : 'border border-gray-border bg-soft-white'}`}>
+                        <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">
+                          <span className="font-medium text-charcoal/70">{t('pricing.best_for_label')} </span>
+                          {tier.best_for}
+                        </p>
+                      </div>
+
+                      <a
+                        href="#contact"
+                        className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
+                      >
+                        {tier.cta}
+                      </a>
                     </div>
                   </div>
-
-                  <ul className="space-y-3 mb-8 flex-1">
-                    {tiers[0].includes.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <CheckIcon />
-                        <span className="font-sans text-sm font-light text-charcoal/65 leading-snug">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="mb-8 p-4 border border-gray-border bg-soft-white">
-                    <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">
-                      <span className="font-medium text-charcoal/70">{t('pricing.best_for_label')} </span>
-                      {tiers[0].best_for}
-                    </p>
-                  </div>
-
-                  <a
-                    href="#contact"
-                    className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
-                  >
-                    {tiers[0].cta}
-                  </a>
-                </div>
+                </ScrollReveal>
               </div>
-            </ScrollReveal>
-          </div>
-
-          {/* ── Tier 02 (Most Popular) ── */}
-          <div className="flex flex-col">
-            <ScrollReveal delay={1}>
-              <div className="flex flex-col h-full bg-white border-2 border-navy shadow-2xl shadow-navy/10 relative">
-                <div className="h-1.5 bg-navy" />
-
-                <div className="p-8 md:p-10 flex flex-col flex-1">
-                  <div className="mb-5">
-                    <span className="inline-block font-sans text-[11px] font-medium px-4 py-1.5 tracking-[0.15em] uppercase bg-dusty-rose text-white">
-                      {tiers[1].badge}
-                    </span>
-                  </div>
-
-                  <p className="font-sans text-[11px] font-medium text-navy/40 tracking-[0.22em] uppercase mb-3">
-                    {tiers[1].tier_num}
-                  </p>
-                  <h3 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-4">
-                    {tiers[1].name}
-                  </h3>
-                  <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed mb-2">
-                    {tiers[1].description}
-                  </p>
-                  <p className="font-sans text-xs font-light text-charcoal/35 italic leading-relaxed mb-8 pb-8 border-b border-gray-border">
-                    {tiers[1].subline}
-                  </p>
-
-                  <div className="mb-6">
-                    <p className="font-canela-deck font-light text-3xl text-navy leading-none mb-3">
-                      {tiers[1].price}
-                    </p>
-                    <div className="flex items-center gap-2">
-                      <ClockIcon />
-                      <span className="font-sans text-xs text-charcoal/45">{tiers[1].timeline}</span>
-                    </div>
-                  </div>
-
-                  <ul className="space-y-3 mb-8 flex-1">
-                    {tiers[1].includes.map((item) => (
-                      <li key={item} className="flex items-start gap-3">
-                        <CheckIcon />
-                        <span className="font-sans text-sm font-light text-charcoal/65 leading-snug">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="mb-8 p-4 border border-navy/10 bg-navy/[0.03]">
-                    <p className="font-sans text-xs font-light text-charcoal/50 leading-relaxed">
-                      <span className="font-medium text-charcoal/70">{t('pricing.best_for_label')} </span>
-                      {tiers[1].best_for}
-                    </p>
-                  </div>
-
-                  <a
-                    href="#contact"
-                    className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
-                  >
-                    {tiers[1].cta}
-                  </a>
-                </div>
-              </div>
-            </ScrollReveal>
-          </div>
+            )
+          })}
         </div>
 
         {/* Custom quote row */}
