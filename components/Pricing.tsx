@@ -111,7 +111,7 @@ export default function Pricing() {
                           {tier.price}
                         </p>
                         <div className="flex items-center gap-2">
-                          <ClockIcon muted={isPopular} />
+                          <ClockIcon />
                           <span className="font-sans text-xs text-charcoal/45">{tier.timeline}</span>
                         </div>
                       </div>
@@ -119,7 +119,7 @@ export default function Pricing() {
                       <ul className="space-y-3 mb-8 flex-1">
                         {tier.includes.map((item) => (
                           <li key={item} className="flex items-start gap-3">
-                            <CheckIcon muted={isPopular} />
+                            <CheckIcon />
                             <span className="font-sans text-sm font-light text-charcoal/65 leading-snug">{item}</span>
                           </li>
                         ))}
