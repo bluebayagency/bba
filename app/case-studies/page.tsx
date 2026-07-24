@@ -23,7 +23,7 @@ export default function CaseStudiesPage() {
   return (
     <main id="main-content">
       <Navigation />
-      <CaseStudySpotlight />
+      <CaseStudySpotlight headingLevel="h1" />
       <Portfolio />
       <FinalCTA />
       <Footer />

@@ -8,7 +8,14 @@ const metrics = [
   { stat: <>+46%</>, label: 'Button Clicks', sub: 'last 30 days' },
 ]
 
-export default function CaseStudySpotlight() {
+interface CaseStudySpotlightProps {
+  /** Heading level for "A Web Redesign That Delivered Real Growth." — use
+   *  "h1" only when this section leads the page (e.g. /case-studies). */
+  headingLevel?: 'h1' | 'h2'
+}
+
+export default function CaseStudySpotlight({ headingLevel = 'h2' }: CaseStudySpotlightProps) {
+  const Heading = headingLevel
   return (
     <section className="bg-soft-white py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
@@ -44,12 +51,12 @@ export default function CaseStudySpotlight() {
             <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
               Featured Case Study
             </span>
-            <h1
+            <Heading
               className="mt-6 font-canela-deck font-light text-navy leading-[1.1]"
               style={{ fontSize: 'clamp(1.9rem, 4vw, 3rem)' }}
             >
               A Web Redesign That Delivered Real Growth.
-            </h1>
+            </Heading>
             <p className="mt-4 font-sans text-xs font-medium text-charcoal/40 tracking-[0.15em] uppercase">
               The Couples Therapy and Reunification Counseling Inc. · Mental Health &amp; Wellness · Los Angeles, CA
             </p>

@@ -14,7 +14,7 @@ export default function ServicesDetail() {
   }>
 
   return (
-    <section className="bg-soft-white py-24 md:py-36 relative">
+    <section className="bg-navy py-24 md:py-36 relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mb-16 md:mb-20">
           <ScrollReveal>
@@ -26,14 +26,14 @@ export default function ServicesDetail() {
           </ScrollReveal>
           <ScrollReveal delay={1}>
             <h1
-              className="font-canela-deck font-light text-navy leading-[1.1] mb-5"
+              className="font-canela-deck font-light text-white leading-[1.1] mb-5"
               style={{ fontSize: 'clamp(2.1rem, 4.8vw, 3.75rem)' }}
             >
               {t('services.page_h1')}
             </h1>
           </ScrollReveal>
           <ScrollReveal delay={2}>
-            <p className="font-sans font-light text-charcoal/55 text-lg leading-relaxed">
+            <p className="font-sans font-light text-white/55 text-lg leading-relaxed">
               {t('services.page_intro')}
             </p>
           </ScrollReveal>
@@ -71,7 +71,7 @@ export default function ServicesDetail() {
           <div className="mt-14 text-center">
             <a
               href={contactHref}
-              className="inline-flex items-center justify-center gap-2 bg-navy hover:bg-navy/80 text-white font-sans text-sm font-medium px-8 py-4 transition-colors duration-200 tracking-wide w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 bg-white hover:bg-white/90 text-navy font-sans text-sm font-medium px-8 py-4 transition-colors duration-200 tracking-wide w-full sm:w-auto"
             >
               {t('services.cta_start')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
