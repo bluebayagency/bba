@@ -15,14 +15,14 @@ const RELATIONSHIP_PAGE_SRC = `${IMG_BASE}/the-couples-therapy-relationship-page
 const FOUNDER_PHOTO_SRC = `${IMG_BASE}/jessica-quiroz-founder.png`
 
 export const metadata: Metadata = {
-  title: 'The Couples Therapy Practice: A Web Redesign Case Study | Blue Bay Agency',
+  title: 'The Couples Therapy and Reunification Counseling Inc.: A Web Redesign Case Study | Blue Bay Agency',
   description:
-    'How Blue Bay Agency redesigned The Couples Therapy Practice: a modern visual system, a clearer path to booking, and a technical SEO foundation that drove a 65% lift in consultation form submissions within 30 days of launch.',
+    'How Blue Bay Agency redesigned The Couples Therapy and Reunification Counseling Inc.: a modern visual system, a clearer path to booking, and a technical SEO foundation that drove a 65% lift in consultation form submissions within 30 days of launch.',
   alternates: { canonical: '/couples-therapy-case-study' },
   openGraph: {
-    title: 'The Couples Therapy Practice: A Web Redesign Case Study | Blue Bay Agency',
+    title: 'The Couples Therapy and Reunification Counseling Inc.: A Web Redesign Case Study | Blue Bay Agency',
     description:
-      'A web redesign and technical SEO rebuild for The Couples Therapy Practice that drove a 65% lift in consultation form submissions within 30 days of launch.',
+      'A web redesign and technical SEO rebuild for The Couples Therapy and Reunification Counseling Inc. that drove a 65% lift in consultation form submissions within 30 days of launch.',
     type: 'article',
     // Placeholder OG image. Replace with a real 1200×630 export before publication.
     images: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
         url: '/images/og/couples-therapy-case-study.png',
         width: 1200,
         height: 630,
-        alt: 'The Couples Therapy Practice: Web Redesign Case Study by Blue Bay Agency',
+        alt: 'The Couples Therapy and Reunification Counseling Inc.: Web Redesign Case Study by Blue Bay Agency',
       },
     ],
   },
@@ -94,8 +94,20 @@ export default function CouplesTherapyCaseStudy() {
           {/* Meta row */}
           <dl className="mt-12 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-gray-border pt-8 md:grid-cols-4">
             {[
-              { k: 'Client', v: <>The Couples Therapy Practice</> },
-              { k: 'Site', v: <>thecouplestherapy.com</> },
+              { k: 'Client', v: <>The Couples Therapy and Reunification Counseling Inc.</> },
+              {
+                k: 'Site',
+                v: (
+                  <a
+                    href="https://thecouplestherapy.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="no-underline transition-colors duration-200 hover:text-navy"
+                  >
+                    thecouplestherapy.com
+                  </a>
+                ),
+              },
               { k: 'Timeline', v: <>6 weeks</> },
               { k: 'Role', v: <>Strategy, Design, Dev, Copy</> },
             ].map((item) => (
@@ -115,7 +127,7 @@ export default function CouplesTherapyCaseStudy() {
         <div className="mx-auto max-w-6xl px-6 pb-16 lg:px-8">
           <ShotImage
             src={AFTER_SRC}
-            alt="The Couples Therapy Practice homepage after the redesign"
+            alt="The Couples Therapy and Reunification Counseling Inc. homepage after the redesign"
             ratio="aspect-[16/9]"
             sizes="(min-width: 1024px) 1152px, 100vw"
           />
@@ -235,7 +247,7 @@ export default function CouplesTherapyCaseStudy() {
               <figure>
                 <ShotImage
                   src={BEFORE_SRC}
-                  alt="The Couples Therapy Practice original homepage before the redesign"
+                  alt="The Couples Therapy and Reunification Counseling Inc. original homepage before the redesign"
                   ratio="aspect-[4/5]"
                 />
                 <figcaption className="mt-3 font-sans text-xs font-light text-charcoal/40">
@@ -311,7 +323,7 @@ export default function CouplesTherapyCaseStudy() {
             <figure>
               <ShotImage
                 src={COURT_PAGE_SRC}
-                alt="The Couples Therapy Practice attorney referrals page after the redesign"
+                alt="The Couples Therapy and Reunification Counseling Inc. attorney referrals page after the redesign"
                 ratio="aspect-[3/4]"
                 sizes="(min-width: 640px) 33vw, 100vw"
               />
@@ -322,7 +334,7 @@ export default function CouplesTherapyCaseStudy() {
             <figure>
               <ShotImage
                 src={NEWPORT_PAGE_SRC}
-                alt="The Couples Therapy Practice Newport Beach location page after the redesign"
+                alt="The Couples Therapy and Reunification Counseling Inc. Newport Beach location page after the redesign"
                 ratio="aspect-[3/4]"
                 sizes="(min-width: 640px) 33vw, 100vw"
               />
@@ -333,7 +345,7 @@ export default function CouplesTherapyCaseStudy() {
             <figure>
               <ShotImage
                 src={RELATIONSHIP_PAGE_SRC}
-                alt="The Couples Therapy Practice couples and relationship therapy page after the redesign"
+                alt="The Couples Therapy and Reunification Counseling Inc. couples and relationship therapy page after the redesign"
                 ratio="aspect-[3/4]"
                 sizes="(min-width: 640px) 33vw, 100vw"
               />
@@ -364,9 +376,9 @@ export default function CouplesTherapyCaseStudy() {
           <div className="mt-12">
             <BeforeAfterSlider
               beforeSrc={BEFORE_SRC}
-              beforeAlt="The Couples Therapy Practice original homepage before the redesign"
+              beforeAlt="The Couples Therapy and Reunification Counseling Inc. original homepage before the redesign"
               afterSrc={AFTER_SRC}
-              afterAlt="The Couples Therapy Practice homepage after the redesign"
+              afterAlt="The Couples Therapy and Reunification Counseling Inc. homepage after the redesign"
             />
             <p className="mt-5 text-center font-sans text-[11px] font-medium uppercase tracking-[0.22em] text-charcoal/35">
               Drag the handle to compare the original site to the redesign
@@ -384,7 +396,7 @@ export default function CouplesTherapyCaseStudy() {
               <figure>
                 <ShotImage
                   src={AFTER_SRC}
-                  alt="The Couples Therapy Practice homepage after the redesign"
+                  alt="The Couples Therapy and Reunification Counseling Inc. homepage after the redesign"
                   ratio="aspect-[4/3]"
                 />
                 <figcaption className="mt-3 font-sans text-xs font-light text-charcoal/40">
@@ -394,7 +406,7 @@ export default function CouplesTherapyCaseStudy() {
               <figure>
                 <ShotImage
                   src={MOBILE_SRC}
-                  alt="The Couples Therapy Practice mobile homepage after the redesign"
+                  alt="The Couples Therapy and Reunification Counseling Inc. mobile homepage after the redesign"
                   ratio="aspect-[9/16]"
                   sizes="(min-width: 1024px) 33vw, 50vw"
                 />
@@ -509,7 +521,7 @@ export default function CouplesTherapyCaseStudy() {
             <div className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full">
               <Image
                 src={FOUNDER_PHOTO_SRC}
-                alt="Maria Jessica Quiroz, Founder of The Couples Therapy Practice"
+                alt="Maria Jessica Quiroz, Founder of The Couples Therapy and Reunification Counseling Inc."
                 fill
                 className="object-cover"
                 sizes="48px"
@@ -520,7 +532,7 @@ export default function CouplesTherapyCaseStudy() {
                 Maria Jessica Quiroz
               </h3>
               <p className="font-sans text-xs font-light text-charcoal/50">
-                Founder, The Couples Therapy Practice
+                Founder, The Couples Therapy and Reunification Counseling Inc.
               </p>
             </div>
           </div>

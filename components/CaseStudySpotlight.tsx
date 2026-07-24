@@ -30,7 +30,7 @@ export default function CaseStudySpotlight() {
               <div className="relative aspect-[4/3]">
                 <Image
                   src={AFTER_SRC}
-                  alt="The Couples Therapy Practice homepage after the redesign"
+                  alt="The Couples Therapy and Reunification Counseling Inc. homepage after the redesign"
                   fill
                   className="object-cover object-top"
                   sizes="(min-width: 1024px) 55vw, 100vw"
@@ -51,7 +51,7 @@ export default function CaseStudySpotlight() {
               A Web Redesign That Delivered Real Growth.
             </h1>
             <p className="mt-4 font-sans text-xs font-medium text-charcoal/40 tracking-[0.15em] uppercase">
-              The Couples Therapy Practice · Mental Health &amp; Wellness · Los Angeles, CA
+              The Couples Therapy and Reunification Counseling Inc. · Mental Health &amp; Wellness · Los Angeles, CA
             </p>
             <p className="mt-6 font-sans text-base font-light leading-relaxed text-charcoal/60">
               A modern visual system, a clearer path to booking, and a technical SEO foundation built
