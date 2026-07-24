@@ -12,6 +12,7 @@ const MOBILE_SRC = `${IMG_BASE}/the-couples-therapy-mobile-site.png`
 const COURT_PAGE_SRC = `${IMG_BASE}/the-couples-therapy-court-page-after.png`
 const NEWPORT_PAGE_SRC = `${IMG_BASE}/the-couples-therapy-newport-location-page-after.png`
 const RELATIONSHIP_PAGE_SRC = `${IMG_BASE}/the-couples-therapy-relationship-page-after.png`
+const FOUNDER_PHOTO_SRC = `${IMG_BASE}/jessica-quiroz-founder.png`
 
 export const metadata: Metadata = {
   title: 'The Couples Therapy Practice: A Web Redesign Case Study | Blue Bay Agency',
@@ -33,19 +34,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-}
-
-/* Inline placeholder: brand-accent dashed underline so unresolved copy
-   is unmistakable and easy to find before publication. */
-function PH({ children }: { children: ReactNode }) {
-  return (
-    <span
-      className="text-dusty-rose border-b border-dashed border-dusty-rose/70"
-      title="Placeholder: replace before publication"
-    >
-      {children}
-    </span>
-  )
 }
 
 function Eyebrow({ children }: { children: ReactNode }) {
@@ -108,7 +96,7 @@ export default function CouplesTherapyCaseStudy() {
             {[
               { k: 'Client', v: <>The Couples Therapy Practice</> },
               { k: 'Site', v: <>thecouplestherapy.com</> },
-              { k: 'Timeline', v: <PH>[X weeks]</PH> },
+              { k: 'Timeline', v: <>6 weeks</> },
               { k: 'Role', v: <>Strategy, Design, Dev, Copy</> },
             ].map((item) => (
               <div key={item.k}>
@@ -518,8 +506,14 @@ export default function CouplesTherapyCaseStudy() {
           </blockquote>
 
           <div className="mt-10 flex items-center justify-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-navy">
-              <span className="font-sans text-base font-medium text-white">M</span>
+            <div className="relative h-12 w-12 flex-shrink-0 overflow-hidden rounded-full">
+              <Image
+                src={FOUNDER_PHOTO_SRC}
+                alt="Maria Jessica Quiroz, Founder of The Couples Therapy Practice"
+                fill
+                className="object-cover"
+                sizes="48px"
+              />
             </div>
             <div className="text-left">
               <h3 className="font-canela-deck text-lg font-light text-navy">
