@@ -1,10 +1,13 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 
 export default function FinalCTA() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const contactHref = pathname === '/' ? '#contact' : '/#contact'
 
   return (
     <section className="relative bg-french-blue py-28 md:py-44 overflow-hidden">
@@ -48,7 +51,7 @@ export default function FinalCTA() {
         <ScrollReveal delay={3}>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="#contact"
+              href={contactHref}
               className="inline-flex items-center justify-center gap-2 bg-white text-navy hover:bg-white/90 font-sans text-sm font-medium px-8 py-4 transition-all duration-300 tracking-wide group w-full sm:w-auto"
             >
               {t('finalCta.cta_primary')}

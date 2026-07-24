@@ -55,7 +55,7 @@ export default function FreebieBanner() {
         <span className="font-sans text-xs text-white/70 group-hover:text-white/90 transition-colors duration-200 truncate">
           <span className="hidden sm:inline">Free Download: </span>
           <span className="font-medium text-white">The 7-Step Homepage Guide</span>
-          <span className="hidden md:inline text-white/45"> — Grab Your Copy</span>
+          <span className="hidden md:inline text-white/45"> · Grab Your Copy</span>
         </span>
         <ArrowIcon />
       </a>

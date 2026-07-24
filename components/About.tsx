@@ -22,7 +22,7 @@ export default function About() {
 
 
   return (
-    <section id="about" className="bg-sand py-24 md:py-36 relative">
+    <section className="bg-sand py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
@@ -55,9 +55,9 @@ export default function About() {
             </ScrollReveal>
 
             <ScrollReveal delay={1}>
-              <h2 className="font-canela-deck font-light text-navy leading-[1.1] mb-6" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
+              <h1 className="font-canela-deck font-light text-navy leading-[1.1] mb-6" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
                 {t('about.h2')}
-              </h2>
+              </h1>
             </ScrollReveal>
 
             <ScrollReveal delay={2}>

@@ -1,10 +1,10 @@
 {
   "nav": {
-    "work": "Proyectos",
+    "work": "Casos de Estudio",
     "process": "Proceso",
-    "pricing": "Precios",
     "about": "Nosotros",
     "faq": "Preguntas",
+    "services": "Servicios",
     "cta": "Iniciar la Conversacion"
   },
   "hero": {
@@ -31,6 +31,44 @@
     "body1": "La mayoria de las marcas de salud y bienestar tienen trafico solido y aun luchan por convertir visitantes en clientes que pagan. La brecha raramente es de visibilidad. Es lo que sucede en el momento en que alguien llega a tu sitio.",
     "body2": "Construimos sitios web disenados para convertir. Mensajeria estrategica, flujo intuitivo y una experiencia de usuario fluida.",
     "quote": "El sitio web correcto no solo se ve bien. Funciona."
+  },
+  "services": {
+    "eyebrow": "Que Hacemos",
+    "h2": "Diseno Web y Marketing Digital Integral.",
+    "body": "Desde diseno y desarrollo web personalizado hasta SEO y email marketing, Bluebay Agency construye sistemas digitales completos que convierten visitantes en clientes leales.",
+    "items": [
+      { "title": "Diseno Web", "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte." },
+      { "title": "Desarrollo Web", "desc": "Construcciones rapidas y confiables en plataformas modernas (React, Next.js, WordPress y Shopify) disenadas para rendir." },
+      { "title": "SEO", "desc": "SEO tecnico incorporado desde el primer dia, para que las personas correctas realmente puedan encontrarte en busquedas." },
+      { "title": "Email Marketing", "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes." }
+    ],
+    "cta_all": "Ver Todos los Servicios",
+    "cta_start": "Comenzar",
+    "page_eyebrow": "Nuestros Servicios",
+    "page_h1": "Diseno Web y Marketing Digital Integral.",
+    "page_intro": "Bluebay Agency construye sistemas digitales completos para marcas de bienestar y marcas modernas, desde la primera linea de codigo hasta los correos que mantienen a los clientes regresando.",
+    "page_items": [
+      {
+        "title": "Diseno Web",
+        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte: construidos en torno a como las personas realmente deciden, no solo como se ve una pagina en un mockup.",
+        "features": ["Diseno UX/UI personalizado", "Disenos mobile-first", "Sistemas visuales alineados a tu marca", "CTAs enfocados en conversion"]
+      },
+      {
+        "title": "Desarrollo Web",
+        "desc": "Construcciones rapidas y confiables en plataformas modernas disenadas para rendir: React, Next.js, WordPress y Shopify, segun lo que tu negocio realmente necesite para operar y crecer.",
+        "features": ["Desarrollo en React y Next.js", "Construcciones en WordPress y Shopify", "Integracion de CMS headless", "Optimizacion de velocidad y rendimiento"]
+      },
+      {
+        "title": "SEO",
+        "desc": "SEO tecnico incorporado desde el primer dia: metadatos, estructura de encabezados, marcado de esquema y contenido mapeado a palabras clave, disenado para que te encuentren las personas que ya estan buscando lo que ofreces.",
+        "features": ["Auditorias de SEO tecnico", "Optimizacion on-page", "Marcado de esquema (schema)", "Estrategia de contenido mapeada a palabras clave"]
+      },
+      {
+        "title": "Email Marketing",
+        "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes, construidos sobre los mismos principios de conversion que tu sitio web.",
+        "features": ["Secuencias de bienvenida y nutricion", "Diseno y copy de campanas", "Segmentacion de listas", "Configuracion e integracion de plataforma"]
+      }
+    ]
   },
   "whyBluebay": {
     "eyebrow": "Por Que Bluebay Agency",
@@ -78,7 +116,7 @@
   },
   "portfolio": {
     "eyebrow": "Trabajo Selecto",
-    "h2": "",
+    "h2": "Sitios Web Reales. Resultados Reales.",
     "body": "Una mirada a como la estrategia, el diseno y la ingenieria mobile-first se combinan para construir sitios web que convierten visitantes en clientes.",
     "mobile_label": "Vista Movil",
     "projects": [

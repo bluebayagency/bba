@@ -102,7 +102,7 @@ export default function ResourcesPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
 
-            {/* Left — what's inside */}
+            {/* Left: what's inside */}
             <div>
               <div className="flex items-center gap-4 mb-8">
                 <div className="h-px w-10 bg-dusty-rose/60" />
@@ -143,7 +143,7 @@ export default function ResourcesPage() {
               </div>
             </div>
 
-            {/* Right — form */}
+            {/* Right: form */}
             <div className="lg:sticky lg:top-10">
               <div className="bg-white border border-gray-border p-8 md:p-10">
                 <div className="flex items-center gap-4 mb-6">

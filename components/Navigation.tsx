@@ -4,8 +4,22 @@ import { useState, useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next'
 
-const navKeys = ['work', 'process', 'pricing', 'about', 'faq'] as const
-const navAnchors = ['#work', '#process', '#pricing', '#about', '#faq']
+const navKeys = ['work', 'process', 'services', 'about', 'faq'] as const
+const navAnchors: Record<(typeof navKeys)[number], string> = {
+  work: '/case-studies',
+  process: '/process',
+  services: '/services',
+  about: '/about',
+  faq: '/faq',
+}
+// Keys in this set are standalone pages, not homepage anchors; they always
+// link straight to their route regardless of which page the nav renders on.
+const standalonePages = new Set<(typeof navKeys)[number]>(['work', 'about', 'process', 'services', 'faq'])
+
+function navHref(key: (typeof navKeys)[number], isHome: boolean) {
+  if (standalonePages.has(key)) return navAnchors[key]
+  return isHome ? navAnchors[key] : `/${navAnchors[key]}`
+}
 
 function GlobeIcon() {
   return (
@@ -19,7 +33,7 @@ export default function Navigation() {
   const { t, i18n } = useTranslation()
   const pathname = usePathname()
   const isHome = pathname === '/'
-  const navHrefs = navAnchors.map((a) => (isHome ? a : `/${a}`))
+  const navHrefs = navKeys.map((key) => navHref(key, isHome))
   const contactHref = isHome ? '#contact' : '/#contact'
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -78,7 +92,7 @@ export default function Navigation() {
         style={{ top: bannerOffset }}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-          {/* Primary logo — navy on soft-white */}
+          {/* Primary logo: navy on soft-white */}
           <a href="/" className="flex-shrink-0">
             <img
               src="/images/logos/bluebay-agency-primary-blue.svg"

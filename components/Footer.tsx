@@ -1,18 +1,22 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import MailerLiteSignup from './MailerLiteSignup'
 
 export default function Footer() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const isHome = pathname === '/'
+  const contactHref = isHome ? '#contact' : '/#contact'
 
   const footerLinks = [
-    { key: 'nav.work', href: '#work' },
-    { key: 'nav.process', href: '#process' },
-    { key: 'nav.pricing', href: '#pricing' },
-    { key: 'nav.about', href: '#about' },
-    { key: 'nav.faq', href: '#faq' },
-    { key: 'contact.eyebrow', href: '#contact' },
+    { key: 'nav.work', href: '/case-studies' },
+    { key: 'nav.services', href: '/services' },
+    { key: 'nav.process', href: '/process' },
+    { key: 'nav.about', href: '/about' },
+    { key: 'nav.faq', href: '/faq' },
+    { key: 'contact.eyebrow', href: contactHref },
   ]
 
   return (
@@ -96,7 +100,7 @@ export default function Footer() {
               </li>
               <li className="pt-4">
                 <a
-                  href="#contact"
+                  href={contactHref}
                   className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/40 text-white/60 font-sans text-xs font-medium px-4 py-2.5 transition-all duration-300"
                 >
                   {t('footer.book_cta')}

@@ -1,10 +1,10 @@
 {
   "nav": {
-    "work": "Work",
+    "work": "Case Studies",
     "process": "Process",
-    "pricing": "Pricing",
     "about": "About",
     "faq": "FAQ",
+    "services": "Services",
     "cta": "Start the Conversation"
   },
   "hero": {
@@ -31,6 +31,44 @@
     "body1": "Most wellness brands have solid traffic and still struggle to turn visitors into paying clients. The gap is rarely about awareness. It is about what happens the moment someone lands on your site.",
     "body2": "We build websites engineered to convert. Strategic messaging, intuitive flow, and a seamless user experience.",
     "quote": "The right website does not just look good. It works."
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "h2": "Full-Service Web Design & Digital Marketing.",
+    "body": "From custom web design and development to SEO and email marketing, Bluebay Agency builds complete digital systems that turn visitors into loyal clients.",
+    "items": [
+      { "title": "Web Design", "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out." },
+      { "title": "Web Development", "desc": "Fast, reliable builds on modern platforms (React, Next.js, WordPress, and Shopify) engineered to perform." },
+      { "title": "SEO", "desc": "Technical SEO built in from day one, so the right people can actually find you in search." },
+      { "title": "Email Marketing", "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients." }
+    ],
+    "cta_all": "View All Services",
+    "cta_start": "Get Started",
+    "page_eyebrow": "Our Services",
+    "page_h1": "Full-Service Web Design & Digital Marketing.",
+    "page_intro": "Bluebay Agency builds complete digital systems for wellness and modern brands, from the first line of code to the emails that keep clients coming back.",
+    "page_items": [
+      {
+        "title": "Web Design",
+        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out: built around how people actually decide, not just how a page looks in a mockup.",
+        "features": ["Custom UX/UI design", "Mobile-first layouts", "Brand-aligned visual systems", "Conversion-focused CTAs"]
+      },
+      {
+        "title": "Web Development",
+        "desc": "Fast, reliable builds on modern platforms engineered to perform: React, Next.js, WordPress, and Shopify, depending on what your business actually needs to run and grow.",
+        "features": ["React & Next.js development", "WordPress & Shopify builds", "Headless CMS integration", "Speed & performance optimization"]
+      },
+      {
+        "title": "SEO",
+        "desc": "Technical SEO built in from day one: metadata, heading structure, schema markup, and keyword-mapped content designed to get you found by people already searching for what you offer.",
+        "features": ["Technical SEO audits", "On-page optimization", "Schema markup", "Keyword-mapped content strategy"]
+      },
+      {
+        "title": "Email Marketing",
+        "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients, built on the same conversion principles as your website.",
+        "features": ["Welcome & nurture sequences", "Campaign design & copy", "List segmentation", "Platform setup & integration"]
+      }
+    ]
   },
   "whyBluebay": {
     "eyebrow": "Why Bluebay Agency",
@@ -78,7 +116,7 @@
   },
   "portfolio": {
     "eyebrow": "Selected Work",
-    "h2": "",
+    "h2": "Real Websites. Real Results.",
     "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that convert visitors into clients.",
     "mobile_label": "Mobile View",
     "projects": [

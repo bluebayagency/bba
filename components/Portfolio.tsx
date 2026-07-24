@@ -1,6 +1,7 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 
 const projectMeta = [
@@ -24,12 +25,14 @@ const projectMeta = [
 
 export default function Portfolio() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const contactHref = pathname === '/' ? '#contact' : '/#contact'
   const projects = t('portfolio.projects', { returnObjects: true }) as Array<{
     name: string; category: string; desc: string
   }>
 
   return (
-    <section id="work" className="bg-charcoal py-24 md:py-36 relative overflow-hidden">
+    <section className="bg-charcoal py-24 md:py-36 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16 md:mb-20">
           <div className="max-w-xl">
@@ -71,7 +74,7 @@ export default function Portfolio() {
                     <div className="absolute bottom-0 left-0 right-0 h-10 bg-gradient-to-t from-black/40 to-transparent pointer-events-none" />
                   </div>
 
-                  {/* Mobile preview strip — 230px */}
+                  {/* Mobile preview strip: 230px */}
                   <div className="relative overflow-hidden bg-black/25" style={{ height: '230px' }}>
                     <img
                       src={meta.mobilePreview}
@@ -151,7 +154,7 @@ export default function Portfolio() {
         <ScrollReveal delay={3}>
           <div className="mt-8 text-center">
             <a
-              href="#contact"
+              href={contactHref}
               className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-white/60 border border-white/20 hover:border-white/50 hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
             >
               {t('portfolio.more_cta')}

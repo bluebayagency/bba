@@ -1,12 +1,8 @@
 import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import CoreTruth from '@/components/CoreTruth'
-import Process from '@/components/Process'
-import Portfolio from '@/components/Portfolio'
-import Pricing from '@/components/Pricing'
-import About from '@/components/About'
+import Services from '@/components/Services'
 import Blog from '@/components/Blog'
-import FAQ from '@/components/FAQ'
 import Contact from '@/components/Contact'
 import FinalCTA from '@/components/FinalCTA'
 import Footer from '@/components/Footer'
@@ -38,12 +34,8 @@ export default async function Home({
       <Navigation />
       <Hero />
       <CoreTruth />
-      <Process />
-      <Portfolio />
-      <Pricing />
-      <About />
+      <Services />
       <Blog posts={posts} lang={lang} />
-      <FAQ />
       <Contact />
       <FinalCTA />
       <Footer />

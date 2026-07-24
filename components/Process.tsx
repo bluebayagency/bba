@@ -1,16 +1,19 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 
 export default function Process() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const contactHref = pathname === '/' ? '#contact' : '/#contact'
   const steps = t('process.steps', { returnObjects: true }) as Array<{
     num: string; title: string; desc: string; detail: string
   }>
 
   return (
-    <section id="process" className="bg-soft-white py-24 md:py-36 relative">
+    <section className="bg-soft-white py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="max-w-2xl mb-20 md:mb-28">
@@ -22,12 +25,12 @@ export default function Process() {
             </div>
           </ScrollReveal>
           <ScrollReveal delay={1}>
-            <h2
+            <h1
               className="font-canela-deck font-light text-navy leading-[1.1]"
               style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
             >
               {t('process.h2')}
-            </h2>
+            </h1>
           </ScrollReveal>
         </div>
 
@@ -42,9 +45,9 @@ export default function Process() {
                     </div>
                     <div className="flex-1 h-px bg-gray-border" />
                   </div>
-                  <h3 className="font-canela-deck font-light text-xl text-navy leading-tight">
+                  <h2 className="font-canela-deck font-light text-xl text-navy leading-tight">
                     {step.title}
-                  </h3>
+                  </h2>
                   <div className="absolute top-0 left-0 w-0 h-0.5 bg-navy/30 group-hover:w-full transition-all duration-500" />
                 </div>
               </div>
@@ -55,7 +58,7 @@ export default function Process() {
         <ScrollReveal delay={2}>
           <div className="mt-16 text-center">
             <a
-              href="#contact"
+              href={contactHref}
               className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
             >
               {t('process.cta')}

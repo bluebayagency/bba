@@ -139,7 +139,7 @@ export default function PrivacyPolicyPage() {
             </Section>
 
             <Section title="Information Retention">
-              <p>The company retains data as long as necessary to fulfill requests, comply with legal obligations, maintain business records, resolve disputes, prevent fraud, or enforce agreements — or until you request deletion.</p>
+              <p>The company retains data as long as necessary to fulfill requests, comply with legal obligations, maintain business records, resolve disputes, prevent fraud, or enforce agreements: or until you request deletion.</p>
             </Section>
 
             <Section title="Information Protection and Security">
@@ -150,22 +150,22 @@ export default function PrivacyPolicyPage() {
               <p>You can unsubscribe from email communications using links in messages. Local data protection laws may grant additional rights depending on your location.</p>
               <p>Potential rights include:</p>
               <ul>
-                <li><strong>Right to Disclosure/Access</strong> — Know what information is collected about you</li>
-                <li><strong>Right to Correct/Rectification</strong> — Request correction of inaccurate data</li>
-                <li><strong>Right to Erasure/Deletion</strong> — Request personal information removal</li>
-                <li><strong>Right to Nondiscrimination</strong> — Receive equal service despite exercising privacy rights</li>
-                <li><strong>Right to Obtain a List of Specific Third Parties</strong> — Request names of parties receiving your data</li>
-                <li><strong>Right to Obtain Categories of Third Parties</strong> — Request categories of recipient organizations</li>
-                <li><strong>Right to Opt Out of Targeted Advertising</strong> — Prevent use for advertising purposes</li>
-                <li><strong>Right to Limit Use of Sensitive Personal Information</strong> — Restrict sensitive data usage</li>
-                <li><strong>Right to Data Portability</strong> — Receive information in machine-readable or usable format</li>
-                <li><strong>Right to Withdraw Consent</strong> — Stop processing based on prior authorization</li>
-                <li><strong>Right to Remain Anonymous or Use a Pseudonym</strong> — Identify yourself alternatively when practical</li>
-                <li><strong>Right to Restrict Processing</strong> — Limit purposes for data processing</li>
-                <li><strong>Right to Object to Processing</strong> — Oppose information handling, especially for marketing</li>
-                <li><strong>Right to Stop Unwanted Direct Marketing</strong> — Request cessation of promotional communications</li>
-                <li><strong>Right to Complain</strong> — Lodge complaints with regulatory authorities</li>
-                <li><strong>Right to Appeal</strong> — Challenge decisions about privacy rights requests</li>
+                <li><strong>Right to Disclosure/Access</strong>: Know what information is collected about you</li>
+                <li><strong>Right to Correct/Rectification</strong>: Request correction of inaccurate data</li>
+                <li><strong>Right to Erasure/Deletion</strong>: Request personal information removal</li>
+                <li><strong>Right to Nondiscrimination</strong>: Receive equal service despite exercising privacy rights</li>
+                <li><strong>Right to Obtain a List of Specific Third Parties</strong>: Request names of parties receiving your data</li>
+                <li><strong>Right to Obtain Categories of Third Parties</strong>: Request categories of recipient organizations</li>
+                <li><strong>Right to Opt Out of Targeted Advertising</strong>: Prevent use for advertising purposes</li>
+                <li><strong>Right to Limit Use of Sensitive Personal Information</strong>: Restrict sensitive data usage</li>
+                <li><strong>Right to Data Portability</strong>: Receive information in machine-readable or usable format</li>
+                <li><strong>Right to Withdraw Consent</strong>: Stop processing based on prior authorization</li>
+                <li><strong>Right to Remain Anonymous or Use a Pseudonym</strong>: Identify yourself alternatively when practical</li>
+                <li><strong>Right to Restrict Processing</strong>: Limit purposes for data processing</li>
+                <li><strong>Right to Object to Processing</strong>: Oppose information handling, especially for marketing</li>
+                <li><strong>Right to Stop Unwanted Direct Marketing</strong>: Request cessation of promotional communications</li>
+                <li><strong>Right to Complain</strong>: Lodge complaints with regulatory authorities</li>
+                <li><strong>Right to Appeal</strong>: Challenge decisions about privacy rights requests</li>
               </ul>
             </Section>
 

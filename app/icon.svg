@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <!-- Navy background -->
   <rect width="100" height="100" fill="#091c36"/>
-  <!-- "B" lettermark — extracted and scaled from the Bluebay Agency primary logo -->
+  <!-- "B" lettermark, extracted and scaled from the Bluebay Agency primary logo -->
   <g transform="translate(5, 7) scale(0.83)">
     <path
       d="M0 0 C65.53419811 0 65.53419811 0 76.875 10.1875

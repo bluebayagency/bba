@@ -53,7 +53,7 @@ export default function WhyBluebay() {
           </ScrollReveal>
         </div>
 
-        {/* Pillars — 5 columns on large screens for perfect alignment */}
+        {/* Pillars: 5 columns on large screens for perfect alignment */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-0.5">
           {pillars.map((pillar, i) => (
             <ScrollReveal key={pillar.num} className="h-full" delay={((i % 3) + 1) as 1 | 2 | 3}>

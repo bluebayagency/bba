@@ -2,15 +2,18 @@
 
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 
 export default function FAQ() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const contactHref = pathname === '/' ? '#contact' : '/#contact'
   const [openIndex, setOpenIndex] = useState<number | null>(null)
   const items = t('faq.items', { returnObjects: true }) as Array<{ q: string; a: string }>
 
   return (
-    <section id="faq" className="bg-soft-white py-24 md:py-36 relative">
+    <section className="bg-soft-white py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-14 md:mb-20">
@@ -22,9 +25,9 @@ export default function FAQ() {
             </div>
           </ScrollReveal>
           <ScrollReveal delay={1}>
-            <h2 className="font-canela-deck font-light text-navy leading-[1.1]" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
+            <h1 className="font-canela-deck font-light text-navy leading-[1.1]" style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}>
               {t('faq.h2')}
-            </h2>
+            </h1>
           </ScrollReveal>
         </div>
 
@@ -69,7 +72,7 @@ export default function FAQ() {
         <ScrollReveal delay={2}>
           <div className="mt-14 text-center">
             <p className="font-sans text-sm text-charcoal/40 mb-4">{t('faq.still_question')}</p>
-            <a href="#contact" className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy/30 hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto">
+            <a href={contactHref} className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy/30 hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto">
               {t('faq.ask_cta')}
             </a>
           </div>

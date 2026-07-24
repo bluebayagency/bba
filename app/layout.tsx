@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
     description:
-      'Mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250 — live in as little as 3 days. Boutique agency based in Hermosa Beach, CA with 15+ years of experience.',
+      'Mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250, live in as little as 3 days. Boutique agency based in Hermosa Beach, CA with 15+ years of experience.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
         url: '/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
         width: 1200,
         height: 630,
-        alt: 'Bluebay Agency — Boutique Website Design for Wellness & Modern Brands, Hermosa Beach CA',
+        alt: 'Bluebay Agency: Boutique Website Design for Wellness & Modern Brands, Hermosa Beach CA',
       },
     ],
   },

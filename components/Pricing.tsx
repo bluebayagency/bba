@@ -1,6 +1,7 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
+import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 
 function CheckIcon({ muted = false }: { muted?: boolean }) {
@@ -33,6 +34,8 @@ function ClockIcon({ muted = false }: { muted?: boolean }) {
 
 export default function Pricing() {
   const { t } = useTranslation()
+  const pathname = usePathname()
+  const contactHref = pathname === '/' ? '#contact' : '/#contact'
   const tiers = t('pricing.tiers', { returnObjects: true }) as Array<{
     badge: string | null
     tier_num: string
@@ -47,7 +50,7 @@ export default function Pricing() {
   }>
 
   return (
-    <section id="pricing" className="bg-soft-white py-24 md:py-36 relative">
+    <section className="bg-soft-white py-24 md:py-36 relative">
       <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
@@ -133,7 +136,7 @@ export default function Pricing() {
                       </div>
 
                       <a
-                        href="#contact"
+                        href={contactHref}
                         className="block w-full text-center font-sans text-sm font-medium py-4 px-6 tracking-wide bg-navy text-white hover:bg-navy/80 transition-colors duration-300"
                       >
                         {tier.cta}
@@ -158,7 +161,7 @@ export default function Pricing() {
               </p>
             </div>
             <a
-              href="#contact"
+              href={contactHref}
               className="inline-flex items-center justify-center gap-2 border border-navy text-navy font-sans text-sm font-medium px-8 py-4 hover:bg-navy hover:text-white transition-all duration-300 tracking-wide w-full md:w-auto"
             >
               {t('pricing.custom_cta')}

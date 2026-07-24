@@ -136,7 +136,7 @@ export default async function EsBlogPostPage({ params }: Props) {
           </div>
         </div>
 
-        {/* Featured image — bleeds out of hero */}
+        {/* Featured image: bleeds out of hero */}
         {image && (
           <div className="max-w-5xl mx-auto px-6 lg:px-8">
             <div className="overflow-hidden" style={{ maxHeight: '520px' }}>

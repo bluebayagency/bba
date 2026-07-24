@@ -16,7 +16,7 @@ export default function AppleIcon() {
           justifyContent: 'center',
         }}
       >
-        {/* SVG B lettermark inline — same path as icon.svg */}
+        {/* SVG B lettermark inline; same path as icon.svg */}
         <svg
           viewBox="0 0 100 128"
           width="120"
