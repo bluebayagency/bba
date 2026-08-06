@@ -16,12 +16,26 @@
     "body2": "",
     "cta_primary": "Iniciar la Conversacion",
     "cta_secondary": "Ver Nuestro Trabajo",
-    "trust": ["South Bay, CA", "15 Anos de Experiencia", "Mobile-First", "En Vivo en 3 Dias"],
+    "trust": [
+      "South Bay, CA",
+      "15 Anos de Experiencia",
+      "Mobile-First",
+      "En Vivo en 3 Dias"
+    ],
     "scarcity": "Actualmente aceptando un numero limitado de nuevos clientes.",
     "stats": [
-      { "num": "81+", "label": "Landing Pages Construidas" },
-      { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "23+", "label": "Sistemas de Conversion Personalizados" }
+      {
+        "num": "81+",
+        "label": "Landing Pages Construidas"
+      },
+      {
+        "num": "45+",
+        "label": "Sitios Web Lanzados"
+      },
+      {
+        "num": "23+",
+        "label": "Sistemas de Conversion Personalizados"
+      }
     ],
     "scroll": "Deslizar"
   },
@@ -37,10 +51,22 @@
     "h2": "Diseno Web y Marketing Digital Integral.",
     "body": "Desde diseno y desarrollo web personalizado hasta SEO y email marketing, Bluebay Agency construye sistemas digitales completos que convierten visitantes en clientes leales.",
     "items": [
-      { "title": "Diseno Web", "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte." },
-      { "title": "Desarrollo Web", "desc": "Construcciones rapidas y confiables en plataformas modernas (React, Next.js, WordPress y Shopify) disenadas para rendir." },
-      { "title": "SEO", "desc": "SEO tecnico incorporado desde el primer dia, para que las personas correctas realmente puedan encontrarte en busquedas." },
-      { "title": "Email Marketing", "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes." }
+      {
+        "title": "Diseno Web",
+        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte."
+      },
+      {
+        "title": "Desarrollo Web",
+        "desc": "Construcciones rapidas y confiables en plataformas modernas (React, Next.js, WordPress y Shopify) disenadas para rendir."
+      },
+      {
+        "title": "SEO",
+        "desc": "SEO tecnico incorporado desde el primer dia, para que las personas correctas puedan encontrarte en busquedas."
+      },
+      {
+        "title": "Email Marketing",
+        "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes."
+      }
     ],
     "cta_all": "Ver Todos los Servicios",
     "cta_start": "Comenzar",
@@ -50,23 +76,43 @@
     "page_items": [
       {
         "title": "Diseno Web",
-        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte: construidos en torno a como las personas realmente deciden, no solo como se ve una pagina en un mockup.",
-        "features": ["Diseno UX/UI personalizado", "Disenos mobile-first", "Sistemas visuales alineados a tu marca", "CTAs enfocados en conversion"]
+        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte: construidos en torno a como las personas deciden, no solo como se ve una pagina en un mockup.",
+        "features": [
+          "Diseno UX/UI personalizado",
+          "Disenos mobile-first",
+          "Sistemas visuales alineados a tu marca",
+          "CTAs enfocados en conversion"
+        ]
       },
       {
         "title": "Desarrollo Web",
-        "desc": "Construcciones rapidas y confiables en plataformas modernas disenadas para rendir: React, Next.js, WordPress y Shopify, segun lo que tu negocio realmente necesite para operar y crecer.",
-        "features": ["Desarrollo en React y Next.js", "Construcciones en WordPress y Shopify", "Integracion de CMS headless", "Optimizacion de velocidad y rendimiento"]
+        "desc": "Construcciones rapidas y confiables en plataformas modernas disenadas para rendir: React, Next.js, WordPress y Shopify, segun lo que tu negocio necesite para operar y crecer.",
+        "features": [
+          "Desarrollo en React y Next.js",
+          "Construcciones en WordPress y Shopify",
+          "Integracion de CMS headless",
+          "Optimizacion de velocidad y rendimiento"
+        ]
       },
       {
         "title": "SEO",
         "desc": "SEO tecnico incorporado desde el primer dia: metadatos, estructura de encabezados, marcado de esquema y contenido mapeado a palabras clave, disenado para que te encuentren las personas que ya estan buscando lo que ofreces.",
-        "features": ["Auditorias de SEO tecnico", "Optimizacion on-page", "Marcado de esquema (schema)", "Estrategia de contenido mapeada a palabras clave"]
+        "features": [
+          "Auditorias de SEO tecnico",
+          "Optimizacion on-page",
+          "Marcado de esquema (schema)",
+          "Estrategia de contenido mapeada a palabras clave"
+        ]
       },
       {
         "title": "Email Marketing",
         "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes, construidos sobre los mismos principios de conversion que tu sitio web.",
-        "features": ["Secuencias de bienvenida y nutricion", "Diseno y copy de campanas", "Segmentacion de listas", "Configuracion e integracion de plataforma"]
+        "features": [
+          "Secuencias de bienvenida y nutricion",
+          "Diseno y copy de campanas",
+          "Segmentacion de listas",
+          "Configuracion e integracion de plataforma"
+        ]
       }
     ]
   },
@@ -75,13 +121,38 @@
     "h2": "Construimos Sitios Web que Convierten Visitantes en Clientes.",
     "body": "Las marcas de salud, bienestar y estilo moderno no solo necesitan un sitio web hermoso, necesitan uno que rinda. Nos especializamos en construir sitios web mobile-first que convierten el trafico existente en leads, clientes e ingresos. Cada pagina se construye con un proposito: convertir atencion en accion.",
     "pillars": [
-      { "num": "01", "title": "Conversion Primero", "desc": "Cada decision, desde el diseno hasta el posicionamiento del CTA, se toma para mover al visitante correcto hacia la accion." },
-      { "num": "02", "title": "Velocidad", "desc": "Los sistemas estan en vivo en tan solo 72 horas. Una implementacion mas rapida significa resultados mas rapidos de tu trafico existente." },
-      { "num": "03", "title": "Calidad de Leads", "desc": "Construimos flujos que pre-califican a tu audiencia para que las personas que se comunican ya sean el perfil correcto." },
-      { "num": "04", "title": "Funnel Completo", "desc": "Conectamos UX movil, mensajeria de marca, flujo de conversion e integracion de CRM en un sistema cohesivo que rinde." },
-      { "num": "05", "title": "Mobile-First", "desc": "Tus clientes estan en sus telefonos. Construimos para el dispositivo que usan para tomar decisiones, no como un segundo pensamiento." }
+      {
+        "num": "01",
+        "title": "Conversion Primero",
+        "desc": "Cada decision, desde el diseno hasta el posicionamiento del CTA, se toma para mover al visitante correcto hacia la accion."
+      },
+      {
+        "num": "02",
+        "title": "Velocidad",
+        "desc": "Los sistemas estan en vivo en tan solo 72 horas. Una implementacion mas rapida significa resultados mas rapidos de tu trafico existente."
+      },
+      {
+        "num": "03",
+        "title": "Calidad de Leads",
+        "desc": "Construimos flujos que pre-califican a tu audiencia para que las personas que se comunican ya sean el perfil correcto."
+      },
+      {
+        "num": "04",
+        "title": "Funnel Completo",
+        "desc": "Conectamos UX movil, mensajeria de marca, flujo de conversion e integracion de CRM en un sistema cohesivo que rinde."
+      },
+      {
+        "num": "05",
+        "title": "Mobile-First",
+        "desc": "Tus clientes estan en sus telefonos. Construimos para el dispositivo que usan para tomar decisiones, no como un segundo pensamiento."
+      }
     ],
-    "differentiators": ["Enfoque Conversion-First", "Implementacion en 72 Horas", "15 Anos de Experiencia", "Disenado para Salud y Bienestar"]
+    "differentiators": [
+      "Enfoque Conversion-First",
+      "Implementacion en 72 Horas",
+      "15 Anos de Experiencia",
+      "Disenado para Salud y Bienestar"
+    ]
   },
   "process": {
     "eyebrow": "Como Trabajamos",
@@ -134,88 +205,6 @@
     "more_text": "Mas casos de estudio disponibles bajo solicitud",
     "more_cta": "Agenda una Llamada para Ver Mas"
   },
-  "pricing": {
-    "eyebrow": "Inversion",
-    "h2": "Dos Sistemas de Conversion. Un Estandar de Calidad.",
-    "body": "Ya sea que necesites una pagina de aterrizaje enfocada o un sitio web de conversion completo, cada proyecto se construye con la misma base estrategica y atencion a lo que realmente genera resultados.",
-    "best_for_label": "Ideal para:",
-    "tech_label": "Construimos con",
-    "custom_heading": "Necesitas Algo Mas Especifico?",
-    "custom_body": "Tambien construimos sistemas multilingues, sitios para multiples ubicaciones y arquitecturas de conversion personalizadas para marcas con requisitos especificos.",
-    "custom_cta": "Solicitar Cotizacion Personalizada",
-    "tiers": [
-      {
-        "badge": null,
-        "tier_num": "Nivel 01",
-        "name": "Landing Page de Conversion",
-        "price": "Desde $1,250",
-        "timeline": "1 a 3 Dias Habiles",
-        "description": "Lanza una pagina de alta conversion que convierte trafico en clientes en dias.",
-        "subline": "Disenada para velocidad, claridad y conversion inmediata.",
-        "best_for": "Marcas que ejecutan campanas, eventos, promociones o que necesitan un impulso inmediato en conversiones de su trafico existente.",
-        "cta": "Lanzar Mi Landing Page",
-        "includes": [
-          "1 landing page enfocada y de alta conversion",
-          "Diseno responsivo mobile-first",
-          "Marco de mensajeria orientado a la conversion",
-          "Formulario de intake calificado",
-          "Diseno de CTA y flujo de desplazamiento",
-          "Configuracion basica de SEO para visibilidad",
-          "Configuracion de analitica y seguimiento",
-          "Despliegue rapido para lanzamiento inmediato"
-        ]
-      },
-      {
-        "badge": "Mas Popular",
-        "tier_num": "Nivel 02",
-        "name": "Sitio Web de Conversion con Autoridad",
-        "price": "Desde $4,500",
-        "timeline": "5 a 7 Dias Habiles",
-        "description": "Construye un sitio web estructurado que convierte tu presencia digital en una fuente constante de clientes calificados.",
-        "subline": "Disenado para convertir el trafico existente de forma mas confiable y generar confianza a escala.",
-        "best_for": "Marcas de salud, bienestar y estilo moderno que ya reciben trafico pero no lo convierten de forma consistente.",
-        "cta": "Construir Mi Sitio de Conversion",
-        "includes": [
-          "Hasta 5 a 10 paginas estrategicas de conversion",
-          "Arquitectura completa de conversion para la pagina principal",
-          "Diseno UX personalizado mobile-first",
-          "Refinamiento de mensajeria y posicionamiento de claridad",
-          "Sistema de calificacion de leads e intake",
-          "Optimizacion del flujo de conversion",
-          "Base de SEO para visibilidad a largo plazo",
-          "Analitica y seguimiento de conversiones",
-          "3 rondas de revisiones",
-          "5 dias de soporte post-lanzamiento"
-        ]
-      },
-      {
-        "badge": "Premium",
-        "tier_num": "Nivel 03",
-        "name": "Bluebay Conversion Sprint",
-        "price": "Desde $8,000",
-        "timeline": "7 a 21 Dias Habiles",
-        "description": "Una arquitectura de conversion completa disenada para convertir tu presencia digital en un sistema predecible de generacion de clientes.",
-        "subline": "Esta es una renovacion total del sitio web y del sistema de conversion.",
-        "best_for": "Marcas listas para escalar y convertir mas de su trafico existente a traves de un sistema de conversion completamente disenado.",
-        "cta": "Aplicar para Conversion Sprint",
-        "includes": [
-          "10+ paginas estrategicas de conversion",
-          "Auditoria completa de conversion (oferta, embudo, mensajeria)",
-          "Posicionamiento de oferta y arquitectura de mensajeria",
-          "Rediseno del sistema UX mobile-first",
-          "Construccion completa del sistema de conversion",
-          "Optimizacion de intake y calificacion de leads",
-          "Integracion de CRM y automatizacion",
-          "Optimizacion del flujo de conversion y logica de enrutamiento",
-          "Optimizacion SEO y rendimiento tecnico",
-          "Sistema de analitica y seguimiento de conversiones",
-          "3 rondas de revisiones",
-          "Soporte prioritario de construccion y lanzamiento",
-          "Ventana de optimizacion post-lanzamiento de 10 dias"
-        ]
-      }
-    ]
-  },
   "about": {
     "eyebrow": "La Fundadora",
     "h2": "La Experiencia Detras de Cada Sitio Web que Construimos.",
@@ -224,16 +213,37 @@
     "stat_num": "15+",
     "stat_label": "Anos Construyendo Sistemas de Conversion",
     "stats": [
-      { "num": "81+", "label": "Landing Pages Construidas" },
-      { "num": "45+", "label": "Sitios Web Lanzados" },
-      { "num": "23+", "label": "Sistemas de Conversion Personalizados" }
+      {
+        "num": "81+",
+        "label": "Landing Pages Construidas"
+      },
+      {
+        "num": "45+",
+        "label": "Sitios Web Lanzados"
+      },
+      {
+        "num": "23+",
+        "label": "Sistemas de Conversion Personalizados"
+      }
     ],
     "certs_label": "Certificaciones",
     "certifications": [
-      { "label": "CA DGS", "sub": "SB (Micro)" },
-      { "label": "LA SBE", "sub": "Pequeno Negocio" },
-      { "label": "LA EBE", "sub": "Negocio Emergente" },
-      { "label": "LA VSBE", "sub": "Negocio Muy Pequeno" }
+      {
+        "label": "CA DGS",
+        "sub": "SB (Micro)"
+      },
+      {
+        "label": "LA SBE",
+        "sub": "Pequeno Negocio"
+      },
+      {
+        "label": "LA EBE",
+        "sub": "Negocio Emergente"
+      },
+      {
+        "label": "LA VSBE",
+        "sub": "Negocio Muy Pequeno"
+      }
     ],
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Miembro de Camara de Comercio",
@@ -298,7 +308,7 @@
       },
       {
         "q": "Que hace diferente a Bluebay Agency?",
-        "a": "Nos especializamos en sitios web de conversion para marcas de salud, bienestar y estilo moderno. Cada decision desde la estructura hasta la mensajeria y el diseno esta tomada para convertir tu trafico en clientes. Quince anos de experiencia significa que sabemos que funciona de verdad."
+        "a": "Nos especializamos en sitios web de conversion para marcas de salud, bienestar y estilo moderno. Cada decision desde la estructura hasta la mensajeria y el diseno esta tomada para convertir tu trafico en clientes. Quince anos de experiencia significa que sabemos que funciona."
       },
       {
         "q": "Como garantizan la calidad?",
@@ -308,7 +318,7 @@
   },
   "contact": {
     "eyebrow": "Comenzar",
-    "h2": "Tu Marca Merece un Sitio Web que Realmente Convierte.",
+    "h2": "Tu Marca Merece un Sitio Web que Convierte.",
     "body": "Cuentanos sobre tu marca, los clientes que atiendes y hacia donde quieres crecer. Revisaremos tu presencia digital actual y exploraremos como Bluebay Agency puede ayudarte a convertir tu trafico existente en clientes constantes que pagan.",
     "email_cta": "Escribenos Directamente",
     "call_cta": "Llamar Directamente",

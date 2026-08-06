@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     template: '%s | Bluebay Agency',
   },
   description:
-    'Bluebay Agency is a boutique web design agency building mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250. Live in as little as 3 days. Based in Hermosa Beach, CA.',
+    'Bluebay Agency is a boutique web design agency building mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Based in Hermosa Beach, CA.',
   keywords: [
     'boutique web design agency',
     'wellness website design',
@@ -73,7 +73,6 @@ export const metadata: Metadata = {
     'high-converting website design',
     'e-commerce website design',
     'website redesign wellness brand',
-    'web design starting at 1250',
   ],
   authors: [{ name: 'Bluebay Agency', url: 'https://www.bluebayagency.com' }],
   creator: 'Bluebay Agency',
@@ -84,7 +83,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
     description:
-      'Mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250, live in as little as 3 days. Boutique agency based in Hermosa Beach, CA with 15+ years of experience.',
+      'Mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Boutique agency based in Hermosa Beach, CA with 15+ years of experience.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -102,7 +101,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
     description:
-      'Mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250. Live in as little as 3 days. Hermosa Beach, CA.',
+      'Mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Hermosa Beach, CA.',
     images: ['/images/stock/2025-oct-hermosa-beach-california-1200-mb.png'],
   },
   robots: {
@@ -126,7 +125,7 @@ const localBusinessSchema = {
   '@id': 'https://www.bluebayagency.com/#business',
   name: 'Bluebay Agency',
   description:
-    'Boutique web design agency specializing in mobile-first, conversion-focused websites for wellness and modern brands. Starting at $1,250, live in as little as 3 days. Based in Hermosa Beach, California with 15+ years of experience.',
+    'Boutique web design agency specializing in mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Based in Hermosa Beach, California with 15+ years of experience.',
   url: 'https://www.bluebayagency.com',
   email: 'hello@bluebayagency.com',
   foundingDate: '2007',
@@ -160,7 +159,6 @@ const localBusinessSchema = {
     'Conversion Rate Optimization',
     'SEO Optimization',
   ],
-  priceRange: '$1,250 - $10,000+',
   image: 'https://www.bluebayagency.com/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
   logo: 'https://www.bluebayagency.com/images/logos/bluebay-agency-secondary-blue.svg',
   sameAs: [
@@ -229,7 +227,7 @@ const faqSchema = {
       name: 'What makes Bluebay Agency different from other agencies?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'We take the time to actually listen. Every project starts with understanding your business, your clients, and what success looks like for you. Nearly 18 years of experience means we know what works.',
+        text: 'We take the time to listen. Every project starts with understanding your business, your clients, and what success looks like for you. Nearly 18 years of experience means we know what works.',
       },
     },
     {

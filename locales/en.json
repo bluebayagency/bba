@@ -16,12 +16,26 @@
     "body2": "",
     "cta_primary": "Start the Conversation",
     "cta_secondary": "See Our Work",
-    "trust": ["South Bay, CA", "15 Years Experience", "Mobile-First", "Live in 3 Days"],
+    "trust": [
+      "South Bay, CA",
+      "15 Years Experience",
+      "Mobile-First",
+      "Live in 3 Days"
+    ],
     "scarcity": "Currently accepting a limited number of new clients.",
     "stats": [
-      { "num": "81+", "label": "Landing Pages Built" },
-      { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Conversion Systems" }
+      {
+        "num": "81+",
+        "label": "Landing Pages Built"
+      },
+      {
+        "num": "45+",
+        "label": "Websites Launched"
+      },
+      {
+        "num": "23+",
+        "label": "Custom Conversion Systems"
+      }
     ],
     "scroll": "Scroll"
   },
@@ -37,10 +51,22 @@
     "h2": "Full-Service Web Design & Digital Marketing.",
     "body": "From custom web design and development to SEO and email marketing, Bluebay Agency builds complete digital systems that turn visitors into loyal clients.",
     "items": [
-      { "title": "Web Design", "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out." },
-      { "title": "Web Development", "desc": "Fast, reliable builds on modern platforms (React, Next.js, WordPress, and Shopify) engineered to perform." },
-      { "title": "SEO", "desc": "Technical SEO built in from day one, so the right people can actually find you in search." },
-      { "title": "Email Marketing", "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients." }
+      {
+        "title": "Web Design",
+        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out."
+      },
+      {
+        "title": "Web Development",
+        "desc": "Fast, reliable builds on modern platforms (React, Next.js, WordPress, and Shopify) engineered to perform."
+      },
+      {
+        "title": "SEO",
+        "desc": "Technical SEO built in from day one, so the right people can find you in search."
+      },
+      {
+        "title": "Email Marketing",
+        "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients."
+      }
     ],
     "cta_all": "View All Services",
     "cta_start": "Get Started",
@@ -50,23 +76,43 @@
     "page_items": [
       {
         "title": "Web Design",
-        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out: built around how people actually decide, not just how a page looks in a mockup.",
-        "features": ["Custom UX/UI design", "Mobile-first layouts", "Brand-aligned visual systems", "Conversion-focused CTAs"]
+        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out: built around how people decide, not just how a page looks in a mockup.",
+        "features": [
+          "Custom UX/UI design",
+          "Mobile-first layouts",
+          "Brand-aligned visual systems",
+          "Conversion-focused CTAs"
+        ]
       },
       {
         "title": "Web Development",
-        "desc": "Fast, reliable builds on modern platforms engineered to perform: React, Next.js, WordPress, and Shopify, depending on what your business actually needs to run and grow.",
-        "features": ["React & Next.js development", "WordPress & Shopify builds", "Headless CMS integration", "Speed & performance optimization"]
+        "desc": "Fast, reliable builds on modern platforms engineered to perform: React, Next.js, WordPress, and Shopify, depending on what your business needs to run and grow.",
+        "features": [
+          "React & Next.js development",
+          "WordPress & Shopify builds",
+          "Headless CMS integration",
+          "Speed & performance optimization"
+        ]
       },
       {
         "title": "SEO",
         "desc": "Technical SEO built in from day one: metadata, heading structure, schema markup, and keyword-mapped content designed to get you found by people already searching for what you offer.",
-        "features": ["Technical SEO audits", "On-page optimization", "Schema markup", "Keyword-mapped content strategy"]
+        "features": [
+          "Technical SEO audits",
+          "On-page optimization",
+          "Schema markup",
+          "Keyword-mapped content strategy"
+        ]
       },
       {
         "title": "Email Marketing",
         "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients, built on the same conversion principles as your website.",
-        "features": ["Welcome & nurture sequences", "Campaign design & copy", "List segmentation", "Platform setup & integration"]
+        "features": [
+          "Welcome & nurture sequences",
+          "Campaign design & copy",
+          "List segmentation",
+          "Platform setup & integration"
+        ]
       }
     ]
   },
@@ -75,13 +121,38 @@
     "h2": "We Build Websites That Turn Visitors Into Clients.",
     "body": "Wellness and modern brands do not just need a beautiful website they need one that performs. We specialize in building mobile-first websites structured to convert existing traffic into leads, clients, and revenue. Every page is built with one purpose: turning attention into action.",
     "pillars": [
-      { "num": "01", "title": "Conversion-First", "desc": "Every decision from layout to messaging to CTA placement is made to move the right visitor toward taking action." },
-      { "num": "02", "title": "Speed", "desc": "Systems go live in as little as 72 hours. Faster implementation means faster results from your existing traffic." },
-      { "num": "03", "title": "Lead Quality", "desc": "We build intake flows that pre-qualify your audience so the people who reach out are already the right fit." },
-      { "num": "04", "title": "Full Funnel", "desc": "We connect mobile UX, brand messaging, conversion flow, and CRM follow-up into one cohesive system that performs." },
-      { "num": "05", "title": "Mobile-First", "desc": "Your clients are on their phones. We build for the device they use to make decisions not as an afterthought." }
+      {
+        "num": "01",
+        "title": "Conversion-First",
+        "desc": "Every decision from layout to messaging to CTA placement is made to move the right visitor toward taking action."
+      },
+      {
+        "num": "02",
+        "title": "Speed",
+        "desc": "Systems go live in as little as 72 hours. Faster implementation means faster results from your existing traffic."
+      },
+      {
+        "num": "03",
+        "title": "Lead Quality",
+        "desc": "We build intake flows that pre-qualify your audience so the people who reach out are already the right fit."
+      },
+      {
+        "num": "04",
+        "title": "Full Funnel",
+        "desc": "We connect mobile UX, brand messaging, conversion flow, and CRM follow-up into one cohesive system that performs."
+      },
+      {
+        "num": "05",
+        "title": "Mobile-First",
+        "desc": "Your clients are on their phones. We build for the device they use to make decisions not as an afterthought."
+      }
     ],
-    "differentiators": ["Conversion-First Approach", "72-Hour Implementation", "15 Years Experience", "Built for Wellness"]
+    "differentiators": [
+      "Conversion-First Approach",
+      "72-Hour Implementation",
+      "15 Years Experience",
+      "Built for Wellness"
+    ]
   },
   "process": {
     "eyebrow": "How We Work",
@@ -134,108 +205,6 @@
     "more_text": "More case studies available upon request",
     "more_cta": "Schedule a Call to See More"
   },
-  "pricing": {
-    "eyebrow": "Investment",
-    "h2": "Three Conversion Systems. One Standard of Quality.",
-    "body": "Whether you need a focused landing page or a complete conversion website, every project is built with the same strategic foundation and attention to what actually drives results.",
-    "best_for_label": "Best for:",
-    "tech_label": "We build on",
-    "custom_heading": "Need Something More Specific?",
-    "custom_body": "We also build e-commerce stores, multilingual systems, multi-location websites, and custom conversion architectures for brands with specific requirements.",
-    "custom_cta": "Request Custom Quote",
-    "tiers": [
-      {
-        "badge": null,
-        "tier_num": "Tier 01",
-        "name": "Conversion Landing Page",
-        "price": "Starting at $1,250",
-        "timeline": "1 to 3 Business Days",
-        "description": "Launch a high-converting page that turns traffic into clients in days.",
-        "subline": "Built for speed, clarity, and immediate conversion.",
-        "best_for": "Brands running campaigns, events, promotions, or needing an immediate lift in conversions from existing traffic.",
-        "cta": "Launch My Landing Page",
-        "includes": [
-          "1 focused high-converting landing page",
-          "Mobile-first responsive design",
-          "Conversion-driven messaging framework",
-          "Clear CTA and scroll flow design",
-          "Basic SEO setup for visibility",
-          "Analytics and tracking setup",
-          "Fast deployment for quick launch"
-        ]
-      },
-      {
-        "badge": "Best Value",
-        "tier_num": "Tier 02",
-        "name": "Essential Website System",
-        "price": "Starting at $2,500",
-        "timeline": "3 to 5 Business Days",
-        "description": "A clean, focused multi-page website that builds credibility and captures leads.",
-        "subline": "More depth than a landing page. Built for growing brands.",
-        "best_for": "Wellness and modern brands that need a professional web presence beyond a single page but aren't ready for a full conversion system.",
-        "cta": "Build My Essential Website",
-        "includes": [
-          "Up to 3 to 5 strategic pages",
-          "Mobile-first responsive design",
-          "Homepage conversion architecture",
-          "Lead intake form and CTA setup",
-          "Basic SEO foundation",
-          "Analytics and tracking setup",
-          "2 rounds of revisions",
-          "3-day post-launch support"
-        ]
-      },
-      {
-        "badge": null,
-        "tier_num": "Tier 03",
-        "name": "Authority Conversion Website",
-        "price": "Starting at $4,500",
-        "timeline": "5 to 7 Business Days",
-        "description": "Build a structured website that turns your digital presence into a consistent source of qualified clients.",
-        "subline": "Designed to convert existing traffic more reliably and build trust at scale.",
-        "best_for": "Established wellness and modern brands already getting traffic but not converting it consistently.",
-        "cta": "Build My Conversion Website",
-        "includes": [
-          "Up to 5 to 10 strategic conversion pages",
-          "Full homepage conversion architecture",
-          "Mobile-first custom UX design",
-          "Messaging refinement and clarity positioning",
-          "Lead qualification and intake system",
-          "Conversion flow optimization",
-          "SEO foundation for long-term visibility",
-          "Analytics and conversion tracking",
-          "3 rounds of revisions",
-          "5-day post-launch support"
-        ]
-      },
-      {
-        "badge": "Premium",
-        "tier_num": "Tier 03",
-        "name": "Bluebay Conversion Sprint",
-        "price": "Starting at $8,000",
-        "timeline": "7 to 21 Business Days",
-        "description": "A full conversion architecture designed to turn your digital presence into a predictable, client-generating system.",
-        "subline": "This is a complete website and conversion system overhaul.",
-        "best_for": "Brands ready to scale and convert more of their existing traffic through a fully engineered conversion system.",
-        "cta": "Apply for Conversion Sprint",
-        "includes": [
-          "10+ strategic conversion pages",
-          "Full conversion audit (offer, funnel, messaging)",
-          "Offer positioning and messaging architecture",
-          "Mobile-first UX system redesign",
-          "Complete conversion system build",
-          "Lead qualification and intake optimization",
-          "CRM and automation integration",
-          "Conversion flow optimization and routing logic",
-          "SEO and technical performance optimization",
-          "Analytics and conversion tracking system",
-          "3 rounds of revisions",
-          "Priority build and launch support",
-          "10-day post-launch optimization window"
-        ]
-      }
-    ]
-  },
   "about": {
     "eyebrow": "The Founder",
     "h2": "The Experience Behind Every Website We Build.",
@@ -244,16 +213,37 @@
     "stat_num": "15+",
     "stat_label": "Years Building Conversion Systems",
     "stats": [
-      { "num": "81+", "label": "Landing Pages Built" },
-      { "num": "45+", "label": "Websites Launched" },
-      { "num": "23+", "label": "Custom Conversion Systems" }
+      {
+        "num": "81+",
+        "label": "Landing Pages Built"
+      },
+      {
+        "num": "45+",
+        "label": "Websites Launched"
+      },
+      {
+        "num": "23+",
+        "label": "Custom Conversion Systems"
+      }
     ],
     "certs_label": "Certified",
     "certifications": [
-      { "label": "CA DGS", "sub": "SB (Micro)" },
-      { "label": "LA SBE", "sub": "Small Business Enterprise" },
-      { "label": "LA EBE", "sub": "Emerging Business Enterprise" },
-      { "label": "LA VSBE", "sub": "Very Small Business Enterprise" }
+      {
+        "label": "CA DGS",
+        "sub": "SB (Micro)"
+      },
+      {
+        "label": "LA SBE",
+        "sub": "Small Business Enterprise"
+      },
+      {
+        "label": "LA EBE",
+        "sub": "Emerging Business Enterprise"
+      },
+      {
+        "label": "LA VSBE",
+        "sub": "Very Small Business Enterprise"
+      }
     ],
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
@@ -321,7 +311,7 @@
       },
       {
         "q": "What makes Bluebay Agency different?",
-        "a": "We specialize in building conversion-focused websites for wellness and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what actually works, and we bring that to every project."
+        "a": "We specialize in building conversion-focused websites for wellness and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what works, and we bring that to every project."
       },
       {
         "q": "How do you ensure quality?",
@@ -331,7 +321,7 @@
   },
   "contact": {
     "eyebrow": "Get Started",
-    "h2": "Your Brand Deserves a Website That Actually Converts.",
+    "h2": "Your Brand Deserves a Website That Converts.",
     "body": "Tell us about your brand, the clients you serve, and where you want to grow. We will review your current digital presence and explore how Bluebay Agency can help you turn your existing traffic into consistent, paying clients.",
     "email_cta": "Email Us Directly",
     "call_cta": "Call Directly",

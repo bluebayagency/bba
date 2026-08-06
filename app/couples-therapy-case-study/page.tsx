@@ -450,7 +450,7 @@ export default function CouplesTherapyCaseStudy() {
               Positive movement across every metric that matters.
             </h2>
             <p className="mt-5 font-sans text-base font-light leading-relaxed text-charcoal/60">
-              The numbers clients actually ask about: more traffic, more engagement, and more leads.
+              The numbers clients ask about: more traffic, more engagement, and more leads.
             </p>
           </div>
 

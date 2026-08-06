@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import CoreTruth from '@/components/CoreTruth'
 import Services from '@/components/Services'
 import CaseStudySpotlight from '@/components/CaseStudySpotlight'
+import Testimonials from '@/components/Testimonials'
 import Blog from '@/components/Blog'
 import Contact from '@/components/Contact'
 import FinalCTA from '@/components/FinalCTA'
@@ -37,6 +38,7 @@ export default async function Home({
       <CoreTruth />
       <Services />
       <CaseStudySpotlight />
+      <Testimonials />
       <Blog posts={posts} lang={lang} />
       <Contact />
       <FinalCTA />

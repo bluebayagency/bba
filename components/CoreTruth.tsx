@@ -16,7 +16,7 @@ export default function CoreTruth() {
             <div className="relative overflow-hidden">
               <img
                 src="/images/founder/bluebay-agency-founder-pug-laptop.png"
-                alt="Veronica Perez, Bluebay Agency founder, working with her pug"
+                alt="Veronica, Bluebay Agency founder, working with her pug"
                 className="w-full h-full object-cover object-center"
                 style={{ maxHeight: '640px', objectPosition: 'center 15%' }}
               />
