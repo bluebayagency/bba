@@ -43,7 +43,7 @@ export default function ServicesDetail() {
           {items.map((item, i) => (
             <ScrollReveal key={item.title} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
               <div className="h-full bg-white border border-gray-border p-8 md:p-10 transition-all duration-300 hover:border-french-blue/30 hover:shadow-lg hover:shadow-navy/5">
-                <div className="w-11 h-11 flex items-center justify-center border border-navy/15 text-navy/70 mb-6">
+                <div className="w-11 h-11 flex items-center justify-center rounded-full border border-navy/15 text-navy/70 mb-6">
                   {serviceIcons[i]}
                 </div>
                 <h2 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-3">

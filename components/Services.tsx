@@ -39,7 +39,7 @@ export default function Services() {
           {items.map((item, i) => (
             <ScrollReveal key={item.title} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
               <div className="group h-full bg-white border border-gray-border hover:border-french-blue/30 p-7 transition-all duration-300 hover:shadow-lg hover:shadow-navy/5 flex flex-col">
-                <div className="w-10 h-10 flex items-center justify-center border border-navy/15 text-navy/60 group-hover:border-navy/30 group-hover:text-navy transition-colors duration-300 mb-6 flex-shrink-0">
+                <div className="w-10 h-10 flex items-center justify-center rounded-full border border-navy/15 text-navy/60 group-hover:border-navy/30 group-hover:text-navy transition-colors duration-300 mb-6 flex-shrink-0">
                   {serviceIcons[i]}
                 </div>
                 <h3 className="font-canela-deck font-light text-xl text-navy leading-tight mb-3">
