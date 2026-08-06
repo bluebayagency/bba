@@ -50,8 +50,14 @@ export default function Testimonials() {
               className="font-canela-deck font-light text-navy leading-[1.1] max-w-2xl"
               style={{ fontSize: 'clamp(1.8rem, 4vw, 3rem)' }}
             >
-              Don&rsquo;t Just Take Our Word For It.
+              Loved by the Businesses We Work With
             </h2>
+            <div className="mt-5 flex items-center gap-2.5">
+              <StarRow />
+              <span className="font-sans text-xs font-medium text-charcoal/50 tracking-wide">
+                5-Star Rating &middot; Verified Google Reviews
+              </span>
+            </div>
           </div>
         </ScrollReveal>
 
