@@ -2,7 +2,6 @@ import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero'
 import CoreTruth from '@/components/CoreTruth'
 import Services from '@/components/Services'
-import CaseStudySpotlight from '@/components/CaseStudySpotlight'
 import Testimonials from '@/components/Testimonials'
 import Blog from '@/components/Blog'
 import Contact from '@/components/Contact'
@@ -37,7 +36,6 @@ export default async function Home({
       <Hero />
       <CoreTruth />
       <Services />
-      <CaseStudySpotlight />
       <Testimonials />
       <Blog posts={posts} lang={lang} />
       <Contact />

@@ -5,6 +5,23 @@ import { usePathname } from 'next/navigation'
 import ScrollReveal from './ScrollReveal'
 import serviceIcons from './serviceIcons'
 
+// page_items order is Design, Dev, Search & AI Visibility, CRO, Email.
+// serviceIcons keeps CRO appended at index 4 so the homepage teaser's
+// indices 0-3 stay untouched, so map page_items position -> icon index here.
+const pageIconOrder = [0, 1, 2, 4, 3]
+
+function StarRow() {
+  return (
+    <div className="flex items-center gap-1" aria-label="5 out of 5 stars">
+      {Array.from({ length: 5 }).map((_, i) => (
+        <svg key={i} className="w-4 h-4 text-gold" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M10 1.5l2.635 5.34 5.895.857-4.265 4.158 1.007 5.873L10 14.9l-5.272 2.828 1.007-5.873L1.47 7.697l5.895-.857L10 1.5z" />
+        </svg>
+      ))}
+    </div>
+  )
+}
+
 export default function ServicesDetail() {
   const { t } = useTranslation()
   const pathname = usePathname()
@@ -37,6 +54,14 @@ export default function ServicesDetail() {
               {t('services.page_intro')}
             </p>
           </ScrollReveal>
+          <ScrollReveal delay={3}>
+            <div className="mt-5 flex items-center gap-2.5">
+              <StarRow />
+              <span className="font-sans text-xs font-medium text-white/50 tracking-wide">
+                5-Star Rating &middot; Verified Google Reviews
+              </span>
+            </div>
+          </ScrollReveal>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
@@ -44,7 +69,7 @@ export default function ServicesDetail() {
             <ScrollReveal key={item.title} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
               <div className="h-full bg-white border border-gray-border p-8 md:p-10 transition-all duration-300 hover:border-french-blue/30 hover:shadow-lg hover:shadow-navy/5">
                 <div className="w-11 h-11 flex items-center justify-center rounded-full border border-navy/15 text-navy/70 mb-6">
-                  {serviceIcons[i]}
+                  {serviceIcons[pageIconOrder[i]]}
                 </div>
                 <h2 className="font-canela-deck font-light text-2xl text-navy leading-tight mb-3">
                   {item.title}

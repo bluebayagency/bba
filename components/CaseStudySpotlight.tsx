@@ -9,7 +9,7 @@ const metrics = [
 ]
 
 interface CaseStudySpotlightProps {
-  /** Heading level for "A Web Redesign That Delivered Real Growth." — use
+  /** Heading level for "A Web Redesign That Delivered Real Growth."; use
    *  "h1" only when this section leads the page (e.g. /case-studies). */
   headingLevel?: 'h1' | 'h2'
 }

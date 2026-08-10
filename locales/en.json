@@ -60,8 +60,8 @@
         "desc": "Fast, reliable builds on modern platforms (React, Next.js, WordPress, and Shopify) engineered to perform."
       },
       {
-        "title": "SEO",
-        "desc": "Technical SEO built in from day one, so the right people can find you in search."
+        "title": "SEO + AEO",
+        "desc": "Technical SEO and AI-answer optimization built in from day one, so the right people, and the AI tools they use, can find you."
       },
       {
         "title": "Email Marketing",
@@ -71,8 +71,8 @@
     "cta_all": "View All Services",
     "cta_start": "Get Started",
     "page_eyebrow": "Our Services",
-    "page_h1": "Full-Service Web Design & Digital Marketing.",
-    "page_intro": "Bluebay Agency builds complete digital systems for wellness and modern brands, from the first line of code to the emails that keep clients coming back.",
+    "page_h1": "Websites Built to Turn Up in Search, AI Answers, and Client Inboxes.",
+    "page_intro": "We design and build complete digital systems for wellness and modern brands: websites engineered to convert, found by both search engines and AI assistants, and backed by email systems that keep clients coming back.",
     "page_items": [
       {
         "title": "Web Design",
@@ -95,13 +95,24 @@
         ]
       },
       {
-        "title": "SEO",
-        "desc": "Technical SEO built in from day one: metadata, heading structure, schema markup, and keyword-mapped content designed to get you found by people already searching for what you offer.",
+        "title": "Search & AI Visibility",
+        "desc": "Technical SEO and AI-answer optimization built in from day one: metadata, heading structure, schema markup, and keyword-mapped content designed to get you found by people searching on Google, and by the AI tools more of them are using to find businesses like yours.",
         "features": [
           "Technical SEO audits",
           "On-page optimization",
-          "Schema markup",
-          "Keyword-mapped content strategy"
+          "Schema markup for search and AI-answer engines",
+          "Keyword-mapped content strategy",
+          "AI visibility readiness (Answer Engine Optimization)"
+        ]
+      },
+      {
+        "title": "Conversion Rate Optimization (CRO)",
+        "desc": "The strategic layer behind every build: messaging clarity, user flow, and calls-to-action tested and refined to turn more of your existing traffic into booked calls and paying clients.",
+        "features": [
+          "Messaging & positioning refinement",
+          "Conversion flow mapping",
+          "CTA testing and placement",
+          "Landing page optimization"
         ]
       },
       {

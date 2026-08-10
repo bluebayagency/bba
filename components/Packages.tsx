@@ -67,7 +67,7 @@ const tiers = [
       'Mobile-first responsive design',
       'Homepage conversion architecture',
       'Lead intake form and CTA setup',
-      'Basic SEO foundation',
+      'Search & AI visibility foundation',
       'Analytics and tracking setup',
       '2 rounds of revisions',
       '3-day post-launch support',
@@ -90,7 +90,7 @@ const tiers = [
       'Messaging refinement and clarity positioning',
       'Lead qualification and intake system',
       'Conversion flow optimization',
-      'SEO foundation for long-term visibility',
+      'Search & AI visibility foundation for long-term growth',
       'Analytics and conversion tracking',
       '3 rounds of revisions',
       '5-day post-launch support',
@@ -205,7 +205,7 @@ export default function Packages() {
           <div className="mt-12 md:mt-16 border border-gray-border bg-white px-8 py-8 md:py-10 flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <p className="font-canela-deck font-light text-xl text-navy mb-2">
-                Need Something More Specific?
+                Have a Larger Project or Need Something More Specific?
               </p>
               <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed max-w-xl">
                 We also build e-commerce stores, multilingual systems, multi-location websites, and custom conversion architectures for brands with specific requirements.

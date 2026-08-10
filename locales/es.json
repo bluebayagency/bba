@@ -60,8 +60,8 @@
         "desc": "Construcciones rapidas y confiables en plataformas modernas (React, Next.js, WordPress y Shopify) disenadas para rendir."
       },
       {
-        "title": "SEO",
-        "desc": "SEO tecnico incorporado desde el primer dia, para que las personas correctas puedan encontrarte en busquedas."
+        "title": "SEO + AEO",
+        "desc": "SEO tecnico y optimizacion para respuestas de IA incorporados desde el primer dia, para que te encuentren tanto las personas correctas como las herramientas de IA que usan."
       },
       {
         "title": "Email Marketing",
@@ -71,8 +71,8 @@
     "cta_all": "Ver Todos los Servicios",
     "cta_start": "Comenzar",
     "page_eyebrow": "Nuestros Servicios",
-    "page_h1": "Diseno Web y Marketing Digital Integral.",
-    "page_intro": "Bluebay Agency construye sistemas digitales completos para marcas de bienestar y marcas modernas, desde la primera linea de codigo hasta los correos que mantienen a los clientes regresando.",
+    "page_h1": "Sitios Web Disenados para Aparecer en Busquedas, Respuestas de IA y Bandejas de Entrada.",
+    "page_intro": "Disenamos y construimos sistemas digitales completos para marcas de bienestar y marcas modernas: sitios web disenados para convertir, encontrados tanto por motores de busqueda como por asistentes de IA, y respaldados por sistemas de email que mantienen a los clientes regresando.",
     "page_items": [
       {
         "title": "Diseno Web",
@@ -95,13 +95,24 @@
         ]
       },
       {
-        "title": "SEO",
-        "desc": "SEO tecnico incorporado desde el primer dia: metadatos, estructura de encabezados, marcado de esquema y contenido mapeado a palabras clave, disenado para que te encuentren las personas que ya estan buscando lo que ofreces.",
+        "title": "Busqueda y Visibilidad en IA",
+        "desc": "SEO tecnico y optimizacion para respuestas de IA incorporados desde el primer dia: metadatos, estructura de encabezados, marcado de esquema y contenido mapeado a palabras clave, disenado para que te encuentren tanto en Google como en las herramientas de IA que cada vez mas personas usan para encontrar negocios como el tuyo.",
         "features": [
           "Auditorias de SEO tecnico",
           "Optimizacion on-page",
-          "Marcado de esquema (schema)",
-          "Estrategia de contenido mapeada a palabras clave"
+          "Marcado de esquema para motores de busqueda y de IA",
+          "Estrategia de contenido mapeada a palabras clave",
+          "Preparacion para visibilidad en IA (Optimizacion para Motores de Respuesta)"
+        ]
+      },
+      {
+        "title": "Optimizacion de Tasa de Conversion (CRO)",
+        "desc": "La capa estrategica detras de cada proyecto: claridad de mensaje, flujo de usuario y llamados a la accion probados y refinados para convertir mas de tu trafico existente en llamadas agendadas y clientes que pagan.",
+        "features": [
+          "Refinamiento de mensaje y posicionamiento",
+          "Mapeo del flujo de conversion",
+          "Pruebas y colocacion de CTAs",
+          "Optimizacion de landing pages"
         ]
       },
       {
