@@ -6,20 +6,46 @@ import ScrollReveal from './ScrollReveal'
 
 const projectMeta = [
   {
+    tags: ['Brand Identity', 'Landing Page', 'Email Capture'],
+    previewGif: '/images/olivias-wish/olivias-wish-desktop-coming-soon-preview.png',
+    mobilePreview: '/images/olivias-wish/olivias-wish-mobile-coming-soon-preview.png',
+    bgColor: 'from-[#E9E6DB] to-sand',
+    headingText: 'text-navy',
+    categoryText: 'text-[#8B5D52]/90',
+    descText: 'text-charcoal/60',
+    tagText: 'text-navy/60',
+    tagBorder: 'border-navy/15',
+    badgeText: 'text-navy/70',
+    badgeBorder: 'border-navy/25',
+    badgeHoverText: 'hover:text-navy',
+    badgeHoverBorder: 'hover:border-navy/50',
+    cardBorder: 'border-navy/10 hover:border-navy/20',
+    mobileStripBg: 'bg-[#E9E6DB]',
+    mobileLabelText: 'text-navy/45',
+    comingSoon: true,
+    href: null,
+    internalHref: '/case-studies/olivias-wish',
+  },
+  {
     tags: ['React.js', 'Next.js', 'Tailwind'],
     previewGif: '/images/projects/goldie-grace/bluebay-agency-goldie-grace-preview-site.gif',
     mobilePreview: '/images/projects/goldie-grace/bluebay-agency-mobile-previews.png',
-    bgColor: 'from-[#1a0f05] to-[#2d1f0e]',
+    bgColor: 'from-[#0d1a2c] to-[#0a1220]',
+    headingText: 'text-white',
+    categoryText: 'text-french-blue/80',
+    descText: 'text-white/50',
+    tagText: 'text-sand/70',
+    tagBorder: 'border-sand/20',
+    badgeText: 'text-french-blue/80',
+    badgeBorder: 'border-french-blue/40',
+    badgeHoverText: 'hover:text-white',
+    badgeHoverBorder: 'hover:border-white/40',
+    cardBorder: 'border-white/[0.06] hover:border-white/[0.12]',
+    mobileStripBg: 'bg-navy/60',
+    mobileLabelText: 'text-sand/60',
     comingSoon: true,
     href: null,
-  },
-  {
-    tags: ['React.js', 'Headless CMS', 'SEO'],
-    previewGif: '/images/projects/nopalvia/bluebay-agency-nopalvia-preview.gif',
-    mobilePreview: '/images/projects/nopalvia/bluebay-agency-nopalvia-mobile-preview.png',
-    bgColor: 'from-[#0d1a0a] to-[#1a2e14]',
-    comingSoon: false,
-    href: null,
+    internalHref: null,
   },
 ]
 
@@ -32,7 +58,8 @@ export default function Portfolio() {
   }>
 
   return (
-    <section className="bg-charcoal py-24 md:py-36 relative overflow-hidden">
+    <section className="bg-french-blue-light py-24 md:py-36 relative overflow-hidden">
+      <div className="section-divider absolute top-0 left-0 right-0" />
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-8 mb-16 md:mb-20">
           <div className="max-w-xl">
@@ -45,14 +72,14 @@ export default function Portfolio() {
             </ScrollReveal>
             {t('portfolio.h2') && (
               <ScrollReveal delay={1}>
-                <h2 className="font-canela-deck font-light text-white leading-[1.1]" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
+                <h2 className="font-canela-deck font-light text-navy leading-[1.1]" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
                   {t('portfolio.h2')}
                 </h2>
               </ScrollReveal>
             )}
           </div>
           <ScrollReveal delay={2}>
-            <p className="font-sans text-sm font-light text-white/40 max-w-xs leading-relaxed">
+            <p className="font-sans text-sm font-light text-charcoal/55 max-w-xs leading-relaxed">
               {t('portfolio.body')}
             </p>
           </ScrollReveal>
@@ -63,7 +90,7 @@ export default function Portfolio() {
             const meta = projectMeta[i]
             return (
               <ScrollReveal key={project.name} delay={(i + 1) as 1 | 2}>
-                <div className={`portfolio-card group flex flex-col bg-gradient-to-br ${meta.bgColor} border border-white/[0.06] hover:border-white/[0.12] transition-all duration-500`}>
+                <div className={`portfolio-card group flex flex-col bg-gradient-to-br ${meta.bgColor} border ${meta.cardBorder} transition-all duration-500`}>
                   {/* Desktop preview */}
                   <div className="relative overflow-hidden" style={{ paddingTop: '58%' }}>
                     <img
@@ -75,14 +102,14 @@ export default function Portfolio() {
                   </div>
 
                   {/* Mobile preview strip: 230px */}
-                  <div className="relative overflow-hidden bg-black/25" style={{ height: '230px' }}>
+                  <div className={`relative overflow-hidden ${meta.mobileStripBg}`} style={{ height: '230px' }}>
                     <img
                       src={meta.mobilePreview}
                       alt={`${project.name} mobile preview`}
                       className="w-full h-full object-contain object-center py-4"
                     />
                     <div className="absolute top-3 left-4">
-                      <span className="font-sans text-[10px] font-medium text-white/30 tracking-[0.2em] uppercase">
+                      <span className={`font-sans text-[10px] font-medium ${meta.mobileLabelText} tracking-[0.2em] uppercase`}>
                         {t('portfolio.mobile_label')}
                       </span>
                     </div>
@@ -94,13 +121,20 @@ export default function Portfolio() {
                   <div className="p-7 md:p-8 flex-1 flex flex-col">
                     <div className="flex items-start justify-between gap-4 mb-4">
                       <div>
-                        <p className="font-sans text-xs text-white/30 tracking-[0.15em] uppercase mb-2">
+                        <p className={`font-sans text-xs ${meta.categoryText} tracking-[0.15em] uppercase mb-2`}>
                           {project.category}
                         </p>
-                        <h3 className="font-canela-deck font-light text-2xl text-white">{project.name}</h3>
+                        <h3 className={`font-canela-deck font-light text-2xl ${meta.headingText}`}>{project.name}</h3>
                       </div>
-                      {meta.comingSoon ? (
-                        <span className="flex-shrink-0 font-sans text-[10px] font-medium text-white/40 border border-white/15 px-3 py-1.5 tracking-[0.15em] uppercase">
+                      {meta.comingSoon && meta.internalHref ? (
+                        <a
+                          href={meta.internalHref}
+                          className={`flex-shrink-0 font-sans text-[10px] font-medium ${meta.badgeText} ${meta.badgeHoverText} border ${meta.badgeBorder} ${meta.badgeHoverBorder} px-3 py-1.5 tracking-[0.15em] uppercase transition-colors duration-300`}
+                        >
+                          Coming Soon
+                        </a>
+                      ) : meta.comingSoon ? (
+                        <span className={`flex-shrink-0 font-sans text-[10px] font-medium ${meta.badgeText} border ${meta.badgeBorder} px-3 py-1.5 tracking-[0.15em] uppercase`}>
                           Coming Soon
                         </span>
                       ) : meta.href ? (
@@ -119,12 +153,12 @@ export default function Portfolio() {
                         null
                       )}
                     </div>
-                    <p className="font-sans text-sm font-light text-white/50 leading-relaxed mb-6">
+                    <p className={`font-sans text-sm font-light ${meta.descText} leading-relaxed mb-6`}>
                       {project.desc}
                     </p>
                     <div className="flex flex-wrap gap-2 mt-auto">
                       {meta.tags.map((tag) => (
-                        <span key={tag} className="font-sans text-[11px] font-medium text-white/40 border border-white/10 px-3 py-1 tracking-wide">
+                        <span key={tag} className={`font-sans text-[11px] font-medium ${meta.tagText} border ${meta.tagBorder} px-3 py-1 tracking-wide`}>
                           {tag}
                         </span>
                       ))}
@@ -136,26 +170,11 @@ export default function Portfolio() {
           })}
         </div>
 
-        {/* More coming soon strip */}
         <ScrollReveal delay={3}>
-          <div className="mt-6 border border-dashed border-white/[0.08] px-8 md:px-12 py-10 flex flex-col sm:flex-row items-center justify-between gap-6">
-            <div>
-              <span className="font-sans text-[10px] font-medium text-white/25 tracking-[0.22em] uppercase block mb-2">More Work in Progress</span>
-              <p className="font-sans text-sm font-light text-white/30 max-w-md leading-relaxed">
-                Additional case studies are in production. Book a call to preview work currently in progress.
-              </p>
-            </div>
-            <span className="flex-shrink-0 font-sans text-[10px] font-medium text-white/20 border border-dashed border-white/[0.08] px-4 py-2 tracking-[0.18em] uppercase whitespace-nowrap">
-              Coming Soon
-            </span>
-          </div>
-        </ScrollReveal>
-
-        <ScrollReveal delay={3}>
-          <div className="mt-8 text-center">
+          <div className="mt-14 text-center">
             <a
               href={contactHref}
-              className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-white/60 border border-white/20 hover:border-white/50 hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy/30 hover:bg-navy hover:text-white hover:border-navy px-8 py-4 transition-all duration-300 w-full sm:w-auto"
             >
               {t('portfolio.more_cta')}
             </a>

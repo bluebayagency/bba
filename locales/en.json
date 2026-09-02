@@ -196,20 +196,20 @@
     "cta": "Start the Conversation"
   },
   "portfolio": {
-    "eyebrow": "Selected Work",
-    "h2": "Real Websites. Real Results.",
-    "body": "A look at how strategy, design, and mobile-first engineering come together to build websites that convert visitors into clients.",
+    "eyebrow": "Coming Soon",
+    "h2": "More Case Studies on the Way.",
+    "body": "Full case studies publish as each site goes live.",
     "mobile_label": "Mobile View",
     "projects": [
+      {
+        "name": "Olivia's Wish",
+        "category": "Baby Care · Brand & Landing Page",
+        "desc": "Herbal comfort for babies, born from a mother's love."
+      },
       {
         "name": "Goldie Grace Beauty",
         "category": "Beauty · Brand Identity · Conversion System",
         "desc": "A luxury beauty brand transformation."
-      },
-      {
-        "name": "Nopalvia",
-        "category": "Food & Beverage · Brand · E-commerce",
-        "desc": "A modern wellness brand."
       }
     ],
     "more_text": "More case studies available upon request",

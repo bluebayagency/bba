@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation'
 import Portfolio from '@/components/Portfolio'
 import CaseStudySpotlight from '@/components/CaseStudySpotlight'
+import CaseStudyPreview from '@/components/CaseStudyPreview'
 import FinalCTA from '@/components/FinalCTA'
 import Footer from '@/components/Footer'
 
@@ -24,6 +25,7 @@ export default function CaseStudiesPage() {
     <main id="main-content">
       <Navigation />
       <CaseStudySpotlight headingLevel="h1" />
+      <CaseStudyPreview variant="navy" eyebrow="Featured Case Study" />
       <Portfolio />
       <FinalCTA />
       <Footer />
