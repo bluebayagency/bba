@@ -3,6 +3,7 @@ import type { ReactNode } from 'react'
 import Image from 'next/image'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import YouTubeFacade from '@/components/YouTubeFacade'
 
 const IMG_BASE = '/images/projects/mindbodyspiritss'
 const HOME_DESKTOP_SRC = `${IMG_BASE}/mindbodyspiritss-desktop-view.png`
@@ -10,10 +11,8 @@ const SPEAKER_SRC = `${IMG_BASE}/mindbodyspiritss-speaker.png`
 const HOME_MOBILE_SRC = `${IMG_BASE}/mindbodyspiritss-mobile-view.png`
 const AS_SEEN_ON_SRC = `${IMG_BASE}/mindbodyspiritss-mobile-as-seen-on.png`
 const AI_OVERVIEW_SRC = `${IMG_BASE}/mindbodyspiritss-google-ai-search.png`
-const CHATGPT_VIDEO_SRC = `${IMG_BASE}/mindbodyspiritss-chatgpt-ai-search-video.mp4`
-const CHATGPT_VIDEO_POSTER = `${IMG_BASE}/mindbodyspiritss-chatgpt-ai-search-video-poster.jpg`
-const CLAUDE_VIDEO_SRC = `${IMG_BASE}/mindbodyspiritss-claude-conversation.mp4`
 const CLAUDE_VIDEO_POSTER = `${IMG_BASE}/mindbodyspiritss-claude-conversation-poster.jpg`
+const CHATGPT_VIDEO_POSTER = `${IMG_BASE}/mindbodyspiritss-chatgpt-ai-search-video-poster.jpg`
 
 export const metadata: Metadata = {
   title: 'MindBodySpiritss: A Website & AI Search Visibility Case Study | Blue Bay Agency',
@@ -380,67 +379,71 @@ export default function MindBodySpiritssCaseStudy() {
             </p>
           </div>
 
-          <div className="mt-14 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-10">
+          <div className="mt-14">
             <figure>
-              <ShotImage
-                src={AI_OVERVIEW_SRC}
-                alt="Google AI Overview referencing MindBodySpiritss inside the AI summary, the sidebar card, and the organic listing for the query high achievers coaching in Redwood City"
-                ratio="aspect-[8/7]"
-              />
-              <figcaption className="mt-4 font-sans text-sm font-light leading-relaxed text-charcoal/55">
-                <span className="font-medium text-navy">Google AI Overview.</span> Searching &ldquo;high
-                achievers coaching in Redwood City&rdquo; surfaces MindBodySpiritss directly inside the
-                AI-generated summary, in a dedicated sidebar card, and in the standard organic listing
-                below, three placements on a single results page. Google&rsquo;s AI Overview also
-                independently pulled a specific blog post into its &ldquo;Further Exploration&rdquo;
-                section, a direct result of content structured for AI extraction.
+              <h3 className="font-canela-deck text-xl font-light leading-tight text-navy">
+                Google AI Overview
+              </h3>
+              <figcaption className="mt-3 max-w-3xl font-sans text-sm font-light leading-relaxed text-charcoal/55">
+                Searching &ldquo;high achievers coaching in Redwood City&rdquo; surfaces
+                MindBodySpiritss directly inside the AI-generated summary, in a dedicated sidebar card,
+                and in the standard organic listing below, three placements on a single results page.
+                Google&rsquo;s AI Overview also independently pulled a specific blog post into its
+                &ldquo;Further Exploration&rdquo; section, a direct result of content structured for AI
+                extraction.
               </figcaption>
-            </figure>
-
-            <figure>
-              <div className="relative aspect-[8/7] w-full overflow-hidden border border-gray-border bg-soft-white">
-                <video
-                  className="absolute inset-0 h-full w-full object-cover object-top"
-                  src={CLAUDE_VIDEO_SRC}
-                  poster={CLAUDE_VIDEO_POSTER}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                >
-                  Your browser does not support embedded video.
-                </video>
+              <div className="mt-6">
+                <ShotImage
+                  src={AI_OVERVIEW_SRC}
+                  alt="Google AI Overview referencing MindBodySpiritss inside the AI summary, the sidebar card, and the organic listing for the query high achievers coaching in Redwood City"
+                  ratio="aspect-[8/7]"
+                />
               </div>
-              <figcaption className="mt-4 font-sans text-sm font-light leading-relaxed text-charcoal/55">
-                <span className="font-medium text-navy">Claude.</span> Asked about MindBodySpiritss,
-                Claude searched the web on its own and accurately summarized Naila&rsquo;s coaching
-                practice, credentials, and offerings, then surfaced the recurring Leadership &amp;
-                Wellbeing Circle event without being prompted for it, evidence the same entity signals
-                are legible across AI tools, not just one.
-              </figcaption>
             </figure>
           </div>
 
           <div className="mt-14">
             <figure>
-              <div className="relative aspect-[4/3] w-full overflow-hidden border border-gray-border bg-soft-white">
-                <video
-                  className="absolute inset-0 h-full w-full object-cover"
-                  src={CHATGPT_VIDEO_SRC}
-                  poster={CHATGPT_VIDEO_POSTER}
-                  controls
-                  muted
-                  playsInline
-                  preload="metadata"
-                >
-                  Your browser does not support embedded video.
-                </video>
-              </div>
-              <figcaption className="mt-4 font-sans text-sm font-light leading-relaxed text-charcoal/55">
-                <span className="font-medium text-navy">Watch it live.</span> A screen recording of a
-                ChatGPT conversation, showing MindBodySpiritss surfaced as the top recommendation in
-                real time.
+              <h3 className="font-canela-deck text-xl font-light leading-tight text-navy">
+                Claude
+              </h3>
+              <figcaption className="mt-3 max-w-3xl font-sans text-sm font-light leading-relaxed text-charcoal/55">
+                Asked about MindBodySpiritss, Claude searched the web on its own and accurately
+                summarized Naila&rsquo;s coaching practice, credentials, and offerings, then surfaced
+                the recurring Leadership &amp; Wellbeing Circle event without being prompted for it,
+                evidence the same entity signals are legible across AI tools, not just one.
               </figcaption>
+              <div className="relative mt-6 aspect-video w-full overflow-hidden border border-gray-border bg-soft-white">
+                <YouTubeFacade
+                  videoId="kGcmc7KD35U"
+                  title="Claude conversation about MindBodySpiritss"
+                  poster={CLAUDE_VIDEO_POSTER}
+                  posterAlt="Claude conversation about MindBodySpiritss"
+                />
+              </div>
+            </figure>
+          </div>
+
+          <div className="mt-14">
+            <figure>
+              <h3 className="font-canela-deck text-xl font-light leading-tight text-navy">
+                ChatGPT
+              </h3>
+              <figcaption className="mt-3 max-w-3xl font-sans text-sm font-light leading-relaxed text-charcoal/55">
+                Asked a relevant coaching question, ChatGPT returns MindBodySpiritss as its top
+                recommendation and quotes the site&rsquo;s own positioning, &ldquo;Coaching for High
+                Achievers and Power Couples in Redwood City, CA,&rdquo; back almost verbatim, alongside
+                an accurate summary of services and the free consultation offer, watch the exchange
+                happen in real time.
+              </figcaption>
+              <div className="relative mt-6 aspect-video w-full overflow-hidden border border-gray-border bg-soft-white">
+                <YouTubeFacade
+                  videoId="UMZ2CbBNg_E"
+                  title="ChatGPT conversation about MindBodySpiritss"
+                  poster={CHATGPT_VIDEO_POSTER}
+                  posterAlt="ChatGPT conversation about MindBodySpiritss"
+                />
+              </div>
             </figure>
           </div>
         </div>
