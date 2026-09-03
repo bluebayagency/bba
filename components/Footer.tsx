@@ -16,7 +16,7 @@ export default function Footer() {
     { key: 'nav.process', href: '/process' },
     { key: 'nav.about', href: '/about' },
     { key: 'nav.faq', href: '/faq' },
-    { key: 'contact.eyebrow', href: contactHref },
+    { key: 'footer.contact_title', href: '/contact' },
   ]
 
   return (
@@ -101,6 +101,16 @@ export default function Footer() {
                   className="font-sans text-sm font-light text-white/60 hover:text-white/90 transition-colors duration-200"
                 >
                   (213) 867-7879
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://calendly.com/bluebayagencyllc/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-sans text-sm font-light text-white/60 hover:text-white/90 transition-colors duration-200"
+                >
+                  {t('footer.consultation_cta')}
                 </a>
               </li>
               <li className="pt-4">

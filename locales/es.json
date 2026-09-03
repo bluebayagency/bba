@@ -361,7 +361,8 @@
     "certs_label": "Certificaciones",
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Miembro de Camara de Comercio",
-    "book_cta": "Iniciar la Conversacion"
+    "book_cta": "Iniciar la Conversacion",
+    "consultation_cta": "Agendar una Consulta"
   },
   "lang": {
     "switch_label": "English",

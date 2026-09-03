@@ -24,8 +24,27 @@ export default function CaseStudiesPage() {
   return (
     <main id="main-content">
       <Navigation />
-      <CaseStudySpotlight headingLevel="h1" />
-      <CaseStudyPreview variant="navy" eyebrow="Featured Case Study" />
+
+      <section className="bg-white pt-28 pb-16 md:pt-36 md:pb-20">
+        <div className="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+          <span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
+            Case Studies
+          </span>
+          <h1
+            className="mt-6 font-canela-deck font-light text-navy leading-[1.1]"
+            style={{ fontSize: 'clamp(2.25rem, 5vw, 3.75rem)' }}
+          >
+            Featured Case Studies.
+          </h1>
+          <p className="mt-5 font-sans font-light text-charcoal/55 text-lg leading-relaxed">
+            Real websites, real results, see how strategy, design, and technical SEO come together to
+            turn traffic into clients.
+          </p>
+        </div>
+      </section>
+
+      <CaseStudySpotlight />
+      <CaseStudyPreview variant="navy" />
       <Portfolio />
       <FinalCTA />
       <Footer />

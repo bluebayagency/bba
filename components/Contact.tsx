@@ -4,9 +4,16 @@ import { useTranslation } from 'react-i18next'
 import Script from 'next/script'
 import ScrollReveal from './ScrollReveal'
 
-export default function Contact() {
+interface ContactProps {
+  /** Heading level for the "Your Brand Deserves a Website That Converts." title; use
+   *  "h1" only when this section leads the page (e.g. /contact). */
+  headingLevel?: 'h1' | 'h2'
+}
+
+export default function Contact({ headingLevel = 'h2' }: ContactProps) {
   const { t } = useTranslation()
   const trust = t('contact.trust', { returnObjects: true }) as string[]
+  const Heading = headingLevel
 
   return (
     <section id="contact" className="bg-soft-white py-24 md:py-36 relative overflow-hidden">
@@ -21,9 +28,9 @@ export default function Contact() {
             </div>
           </ScrollReveal>
           <ScrollReveal delay={1}>
-            <h2 className="font-canela-deck font-light text-navy leading-[1.1] mb-5" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
+            <Heading className="font-canela-deck font-light text-navy leading-[1.1] mb-5" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
               {t('contact.h2')}
-            </h2>
+            </Heading>
           </ScrollReveal>
           <ScrollReveal delay={2}>
             <p className="font-sans font-light text-charcoal/55 text-lg leading-relaxed max-w-xl mx-auto">

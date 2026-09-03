@@ -364,7 +364,8 @@
     "certs_label": "Certifications",
     "chamber_label": "Manhattan Beach",
     "chamber_sub": "Chamber of Commerce Member",
-    "book_cta": "Start the Conversation"
+    "book_cta": "Start the Conversation",
+    "consultation_cta": "Book a Consultation"
   },
   "lang": {
     "switch_label": "Español",
