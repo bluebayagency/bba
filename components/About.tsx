@@ -32,7 +32,7 @@ export default function About() {
               <div className="relative bg-navy/5">
                 <img
                   src="/images/founder/bluebay-agency-veronica-perez.png"
-                  alt="Bluebay Agency Founder"
+                  alt="Veronica Perez, Founder of Bluebay Agency"
                   className="w-full h-auto object-cover object-top"
                   style={{ maxHeight: '640px' }}
                 />
