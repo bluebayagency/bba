@@ -1,371 +1,356 @@
 {
   "nav": {
-    "work": "Case Studies",
-    "process": "Process",
-    "about": "About",
-    "faq": "FAQ",
     "services": "Services",
-    "cta": "Start the Conversation"
+    "about": "About",
+    "work": "Work With Us",
+    "contact": "Contact",
+    "tagline": "Strategic Website Partner"
   },
-  "hero": {
-    "eyebrow": "Boutique Website Agency",
-    "h1_1": "Turn Your Traffic Into",
-    "h1_em": "Clients Who Convert.",
-    "h1_2": "",
-    "body": "We design and build high-performance, mobile-first websites for wellness and modern brands.",
-    "body2": "",
-    "cta_primary": "Start the Conversation",
-    "cta_secondary": "See Our Work",
-    "trust": [
-      "South Bay, CA",
-      "15 Years Experience",
-      "Mobile-First"
-    ],
-    "scarcity": "Currently accepting a limited number of new clients.",
-    "stats": [
+  "cta": {
+    "primary": "Book a Conversation",
+    "call": "Book a Call",
+    "services": "Explore Our Services",
+    "learn": "Learn More"
+  },
+  "img": {
+    "placeholder": "Image placeholder"
+  },
+  "offers": [
+    {
+      "id": "signature-website",
+      "name": "The Signature Website",
+      "home": "A clean, considered website built to connect and convert.",
+      "home_link": "Explore The Signature Website",
+      "price": "Starting at $7,500",
+      "desc": "A custom website, built with strategy and care, designed to turn visitors into booked consultations."
+    },
+    {
+      "id": "signature-brand",
+      "name": "The Signature Brand",
+      "home": "A brand that looks aligned and feels intentional, inside and out.",
+      "home_link": "Explore The Signature Brand",
+      "price": "Starting at $3,500",
+      "desc": "A complete brand system, logo, colors, fonts, and the guide to use them with confidence."
+    },
+    {
+      "id": "signature-search",
+      "name": "The Signature Search Visibility",
+      "home": "Stronger visibility, in search and in AI results, so the right people find you.",
+      "home_link": "Explore The Signature Search Visibility",
+      "price": "Starting at $2,500",
+      "desc": "Visibility work for search and AI tools, so your expertise reaches the people searching for it."
+    }
+  ],
+  "home": {
+    "hero_pre": "Clarity, confidence, and a digital presence that",
+    "hero_strong": "finally feels like",
+    "hero_em": "you.",
+    "hero_cta": "Explore Services",
+    "hero_image": "Laptop and phone showing a wellness studio website on a stone pedestal",
+    "tiles": [
       {
-        "num": "81+",
-        "label": "Landing Pages Built"
+        "id": "signature-website",
+        "title": "Web Development",
+        "body": "Your website deserves to reflect who you are, and where your practice is going. Let’s design one that connects, converts, and supports your next stage of growth.",
+        "link": "Explore The Signature Website",
+        "image": "Laptop showing an executive coach’s website on a white desk with peonies"
       },
       {
-        "num": "45+",
-        "label": "Websites Launched"
-      },
-      {
-        "num": "23+",
-        "label": "Custom Conversion Systems"
+        "id": "signature-search",
+        "title": "Search & AI Visibility",
+        "body": "Your expertise deserves to be found. Strengthen how your practice shows up in search and in AI results, and reach the people looking for you.",
+        "link": "Explore The Signature Search Visibility",
+        "image": "Phone showing a wellness coach website, resting on a stack of books"
       }
     ],
-    "scroll": "Scroll"
+    "statement_pre": "We help wellness practitioners bring their practice to life online through intuitive design, clear messaging, and an",
+    "statement_mark": "elevated digital presence.",
+    "banner": [
+      [
+        "brand",
+        "identity"
+      ],
+      [
+        "web",
+        "development"
+      ],
+      [
+        "search",
+        "visibility"
+      ]
+    ],
+    "banner_image": "Phone showing a branded practice website",
+    "work_pre": "Work with",
+    "work_em": "us",
+    "work_items": [
+      {
+        "id": "signature-website",
+        "body": "Your practice deserves a website that reflects who you are, and works like a partner, connecting, converting, and supporting your next stage of growth.",
+        "strong": "Clean, modern, and intuitive websites designed to reflect your essence, elevate your presence, and guide visitors to action."
+      },
+      {
+        "id": "signature-brand",
+        "body": "A strategic identity system, custom logo, colors, fonts, and visual elements, crafted to express who you are and why your work matters.",
+        "strong": "A brand that looks aligned and feels intentional, inside and out."
+      },
+      {
+        "id": "signature-search",
+        "body": "Stronger visibility in search engines and in the AI tools more people are turning to first, so your expertise reaches the people looking for it.",
+        "strong": "Visibility built with intention, grounded in your specialty and how your future clients actually search."
+      }
+    ],
+    "work_ready": "I’m Ready, Let’s Work Together",
+    "approach_1": "Intuitive",
+    "approach_1_em": "design.",
+    "approach_2": "Human-centered",
+    "approach_2_em": "strategy.",
+    "approach_3": "Powerful",
+    "approach_3_em": "results.",
+    "approach_body": "We offer tailored, high-touch work that meets you where you are, and helps your practice grow with clarity, confidence, and beauty. From websites to brand identity to search visibility, we blend thoughtful design with strategic execution to create a presence that reflects who you truly are, and connects, converts, and delivers.",
+    "approach_link": "Book a Free 30-Minute Clarity Call",
+    "approach_images": [
+      "Open brand strategy book held at the water’s edge",
+      "Soft coastal horizon at dusk over rippled sand",
+      "Designer pinning brand concepts to a mood board wall",
+      "Sunlit wave and sea foam"
+    ],
+    "studio_pre": "Strategic design, clear messaging, and a digital presence that",
+    "studio_em": "finally feels like you.",
+    "studio_p1": "At Bluebay, we help wellness practitioners turn a scattered online presence into one that feels clear, confident, and aligned, so showing up finally feels effortless.",
+    "studio_p2": "Through considered design and digital strategy, we create websites, brands, and visibility that connect, convert, and grow with you.",
+    "studio_cta": "Meet the Studio",
+    "studio_image": "Sunlit room with a laptop on a navy sofa",
+    "meet_pre": "Meet",
+    "meet_strong": "Bluebay",
+    "meet_sub": "strategic website partner",
+    "meet_body": [
+      "Fifteen years in the industry, now devoted to wellness practitioners and the relationships they build with their clients.",
+      "We work with coaches, therapists, and wellness professionals who want their digital presence to be clear, confident, and deeply aligned with who they are.",
+      "Through thoughtful collaboration and intentional work, we bring practices to life in a way that feels considered, elevated, and often better than imagined."
+    ],
+    "meet_bg": "Ocean wave rolling onto white sand",
+    "meet_image": "Bluebay Agency founder working on a laptop with her pug",
+    "clients_h2": "What Clients Are Saying",
+    "prev": "Previous testimonial",
+    "next": "Next testimonial",
+    "quotes": [
+      {
+        "quote": "My website is beautiful, professional, and truly reflects my practice. Seeing the positive growth in traffic, engagement, and overall performance has made the investment more than worthwhile.",
+        "name": "Maria Jessica Quiroz",
+        "role": "Founder, The Couples Therapy and Reunification Counseling Inc."
+      },
+      {
+        "quote": "[She] is extremely knowledgeable about all aspects of web design, including SEO. She’s a pleasure to work with. I call her the quiet achiever!",
+        "name": "Jennifer McCabe",
+        "role": "Founder, Duck Egg Blue Interior Designs"
+      },
+      {
+        "quote": "She has an incredible ability to take the ideas, vision, and thoughts in my mind and transform them into a website that truly reflects who I am and what I do. She doesn’t just build a website, she creates a visual experience that helps people understand my work and connect with my brand.",
+        "name": "Naila Qureshi",
+        "role": "Founder, MindBodySpiritss LLC"
+      },
+      {
+        "quote": "[Bluebay Agency] is amazing! She designed the website of my dreams! She listened to all my ideas, and had a vision of how to make it perfect! She is amazing, and really easy to work with! Hiring [Bluebay Agency] was the best decision I could’ve made.",
+        "name": "Barbara Crabtree",
+        "role": "Founder, Olivia’s Wish"
+      }
+    ],
+    "connect_follow": "Follow",
+    "connect_handle": "@bluebayagency",
+    "connect_h2": "let’s connect",
+    "connect_post": "Instagram post",
+    "together_pre": "Let’s work",
+    "together_em": "together",
+    "together_strong": "Let’s make something aligned, beautiful, and unmistakably yours.",
+    "together_p": "Whether you’re ready to start a project or still figuring out what you need, there’s a clear next step:",
+    "paths": [
+      {
+        "label": "Start Your Project",
+        "desc": "For practitioners ready to begin a website, brand, or search visibility project.",
+        "kind": "contact"
+      },
+      {
+        "label": "Book a Free Clarity Call",
+        "desc": "For those who want to explore options and get clear before diving in.",
+        "kind": "call"
+      }
+    ],
+    "together_close_pre": "Whichever path you take, we’ll guide you through the next step with",
+    "together_close_em": "care and clarity.",
+    "together_image": "Woman reading her phone at a white desk with a laptop",
+    "connect_images": [
+      "Laptop on a stone pedestal showing a branded website",
+      "Manhattan Beach pier on a soft gray day",
+      "Person holding a phone and an open laptop",
+      "Lifeguard tower on the beach in black and white",
+      "Coffee, phone, and keyboard on a wooden desk",
+      "Woman in a cap checking her phone on a city street",
+      "Hands scrolling a phone beside a laptop and plants",
+      "Los Angeles skyline beyond palm trees"
+    ],
+    "rating_text": "5-Star Rating · Verified Google Reviews",
+    "rating_stars": "5 out of 5 stars"
   },
-  "coreTruth": {
-    "eyebrow": "The Bluebay Approach",
-    "h2": "Your Traffic Is Already There. Your Website Should Be Converting It.",
-    "body1": "Most wellness brands have solid traffic and still struggle to turn visitors into paying clients. The gap is rarely about awareness. It is about what happens the moment someone lands on your site.",
-    "body2": "We build websites engineered to convert. Strategic messaging, intuitive flow, and a seamless user experience.",
-    "quote": "The right website does not just look good. It works."
+  "testimonial": {
+    "quote": "Seeing the positive growth in traffic, engagement, and overall performance has made the investment more than worthwhile.",
+    "mark": "more than worthwhile.",
+    "name": "Maria Jessica Quiroz",
+    "role": "Founder, The Couples Therapy and Reunification Counseling Inc."
   },
   "services": {
     "eyebrow": "What We Do",
-    "h2": "Full-Service Web Design & Digital Marketing.",
-    "body": "From custom web design and development to SEO and email marketing, Bluebay Agency builds complete digital systems that turn visitors into loyal clients.",
-    "items": [
-      {
-        "title": "Web Design",
-        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out."
-      },
-      {
-        "title": "Web Development",
-        "desc": "Fast, reliable builds on modern platforms (React, Next.js, WordPress, and Shopify) engineered to perform."
-      },
-      {
-        "title": "SEO + AEO",
-        "desc": "Technical SEO and AI-answer optimization built in from day one, so the right people, and the AI tools they use, can find you."
-      },
-      {
-        "title": "Email Marketing",
-        "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients."
-      }
+    "title": [
+      "Considered work,",
+      "built around your practice."
     ],
-    "cta_all": "View All Services",
-    "cta_start": "Get Started",
-    "page_eyebrow": "Our Services",
-    "page_h1": "Websites Built to Turn Up in Search, AI Answers, and Client Inboxes.",
-    "page_intro": "We design and build complete digital systems for wellness and modern brands: websites engineered to convert, found by both search engines and AI assistants, and backed by email systems that keep clients coming back.",
-    "page_items": [
-      {
-        "title": "Web Design",
-        "desc": "Custom, mobile-first designs that reflect your brand and guide visitors toward booking, buying, or reaching out: built around how people decide, not just how a page looks in a mockup.",
-        "features": [
-          "Custom UX/UI design",
-          "Mobile-first layouts",
-          "Brand-aligned visual systems",
-          "Conversion-focused CTAs"
-        ]
-      },
-      {
-        "title": "Web Development",
-        "desc": "Fast, reliable builds on modern platforms engineered to perform: React, Next.js, WordPress, and Shopify, depending on what your business needs to run and grow.",
-        "features": [
-          "React & Next.js development",
-          "WordPress & Shopify builds",
-          "Headless CMS integration",
-          "Speed & performance optimization"
-        ]
-      },
-      {
-        "title": "Search & AI Visibility",
-        "desc": "Technical SEO and AI-answer optimization built in from day one: metadata, heading structure, schema markup, and keyword-mapped content designed to get you found by people searching on Google, and by the AI tools more of them are using to find businesses like yours.",
-        "features": [
-          "Technical SEO audits",
-          "On-page optimization",
-          "Schema markup for search and AI-answer engines",
-          "Keyword-mapped content strategy",
-          "AI visibility readiness (Answer Engine Optimization)"
-        ]
-      },
-      {
-        "title": "Conversion Rate Optimization (CRO)",
-        "desc": "The strategic layer behind every build: messaging clarity, user flow, and calls-to-action tested and refined to turn more of your existing traffic into booked calls and paying clients.",
-        "features": [
-          "Messaging & positioning refinement",
-          "Conversion flow mapping",
-          "CTA testing and placement",
-          "Landing page optimization"
-        ]
-      },
-      {
-        "title": "Email Marketing",
-        "desc": "Automated flows and campaigns that turn one-time visitors into repeat clients, built on the same conversion principles as your website.",
-        "features": [
-          "Welcome & nurture sequences",
-          "Campaign design & copy",
-          "List segmentation",
-          "Platform setup & integration"
-        ]
-      }
-    ]
-  },
-  "whyBluebay": {
-    "eyebrow": "Why Bluebay Agency",
-    "h2": "We Build Websites That Turn Visitors Into Clients.",
-    "body": "Wellness and modern brands do not just need a beautiful website they need one that performs. We specialize in building mobile-first websites structured to convert existing traffic into leads, clients, and revenue. Every page is built with one purpose: turning attention into action.",
-    "pillars": [
-      {
-        "num": "01",
-        "title": "Conversion-First",
-        "desc": "Every decision from layout to messaging to CTA placement is made to move the right visitor toward taking action."
-      },
-      {
-        "num": "02",
-        "title": "Speed",
-        "desc": "Systems go live in as little as 72 hours. Faster implementation means faster results from your existing traffic."
-      },
-      {
-        "num": "03",
-        "title": "Lead Quality",
-        "desc": "We build intake flows that pre-qualify your audience so the people who reach out are already the right fit."
-      },
-      {
-        "num": "04",
-        "title": "Full Funnel",
-        "desc": "We connect mobile UX, brand messaging, conversion flow, and CRM follow-up into one cohesive system that performs."
-      },
-      {
-        "num": "05",
-        "title": "Mobile-First",
-        "desc": "Your clients are on their phones. We build for the device they use to make decisions not as an afterthought."
-      }
-    ],
-    "differentiators": [
-      "Conversion-First Approach",
-      "72-Hour Implementation",
-      "15 Years Experience",
-      "Built for Wellness"
-    ]
-  },
-  "process": {
-    "eyebrow": "How We Work",
-    "h2": "A Clear Process. A Website That Performs.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "Understand Your Brand & Audience",
-        "desc": "We start by learning your business, your ideal client, and how your current site is performing. Everything we build is grounded in that foundation.",
-        "detail": "Traffic analysis · Brand audit · Audience profiling"
-      },
-      {
-        "num": "02",
-        "title": "Design Your Conversion Strategy",
-        "desc": "We map your messaging, user flow, and CTA architecture so every part of your site has a clear role in moving the right visitors toward action.",
-        "detail": "Messaging architecture · UX flow design · Conversion structure"
-      },
-      {
-        "num": "03",
-        "title": "Build and Integrate",
-        "desc": "We bring everything to life with a mobile-first website built for speed, clarity, and seamless integration with your tools and platforms.",
-        "detail": "Mobile-first build · Platform integration · CRM connection · QA"
-      },
-      {
-        "num": "04",
-        "title": "Launch and Optimize",
-        "desc": "We launch your site, connect your analytics, and stay close during the early period so you go live with confidence and keep improving from real data.",
-        "detail": "Launch · Analytics · Conversion optimization · Growth"
-      }
-    ],
-    "cta": "Start the Conversation"
-  },
-  "portfolio": {
-    "eyebrow": "Coming Soon",
-    "h2": "More Case Studies on the Way.",
-    "body": "Full case studies publish as each site goes live.",
-    "mobile_label": "Mobile View",
-    "projects": [
-      {
-        "name": "Olivia's Wish",
-        "category": "Baby Care · Brand & Landing Page",
-        "desc": "Herbal comfort for babies, born from a mother's love."
-      },
-      {
-        "name": "Goldie Grace Beauty",
-        "category": "Beauty · Brand Identity · Conversion System",
-        "desc": "A luxury beauty brand transformation."
-      }
-    ],
-    "more_text": "More case studies available upon request",
-    "more_cta": "Schedule a Call to See More"
+    "banner_pre": "Three ways to work together.",
+    "banner_mark": "One strategic partner throughout.",
+    "lead": "For wellness practitioners ready to invest in how their practice shows up.",
+    "body": "Every practice is at a different stage. Some need a website that finally does their work justice. Some need a brand that feels aligned before anything else. Some are ready to be found by the right people, in search and in AI results. Bluebay offers a considered path for each.",
+    "offers_pre": "The Three",
+    "offers_em": "Offers",
+    "closing": "Not sure where to start? Let’s talk it through together."
   },
   "about": {
-    "eyebrow": "The Founder",
-    "h2": "The Experience Behind Every Website We Build.",
-    "body1": "Before founding Bluebay Agency, Veronica Perez spent 15 years building and optimizing digital systems for companies ranging from funded startups to billion-dollar enterprises taking projects from strategy through launch and refining them until they performed. That background shapes how we approach every website we build.",
-    "body2": "Every client receives our full attention, from strategy through launch and beyond. If you are ready to build a website that turns your existing traffic into consistent, paying clients, we would love to be part of that.",
-    "stat_num": "15+",
-    "stat_label": "Years Building Conversion Systems",
-    "stats": [
-      {
-        "num": "81+",
-        "label": "Landing Pages Built"
-      },
-      {
-        "num": "45+",
-        "label": "Websites Launched"
-      },
-      {
-        "num": "23+",
-        "label": "Custom Conversion Systems"
-      }
+    "eyebrow": "About Us",
+    "title_1": "Where clarity meets beauty.",
+    "title_2_pre": "Where your practice finally",
+    "title_2_em": "feels like you.",
+    "gap": "You’ve built something meaningful, but turning that into a digital presence that feels as true as it is professional is where many practices get stuck.",
+    "gap_strong": "We’re here to bridge that gap.",
+    "circle_image": "Soft wave rolling onto the shore at dawn",
+    "meet_pre": "Meet",
+    "meet_strong": "Bluebay",
+    "meet_body": [
+      "Fifteen years in the industry, now devoted to wellness practitioners and the relationships they build with their clients.",
+      "We work with coaches, therapists, and wellness professionals who want their digital presence to be clear, confident, and deeply aligned with who they are. Much of our approach is grounded in the idea that good design isn’t only aesthetic, it’s about helping you feel seen and represented everywhere you show up.",
+      "Through thoughtful collaboration and intentional work, we bring practices to life in a way that feels considered, elevated, and often better than imagined."
     ],
-    "certs_label": "Certified",
-    "certifications": [
-      {
-        "label": "CA DGS",
-        "sub": "SB (Micro)"
-      },
-      {
-        "label": "LA SBE",
-        "sub": "Small Business Enterprise"
-      },
-      {
-        "label": "LA EBE",
-        "sub": "Emerging Business Enterprise"
-      },
-      {
-        "label": "LA VSBE",
-        "sub": "Very Small Business Enterprise"
-      }
+    "meet_image_bg": "Ocean wave rolling onto white sand",
+    "meet_image": "Portrait of the Bluebay Agency founder",
+    "approach_pre": "Our",
+    "approach_em": "Approach",
+    "approach_lead": "We don’t believe in one-size-fits-all anything.",
+    "approach_body": "Our process is collaborative, intentional, and grounded in your practice. We listen closely to understand the heart of your work, then build from there. Every design choice is made with purpose, nothing generic, nothing trend-driven for its own sake.",
+    "approach_blend_pre": "We blend",
+    "approach_blend_strong": "strategy with care",
+    "approach_blend_post": "to create brands and websites that don’t just look good, they feel right.",
+    "approach_points": [
+      "Thoughtful strategy rooted in your goals",
+      "Intuitive design that reflects who you are",
+      "Systems and structure that support your growth"
     ],
-    "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Chamber of Commerce Member",
-    "certs_note": "CA DGS certified and available for public sector procurement.",
-    "industry_title": "Industry Experience"
+    "feel_pre": "The",
+    "feel_em": "Feel",
+    "feel_body": [
+      "We listen like a partner, think like a strategist, and design with care. Grounded and considered, refined yet approachable, Bluebay brings a calm clarity to the often-overwhelming world of digital presence.",
+      "Our clients come to us ready for something more aligned, and leave with a digital presence that feels like them, and works for them."
+    ],
+    "feel_image": "Calm coastal horizon under a soft cloudy sky",
+    "contact_h2": "Start a Project",
+    "contact_body": "Ready for a website, brand, or search visibility that feels like you? Share a few details about your practice and goals, and we’ll follow up to plan your next step.",
+    "industry_title": "Industry Experience",
+    "industry_logo": "Industry client logo",
+    "industry_pause": "Pause logo animation",
+    "industry_play": "Play logo animation"
   },
-  "blog": {
-    "eyebrow": "Insights",
-    "h2": "Conversion, Design & Digital Growth",
-    "cms_note": "Blog connects to Headless CMS · DigitalOcean",
-    "all_articles": "View All Articles",
-    "read_article": "Read Article",
-    "posts": [
+  "work": {
+    "eyebrow": "How It Works",
+    "title": [
+      "A considered process,",
+      "start to finish."
+    ],
+    "banner_pre": "One partner,",
+    "banner_mark": "every step of the way.",
+    "lead": "For practices ready to begin, here’s what working together actually looks like.",
+    "process_pre": "The",
+    "process_em": "Process",
+    "steps": [
       {
-        "slug": "why-mobile-first-design-is-not-optional-in-2025",
-        "category": "Mobile Design",
-        "title": "Why Mobile-First Design Is Not Optional in 2025",
-        "excerpt": "Over 70% of your visitors arrive on mobile. If your site was designed for desktop first, you are designing for the minority and paying for it in lost conversions.",
-        "readTime": "5 min read",
-        "date": "Apr 2025"
+        "title": "Conversation",
+        "desc": "We start with a short call to understand your practice, your goals, and which offer fits best."
       },
       {
-        "slug": "7-reasons-your-website-may-be-quietly-losing-clients",
-        "category": "Conversion Strategy",
-        "title": "The 7 Ways Websites Silently Lose Conversions",
-        "excerpt": "Most conversion problems are invisible. Slow load times, unclear CTAs, and poor trust signals are bleeding revenue daily without triggering a single error.",
-        "readTime": "8 min read",
-        "date": "Mar 2025"
+        "title": "Strategy",
+        "desc": "We shape a creative direction grounded in research, not guesswork."
       },
       {
-        "slug": "from-visitors-to-clients-how-to-build-a-website-that-converts",
-        "category": "Growth Systems",
-        "title": "From Traffic to Clients: Building Your Conversion System",
-        "excerpt": "Traffic without conversion architecture is just noise. Learn how to architect your website as a system where every page has a role and every CTA has a purpose.",
-        "readTime": "6 min read",
-        "date": "Feb 2025"
+        "title": "Design",
+        "desc": "You’ll see considered concepts, built around your identity."
+      },
+      {
+        "title": "Refinement",
+        "desc": "Two thoughtful rounds of revisions, so every detail feels aligned."
+      },
+      {
+        "title": "Delivery",
+        "desc": "A seamless handoff, with training so you feel confident carrying it forward."
+      },
+      {
+        "title": "Staying Close",
+        "desc": "A 90-day check-in once things are live, to talk through what’s working and what’s worth exploring next."
       }
-    ]
+    ],
+    "which_h2": "Which Offer Is Right for You?",
+    "which_body": "Not sure where to begin? A short conversation is the easiest way to find out. We’ll walk through your practice and recommend the path that fits, with no pressure either way."
   },
   "faq": {
     "eyebrow": "FAQ",
-    "h2": "Frequently Asked Questions",
-    "still_question": "Don't see your question answered here?",
-    "ask_cta": "Ask Us Directly",
+    "title_pre": "Frequently Asked",
+    "title_em": "Questions",
     "items": [
       {
-        "q": "How fast can my website go live?",
-        "a": "Most projects go live in 1 to 21 business days depending on scope. Conversion landing pages in 1 to 3 days. Full authority websites in 5 to 7 days. Conversion Sprint systems in 7 to 21 days. Every timeline is set at the start and held throughout."
+        "q": "How do I know which offer is right for me?",
+        "a": "Most practices start with a conversation. We’ll walk through your goals and recommend the path that fits."
       },
       {
-        "q": "Do you only build landing pages?",
-        "a": "No. The landing page is one part of a larger system. We design the full conversion architecture messaging, user flow, lead qualification, and CRM integration everything needed to turn your traffic into clients."
+        "q": "Can I combine offers?",
+        "a": "Yes. Many practices pair The Signature Website with The Signature Brand or The Signature Search Visibility, and each pairing includes a discount."
       },
       {
-        "q": "What do I need to get started?",
-        "a": "Very little. Your business details, your ideal client profile, and any existing assets you have. We handle strategy, messaging, design, and build. Most clients are surprised by how streamlined the process is."
+        "q": "How long does each offer take?",
+        "a": "Typically a few weeks from kickoff to delivery, depending on scope. We’ll confirm a timeline once we understand your practice."
       },
       {
-        "q": "Do you offer ongoing support?",
-        "a": "Yes. Monthly conversion optimization, UX improvements, and ongoing technical support are available as a retainer. Brands that continue refining after launch consistently see compounding results over time."
-      },
-      {
-        "q": "Will my site be optimized for search?",
-        "a": "Every build includes technical SEO foundations: metadata, Open Graph tags, schema markup, performance optimization, and mobile-first architecture. Search visibility is built in from day one, not added at the end."
-      },
-      {
-        "q": "What makes Bluebay Agency different?",
-        "a": "We specialize in building conversion-focused websites for wellness and modern brands. Every decision from structure to messaging to design is made to turn your traffic into clients. Fifteen years of experience means we know what works, and we bring that to every project."
-      },
-      {
-        "q": "How do you ensure quality?",
-        "a": "Every project follows the same structured process: discovery, conversion strategy, design, build, and a thorough launch review. We do not cut corners at any stage. Quality comes from process."
+        "q": "What happens after launch?",
+        "a": "We stay close for the first 30 days, then check in at 90 days to talk through what the data shows and what might be worth exploring next."
       }
     ]
   },
   "contact": {
-    "eyebrow": "Get Started",
-    "h2": "Your Brand Deserves a Website That Converts.",
-    "body": "Tell us about your brand, the clients you serve, and where you want to grow. We will review your current digital presence and explore how Bluebay Agency can help you turn your existing traffic into consistent, paying clients.",
-    "email_cta": "Email Us Directly",
-    "call_cta": "Call Directly",
-    "response_note": "We respond within 1 business day",
-    "trust": [
-      "Strategy call is free",
-      "No obligation",
-      "Response within 1 business day",
-      "15+ years experience"
-    ]
+    "eyebrow": "Let’s Talk",
+    "title": [
+      "Let’s create something",
+      "that feels like you."
+    ],
+    "body": "Share a little about your practice, and we’ll find a time to talk.",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "required": "(required)",
+    "submit": "Submit",
+    "sending": "Sending…",
+    "missing": "Please complete the required fields.",
+    "invalid_email": "Please check your email address.",
+    "error": "Something went wrong. Please try again, or book a call instead.",
+    "success_h2": "Thank you.",
+    "success_body": "We’ll be in touch soon to find a time to talk.",
+    "call_prompt": "Prefer to talk now?"
   },
-  "finalCta": {
-    "eyebrow": "Let's Work Together",
-    "h2_1": "Ready to Turn Your Traffic Into",
-    "h2_em": "Clients?",
-    "body": "Most wellness and modern brands have more traffic than conversions. If yours is leaving clients on the table, let's explore what a better website could look like. We are currently accepting a limited number of new clients.",
-    "cta_primary": "Start the Conversation",
-    "cta_secondary": "View Our Work",
-    "note": "No obligation · US-Based · Serving Brands Nationally"
+  "caseStudies": {
+    "eyebrow": "Case Studies",
+    "h1": "A Story So Far",
+    "body": "One practice. A full redesign. A 65% rise in consultations booked within 30 days.",
+    "cta": "Hear the Full Story",
+    "compare_pre": "Before",
+    "compare_em": "& after",
+    "before_alt": "The Couples Therapy website before the redesign",
+    "after_alt": "The Couples Therapy website after the redesign"
   },
-  "footer": {
-    "tagline": "We build high-performance, mobile-first websites for wellness and modern brands engineered to convert visitors into clients.",
-    "location": "South Bay, California",
-    "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
-    "nav_title": "Navigation",
-    "contact_title": "Contact",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyright": "Bluebay Agency, LLC. All rights reserved.",
-    "certs_label": "Certifications",
-    "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Chamber of Commerce Member",
-    "book_cta": "Start the Conversation",
-    "consultation_cta": "Book a Consultation"
+  "story": {
+    "stat": "+65%"
   },
   "lang": {
     "switch_label": "Español",
@@ -385,8 +370,295 @@
     "share": "Share this article",
     "related": "More from the Blog",
     "cta_eyebrow": "Ready to Talk?",
-    "cta_heading": "Let's Build Something That Converts.",
-    "cta_body": "If this article sparked some ideas, we would love to hear about your project.",
-    "cta_button": "Start the Conversation"
+    "cta_heading": "Have a site in mind?",
+    "cta_body": "Let’s talk.",
+    "cta_button": "Book a Conversation"
+  },
+  "footer": {
+    "tagline": "Strategic Website Partner",
+    "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "Bluebay Agency, LLC. All rights reserved.",
+    "follow": "Follow",
+    "get_in_touch": "Get in Touch",
+    "call": "Call",
+    "contact_us": "Contact Us",
+    "services": "Services",
+    "text": "Text"
+  },
+  "newsletter": {
+    "h_pre": "Stay",
+    "h_mark": "Inspired",
+    "sub": "Design tips, brand clarity, and digital strategy, delivered with intention.",
+    "body": "No fluff, no spam, just meaningful content to help your practice grow with confidence and clarity.",
+    "email": "Email Address",
+    "submit": "Sign Up",
+    "sending": "Signing up…",
+    "success": "Thank you. You’re on the list.",
+    "error": "Something went wrong. Please try again.",
+    "invalid": "Please enter a valid email address.",
+    "image": "Laptop and phone on a café table with plants"
+  },
+  "offerPage": {
+    "how_pre": "How it",
+    "how_em": "works",
+    "incl_pre": "What’s",
+    "incl_em": "included",
+    "invest": "Investment",
+    "cross_h2": "Looking for Something Else?",
+    "cross_body": "Whether you’re building from scratch or ready to elevate what you’ve already created, Bluebay offers intentional, aligned services designed to meet you where you are.",
+    "cross_image": "Woman reading her phone at a white desk with a laptop",
+    "outcome_label": "Client Outcome",
+    "outcome_link": "Read the case study",
+    "signature-website": {
+      "meta": "A custom website for wellness practitioners, built to connect, convert, and support your next stage of growth. Starting at $7,500.",
+      "eyebrow": "Elevate Your Online Presence",
+      "title": [
+        "Signature",
+        "Website"
+      ],
+      "banner_pre": "Connecting, converting, and supporting your",
+      "banner_mark": "next stage of growth.",
+      "lead": "For wellness practitioners ready to turn visitors into clients, with a website built to connect and convert.",
+      "p1": "You’re proud of what you’ve built, but your website doesn’t always reflect the quality of your work. It can feel dated, inconsistent, or simply quiet. You want a space that feels aligned, builds trust instantly, and guides people to say yes.",
+      "p2_pre": "That’s where we come in.",
+      "p2_strong": "The Signature Website gives you a design, clean, modern, and intuitive, that looks beautiful and guides your audience with purpose.",
+      "p2_post": "Every layout, word, and interaction is crafted to connect, visually, emotionally, and strategically.",
+      "p3": "This isn’t just a website. It’s your digital home, built to elevate your presence, support your growth, and convert with confidence.",
+      "cta": "I’m Ready",
+      "image": "Designer pinning brand concepts to a mood board wall",
+      "steps": [
+        {
+          "label": "Week 1, Strategy",
+          "desc": "We map your content, client flow, and brand goals, then co-create a visual direction that feels like home."
+        },
+        {
+          "label": "Week 2, Design",
+          "desc": "You’ll receive a stunning, intuitive website mockup, fully tailored to your brand identity and built with conversions in mind."
+        },
+        {
+          "label": "Week 3, Revisions",
+          "desc": "Two rounds of thoughtful refinements per page, ensuring every detail feels just right."
+        },
+        {
+          "label": "Week 4, Delivery & Launch",
+          "desc": "Final polishing, a seamless transfer, and a video walkthrough, so you’re ready to launch with clarity and ease."
+        }
+      ],
+      "included": [
+        {
+          "title": "Five to Twelve Page Custom Website",
+          "desc": "Designed to reflect your unique voice, vision, and offerings, with strategic structure and visual clarity."
+        },
+        {
+          "title": "Mobile Optimization",
+          "desc": "Ensures your site looks and functions beautifully across all devices."
+        },
+        {
+          "title": "Content Strategy Guidance",
+          "desc": "Prompts, structure suggestions, and collaborative copywriting support to help your messaging land clearly and confidently."
+        },
+        {
+          "title": "Foundational SEO Setup",
+          "desc": "Strategic on-page SEO, including keyword-optimized headings, image text, speed, and metadata, so your site gets seen and found."
+        }
+      ],
+      "addons": "Optional add-ons: extra pages, branded photography coordination, email marketing setup, and more.",
+      "addons_link": "See The Signature Brand",
+      "addons_href": "signature-brand",
+      "outcome_pre": "Designed to reflect your essence. Built to grow with you.",
+      "outcome_em": "",
+      "outcomes": [
+        "Attract more aligned inquiries, within days of launching",
+        "Sign high-value clients through a site that speaks for itself",
+        "Increase traffic, sales, and clarity, with zero tech overwhelm"
+      ],
+      "price": "Starting at $7,500, paid in full or through a payment plan.",
+      "discount": "$500 off when paired with our Signature Brand package.",
+      "ready": "Ready for a site that feels like you, and works like it too?",
+      "invest_cta": "Design My Website",
+      "proof": "quote",
+      "cross": [
+        {
+          "id": "signature-brand",
+          "desc": "Build a brand that looks aligned and feels intentional, inside and out."
+        },
+        {
+          "id": "signature-search",
+          "desc": "Clarify how you’re found, in search and in AI results, and show up online like the expert you are."
+        }
+      ],
+      "cross_line": "Let’s create a digital presence that’s as powerful, and as beautiful, as the work you do.",
+      "proof_text": "",
+      "proof_source": "",
+      "proof_href": ""
+    },
+    "signature-brand": {
+      "meta": "A strategic brand identity for wellness practitioners: custom logo, colors, fonts, and visual elements. Starting at $3,500.",
+      "eyebrow": "Custom Brand Identity Design",
+      "title": [
+        "Signature",
+        "Brand"
+      ],
+      "banner_pre": "Meet your practice’s",
+      "banner_mark": "next evolution.",
+      "lead": "For wellness practitioners ready to stop second-guessing their visuals and finally feel seen.",
+      "p1": "You’ve built something meaningful, but your brand doesn’t always do it justice. It can feel inconsistent, unclear, or simply not quite like you yet. You’re tired of piecing things together and craving a brand that reflects your value with confidence.",
+      "p2_pre": "That’s where we come in.",
+      "p2_strong": "The Signature Brand is a strategic identity system, custom logo, colors, fonts, and visual elements, crafted to express who you are and why your work matters.",
+      "p2_post": "",
+      "p3": "We don’t follow trends. We design with intention. Every detail is rooted in research, strategy, and the heart of your practice, so you can finally show up with a brand that feels like you, and even better than you imagined.",
+      "cta": "I’m Ready",
+      "image": "Open brand strategy book held at the water’s edge",
+      "steps": [
+        {
+          "label": "Week 1, Strategy",
+          "desc": "We dig into your audience, your specialty, and your differentiators. Then we craft a creative direction that lays the foundation for your brand identity."
+        },
+        {
+          "label": "Week 2, Design",
+          "desc": "You’ll receive two complete brand concepts, each with visual mockups, so you can feel the direction before choosing your path."
+        },
+        {
+          "label": "Week 3, Revisions",
+          "desc": "We refine your chosen concept with two rounds of feedback, ensuring every detail feels aligned and elevated."
+        },
+        {
+          "label": "Week 4, Delivery",
+          "desc": "We wrap your final brand in a ready-to-use package, every file, font, color code, and graphic you need, plus the training to use it with confidence."
+        }
+      ],
+      "included": [
+        {
+          "title": "Complete Brand Strategy",
+          "desc": "Audience insights, a look at your field, and a creative brief grounded in real understanding, not just personal preference."
+        },
+        {
+          "title": "Custom Visual Identity",
+          "desc": "Primary and secondary logos, type styling, and a brand palette designed to reflect your essence and position you with confidence."
+        },
+        {
+          "title": "Social Launch Graphics",
+          "desc": "Custom branded graphics to support your debut and elevate your daily presence with ease."
+        },
+        {
+          "title": "Brand Guide & Walkthrough",
+          "desc": "A thorough brand guide and walkthrough, so you and your team know exactly how to keep everything looking aligned."
+        }
+      ],
+      "addons": "",
+      "addons_link": "",
+      "addons_href": "",
+      "outcome_pre": "A foundation of beauty and strategy to grow your brand with",
+      "outcome_em": "confidence.",
+      "outcomes": [
+        "Attracting aligned clients",
+        "Elevating your online presence",
+        "Empowering confident, consistent content creation"
+      ],
+      "price": "Starting at $3,500, paid in full or through a payment plan.",
+      "discount": "$500 off when paired with our Signature Website package.",
+      "ready": "Let’s create a brand that feels considered. Unmistakably you.",
+      "invest_cta": "I Want That",
+      "proof": "none",
+      "cross": [
+        {
+          "id": "signature-website",
+          "desc": "Clean, modern, aligned websites that reflect your essence and guide visitors to action."
+        },
+        {
+          "id": "signature-search",
+          "desc": "Clarify how you’re found, in search and in AI results, and show up online like the expert you are."
+        }
+      ],
+      "cross_line": "Let’s create a digital presence that’s as powerful, and as beautiful, as the work you do.",
+      "proof_text": "",
+      "proof_source": "",
+      "proof_href": ""
+    },
+    "signature-search": {
+      "meta": "SEO and AI search visibility for wellness practitioners, so the right people find your practice in search and in AI answers. Starting at $2,500.",
+      "eyebrow": "SEO & AI Search Visibility",
+      "title": [
+        "Signature",
+        "Search Visibility"
+      ],
+      "banner_pre": "Meet the visibility",
+      "banner_mark": "your practice has earned.",
+      "lead": "For wellness practitioners ready to be found, by people and by AI.",
+      "p1": "You’re doing meaningful work, but if the right person can’t find you online, or in an AI-generated answer, that work stays quieter than it deserves. More searches than ever are happening through AI tools, and showing up there takes a different kind of visibility than traditional search alone.",
+      "p2_pre": "That’s where we come in.",
+      "p2_strong": "The Signature Search Visibility strengthens how your practice shows up, in search engines and in the AI tools more people are turning to first,",
+      "p2_post": "so your expertise reaches the people looking for it.",
+      "p3": "We don’t chase trends or rankings for their own sake. We build visibility with intention, grounded in your specialty and how your future clients actually search.",
+      "cta": "I’m Ready",
+      "image": "Minimal graphic suggesting visibility and search, navy on white",
+      "steps": [
+        {
+          "label": "Week 1, Audit",
+          "desc": "We review where your practice currently stands, in traditional search and in AI-generated answers."
+        },
+        {
+          "label": "Week 2, Strategy",
+          "desc": "We build a plan grounded in your specialty, your audience, and how they actually search."
+        },
+        {
+          "label": "Week 3, Implementation",
+          "desc": "We put the plan into place: content structure, technical groundwork, and AI-visibility foundations."
+        },
+        {
+          "label": "Ongoing, Monitoring",
+          "desc": "We track your visibility and refine the approach as search and AI tools continue to evolve."
+        }
+      ],
+      "included": [
+        {
+          "title": "Visibility Audit",
+          "desc": "A clear look at where your practice currently stands, in search and in AI-generated answers."
+        },
+        {
+          "title": "Technical SEO Foundation",
+          "desc": "Clean structure, metadata, and on-page groundwork, so search engines understand your site."
+        },
+        {
+          "title": "AI Search Groundwork",
+          "desc": "Content shaped to be understood and referenced by AI tools, not just traditional search."
+        },
+        {
+          "title": "Ongoing Visibility Reporting",
+          "desc": "Regular check-ins on how your visibility is trending, and what’s worth adjusting next."
+        }
+      ],
+      "addons": "",
+      "addons_link": "",
+      "addons_href": "",
+      "outcome_pre": "Designed to be found. Built to",
+      "outcome_em": "stay visible.",
+      "outcomes": [
+        "Stronger presence in search and AI results",
+        "More of the right people discovering your practice",
+        "Confidence that your visibility keeps pace with how people search now"
+      ],
+      "price": "Starting at $2,500, plus $600 a month ongoing.",
+      "discount": "$300 off setup when paired with our Signature Website package.",
+      "ready": "Ready for your practice to be found the way it deserves?",
+      "invest_cta": "Let’s Talk",
+      "proof": "outcome",
+      "proof_text": "MindBodySpiritss is now recommended directly by AI tools like ChatGPT to people searching for executive coaching support.",
+      "proof_source": "MindBodySpiritss, Executive & Relationship Coaching",
+      "proof_href": "/case-studies/mindbodyspiritss",
+      "cross": [
+        {
+          "id": "signature-website",
+          "desc": "Clean, modern, aligned websites that reflect your essence and guide visitors to action."
+        },
+        {
+          "id": "signature-brand",
+          "desc": "Build a brand that looks aligned and feels intentional, inside and out."
+        }
+      ],
+      "cross_line": "Let’s build a presence that’s found as easily as it’s felt."
+    }
   }
 }

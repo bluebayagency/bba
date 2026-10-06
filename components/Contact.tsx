@@ -1,78 +1,64 @@
 'use client'
 
 import { useTranslation } from 'react-i18next'
-import Script from 'next/script'
-import ScrollReveal from './ScrollReveal'
+import DubsadoForm from './DubsadoForm'
+import { ArrowLink, Body, CALENDLY_HREF, Container } from './ui'
 
-interface ContactProps {
-  /** Heading level for the "Your Brand Deserves a Website That Converts." title; use
-   *  "h1" only when this section leads the page (e.g. /contact). */
-  headingLevel?: 'h1' | 'h2'
-}
-
-export default function Contact({ headingLevel = 'h2' }: ContactProps) {
+/**
+ * Two-column contact block: heading and note on the left, inquiry form on the right.
+ * "page" is the /contact page (H1, phone field, Book a Call); "about" is the shorter
+ * section at the end of the About page.
+ */
+export default function Contact({ variant = 'page' }: { variant?: 'page' | 'about' }) {
   const { t } = useTranslation()
-  const trust = t('contact.trust', { returnObjects: true }) as string[]
-  const Heading = headingLevel
+  const isPage = variant === 'page'
+  const title = t('contact.title', { returnObjects: true }) as string[]
 
   return (
-    <section id="contact" className="bg-soft-white py-24 md:py-36 relative overflow-hidden">
-      <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-center mb-14 md:mb-16">
-          <ScrollReveal>
-            <div className="flex items-center justify-center gap-4 mb-6">
-<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
-                {t('contact.eyebrow')}
-              </span>
-            </div>
-          </ScrollReveal>
-          <ScrollReveal delay={1}>
-            <Heading className="font-canela-deck font-light text-navy leading-[1.1] mb-5" style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}>
-              {t('contact.h2')}
-            </Heading>
-          </ScrollReveal>
-          <ScrollReveal delay={2}>
-            <p className="font-sans font-light text-charcoal/55 text-lg leading-relaxed max-w-xl mx-auto">
-              {t('contact.body')}
-            </p>
-          </ScrollReveal>
+    <section id="contact" className={`${isPage ? 'bg-white pt-40 md:pt-52' : 'bg-sand pt-24 md:pt-36'} pb-28 md:pb-40`}>
+      <Container>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
+          <div className={isPage ? 'animate-fade-up opacity-0' : ''}>
+            {isPage ? (
+              <>
+                <p className="mb-6 font-sans text-xs md:text-sm font-light tracking-[0.3em] uppercase text-accent">
+                  {t('contact.eyebrow')}
+                </p>
+                <h1
+                  className="font-canela-deck font-light text-navy leading-[1.08]"
+                  style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}
+                >
+                  {title.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))}
+                </h1>
+                <Body className="mt-8 max-w-md text-lg">{t('contact.body')}</Body>
+                <div className="mt-12">
+                  <p className="font-sans text-sm font-light text-charcoal/80">{t('contact.call_prompt')}</p>
+                  <ArrowLink href={CALENDLY_HREF} external className="mt-2">
+                    {t('cta.call')}
+                  </ArrowLink>
+                </div>
+              </>
+            ) : (
+              <>
+                <h2
+                  className="font-canela-deck font-light text-navy leading-[1.08]"
+                  style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}
+                >
+                  {t('about.contact_h2')}
+                </h2>
+                <Body className="mt-8 max-w-md text-lg">{t('about.contact_body')}</Body>
+              </>
+            )}
+          </div>
+          <div className={isPage ? 'animate-fade-up-delay opacity-0' : ''}>
+            <DubsadoForm />
+          </div>
         </div>
-
-        <ScrollReveal delay={2}>
-          <div className="bg-white border border-gray-border">
-            <iframe
-              src="https://hello.dubsado.com/public/form/view/69cd745fdaed1883b751ed8d?iframe=true"
-              title="Contact form"
-              frameBorder={0}
-              width="100%"
-              height="750"
-              style={{ display: 'block' }}
-            />
-          </div>
-        </ScrollReveal>
-
-        <Script
-          src="//cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.min.js"
-          strategy="afterInteractive"
-        />
-        <Script id="dubsado-resize" strategy="afterInteractive">{`
-          setTimeout(function(){ iFrameResize({ checkOrigin: false }); }, 30);
-        `}</Script>
-
-        <ScrollReveal delay={3}>
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
-            {trust.map((item: string) => (
-              <div key={item} className="flex items-center gap-2">
-                <svg aria-hidden="true" className="w-3.5 h-3.5 text-navy/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                </svg>
-                <span className="font-sans text-xs text-charcoal/40">{item}</span>
-              </div>
-            ))}
-          </div>
-        </ScrollReveal>
-      </div>
+      </Container>
     </section>
   )
 }

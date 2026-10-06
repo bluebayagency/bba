@@ -63,7 +63,7 @@ export default function MailerLiteChamberForm() {
           placeholder="Email"
           value={fields.email}
           onChange={(e) => setFields({ ...fields, email: e.target.value })}
-          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+          className="w-full rounded-[40px] bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
         />
       </div>
       <div>
@@ -74,7 +74,7 @@ export default function MailerLiteChamberForm() {
           placeholder="Full Name"
           value={fields.name}
           onChange={(e) => setFields({ ...fields, name: e.target.value })}
-          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+          className="w-full rounded-[40px] bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
         />
       </div>
       <div>
@@ -86,7 +86,7 @@ export default function MailerLiteChamberForm() {
           placeholder="Business Name and Website"
           value={fields.company}
           onChange={(e) => setFields({ ...fields, company: e.target.value })}
-          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+          className="w-full rounded-[40px] bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
         />
       </div>
       <button

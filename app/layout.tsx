@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Inter } from 'next/font/google'
+import { Cormorant_Garamond, Inter, Montserrat } from 'next/font/google'
 import localFont from 'next/font/local'
 import Script from 'next/script'
 import I18nProvider from '@/components/I18nProvider'
@@ -43,6 +43,13 @@ const canelaDeck = localFont({
   display: 'swap',
 })
 
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-montserrat',
+  display: 'swap',
+})
+
 const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
@@ -53,26 +60,20 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bluebayagency.com'),
   title: {
-    default: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
+    default: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
     template: '%s | Bluebay Agency',
   },
   description:
-    'Bluebay Agency is a boutique web design agency building mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Based in Hermosa Beach, CA.',
+    'Clarity, confidence, and a digital presence that finally feels like you. Website design, brand identity, and visibility for coaches, therapists, and wellness practitioners.',
   keywords: [
-    'boutique web design agency',
+    'website design for wellness practitioners',
+    'therapist website design',
+    'coach website design',
     'wellness website design',
-    'conversion website design',
-    'mobile-first website design',
-    'landing page design wellness',
-    'website design for wellness brands',
-    'modern brand website design',
-    'Hermosa Beach web design',
+    'counseling practice website',
     'South Bay web design',
-    'Los Angeles boutique web agency',
-    'small business website design California',
-    'high-converting website design',
-    'e-commerce website design',
-    'website redesign wellness brand',
+    'Hermosa Beach web design',
+    'Los Angeles web designer for therapists',
   ],
   authors: [{ name: 'Bluebay Agency', url: 'https://www.bluebayagency.com' }],
   creator: 'Bluebay Agency',
@@ -81,9 +82,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
+    title: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
     description:
-      'Mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Boutique agency based in Hermosa Beach, CA with 15+ years of experience.',
+      'Website design, brand identity, and visibility for wellness practitioners. Fifteen years in the industry.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -93,15 +94,15 @@ export const metadata: Metadata = {
         url: '/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
         width: 1200,
         height: 630,
-        alt: 'Bluebay Agency: Boutique Website Design for Wellness & Modern Brands, Hermosa Beach CA',
+        alt: 'Bluebay Agency: Strategic Website Partner for Wellness Practitioners',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bluebay Agency | Boutique Website Design for Wellness & Modern Brands',
+    title: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
     description:
-      'Mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Hermosa Beach, CA.',
+      'Strategic website partner for wellness practitioners.',
     images: ['/images/stock/2025-oct-hermosa-beach-california-1200-mb.png'],
   },
   robots: {
@@ -125,7 +126,7 @@ const localBusinessSchema = {
   '@id': 'https://www.bluebayagency.com/#business',
   name: 'Bluebay Agency',
   description:
-    'Boutique web design agency specializing in mobile-first, conversion-focused websites for wellness and modern brands. Live in as little as 3 days. Based in Hermosa Beach, California with 15+ years of experience.',
+    'Strategic website partner for coaches, therapists, and wellness practitioners. Fifteen years in web design. Based in the South Bay, California.',
   url: 'https://www.bluebayagency.com',
   email: 'hello@bluebayagency.com',
   foundingDate: '2007',
@@ -149,15 +150,9 @@ const localBusinessSchema = {
     { '@type': 'Country', name: 'United States' },
   ],
   serviceType: [
-    'Boutique Web Design',
-    'Wellness Website Design',
-    'Conversion Landing Page Design',
-    'Mobile-First Website Development',
-    'Essential Website System',
-    'Authority Conversion Website',
-    'E-commerce Website Design',
-    'Conversion Rate Optimization',
-    'SEO Optimization',
+    'Website Design for Wellness Practitioners',
+    'Brand Identity Design',
+    'SEO and AI Search Visibility',
   ],
   image: 'https://www.bluebayagency.com/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
   logo: 'https://www.bluebayagency.com/images/logos/bluebay-agency-secondary-blue.svg',
@@ -184,59 +179,23 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'How fast is the turnaround?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Most projects are completed in 2 to 14 business days depending on scope. Landing systems ship in 2 to 3 days. Growth websites in 5 to 7 days. Full Conversion Sprints in 10 to 14 days.',
-      },
+      name: "How do I know which offer is right for me?",
+      acceptedAnswer: { '@type': 'Answer', text: "Most practices start with a conversation. We\u2019ll walk through your goals and recommend the path that fits." },
     },
     {
       '@type': 'Question',
-      name: 'Do you only design websites?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We build highly-converting websites, but the work behind them goes deeper than design. Strategy, messaging, structure, and lead generation all work together so your website becomes a genuine business asset.',
-      },
+      name: "Can I combine offers?",
+      acceptedAnswer: { '@type': 'Answer', text: "Yes. Many practices pair The Signature Website with The Signature Brand or The Signature Search Visibility, and each pairing includes a discount." },
     },
     {
       '@type': 'Question',
-      name: 'What do I need to get started?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Very little. We only need your business details, offer information, and access to your current website if applicable. We handle the strategy, copy direction, design, and engineering.',
-      },
+      name: "How long does each offer take?",
+      acceptedAnswer: { '@type': 'Answer', text: "Typically a few weeks from kickoff to delivery, depending on scope. We\u2019ll confirm a timeline once we understand your practice." },
     },
     {
       '@type': 'Question',
-      name: 'Do you offer ongoing support?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. Optional ongoing optimization, SEO management, and landing page improvements are available as a monthly retainer.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'Will my website be optimized for SEO?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. Every build includes technical SEO structure: metadata, OG tags, schema markup, performance optimization, and mobile-first architecture. SEO is woven into the engineering from day one.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'What makes Bluebay Agency different from other agencies?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We take the time to listen. Every project starts with understanding your business, your clients, and what success looks like for you. Nearly 18 years of experience means we know what works.',
-      },
-    },
-    {
-      '@type': 'Question',
-      name: 'How many clients do you work with at once?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We keep our roster intentionally small, usually 3 to 5 active projects at a time. It means more focus, faster turnaround, and a better experience for everyone we work with.',
-      },
+      name: "What happens after launch?",
+      acceptedAnswer: { '@type': 'Answer', text: "We stay close for the first 30 days, then check in at 90 days to talk through what the data shows and what might be worth exploring next." },
     },
   ],
 }
@@ -247,7 +206,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable} ${canela.variable} ${canelaDeck.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${inter.variable} ${montserrat.variable} ${canela.variable} ${canelaDeck.variable}`}>
       <head>
         <script
           type="application/ld+json"

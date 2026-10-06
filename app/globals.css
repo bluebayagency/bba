@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --navy: #091c36;
-  --soft-white: #F7F8FA;
+  --navy: #091E32;
+  --soft-white: #FFFFFF;
   --sand: #D9D6CE;
-  --charcoal: #0A0A0A;
-  --gray-border: #E2E5EA;
-  --french-blue: #6c7e97;
-  --french-blue-light: #EBF1F8;
+  --charcoal: #2B3A42;
+  --accent: #6D8CA3;
+  --gray-border: #DDE3E8;
+  --french-blue: #6D8CA3;
+  --french-blue-light: #EDF1F4;
 }
 
 html {
@@ -17,7 +18,7 @@ html {
 }
 
 body {
-  background-color: var(--soft-white);
+  background-color: #FFFFFF;
   color: var(--charcoal);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,7 +38,7 @@ body {
 
 /* Text selection */
 ::selection {
-  background: rgba(74, 124, 181, 0.15);
+  background: rgba(109, 140, 163, 0.2);
   color: var(--navy);
 }
 
@@ -56,17 +57,6 @@ body {
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.45s; }
-
-/* Hero gradient overlay */
-.hero-overlay {
-  background: linear-gradient(
-    105deg,
-    rgba(9, 28, 54, 0.97) 0%,
-    rgba(9, 28, 54, 0.88) 40%,
-    rgba(9, 28, 54, 0.55) 70%,
-    rgba(9, 28, 54, 0.2) 100%
-  );
-}
 
 
 /* FAQ accordion */
@@ -117,7 +107,7 @@ body {
 
 /* WordPress post content */
 .wp-content {
-  color: rgba(10, 10, 10, 0.75);
+  color: rgba(43, 58, 66, 0.85);
   font-family: var(--font-inter), system-ui, sans-serif;
   font-size: 1.0625rem;
   font-weight: 300;
@@ -138,7 +128,7 @@ body {
 .wp-content h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
 .wp-content h4 { font-size: 1.1rem; font-family: var(--font-inter), system-ui, sans-serif; font-weight: 500; }
 .wp-content p { margin-bottom: 1.5rem; }
-.wp-content a { color: var(--navy); border-bottom: 1px solid rgba(9, 28, 54, 0.3); text-decoration: none; transition: border-color 0.2s; }
+.wp-content a { color: var(--navy); border-bottom: 1px solid rgba(9, 30, 50, 0.3); text-decoration: none; transition: border-color 0.2s; }
 .wp-content a:hover { border-color: var(--navy); }
 .wp-content ul,
 .wp-content ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
@@ -150,15 +140,15 @@ body {
   font-weight: 100;
   font-style: italic;
   font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-  color: rgba(9, 28, 54, 0.6);
-  border-left: 2px solid #C4A49A;
+  color: rgba(9, 30, 50, 0.7);
+  border-left: 2px solid var(--accent);
   padding-left: 1.5rem;
   margin: 2rem 0;
   line-height: 1.6;
 }
 .wp-content img { width: 100%; height: auto; margin: 2rem 0; }
 .wp-content figure { margin: 2rem 0; }
-.wp-content figcaption { font-size: 0.8rem; color: rgba(10, 10, 10, 0.4); text-align: center; margin-top: 0.5rem; }
+.wp-content figcaption { font-size: 0.8rem; color: rgba(43, 58, 66, 0.5); text-align: center; margin-top: 0.5rem; }
 .wp-content hr { border: none; border-top: 1px solid var(--gray-border); margin: 2.5rem 0; }
 .wp-content strong { font-weight: 500; color: var(--navy); }
 .wp-content code { font-size: 0.85em; background: var(--french-blue-light); padding: 0.15em 0.4em; }

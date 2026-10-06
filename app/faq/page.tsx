@@ -1,18 +1,18 @@
 import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation'
 import FAQ from '@/components/FAQ'
-import FinalCTA from '@/components/FinalCTA'
 import Footer from '@/components/Footer'
+
+const description =
+  'Answers on choosing an offer, combining offers, timelines, and what happens after launch with Bluebay Agency.'
 
 export const metadata: Metadata = {
   title: 'FAQ',
-  description:
-    'Answers to common questions about working with Bluebay Agency: turnaround time, what\'s included, ongoing support, and how our boutique process works.',
+  description,
   alternates: { canonical: '/faq' },
   openGraph: {
     title: 'FAQ | Bluebay Agency',
-    description:
-      'Answers to common questions about working with Bluebay Agency: turnaround time, what\'s included, ongoing support, and how our boutique process works.',
+    description,
     type: 'website',
     url: 'https://www.bluebayagency.com/faq',
   },
@@ -23,7 +23,6 @@ export default function FAQPage() {
     <main id="main-content">
       <Navigation />
       <FAQ />
-      <FinalCTA />
       <Footer />
     </main>
   )

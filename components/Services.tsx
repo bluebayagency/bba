@@ -2,77 +2,62 @@
 
 import { useTranslation } from 'react-i18next'
 import ScrollReveal from './ScrollReveal'
-import serviceIcons from './serviceIcons'
+import { Banner, Intro, offerHref, TitleHeader, type Offer } from './sections'
+import { ArrowLink, Body, ButtonLink, CONTACT_HREF, Container, Display, Em, RuledHeading } from './ui'
 
 export default function Services() {
   const { t } = useTranslation()
-  const items = t('services.items', { returnObjects: true }) as Array<{ title: string; desc: string }>
+  const offers = t('offers', { returnObjects: true }) as Offer[]
 
   return (
-    <section className="bg-white py-24 md:py-36 relative">
-      <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="max-w-2xl mb-16 md:mb-20">
+    <>
+      <TitleHeader eyebrow={t('services.eyebrow')} lines={t('services.title', { returnObjects: true }) as string[]} />
+      <Banner pre={t('services.banner_pre')} mark={t('services.banner_mark')} />
+      <Intro lead={t('services.lead')} paragraphs={[t('services.body')]} cta={false} />
+
+      <section className="bg-white pb-24 md:pb-36">
+        <Container>
           <ScrollReveal>
-            <div className="flex items-center gap-4 mb-6">
-<span className="font-sans text-xs font-medium text-dusty-rose tracking-[0.25em] uppercase">
-                {t('services.eyebrow')}
-              </span>
-            </div>
+            <RuledHeading>
+              {t('services.offers_pre')} <Em>{t('services.offers_em')}</Em>
+            </RuledHeading>
           </ScrollReveal>
-          <ScrollReveal delay={1}>
-            <h2
-              className="font-canela-deck font-light text-navy leading-[1.1] mb-5"
-              style={{ fontSize: 'clamp(2rem, 4.5vw, 3.5rem)' }}
-            >
-              {t('services.h2')}
-            </h2>
-          </ScrollReveal>
-          <ScrollReveal delay={2}>
-            <p className="font-sans font-light text-charcoal/55 text-lg leading-relaxed">
-              {t('services.body')}
-            </p>
-          </ScrollReveal>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {items.map((item, i) => (
-            <ScrollReveal key={item.title} delay={((i % 4) + 1) as 1 | 2 | 3 | 4}>
-              <div className="group h-full bg-white border border-gray-border hover:border-french-blue/30 p-7 transition-all duration-300 hover:shadow-lg hover:shadow-navy/5 flex flex-col">
-                <div className="w-10 h-10 flex items-center justify-center rounded-full border border-navy/15 text-navy/60 group-hover:border-navy/30 group-hover:text-navy transition-colors duration-300 mb-6 flex-shrink-0">
-                  {serviceIcons[i]}
-                </div>
-                <h3 className="font-canela-deck font-light text-xl text-navy leading-tight mb-3">
-                  {item.title}
-                </h3>
-                <p className="font-sans text-sm font-light text-charcoal/55 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            </ScrollReveal>
-          ))}
-        </div>
-
-        <ScrollReveal delay={2}>
-          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="/services"
-              className="inline-flex items-center justify-center gap-2 font-sans text-sm font-medium text-navy border border-navy hover:bg-navy hover:text-white px-8 py-4 transition-all duration-300 w-full sm:w-auto"
-            >
-              {t('services.cta_all')}
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-navy hover:bg-navy/80 text-white font-sans text-sm font-medium px-8 py-4 transition-colors duration-200 tracking-wide w-full sm:w-auto"
-            >
-              {t('services.cta_start')}
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-              </svg>
-            </a>
+          <div className="mt-6">
+            {offers.map((o) => (
+              <ScrollReveal key={o.id}>
+                <article
+                  id={o.id}
+                  className="scroll-mt-32 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 border-b border-gray-border py-12 md:py-16"
+                >
+                  <div className="md:col-span-5">
+                    <h3 className="font-canela-deck font-light text-navy text-3xl md:text-4xl leading-tight">{o.name}</h3>
+                    <p className="mt-3 font-sans text-xs md:text-sm font-medium uppercase tracking-[0.2em] text-accent">
+                      {o.price}
+                    </p>
+                  </div>
+                  <div className="md:col-span-7">
+                    <Body className="text-lg">{o.desc}</Body>
+                    <ArrowLink href={offerHref(o.id)} className="mt-6">
+                      {t('cta.learn')}
+                    </ArrowLink>
+                  </div>
+                </article>
+              </ScrollReveal>
+            ))}
           </div>
+        </Container>
+      </section>
+
+      <section className="bg-sand py-24 md:py-32">
+        <ScrollReveal className="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+          <Display as="p" size="md">
+            {t('services.closing')}
+          </Display>
+          <ButtonLink href={CONTACT_HREF} className="mt-12">
+            {t('cta.primary')}
+          </ButtonLink>
         </ScrollReveal>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

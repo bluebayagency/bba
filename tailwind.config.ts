@@ -9,22 +9,27 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: '#091c36',
-        'soft-white': '#F7F8FA',
+        // Palette is limited to blues, white, and light sand.
+        navy: '#091E32',
+        'soft-white': '#FFFFFF',
         sand: '#D9D6CE',
-        charcoal: '#0A0A0A',
-        gold: '#C6A56B',
-        'gold-light': '#D4B882',
-        'gray-border': '#E2E5EA',
-        'french-blue': '#6c7e97',
-        'french-blue-light': '#EBF1F8',
-        'dusty-rose': '#C4A49A',
+        // Deep slate blue for body copy (kept under the old key so existing pages inherit it)
+        charcoal: '#2B3A42',
+        accent: '#6D8CA3',
+        'gray-border': '#DDE3E8',
+        'french-blue': '#6D8CA3',
+        'french-blue-light': '#EDF1F4',
+        // Legacy accent keys, remapped into the blue family
+        gold: '#6D8CA3',
+        'gold-light': '#9DB2C2',
+        'dusty-rose': '#6D8CA3',
       },
       fontFamily: {
         serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
         canela: ['var(--font-canela)', 'Georgia', 'serif'],
         'canela-deck': ['var(--font-canela-deck)', 'Georgia', 'serif'],
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
+        montserrat: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-out forwards',

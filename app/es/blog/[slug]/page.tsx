@@ -182,7 +182,7 @@ export default async function EsBlogPostPage({ params }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/?lng=es#contact"
+              href="/contact?lng=es"
               className="inline-flex items-center gap-2 bg-navy text-white font-sans text-sm font-medium px-8 py-4 hover:bg-navy/80 transition-all duration-300 tracking-wide"
             >
               {t.blogPage.cta_button}

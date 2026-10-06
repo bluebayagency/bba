@@ -133,7 +133,7 @@ export default function TermsAndConditionsPage() {
         .prose-legal p {
           font-family: var(--font-inter), sans-serif;
           font-weight: 300;
-          color: rgba(42,42,42,0.65);
+          color: rgba(43,58,66,0.65);
           line-height: 1.75;
           margin-bottom: 1rem;
           font-size: 0.9375rem;
@@ -146,7 +146,7 @@ export default function TermsAndConditionsPage() {
         .prose-legal ul li {
           font-family: var(--font-inter), sans-serif;
           font-weight: 300;
-          color: rgba(42,42,42,0.60);
+          color: rgba(43,58,66,0.60);
           font-size: 0.9375rem;
           line-height: 1.7;
           margin-bottom: 0.5rem;
@@ -161,14 +161,14 @@ export default function TermsAndConditionsPage() {
           width: 5px;
           height: 5px;
           border-radius: 50%;
-          background: rgba(42,42,42,0.25);
+          background: rgba(43,58,66,0.25);
         }
         .prose-legal strong {
           font-weight: 500;
-          color: rgba(42,42,42,0.80);
+          color: rgba(43,58,66,0.80);
         }
         .prose-legal a {
-          color: #1a3a5c;
+          color: #091E32;
           text-decoration: underline;
           text-underline-offset: 2px;
         }

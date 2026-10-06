@@ -73,7 +73,7 @@ export default function ResourceDownloadForm() {
           placeholder="First Name"
           value={fields.name}
           onChange={(e) => setFields({ ...fields, name: e.target.value })}
-          className="w-full bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
+          className="w-full rounded-[40px] bg-white border border-gray-200 focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200"
         />
       </div>
       <div>
@@ -85,7 +85,7 @@ export default function ResourceDownloadForm() {
           placeholder="Email Address"
           value={fields.email}
           onChange={(e) => { setFields({ ...fields, email: e.target.value }); setErrors({ ...errors, email: undefined }) }}
-          className={`w-full bg-white border focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200 ${errors.email ? 'border-red-400' : 'border-gray-200'}`}
+          className={`w-full rounded-[40px] bg-white border focus:border-navy outline-none font-sans font-light text-sm text-navy placeholder:text-gray-400 px-4 py-3.5 transition-colors duration-200 ${errors.email ? 'border-red-400' : 'border-gray-200'}`}
         />
         {errors.email && <p role="alert" className="font-sans text-xs text-red-500 mt-1">{errors.email}</p>}
       </div>

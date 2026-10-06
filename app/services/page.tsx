@@ -1,21 +1,18 @@
 import type { Metadata } from 'next'
 import Navigation from '@/components/Navigation'
-import ServicesDetail from '@/components/ServicesDetail'
-import CaseStudySpotlight from '@/components/CaseStudySpotlight'
-import Packages from '@/components/Packages'
-import RetainerTiers from '@/components/RetainerTiers'
-import FinalCTA from '@/components/FinalCTA'
+import Services from '@/components/Services'
 import Footer from '@/components/Footer'
+
+const description =
+  'Three ways to work together, one strategic partner throughout: The Signature Website, The Signature Brand, and The Signature Search Visibility for wellness practitioners.'
 
 export const metadata: Metadata = {
   title: 'Services',
-  description:
-    'Web design, web development, search & AI visibility, conversion rate optimization, and email marketing for wellness and modern brands.',
+  description,
   alternates: { canonical: '/services' },
   openGraph: {
     title: 'Services | Bluebay Agency',
-    description:
-      'Web design, web development, search & AI visibility, conversion rate optimization, and email marketing for wellness and modern brands.',
+    description,
     type: 'website',
     url: 'https://www.bluebayagency.com/services',
   },
@@ -25,11 +22,7 @@ export default function ServicesPage() {
   return (
     <main id="main-content">
       <Navigation />
-      <ServicesDetail />
-      <CaseStudySpotlight />
-      <Packages />
-      <RetainerTiers />
-      <FinalCTA />
+      <Services />
       <Footer />
     </main>
   )

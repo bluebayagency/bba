@@ -146,7 +146,7 @@ export default async function BlogPage({
             {t.blogPage.cta_body}
           </p>
           <Link
-            href={`/${lngParam}#contact`}
+            href={`/contact${lngParam}`}
             className="inline-flex items-center gap-2 bg-navy text-white font-sans text-sm font-medium px-8 py-4 hover:bg-navy/80 transition-all duration-300 tracking-wide"
           >
             {t.blogPage.cta_button}

@@ -39,6 +39,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.7,
     },
+    ...['services', 'services/signature-website', 'services/signature-brand', 'services/signature-search', 'work-with-us', 'about', 'faq'].map((page) => ({
+      url: `${BASE}/${page}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly' as const,
+      priority: 0.8,
+    })),
+    {
+      url: `${BASE}/couples-therapy-case-study`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
     {
       url: `${BASE}/case-studies`,
       lastModified: new Date(),

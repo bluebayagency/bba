@@ -1,368 +1,356 @@
 {
   "nav": {
-    "work": "Casos de Estudio",
-    "process": "Proceso",
-    "about": "Nosotros",
-    "faq": "Preguntas",
     "services": "Servicios",
-    "cta": "Iniciar la Conversacion"
+    "about": "Nosotros",
+    "work": "Trabaja con Nosotros",
+    "contact": "Contacto",
+    "tagline": "Socio Estratégico Web"
   },
-  "hero": {
-    "eyebrow": "Sitios Web para Marcas de Salud, Bienestar y Estilo Moderno",
-    "h1_1": "Convierte Tu Trafico en",
-    "h1_em": "Clientes que Dicen Si.",
-    "h1_2": "",
-    "body": "Disenamos y construimos sitios web de alto rendimiento y mobile-first para marcas de salud, bienestar y estilo moderno, disenados para convertir visitantes desde el momento en que llegan. Estrategia primero para convertir atencion en ingresos.",
-    "body2": "",
-    "cta_primary": "Iniciar la Conversacion",
-    "cta_secondary": "Ver Nuestro Trabajo",
-    "trust": [
-      "South Bay, CA",
-      "15 Anos de Experiencia",
-      "Mobile-First"
-    ],
-    "scarcity": "Actualmente aceptando un numero limitado de nuevos clientes.",
-    "stats": [
+  "cta": {
+    "primary": "Reservar una Conversación",
+    "call": "Agendar una Llamada",
+    "services": "Explorar Nuestros Servicios",
+    "learn": "Conocer Más"
+  },
+  "img": {
+    "placeholder": "Imagen de referencia"
+  },
+  "offers": [
+    {
+      "id": "signature-website",
+      "name": "The Signature Website",
+      "home": "Un sitio web limpio y cuidado, creado para conectar y convertir.",
+      "home_link": "Explorar The Signature Website",
+      "price": "Desde $7,500",
+      "desc": "Un sitio web a medida, creado con estrategia y cuidado, diseñado para convertir visitas en consultas reservadas."
+    },
+    {
+      "id": "signature-brand",
+      "name": "The Signature Brand",
+      "home": "Una marca que se ve alineada y se siente intencional, por dentro y por fuera.",
+      "home_link": "Explorar The Signature Brand",
+      "price": "Desde $3,500",
+      "desc": "Un sistema de marca completo, logotipo, colores, tipografías y la guía para usarlos con confianza."
+    },
+    {
+      "id": "signature-search",
+      "name": "The Signature Search Visibility",
+      "home": "Mayor visibilidad, en buscadores y en resultados de IA, para que las personas indicadas te encuentren.",
+      "home_link": "Explorar The Signature Search Visibility",
+      "price": "Desde $2,500",
+      "desc": "Trabajo de visibilidad para buscadores y herramientas de IA, para que tu experiencia llegue a quienes la buscan."
+    }
+  ],
+  "home": {
+    "hero_pre": "Claridad, confianza y una presencia digital que",
+    "hero_strong": "por fin se siente como",
+    "hero_em": "tú.",
+    "hero_cta": "Explorar Servicios",
+    "hero_image": "Laptop y teléfono mostrando el sitio web de un estudio de bienestar sobre un pedestal de piedra",
+    "tiles": [
       {
-        "num": "81+",
-        "label": "Landing Pages Construidas"
+        "id": "signature-website",
+        "title": "Desarrollo Web",
+        "body": "Tu sitio web merece reflejar quién eres y hacia dónde va tu consulta. Diseñemos uno que conecte, convierta y acompañe tu próxima etapa de crecimiento.",
+        "link": "Explorar The Signature Website",
+        "image": "Laptop mostrando el sitio web de una coach ejecutiva sobre un escritorio blanco con peonías"
       },
       {
-        "num": "45+",
-        "label": "Sitios Web Lanzados"
-      },
-      {
-        "num": "23+",
-        "label": "Sistemas de Conversion Personalizados"
+        "id": "signature-search",
+        "title": "Visibilidad en Búsquedas e IA",
+        "body": "Tu experiencia merece ser encontrada. Fortalece cómo aparece tu consulta en buscadores y en resultados de IA, y llega a quienes te buscan.",
+        "link": "Explorar The Signature Search Visibility",
+        "image": "Teléfono mostrando el sitio web de una coach de bienestar, sobre una pila de libros"
       }
     ],
-    "scroll": "Deslizar"
+    "statement_pre": "Ayudamos a profesionales del bienestar a dar vida a su consulta en línea con diseño intuitivo, mensajes claros y una",
+    "statement_mark": "presencia digital elevada.",
+    "banner": [
+      [
+        "identidad",
+        "de marca"
+      ],
+      [
+        "desarrollo",
+        "web"
+      ],
+      [
+        "visibilidad",
+        "en búsquedas"
+      ]
+    ],
+    "banner_image": "Teléfono mostrando el sitio web de marca de una consulta",
+    "work_pre": "Trabaja con",
+    "work_em": "nosotros",
+    "work_items": [
+      {
+        "id": "signature-website",
+        "body": "Tu consulta merece un sitio web que refleje quién eres y trabaje como un socio, conectando, convirtiendo y acompañando tu próxima etapa de crecimiento.",
+        "strong": "Sitios web limpios, modernos e intuitivos, diseñados para reflejar tu esencia, elevar tu presencia y guiar a tus visitas a la acción."
+      },
+      {
+        "id": "signature-brand",
+        "body": "Un sistema de identidad estratégico, logotipo, colores, tipografías y elementos visuales a medida, creado para expresar quién eres y por qué tu trabajo importa.",
+        "strong": "Una marca que se ve alineada y se siente intencional, por dentro y por fuera."
+      },
+      {
+        "id": "signature-search",
+        "body": "Mayor visibilidad en buscadores y en las herramientas de IA a las que más personas acuden primero, para que tu experiencia llegue a quienes la buscan.",
+        "strong": "Visibilidad creada con intención, basada en tu especialidad y en cómo buscan realmente tus futuros clientes."
+      }
+    ],
+    "work_ready": "Estoy Listo, Trabajemos Juntos",
+    "approach_1": "Diseño",
+    "approach_1_em": "intuitivo.",
+    "approach_2": "Estrategia",
+    "approach_2_em": "humana.",
+    "approach_3": "Resultados",
+    "approach_3_em": "poderosos.",
+    "approach_body": "Ofrecemos un trabajo a medida y cercano que te acompaña donde estás y ayuda a tu consulta a crecer con claridad, confianza y belleza. De sitios web a identidad de marca y visibilidad en búsquedas, combinamos un diseño atento con una ejecución estratégica para crear una presencia que refleje quién eres de verdad, y que conecte, convierta y dé resultados.",
+    "approach_link": "Agenda una Llamada de Claridad Gratis de 30 Minutos",
+    "approach_images": [
+      "Libro de estrategia de marca abierto, a la orilla del mar",
+      "Horizonte costero suave al atardecer sobre arena ondulada",
+      "Diseñadora colocando conceptos de marca en un muro de inspiración",
+      "Ola iluminada por el sol y espuma de mar"
+    ],
+    "studio_pre": "Diseño estratégico, mensajes claros y una presencia digital que",
+    "studio_em": "por fin se siente como tú.",
+    "studio_p1": "En Bluebay ayudamos a profesionales del bienestar a convertir una presencia en línea dispersa en una que se siente clara, segura y alineada, para que mostrarte por fin sea natural.",
+    "studio_p2": "A través de un diseño cuidado y una estrategia digital, creamos sitios web, marcas y visibilidad que conectan, convierten y crecen contigo.",
+    "studio_cta": "Conoce el Estudio",
+    "studio_image": "Sala luminosa con una laptop sobre un sofá azul marino",
+    "meet_pre": "Conoce",
+    "meet_strong": "Bluebay",
+    "meet_sub": "socio estratégico web",
+    "meet_body": [
+      "Quince años en la industria, ahora dedicados a profesionales del bienestar y a las relaciones que construyen con sus clientes.",
+      "Trabajamos con coaches, terapeutas y profesionales del bienestar que quieren una presencia digital clara, segura y profundamente alineada con quienes son.",
+      "A través de una colaboración atenta y un trabajo intencional, damos vida a consultas de una forma que se siente cuidada, elevada y, a menudo, mejor de lo imaginado."
+    ],
+    "meet_bg": "Ola del océano llegando a la arena blanca",
+    "meet_image": "La fundadora de Bluebay Agency trabajando en su laptop con su pug",
+    "clients_h2": "Lo Que Dicen Nuestros Clientes",
+    "prev": "Testimonio anterior",
+    "next": "Siguiente testimonio",
+    "quotes": [
+      {
+        "quote": "Mi sitio web es hermoso, profesional y refleja de verdad mi consulta. Ver el crecimiento positivo en tráfico, interacción y rendimiento general ha hecho que la inversión valga más que la pena.",
+        "name": "Maria Jessica Quiroz",
+        "role": "Fundadora, The Couples Therapy and Reunification Counseling Inc."
+      },
+      {
+        "quote": "[Ella] tiene un conocimiento profundo de todos los aspectos del diseño web, incluido el SEO. Es un placer trabajar con ella. ¡Yo la llamo la triunfadora silenciosa!",
+        "name": "Jennifer McCabe",
+        "role": "Fundadora, Duck Egg Blue Interior Designs"
+      },
+      {
+        "quote": "Tiene una habilidad increíble para tomar las ideas, la visión y los pensamientos que tengo en mente y transformarlos en un sitio web que refleja de verdad quién soy y lo que hago. No solo construye un sitio web, crea una experiencia visual que ayuda a las personas a entender mi trabajo y conectar con mi marca.",
+        "name": "Naila Qureshi",
+        "role": "Fundadora, MindBodySpiritss LLC"
+      },
+      {
+        "quote": "¡[Bluebay Agency] es increíble! ¡Diseñó el sitio web de mis sueños! Escuchó todas mis ideas y tuvo la visión para hacerlo perfecto. ¡Es increíble y muy fácil trabajar con ella! Contratar a [Bluebay Agency] fue la mejor decisión que pude tomar.",
+        "name": "Barbara Crabtree",
+        "role": "Fundadora, Olivia’s Wish"
+      }
+    ],
+    "connect_follow": "Sigue a",
+    "connect_handle": "@bluebayagency",
+    "connect_h2": "conectemos",
+    "connect_post": "Publicación de Instagram",
+    "together_pre": "Trabajemos",
+    "together_em": "juntos",
+    "together_strong": "Creemos algo alineado, hermoso e inconfundiblemente tuyo.",
+    "together_p": "Ya sea que estés listo para empezar un proyecto o todavía estés definiendo lo que necesitas, hay un siguiente paso claro:",
+    "paths": [
+      {
+        "label": "Empieza Tu Proyecto",
+        "desc": "Para profesionales listos para comenzar un proyecto de sitio web, marca o visibilidad en búsquedas.",
+        "kind": "contact"
+      },
+      {
+        "label": "Agenda una Llamada de Claridad Gratis",
+        "desc": "Para quienes quieren explorar opciones y tener claridad antes de empezar.",
+        "kind": "call"
+      }
+    ],
+    "together_close_pre": "Sea cual sea el camino, te guiaremos en el siguiente paso con",
+    "together_close_em": "cuidado y claridad.",
+    "together_image": "Mujer leyendo su teléfono en un escritorio blanco con una laptop",
+    "connect_images": [
+      "Laptop sobre un pedestal de piedra mostrando un sitio web de marca",
+      "Muelle de Manhattan Beach en un día gris suave",
+      "Persona sosteniendo un teléfono y una laptop abierta",
+      "Torre de salvavidas en la playa en blanco y negro",
+      "Café, teléfono y teclado sobre un escritorio de madera",
+      "Mujer con gorra revisando su teléfono en una calle de la ciudad",
+      "Manos usando un teléfono junto a una laptop y plantas",
+      "Horizonte de Los Ángeles detrás de palmeras"
+    ],
+    "rating_text": "Calificación de 5 Estrellas · Reseñas Verificadas de Google",
+    "rating_stars": "5 de 5 estrellas"
   },
-  "coreTruth": {
-    "eyebrow": "El Enfoque de Bluebay",
-    "h2": "Tu Trafico Ya Esta Ahi. Tu Sitio Web Deberia Estarlo Convirtiendo.",
-    "body1": "La mayoria de las marcas de salud y bienestar tienen trafico solido y aun luchan por convertir visitantes en clientes que pagan. La brecha raramente es de visibilidad. Es lo que sucede en el momento en que alguien llega a tu sitio.",
-    "body2": "Construimos sitios web disenados para convertir. Mensajeria estrategica, flujo intuitivo y una experiencia de usuario fluida.",
-    "quote": "El sitio web correcto no solo se ve bien. Funciona."
+  "testimonial": {
+    "quote": "Ver el crecimiento positivo en tráfico, interacción y rendimiento general ha hecho que la inversión valga más que la pena.",
+    "mark": "valga más que la pena.",
+    "name": "Maria Jessica Quiroz",
+    "role": "Fundadora, The Couples Therapy and Reunification Counseling Inc."
   },
   "services": {
-    "eyebrow": "Que Hacemos",
-    "h2": "Diseno Web y Marketing Digital Integral.",
-    "body": "Desde diseno y desarrollo web personalizado hasta SEO y email marketing, Bluebay Agency construye sistemas digitales completos que convierten visitantes en clientes leales.",
-    "items": [
-      {
-        "title": "Diseno Web",
-        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte."
-      },
-      {
-        "title": "Desarrollo Web",
-        "desc": "Construcciones rapidas y confiables en plataformas modernas (React, Next.js, WordPress y Shopify) disenadas para rendir."
-      },
-      {
-        "title": "SEO + AEO",
-        "desc": "SEO tecnico y optimizacion para respuestas de IA incorporados desde el primer dia, para que te encuentren tanto las personas correctas como las herramientas de IA que usan."
-      },
-      {
-        "title": "Email Marketing",
-        "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes."
-      }
+    "eyebrow": "Lo Que Hacemos",
+    "title": [
+      "Trabajo cuidado,",
+      "creado en torno a tu consulta."
     ],
-    "cta_all": "Ver Todos los Servicios",
-    "cta_start": "Comenzar",
-    "page_eyebrow": "Nuestros Servicios",
-    "page_h1": "Sitios Web Disenados para Aparecer en Busquedas, Respuestas de IA y Bandejas de Entrada.",
-    "page_intro": "Disenamos y construimos sistemas digitales completos para marcas de bienestar y marcas modernas: sitios web disenados para convertir, encontrados tanto por motores de busqueda como por asistentes de IA, y respaldados por sistemas de email que mantienen a los clientes regresando.",
-    "page_items": [
-      {
-        "title": "Diseno Web",
-        "desc": "Disenos personalizados y mobile-first que reflejan tu marca y guian a los visitantes hacia reservar, comprar o contactarte: construidos en torno a como las personas deciden, no solo como se ve una pagina en un mockup.",
-        "features": [
-          "Diseno UX/UI personalizado",
-          "Disenos mobile-first",
-          "Sistemas visuales alineados a tu marca",
-          "CTAs enfocados en conversion"
-        ]
-      },
-      {
-        "title": "Desarrollo Web",
-        "desc": "Construcciones rapidas y confiables en plataformas modernas disenadas para rendir: React, Next.js, WordPress y Shopify, segun lo que tu negocio necesite para operar y crecer.",
-        "features": [
-          "Desarrollo en React y Next.js",
-          "Construcciones en WordPress y Shopify",
-          "Integracion de CMS headless",
-          "Optimizacion de velocidad y rendimiento"
-        ]
-      },
-      {
-        "title": "Busqueda y Visibilidad en IA",
-        "desc": "SEO tecnico y optimizacion para respuestas de IA incorporados desde el primer dia: metadatos, estructura de encabezados, marcado de esquema y contenido mapeado a palabras clave, disenado para que te encuentren tanto en Google como en las herramientas de IA que cada vez mas personas usan para encontrar negocios como el tuyo.",
-        "features": [
-          "Auditorias de SEO tecnico",
-          "Optimizacion on-page",
-          "Marcado de esquema para motores de busqueda y de IA",
-          "Estrategia de contenido mapeada a palabras clave",
-          "Preparacion para visibilidad en IA (Optimizacion para Motores de Respuesta)"
-        ]
-      },
-      {
-        "title": "Optimizacion de Tasa de Conversion (CRO)",
-        "desc": "La capa estrategica detras de cada proyecto: claridad de mensaje, flujo de usuario y llamados a la accion probados y refinados para convertir mas de tu trafico existente en llamadas agendadas y clientes que pagan.",
-        "features": [
-          "Refinamiento de mensaje y posicionamiento",
-          "Mapeo del flujo de conversion",
-          "Pruebas y colocacion de CTAs",
-          "Optimizacion de landing pages"
-        ]
-      },
-      {
-        "title": "Email Marketing",
-        "desc": "Flujos automatizados y campanas que convierten visitantes de una sola vez en clientes recurrentes, construidos sobre los mismos principios de conversion que tu sitio web.",
-        "features": [
-          "Secuencias de bienvenida y nutricion",
-          "Diseno y copy de campanas",
-          "Segmentacion de listas",
-          "Configuracion e integracion de plataforma"
-        ]
-      }
-    ]
-  },
-  "whyBluebay": {
-    "eyebrow": "Por Que Bluebay Agency",
-    "h2": "Construimos Sitios Web que Convierten Visitantes en Clientes.",
-    "body": "Las marcas de salud, bienestar y estilo moderno no solo necesitan un sitio web hermoso, necesitan uno que rinda. Nos especializamos en construir sitios web mobile-first que convierten el trafico existente en leads, clientes e ingresos. Cada pagina se construye con un proposito: convertir atencion en accion.",
-    "pillars": [
-      {
-        "num": "01",
-        "title": "Conversion Primero",
-        "desc": "Cada decision, desde el diseno hasta el posicionamiento del CTA, se toma para mover al visitante correcto hacia la accion."
-      },
-      {
-        "num": "02",
-        "title": "Velocidad",
-        "desc": "Los sistemas estan en vivo en tan solo 72 horas. Una implementacion mas rapida significa resultados mas rapidos de tu trafico existente."
-      },
-      {
-        "num": "03",
-        "title": "Calidad de Leads",
-        "desc": "Construimos flujos que pre-califican a tu audiencia para que las personas que se comunican ya sean el perfil correcto."
-      },
-      {
-        "num": "04",
-        "title": "Funnel Completo",
-        "desc": "Conectamos UX movil, mensajeria de marca, flujo de conversion e integracion de CRM en un sistema cohesivo que rinde."
-      },
-      {
-        "num": "05",
-        "title": "Mobile-First",
-        "desc": "Tus clientes estan en sus telefonos. Construimos para el dispositivo que usan para tomar decisiones, no como un segundo pensamiento."
-      }
-    ],
-    "differentiators": [
-      "Enfoque Conversion-First",
-      "Implementacion en 72 Horas",
-      "15 Anos de Experiencia",
-      "Disenado para Salud y Bienestar"
-    ]
-  },
-  "process": {
-    "eyebrow": "Como Trabajamos",
-    "h2": "Un Proceso Claro. Un Sitio Web que Rinde.",
-    "steps": [
-      {
-        "num": "01",
-        "title": "Entender Tu Marca y Audiencia",
-        "desc": "Comenzamos por aprender sobre tu negocio, tu cliente ideal y como esta funcionando tu sitio actual. Todo lo que construimos se basa en esa fundacion.",
-        "detail": "Analisis de trafico · Auditoria de marca · Perfil de audiencia"
-      },
-      {
-        "num": "02",
-        "title": "Disenar Tu Estrategia de Conversion",
-        "desc": "Mapeamos tu mensajeria, flujo de usuario y arquitectura de CTA para que cada parte de tu sitio tenga un rol claro en mover a los visitantes correctos hacia la accion.",
-        "detail": "Arquitectura de mensajes · Diseno de flujo UX · Estructura de conversion"
-      },
-      {
-        "num": "03",
-        "title": "Construir e Integrar",
-        "desc": "Damos vida a todo con un sitio web mobile-first construido para velocidad, claridad e integracion perfecta con tus herramientas y plataformas.",
-        "detail": "Construccion mobile-first · Integracion de plataformas · Conexion de CRM · QA"
-      },
-      {
-        "num": "04",
-        "title": "Lanzar y Optimizar",
-        "desc": "Lanzamos tu sitio, conectamos tu analitica y nos mantenemos cerca durante el periodo inicial para que salgas al aire con confianza y sigas mejorando con datos reales.",
-        "detail": "Lanzamiento · Analitica · Optimizacion de conversion · Crecimiento"
-      }
-    ],
-    "cta": "Iniciar la Conversacion"
-  },
-  "portfolio": {
-    "eyebrow": "Proximamente",
-    "h2": "Mas Casos de Estudio en Camino.",
-    "body": "Los casos de estudio completos se publican a medida que cada sitio se lanza.",
-    "mobile_label": "Vista Movil",
-    "projects": [
-      {
-        "name": "Olivia's Wish",
-        "category": "Cuidado Infantil · Marca y Landing Page",
-        "desc": "Confort herbal para bebes, nacido del amor de una madre."
-      },
-      {
-        "name": "Goldie Grace Beauty",
-        "category": "Belleza · Identidad de Marca · Sistema de Conversion",
-        "desc": "Una transformacion de marca de lujo."
-      }
-    ],
-    "more_text": "Mas casos de estudio disponibles bajo solicitud",
-    "more_cta": "Agenda una Llamada para Ver Mas"
+    "banner_pre": "Tres formas de trabajar juntos.",
+    "banner_mark": "Un socio estratégico en todo momento.",
+    "lead": "Para profesionales del bienestar listos para invertir en cómo se muestra su consulta.",
+    "body": "Cada consulta está en una etapa distinta. Algunas necesitan un sitio web que por fin le haga justicia a su trabajo. Otras necesitan una marca que se sienta alineada antes que nada. Otras están listas para que las encuentren las personas indicadas, en buscadores y en resultados de IA. Bluebay ofrece un camino cuidado para cada una.",
+    "offers_pre": "Las Tres",
+    "offers_em": "Ofertas",
+    "closing": "¿No sabes por dónde empezar? Hablémoslo juntos."
   },
   "about": {
-    "eyebrow": "La Fundadora",
-    "h2": "La Experiencia Detras de Cada Sitio Web que Construimos.",
-    "body1": "Antes de fundar Bluebay Agency, Veronica Perez paso 15 anos construyendo y optimizando sistemas digitales para empresas que van desde startups con financiamiento hasta empresas multimillonarias, llevando proyectos desde la estrategia hasta el lanzamiento y refinandolos hasta que generaron resultados. Esa trayectoria define como abordamos cada sitio web que construimos.",
-    "body2": "Cada cliente recibe nuestra atencion completa, desde la estrategia hasta el lanzamiento y mas alla. Si estas listo para construir un sitio web que convierta tu trafico existente en clientes constantes que pagan, nos encantaria ser parte de eso.",
-    "stat_num": "15+",
-    "stat_label": "Anos Construyendo Sistemas de Conversion",
-    "stats": [
-      {
-        "num": "81+",
-        "label": "Landing Pages Construidas"
-      },
-      {
-        "num": "45+",
-        "label": "Sitios Web Lanzados"
-      },
-      {
-        "num": "23+",
-        "label": "Sistemas de Conversion Personalizados"
-      }
+    "eyebrow": "Sobre Nosotros",
+    "title_1": "Donde la claridad se encuentra con la belleza.",
+    "title_2_pre": "Donde tu consulta por fin",
+    "title_2_em": "se siente como tú.",
+    "gap": "Has construido algo significativo, pero convertirlo en una presencia digital que se sienta tan auténtica como profesional es donde muchas consultas se detienen.",
+    "gap_strong": "Estamos aquí para cerrar esa brecha.",
+    "circle_image": "Ola suave llegando a la orilla al amanecer",
+    "meet_pre": "Conoce",
+    "meet_strong": "Bluebay",
+    "meet_body": [
+      "Quince años en la industria, ahora dedicados a profesionales del bienestar y a las relaciones que construyen con sus clientes.",
+      "Trabajamos con coaches, terapeutas y profesionales del bienestar que quieren una presencia digital clara, segura y profundamente alineada con quienes son. Gran parte de nuestro enfoque parte de la idea de que el buen diseño no es solo estética, se trata de ayudarte a sentirte visto y representado en cada lugar donde te muestras.",
+      "A través de una colaboración atenta y un trabajo intencional, damos vida a consultas de una forma que se siente cuidada, elevada y, a menudo, mejor de lo imaginado."
     ],
-    "certs_label": "Certificaciones",
-    "certifications": [
-      {
-        "label": "CA DGS",
-        "sub": "SB (Micro)"
-      },
-      {
-        "label": "LA SBE",
-        "sub": "Pequeno Negocio"
-      },
-      {
-        "label": "LA EBE",
-        "sub": "Negocio Emergente"
-      },
-      {
-        "label": "LA VSBE",
-        "sub": "Negocio Muy Pequeno"
-      }
+    "meet_image_bg": "Ola del océano llegando a la arena blanca",
+    "meet_image": "Retrato de la fundadora de Bluebay Agency",
+    "approach_pre": "Nuestro",
+    "approach_em": "Enfoque",
+    "approach_lead": "No creemos en soluciones iguales para todos.",
+    "approach_body": "Nuestro proceso es colaborativo, intencional y parte de tu consulta. Escuchamos con atención para entender el corazón de tu trabajo y construimos desde ahí. Cada decisión de diseño tiene un propósito, nada genérico, nada de moda por la moda.",
+    "approach_blend_pre": "Combinamos",
+    "approach_blend_strong": "estrategia y cuidado",
+    "approach_blend_post": "para crear marcas y sitios web que no solo se ven bien, sino que se sienten bien.",
+    "approach_points": [
+      "Estrategia atenta, basada en tus objetivos",
+      "Diseño intuitivo que refleja quién eres",
+      "Sistemas y estructura que acompañan tu crecimiento"
     ],
-    "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Miembro de Camara de Comercio",
-    "certs_note": "Certificada por CA DGS y disponible para adquisiciones del sector publico.",
-    "industry_title": "Experiencia en la Industria"
+    "feel_pre": "Nuestra",
+    "feel_em": "Esencia",
+    "feel_body": [
+      "Escuchamos como un socio, pensamos como estrategas y diseñamos con cuidado. Sereno y cuidado, refinado pero cercano, Bluebay aporta una claridad tranquila al mundo, muchas veces abrumador, de la presencia digital.",
+      "Nuestros clientes llegan listos para algo más alineado y se van con una presencia digital que se siente como ellos y trabaja para ellos."
+    ],
+    "feel_image": "Horizonte costero tranquilo bajo un cielo suave y nublado",
+    "contact_h2": "Empieza Tu Proyecto",
+    "contact_body": "¿Listo para un sitio web, una marca o visibilidad en búsquedas que se sienta como tú? Cuéntanos un poco sobre tu consulta y tus objetivos, y te contactaremos para planear el siguiente paso.",
+    "industry_title": "Experiencia en la Industria",
+    "industry_logo": "Logotipo de cliente de la industria",
+    "industry_pause": "Pausar animación de logotipos",
+    "industry_play": "Reproducir animación de logotipos"
   },
-  "blog": {
-    "eyebrow": "Perspectivas",
-    "h2": "Conversion, Diseno y Crecimiento Digital",
-    "cms_note": "Blog conectado a Headless CMS · DigitalOcean",
-    "all_articles": "Ver Todos los Articulos",
-    "read_article": "Leer Articulo",
-    "posts": [
+  "work": {
+    "eyebrow": "Cómo Funciona",
+    "title": [
+      "Un proceso cuidado,",
+      "de principio a fin."
+    ],
+    "banner_pre": "Un solo socio,",
+    "banner_mark": "en cada paso del camino.",
+    "lead": "Para consultas listas para empezar, así es como se ve trabajar juntos.",
+    "process_pre": "El",
+    "process_em": "Proceso",
+    "steps": [
       {
-        "category": "Diseno Movil",
-        "title": "Por Que el Diseno Mobile-First No Es Opcional en 2025",
-        "excerpt": "Mas del 70% de tus visitantes llegan en movil. Si tu sitio fue disenado primero para escritorio, estas disenando para la minoria y pagandolo en conversiones perdidas.",
-        "readTime": "5 min de lectura",
-        "date": "Abr 2025"
+        "title": "Conversación",
+        "desc": "Empezamos con una llamada breve para entender tu consulta, tus objetivos y qué oferta encaja mejor."
       },
       {
-        "category": "Estrategia de Conversion",
-        "title": "Las 7 Formas en que los Sitios Web Pierden Conversiones Silenciosamente",
-        "excerpt": "La mayoria de los problemas de conversion son invisibles. Tiempos de carga lentos, CTAs poco claros y senales de confianza deficientes sangran ingresos diariamente sin generar ningun error.",
-        "readTime": "8 min de lectura",
-        "date": "Mar 2025"
+        "title": "Estrategia",
+        "desc": "Definimos una dirección creativa basada en investigación, no en suposiciones."
       },
       {
-        "category": "Sistemas de Crecimiento",
-        "title": "Del Trafico a los Clientes: Construyendo Tu Sistema de Conversion",
-        "excerpt": "El trafico sin arquitectura de conversion es solo ruido. Aprende a arquitectar tu sitio web como un sistema donde cada pagina tiene un rol y cada CTA tiene un proposito.",
-        "readTime": "6 min de lectura",
-        "date": "Feb 2025"
+        "title": "Diseño",
+        "desc": "Verás conceptos cuidados, creados en torno a tu identidad."
+      },
+      {
+        "title": "Refinamiento",
+        "desc": "Dos rondas atentas de revisiones, para que cada detalle se sienta alineado."
+      },
+      {
+        "title": "Entrega",
+        "desc": "Una entrega fluida, con capacitación para que sigas adelante con confianza."
+      },
+      {
+        "title": "Seguimiento Cercano",
+        "desc": "Una revisión a los 90 días del lanzamiento, para conversar sobre lo que funciona y lo que vale la pena explorar después."
       }
-    ]
+    ],
+    "which_h2": "¿Qué Oferta Es la Indicada para Ti?",
+    "which_body": "¿No sabes por dónde empezar? Una conversación breve es la forma más fácil de descubrirlo. Revisaremos tu consulta y te recomendaremos el camino que encaje, sin ninguna presión."
   },
   "faq": {
-    "eyebrow": "FAQ",
-    "h2": "Preguntas Frecuentes",
-    "still_question": "No ves tu pregunta respondida aqui?",
-    "ask_cta": "Preguntanos Directamente",
+    "eyebrow": "Preguntas",
+    "title_pre": "Preguntas",
+    "title_em": "Frecuentes",
     "items": [
       {
-        "q": "Que tan rapido puede estar en vivo mi sitio web?",
-        "a": "La mayoria de los proyectos estan en vivo en 1 a 21 dias habiles segun el alcance. Landing pages de conversion en 1 a 3 dias. Sitios web de autoridad completos en 5 a 7 dias. Sistemas Conversion Sprint en 7 a 21 dias. Cada plazo se establece al inicio y se cumple."
+        "q": "¿Cómo sé qué oferta es la indicada para mí?",
+        "a": "La mayoría de las consultas empiezan con una conversación. Revisaremos tus objetivos y te recomendaremos el camino que encaje."
       },
       {
-        "q": "Solo construyen landing pages?",
-        "a": "No. La landing page es una parte de un sistema mas grande. Disenamos la arquitectura de conversion completa mensajeria, flujo de usuario, calificacion de leads e integracion de CRM todo lo necesario para convertir tu trafico en clientes."
+        "q": "¿Puedo combinar ofertas?",
+        "a": "Sí. Muchas consultas combinan The Signature Website con The Signature Brand o The Signature Search Visibility, y cada combinación incluye un descuento."
       },
       {
-        "q": "Que necesito para empezar?",
-        "a": "Muy poco. Los detalles de tu negocio, tu perfil de cliente ideal y los activos existentes que tengas. Nos encargamos de la estrategia, mensajeria, diseno y construccion. La mayoria de los clientes se sorprenden de lo agil que es el proceso."
+        "q": "¿Cuánto tiempo toma cada oferta?",
+        "a": "Por lo general, unas semanas desde el inicio hasta la entrega, según el alcance. Confirmaremos los tiempos cuando conozcamos tu consulta."
       },
       {
-        "q": "Ofrecen soporte continuo?",
-        "a": "Si. Optimizacion mensual de conversion, mejoras de UX y soporte tecnico continuo estan disponibles como retainer. Las marcas que continuan refinando despues del lanzamiento ven resultados que se acumulan con el tiempo."
-      },
-      {
-        "q": "Mi sitio estara optimizado para busqueda?",
-        "a": "Cada construccion incluye fundamentos tecnicos de SEO: metadatos, Open Graph tags, marcado de esquema, optimizacion de rendimiento y arquitectura mobile-first. La visibilidad en busquedas esta integrada desde el primer dia, no anadida al final."
-      },
-      {
-        "q": "Que hace diferente a Bluebay Agency?",
-        "a": "Nos especializamos en sitios web de conversion para marcas de salud, bienestar y estilo moderno. Cada decision desde la estructura hasta la mensajeria y el diseno esta tomada para convertir tu trafico en clientes. Quince anos de experiencia significa que sabemos que funciona."
-      },
-      {
-        "q": "Como garantizan la calidad?",
-        "a": "Cada proyecto sigue el mismo proceso estructurado: descubrimiento, estrategia de conversion, diseno, construccion y una revision minuciosa del lanzamiento. No tomamos atajos en ninguna etapa. La calidad viene del proceso."
+        "q": "¿Qué pasa después del lanzamiento?",
+        "a": "Te acompañamos de cerca los primeros 30 días y luego hacemos una revisión a los 90 días para conversar sobre lo que muestran los datos y lo que vale la pena explorar después."
       }
     ]
   },
   "contact": {
-    "eyebrow": "Comenzar",
-    "h2": "Tu Marca Merece un Sitio Web que Convierte.",
-    "body": "Cuentanos sobre tu marca, los clientes que atiendes y hacia donde quieres crecer. Revisaremos tu presencia digital actual y exploraremos como Bluebay Agency puede ayudarte a convertir tu trafico existente en clientes constantes que pagan.",
-    "email_cta": "Escribenos Directamente",
-    "call_cta": "Llamar Directamente",
-    "response_note": "Respondemos dentro de 1 dia habil",
-    "trust": [
-      "Llamada de estrategia gratuita",
-      "Sin compromiso",
-      "Respuesta en 1 dia habil",
-      "15+ anos de experiencia"
-    ]
+    "eyebrow": "Hablemos",
+    "title": [
+      "Creemos algo",
+      "que se sienta como tú."
+    ],
+    "body": "Cuéntanos un poco sobre tu consulta y encontraremos un momento para hablar.",
+    "first_name": "Nombre",
+    "last_name": "Apellido",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "message": "Mensaje",
+    "required": "(obligatorio)",
+    "submit": "Enviar",
+    "sending": "Enviando…",
+    "missing": "Por favor completa los campos obligatorios.",
+    "invalid_email": "Por favor revisa tu correo electrónico.",
+    "error": "Algo salió mal. Inténtalo de nuevo o agenda una llamada.",
+    "success_h2": "Gracias.",
+    "success_body": "Te contactaremos pronto para encontrar un momento para hablar.",
+    "call_prompt": "¿Prefieres hablar ahora?"
   },
-  "finalCta": {
-    "eyebrow": "Trabajemos Juntos",
-    "h2_1": "Listo para Convertir Tu Trafico en",
-    "h2_em": "Clientes Constantes que Pagan?",
-    "body": "La mayoria de las marcas de salud, bienestar y estilo moderno tienen mas trafico que conversiones. Si la tuya esta dejando clientes sin capturar, exploremos como podria verse un mejor sitio web. Actualmente aceptamos un numero limitado de nuevos clientes.",
-    "cta_primary": "Iniciar la Conversacion",
-    "cta_secondary": "Ver Nuestro Trabajo",
-    "note": "Sin compromiso · Con sede en EE.UU. · Atendemos Marcas a Nivel Nacional"
+  "caseStudies": {
+    "eyebrow": "Casos de Estudio",
+    "h1": "Una Historia Hasta Ahora",
+    "body": "Una consulta. Un rediseño completo. Un aumento del 65% en consultas reservadas en 30 días.",
+    "cta": "Conoce la Historia Completa",
+    "compare_pre": "Antes",
+    "compare_em": "y después",
+    "before_alt": "El sitio web de The Couples Therapy antes del rediseño",
+    "after_alt": "El sitio web de The Couples Therapy después del rediseño"
   },
-  "footer": {
-    "tagline": "Construimos sitios web de alto rendimiento y mobile-first para marcas de salud, bienestar y estilo moderno, disenados para convertir visitantes en clientes.",
-    "location": "South Bay, California",
-    "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
-    "nav_title": "Navegacion",
-    "contact_title": "Contacto",
-    "privacy": "Politica de Privacidad",
-    "terms": "Terminos de Servicio",
-    "copyright": "Bluebay Agency, LLC. Todos los derechos reservados.",
-    "certs_label": "Certificaciones",
-    "chamber_label": "Manhattan Beach",
-    "chamber_sub": "Miembro de Camara de Comercio",
-    "book_cta": "Iniciar la Conversacion",
-    "consultation_cta": "Agendar una Consulta"
+  "story": {
+    "stat": "+65%"
   },
   "lang": {
     "switch_label": "English",
@@ -381,9 +369,296 @@
     "meta_description": "Perspectivas de diseno web, estrategia de conversion y crecimiento digital de Bluebay Agency.",
     "share": "Compartir este articulo",
     "related": "Mas del Blog",
-    "cta_eyebrow": "Listo para Hablar?",
-    "cta_heading": "Construyamos Algo que Convierta.",
-    "cta_body": "Si este articulo desperto algunas ideas, nos encantaria escuchar sobre tu proyecto.",
-    "cta_button": "Iniciar la Conversacion"
+    "cta_eyebrow": "¿Listo para Hablar?",
+    "cta_heading": "¿Tienes un sitio en mente?",
+    "cta_body": "Hablemos.",
+    "cta_button": "Reservar una Conversación"
+  },
+  "footer": {
+    "tagline": "Socio Estratégico Web",
+    "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyright": "Bluebay Agency, LLC. Todos los derechos reservados.",
+    "follow": "Síguenos",
+    "get_in_touch": "Contáctanos",
+    "call": "Llamar",
+    "contact_us": "Escríbenos",
+    "services": "Servicios",
+    "text": "Mensaje de texto"
+  },
+  "newsletter": {
+    "h_pre": "Mantente",
+    "h_mark": "Inspirado",
+    "sub": "Consejos de diseño, claridad de marca y estrategia digital, enviados con intención.",
+    "body": "Sin relleno, sin spam, solo contenido significativo para ayudar a tu consulta a crecer con confianza y claridad.",
+    "email": "Correo electrónico",
+    "submit": "Suscribirme",
+    "sending": "Suscribiendo…",
+    "success": "Gracias. Ya estás en la lista.",
+    "error": "Algo salió mal. Inténtalo de nuevo.",
+    "invalid": "Por favor ingresa un correo electrónico válido.",
+    "image": "Laptop y teléfono sobre una mesa de café con plantas"
+  },
+  "offerPage": {
+    "how_pre": "Cómo",
+    "how_em": "funciona",
+    "incl_pre": "Qué",
+    "incl_em": "incluye",
+    "invest": "Inversión",
+    "cross_h2": "¿Buscas Algo Diferente?",
+    "cross_body": "Ya sea que empieces desde cero o quieras elevar lo que ya has creado, Bluebay ofrece servicios intencionales y alineados, diseñados para acompañarte donde estás.",
+    "cross_image": "Mujer leyendo su teléfono en un escritorio blanco con una laptop",
+    "outcome_label": "Resultado de Cliente",
+    "outcome_link": "Leer el caso de estudio",
+    "signature-website": {
+      "meta": "Un sitio web a medida para profesionales del bienestar, creado para conectar, convertir y acompañar tu próxima etapa de crecimiento. Desde $7,500.",
+      "eyebrow": "Eleva Tu Presencia en Línea",
+      "title": [
+        "Signature",
+        "Website"
+      ],
+      "banner_pre": "Conectando, convirtiendo y acompañando tu",
+      "banner_mark": "próxima etapa de crecimiento.",
+      "lead": "Para profesionales del bienestar listos para convertir visitas en clientes, con un sitio web creado para conectar y convertir.",
+      "p1": "Estás orgulloso de lo que has construido, pero tu sitio web no siempre refleja la calidad de tu trabajo. Puede sentirse anticuado, inconsistente o simplemente discreto. Quieres un espacio que se sienta alineado, genere confianza al instante y guíe a las personas a decir que sí.",
+      "p2_pre": "Ahí es donde entramos nosotros.",
+      "p2_strong": "The Signature Website te da un diseño limpio, moderno e intuitivo, que se ve hermoso y guía a tu audiencia con propósito.",
+      "p2_post": "Cada diseño, palabra e interacción está pensado para conectar, visual, emocional y estratégicamente.",
+      "p3": "Esto no es solo un sitio web. Es tu hogar digital, creado para elevar tu presencia, acompañar tu crecimiento y convertir con confianza.",
+      "cta": "Estoy Listo",
+      "image": "Diseñadora colocando conceptos de marca en un muro de inspiración",
+      "steps": [
+        {
+          "label": "Semana 1, Estrategia",
+          "desc": "Definimos tu contenido, el recorrido de tus clientes y tus objetivos de marca, y creamos juntos una dirección visual que se sienta como en casa."
+        },
+        {
+          "label": "Semana 2, Diseño",
+          "desc": "Recibirás una maqueta de sitio web impactante e intuitiva, adaptada a tu identidad de marca y pensada para convertir."
+        },
+        {
+          "label": "Semana 3, Revisiones",
+          "desc": "Dos rondas de ajustes cuidadosos por página, para que cada detalle quede justo como debe."
+        },
+        {
+          "label": "Semana 4, Entrega y Lanzamiento",
+          "desc": "Pulido final, una transferencia fluida y un video guía, para que lances con claridad y tranquilidad."
+        }
+      ],
+      "included": [
+        {
+          "title": "Sitio Web a Medida de Cinco a Doce Páginas",
+          "desc": "Diseñado para reflejar tu voz, tu visión y tus servicios, con una estructura estratégica y claridad visual."
+        },
+        {
+          "title": "Optimización Móvil",
+          "desc": "Tu sitio se ve y funciona de forma impecable en todos los dispositivos."
+        },
+        {
+          "title": "Guía de Estrategia de Contenido",
+          "desc": "Preguntas guía, sugerencias de estructura y apoyo en la redacción para que tu mensaje llegue con claridad y confianza."
+        },
+        {
+          "title": "Configuración SEO Base",
+          "desc": "SEO estratégico en la página, con encabezados optimizados, texto de imágenes, velocidad y metadatos, para que tu sitio se vea y se encuentre."
+        }
+      ],
+      "addons": "Complementos opcionales: páginas adicionales, coordinación de fotografía de marca, configuración de email marketing y más.",
+      "addons_link": "Ver The Signature Brand",
+      "addons_href": "signature-brand",
+      "outcome_pre": "Diseñado para reflejar tu esencia. Creado para crecer contigo.",
+      "outcome_em": "",
+      "outcomes": [
+        "Atrae consultas más alineadas, a días del lanzamiento",
+        "Consigue clientes de alto valor con un sitio que habla por sí solo",
+        "Aumenta tráfico, ventas y claridad, sin complicaciones técnicas"
+      ],
+      "price": "Desde $7,500, en un solo pago o con un plan de pagos.",
+      "discount": "$500 de descuento al combinarlo con nuestro paquete Signature Brand.",
+      "ready": "¿Listo para un sitio que se sienta como tú y que también funcione así?",
+      "invest_cta": "Diseñar Mi Sitio Web",
+      "proof": "quote",
+      "cross": [
+        {
+          "id": "signature-brand",
+          "desc": "Crea una marca que se vea alineada y se sienta intencional, por dentro y por fuera."
+        },
+        {
+          "id": "signature-search",
+          "desc": "Define cómo te encuentran, en buscadores y en resultados de IA, y muéstrate en línea como el experto que eres."
+        }
+      ],
+      "cross_line": "Creemos una presencia digital tan poderosa, y tan hermosa, como el trabajo que haces.",
+      "proof_text": "",
+      "proof_source": "",
+      "proof_href": ""
+    },
+    "signature-brand": {
+      "meta": "Una identidad de marca estratégica para profesionales del bienestar: logotipo, colores, tipografías y elementos visuales a medida. Desde $3,500.",
+      "eyebrow": "Diseño de Identidad de Marca a Medida",
+      "title": [
+        "Signature",
+        "Brand"
+      ],
+      "banner_pre": "Conoce la",
+      "banner_mark": "próxima evolución de tu consulta.",
+      "lead": "Para profesionales del bienestar listos para dejar de dudar de su imagen y por fin sentirse vistos.",
+      "p1": "Has construido algo significativo, pero tu marca no siempre le hace justicia. Puede sentirse inconsistente, poco clara o simplemente todavía no se siente como tú. Estás cansado de juntar piezas sueltas y quieres una marca que refleje tu valor con confianza.",
+      "p2_pre": "Ahí es donde entramos nosotros.",
+      "p2_strong": "The Signature Brand es un sistema de identidad estratégico, logotipo, colores, tipografías y elementos visuales a medida, creado para expresar quién eres y por qué tu trabajo importa.",
+      "p2_post": "",
+      "p3": "No seguimos tendencias. Diseñamos con intención. Cada detalle parte de la investigación, la estrategia y el corazón de tu consulta, para que por fin te muestres con una marca que se siente como tú, e incluso mejor de lo que imaginabas.",
+      "cta": "Estoy Listo",
+      "image": "Libro de estrategia de marca abierto, a la orilla del mar",
+      "steps": [
+        {
+          "label": "Semana 1, Estrategia",
+          "desc": "Profundizamos en tu audiencia, tu especialidad y lo que te diferencia. Luego creamos una dirección creativa que sienta las bases de tu identidad de marca."
+        },
+        {
+          "label": "Semana 2, Diseño",
+          "desc": "Recibirás dos conceptos de marca completos, cada uno con maquetas visuales, para que sientas la dirección antes de elegir tu camino."
+        },
+        {
+          "label": "Semana 3, Revisiones",
+          "desc": "Refinamos el concepto elegido con dos rondas de comentarios, para que cada detalle se sienta alineado y elevado."
+        },
+        {
+          "label": "Semana 4, Entrega",
+          "desc": "Entregamos tu marca final en un paquete listo para usar, cada archivo, tipografía, código de color y gráfico que necesitas, además de la capacitación para usarlo con confianza."
+        }
+      ],
+      "included": [
+        {
+          "title": "Estrategia de Marca Completa",
+          "desc": "Conocimiento de tu audiencia, una mirada a tu campo y un brief creativo basado en una comprensión real, no solo en preferencias personales."
+        },
+        {
+          "title": "Identidad Visual a Medida",
+          "desc": "Logotipos principal y secundario, estilo tipográfico y una paleta de marca diseñados para reflejar tu esencia y posicionarte con confianza."
+        },
+        {
+          "title": "Gráficos para tu Lanzamiento en Redes",
+          "desc": "Gráficos de marca a medida para acompañar tu lanzamiento y elevar tu presencia diaria con facilidad."
+        },
+        {
+          "title": "Guía de Marca y Recorrido",
+          "desc": "Una guía de marca completa y un recorrido guiado, para que tú y tu equipo sepan cómo mantener todo alineado."
+        }
+      ],
+      "addons": "",
+      "addons_link": "",
+      "addons_href": "",
+      "outcome_pre": "Una base de belleza y estrategia para hacer crecer tu marca con",
+      "outcome_em": "confianza.",
+      "outcomes": [
+        "Atraer clientes alineados",
+        "Elevar tu presencia en línea",
+        "Crear contenido con confianza y consistencia"
+      ],
+      "price": "Desde $3,500, en un solo pago o con un plan de pagos.",
+      "discount": "$500 de descuento al combinarlo con nuestro paquete Signature Website.",
+      "ready": "Creemos una marca que se sienta cuidada. Inconfundiblemente tú.",
+      "invest_cta": "Lo Quiero",
+      "proof": "none",
+      "cross": [
+        {
+          "id": "signature-website",
+          "desc": "Sitios web limpios, modernos y alineados que reflejan tu esencia y guían a tus visitas a la acción."
+        },
+        {
+          "id": "signature-search",
+          "desc": "Define cómo te encuentran, en buscadores y en resultados de IA, y muéstrate en línea como el experto que eres."
+        }
+      ],
+      "cross_line": "Creemos una presencia digital tan poderosa, y tan hermosa, como el trabajo que haces.",
+      "proof_text": "",
+      "proof_source": "",
+      "proof_href": ""
+    },
+    "signature-search": {
+      "meta": "SEO y visibilidad en búsquedas con IA para profesionales del bienestar, para que las personas indicadas encuentren tu consulta. Desde $2,500.",
+      "eyebrow": "SEO y Visibilidad en Búsquedas con IA",
+      "title": [
+        "Signature",
+        "Search Visibility"
+      ],
+      "banner_pre": "Conoce la visibilidad",
+      "banner_mark": "que tu consulta se ha ganado.",
+      "lead": "Para profesionales del bienestar listos para ser encontrados, por personas y por la IA.",
+      "p1": "Haces un trabajo significativo, pero si la persona indicada no puede encontrarte en línea, o en una respuesta generada por IA, ese trabajo queda más discreto de lo que merece. Cada vez más búsquedas ocurren a través de herramientas de IA, y aparecer ahí requiere un tipo de visibilidad distinto al de la búsqueda tradicional.",
+      "p2_pre": "Ahí es donde entramos nosotros.",
+      "p2_strong": "The Signature Search Visibility fortalece cómo aparece tu consulta, en buscadores y en las herramientas de IA a las que más personas acuden primero,",
+      "p2_post": "para que tu experiencia llegue a quienes la buscan.",
+      "p3": "No perseguimos tendencias ni posiciones por sí mismas. Construimos visibilidad con intención, basada en tu especialidad y en cómo buscan realmente tus futuros clientes.",
+      "cta": "Estoy Listo",
+      "image": "Gráfico minimalista que sugiere visibilidad y búsqueda, azul marino sobre blanco",
+      "steps": [
+        {
+          "label": "Semana 1, Auditoría",
+          "desc": "Revisamos dónde está hoy tu consulta, en la búsqueda tradicional y en las respuestas generadas por IA."
+        },
+        {
+          "label": "Semana 2, Estrategia",
+          "desc": "Creamos un plan basado en tu especialidad, tu audiencia y cómo buscan realmente."
+        },
+        {
+          "label": "Semana 3, Implementación",
+          "desc": "Ponemos el plan en marcha: estructura de contenido, bases técnicas y fundamentos de visibilidad en IA."
+        },
+        {
+          "label": "Continuo, Seguimiento",
+          "desc": "Monitoreamos tu visibilidad y ajustamos el enfoque a medida que evolucionan los buscadores y las herramientas de IA."
+        }
+      ],
+      "included": [
+        {
+          "title": "Auditoría de Visibilidad",
+          "desc": "Una mirada clara a dónde está hoy tu consulta, en buscadores y en respuestas generadas por IA."
+        },
+        {
+          "title": "Base Técnica de SEO",
+          "desc": "Estructura limpia, metadatos y bases en la página, para que los buscadores entiendan tu sitio."
+        },
+        {
+          "title": "Bases para Búsquedas con IA",
+          "desc": "Contenido pensado para que las herramientas de IA lo entiendan y lo citen, no solo la búsqueda tradicional."
+        },
+        {
+          "title": "Reportes de Visibilidad Continuos",
+          "desc": "Revisiones periódicas de cómo evoluciona tu visibilidad y qué vale la pena ajustar después."
+        }
+      ],
+      "addons": "",
+      "addons_link": "",
+      "addons_href": "",
+      "outcome_pre": "Diseñado para ser encontrado. Creado para",
+      "outcome_em": "mantenerse visible.",
+      "outcomes": [
+        "Mayor presencia en buscadores y resultados de IA",
+        "Más personas indicadas descubriendo tu consulta",
+        "La confianza de que tu visibilidad va al ritmo de cómo se busca hoy"
+      ],
+      "price": "Desde $2,500, más $600 al mes de forma continua.",
+      "discount": "$300 de descuento en la configuración al combinarlo con nuestro paquete Signature Website.",
+      "ready": "¿Listo para que encuentren tu consulta como se merece?",
+      "invest_cta": "Hablemos",
+      "proof": "outcome",
+      "proof_text": "Herramientas de IA como ChatGPT ahora recomiendan directamente a MindBodySpiritss a quienes buscan apoyo en coaching ejecutivo.",
+      "proof_source": "MindBodySpiritss, Coaching Ejecutivo y de Relaciones",
+      "proof_href": "/case-studies/mindbodyspiritss",
+      "cross": [
+        {
+          "id": "signature-website",
+          "desc": "Sitios web limpios, modernos y alineados que reflejan tu esencia y guían a tus visitas a la acción."
+        },
+        {
+          "id": "signature-brand",
+          "desc": "Crea una marca que se vea alineada y se sienta intencional, por dentro y por fuera."
+        }
+      ],
+      "cross_line": "Construyamos una presencia que se encuentre con la misma facilidad con la que se siente."
+    }
   }
 }

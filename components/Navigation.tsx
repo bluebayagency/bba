@@ -3,23 +3,14 @@
 import { useState, useEffect, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next'
+import { CONTACT_HREF } from './ui'
 
-const navKeys = ['work', 'process', 'services', 'about', 'faq'] as const
-const navAnchors: Record<(typeof navKeys)[number], string> = {
-  work: '/case-studies',
-  process: '/process',
-  services: '/services',
-  about: '/about',
-  faq: '/faq',
-}
-// Keys in this set are standalone pages, not homepage anchors; they always
-// link straight to their route regardless of which page the nav renders on.
-const standalonePages = new Set<(typeof navKeys)[number]>(['work', 'about', 'process', 'services', 'faq'])
-
-function navHref(key: (typeof navKeys)[number], isHome: boolean) {
-  if (standalonePages.has(key)) return navAnchors[key]
-  return isHome ? navAnchors[key] : `/${navAnchors[key]}`
-}
+const navLinks = [
+  { key: 'services', href: '/services' },
+  { key: 'about', href: '/about' },
+  { key: 'work', href: '/work-with-us' },
+  { key: 'contact', href: CONTACT_HREF },
+] as const
 
 function GlobeIcon() {
   return (
@@ -32,9 +23,7 @@ function GlobeIcon() {
 export default function Navigation() {
   const { t, i18n } = useTranslation()
   const pathname = usePathname()
-  const isHome = pathname === '/'
-  const navHrefs = navKeys.map((key) => navHref(key, isHome))
-  const contactHref = isHome ? '#contact' : '/#contact'
+  const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`)
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const [bannerOffset, setBannerOffset] = useState(0)
@@ -57,8 +46,15 @@ export default function Navigation() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  const menuToggledRef = useRef(false)
+
   useEffect(() => {
     document.body.style.overflow = menuOpen ? 'hidden' : ''
+    // Skip focus management on first render so the hamburger isn't focused on page load.
+    if (!menuToggledRef.current) {
+      menuToggledRef.current = true
+      return
+    }
     if (menuOpen) {
       const firstFocusable = menuPanelRef.current?.querySelector<HTMLElement>('a, button')
       firstFocusable?.focus()
@@ -86,52 +82,50 @@ export default function Navigation() {
   return (
     <>
       <nav
-        className={`fixed left-0 right-0 z-50 transition-all duration-300 bg-soft-white border-b border-gray-border ${
-          scrolled ? 'shadow-sm shadow-navy/5' : ''
-        } py-4`}
+        className={`fixed left-0 right-0 z-50 transition-all duration-300 bg-white border-b ${
+          scrolled ? 'border-gray-border' : 'border-transparent'
+        } py-5`}
         style={{ top: bannerOffset }}
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-          {/* Primary logo: navy on soft-white */}
           <a href="/" className="flex-shrink-0">
             <img
-              src="/images/logos/bluebay-agency-primary-blue.svg"
+              src="/images/logos/bluebayagency-llc-logo.png"
               alt="Bluebay Agency"
-              className="h-8 w-auto object-contain"
+              width={800}
+              height={270}
+              className="h-10 lg:h-12 w-auto object-contain object-left"
             />
           </a>
 
-          {/* Desktop nav */}
-          <div className="hidden lg:flex items-center gap-8">
-            {navKeys.map((key, i) => (
+          {/* Desktop nav: right-aligned, next to the language switcher */}
+          <div className="hidden lg:flex items-center gap-9 ml-auto mr-6">
+            {navLinks.map(({ key, href }) => (
               <a
                 key={key}
-                href={navHrefs[i]}
-                className="nav-link font-sans text-sm font-light text-navy/70 hover:text-navy tracking-wide transition-colors duration-200"
+                href={href}
+                aria-current={isActive(href) ? 'page' : undefined}
+                className={`nav-link font-montserrat text-xs font-medium uppercase tracking-[0.18em] transition-colors duration-200 ${
+                  isActive(href) ? 'text-navy underline underline-offset-[6px] decoration-accent' : 'text-charcoal/80 hover:text-navy'
+                }`}
               >
                 {t(`nav.${key}`)}
               </a>
             ))}
           </div>
 
-          {/* Right: lang switcher + CTA + hamburger */}
+          {/* Right: lang switcher + hamburger */}
           <div className="flex items-center gap-3">
             {/* Language switcher */}
             <button
               onClick={switchLang}
-              className="hidden sm:flex items-center gap-1.5 font-sans text-xs font-medium text-navy/50 hover:text-navy border border-gray-border hover:border-navy/30 px-3 py-1.5 transition-all duration-200"
+              className="hidden sm:flex items-center gap-1.5 font-sans text-xs font-light text-charcoal/50 hover:text-navy px-2 py-1.5 transition-colors duration-200"
               aria-label="Switch language"
             >
               <GlobeIcon />
               <span>{t('lang.switch_label')}</span>
             </button>
 
-            <a
-              href={contactHref}
-              className="hidden sm:inline-flex items-center gap-2 bg-navy hover:bg-navy/80 text-white font-sans text-sm font-medium px-5 py-2.5 transition-colors duration-200 tracking-wide"
-            >
-              {t('nav.cta')}
-            </a>
 
             {/* Hamburger */}
             <button
@@ -155,7 +149,7 @@ export default function Navigation() {
         className={`fixed inset-0 z-40 transition-opacity duration-300 ${menuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}
         onClick={() => setMenuOpen(false)}
       >
-        <div className="absolute inset-0 bg-navy/50 backdrop-blur-sm" />
+        <div className="absolute inset-0 bg-navy/40 backdrop-blur-sm" />
       </div>
 
       {/* Mobile panel */}
@@ -165,15 +159,16 @@ export default function Navigation() {
         role="dialog"
         aria-modal="true"
         aria-label="Navigation menu"
-        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-soft-white flex flex-col pt-20 pb-10 px-8 transition-transform duration-300 ease-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed top-0 right-0 bottom-0 z-50 w-72 bg-white flex flex-col pt-20 pb-10 px-8 transition-transform duration-300 ease-out ${menuOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <div className="flex flex-col gap-1">
-          {navKeys.map((key, i) => (
+          {navLinks.map(({ key, href }) => (
             <a
               key={key}
-              href={navHrefs[i]}
+              href={href}
               onClick={() => setMenuOpen(false)}
-              className="font-serif text-2xl font-light text-navy/80 hover:text-navy py-3 border-b border-gray-border transition-colors duration-200"
+              aria-current={isActive(href) ? 'page' : undefined}
+              className="font-montserrat text-sm font-medium uppercase tracking-[0.18em] text-navy/80 hover:text-navy py-4 border-b border-gray-border transition-colors duration-200"
             >
               {t(`nav.${key}`)}
             </a>
@@ -181,15 +176,15 @@ export default function Navigation() {
         </div>
         <div className="mt-auto flex flex-col gap-3">
           <a
-            href={contactHref}
+            href={CONTACT_HREF}
             onClick={() => setMenuOpen(false)}
-            className="block w-full text-center bg-navy text-white font-sans text-sm font-medium py-4 hover:bg-navy/80 transition-colors duration-200"
+            className="block w-full text-center bg-navy text-white font-sans text-sm font-medium tracking-[0.08em] py-4 hover:bg-navy/90 transition-colors duration-200"
           >
-            {t('nav.cta')}
+            {t('cta.primary')}
           </a>
           <button
             onClick={switchLang}
-            className="flex items-center justify-center gap-2 font-sans text-sm text-navy/50 hover:text-navy transition-colors duration-200"
+            className="flex items-center justify-center gap-2 font-sans text-sm text-charcoal/50 hover:text-navy transition-colors duration-200"
           >
             <GlobeIcon />
             <span>{t('lang.switch_label')}</span>
