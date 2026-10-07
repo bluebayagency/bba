@@ -15,9 +15,9 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="/">
             <img
-              src="/images/logos/bluebay-agency-secondary-blue.svg"
+              src="/images/logos/Bluebay-Agency-Logo-900x275-White.png"
               alt="Bluebay Agency"
-              style={{ filter: 'brightness(0) invert(1)', opacity: 0.85, width: '140px', height: 'auto' }}
+              style={{ width: '140px', height: 'auto' }}
             />
           </a>
           <a

@@ -129,7 +129,7 @@
       "Through thoughtful collaboration and intentional work, we bring practices to life in a way that feels considered, elevated, and often better than imagined."
     ],
     "meet_bg": "Ocean wave rolling onto white sand",
-    "meet_image": "Portrait of the Bluebay Agency founder",
+    "meet_image": "Seashells resting on a closed laptop in warm sunlight",
     "clients_h2": "What Clients Are Saying",
     "prev": "Previous testimonial",
     "next": "Next testimonial",
@@ -220,11 +220,11 @@
     "gap_strong": "We’re here to bridge that gap.",
     "circle_image": "Soft wave rolling onto the shore at dawn",
     "meet_pre": "Meet",
-    "meet_strong": "Bluebay",
+    "meet_strong": "Veronica",
     "meet_body": [
-      "Fifteen years in the industry, now devoted to health and wellness practitioners and the relationships they build with their clients.",
-      "We work with coaches, therapists, and health and wellness professionals who want their digital presence to be clear, confident, and deeply aligned with who they are. Much of our approach is grounded in the idea that good design isn’t only aesthetic, it’s about helping you feel seen and represented everywhere you show up.",
-      "Through thoughtful collaboration and intentional work, we bring practices to life in a way that feels considered, elevated, and often better than imagined."
+      "For fifteen years, I’ve built the websites behind busy online businesses: the checkouts, client dashboards and personalized pages that millions of people use every day. I’ve led teams, mentored developers and worked alongside designers and product strategists to build things that feel simple to use.",
+      "Now I bring that experience to health and wellness practitioners. Your website is where a new client decides whether to trust you, so it needs to be clear, fast and kind to the person on the other side of the screen.",
+      "When we work together, you get a site that loads quickly, reads beautifully on a phone and guides people toward booking with you. You also get a partner who explains each step in plain language, so you feel at ease from the first conversation to launch day."
     ],
     "meet_image_bg": "Ocean wave rolling onto white sand",
     "meet_image": "Portrait of the Bluebay Agency founder",
@@ -252,7 +252,8 @@
     "industry_title": "Industry Experience",
     "industry_logo": "Industry client logo",
     "industry_pause": "Pause logo animation",
-    "industry_play": "Play logo animation"
+    "industry_play": "Play logo animation",
+    "meet_role": "Founder, Bluebay Agency"
   },
   "work": {
     "eyebrow": "How It Works",
@@ -593,7 +594,7 @@
       "p2_post": "so your expertise reaches the people looking for it.",
       "p3": "We don’t chase trends or rankings for their own sake. We build visibility with intention, grounded in your specialty and how your future clients actually search.",
       "cta": "I’m Ready",
-      "image": "Minimal graphic suggesting visibility and search, navy on white",
+      "image": "Hands scrolling a phone beside an open laptop and small plants",
       "steps": [
         {
           "label": "Week 1, Audit",

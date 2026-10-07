@@ -155,7 +155,7 @@ const localBusinessSchema = {
     'SEO and AI Search Visibility',
   ],
   image: 'https://www.bluebayagency.com/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
-  logo: 'https://www.bluebayagency.com/images/logos/bluebay-agency-secondary-blue.svg',
+  logo: 'https://www.bluebayagency.com/images/logos/Bluebay-Agency-Logo-900x275.png',
   sameAs: [
     'https://share.google/EeYIuooVMIY5BSS2X',
     'https://www.instagram.com/bluebayagency/',

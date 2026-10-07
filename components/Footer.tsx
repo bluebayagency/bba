@@ -33,10 +33,10 @@ export default function Footer() {
           <div>
             <a href="/" className="inline-block">
               <img
-                src="/images/logos/bluebayagency-llc-logo-white.png"
+                src="/images/logos/Bluebay-Agency-Logo-900x275-White.png"
                 alt="Bluebay Agency"
-                width={800}
-                height={270}
+                width={900}
+                height={275}
                 className="h-auto w-44 md:w-52 object-contain object-left"
               />
             </a>

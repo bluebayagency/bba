@@ -129,7 +129,7 @@
       "A través de una colaboración atenta y un trabajo intencional, damos vida a consultas de una forma que se siente cuidada, elevada y, a menudo, mejor de lo imaginado."
     ],
     "meet_bg": "Ola del océano llegando a la arena blanca",
-    "meet_image": "Retrato de la fundadora de Bluebay Agency",
+    "meet_image": "Conchas marinas sobre una laptop cerrada bajo una luz cálida",
     "clients_h2": "Lo Que Dicen Nuestros Clientes",
     "prev": "Testimonio anterior",
     "next": "Siguiente testimonio",
@@ -219,12 +219,12 @@
     "gap": "Has construido algo significativo, pero convertirlo en una presencia digital que se sienta tan auténtica como profesional es donde muchas consultas se detienen.",
     "gap_strong": "Estamos aquí para cerrar esa brecha.",
     "circle_image": "Ola suave llegando a la orilla al amanecer",
-    "meet_pre": "Conoce",
-    "meet_strong": "Bluebay",
+    "meet_pre": "Conoce a",
+    "meet_strong": "Veronica",
     "meet_body": [
-      "Quince años en la industria, ahora dedicados a profesionales de la salud y el bienestar y a las relaciones que construyen con sus clientes.",
-      "Trabajamos con coaches, terapeutas y profesionales de la salud y el bienestar que quieren una presencia digital clara, segura y profundamente alineada con quienes son. Gran parte de nuestro enfoque parte de la idea de que el buen diseño no es solo estética, se trata de ayudarte a sentirte visto y representado en cada lugar donde te muestras.",
-      "A través de una colaboración atenta y un trabajo intencional, damos vida a consultas de una forma que se siente cuidada, elevada y, a menudo, mejor de lo imaginado."
+      "Durante quince años he creado los sitios web detrás de negocios en línea con mucho movimiento: los procesos de pago, los paneles de clientes y las páginas personalizadas que millones de personas usan todos los días. He liderado equipos, he sido mentora de desarrolladores y he trabajado junto a diseñadores y estrategas de producto para crear experiencias fáciles de usar.",
+      "Hoy llevo esa experiencia a profesionales de la salud y el bienestar. Tu sitio web es donde un nuevo cliente decide si confiar en ti, por eso tiene que ser claro, rápido y amable con la persona al otro lado de la pantalla.",
+      "Cuando trabajamos juntos, obtienes un sitio que carga rápido, se lee de forma hermosa en el teléfono y guía a las personas a reservar contigo. También obtienes una socia que te explica cada paso en un lenguaje sencillo, para que te sientas tranquilo desde la primera conversación hasta el día del lanzamiento."
     ],
     "meet_image_bg": "Ola del océano llegando a la arena blanca",
     "meet_image": "Retrato de la fundadora de Bluebay Agency",
@@ -252,7 +252,8 @@
     "industry_title": "Experiencia en la Industria",
     "industry_logo": "Logotipo de cliente de la industria",
     "industry_pause": "Pausar animación de logotipos",
-    "industry_play": "Reproducir animación de logotipos"
+    "industry_play": "Reproducir animación de logotipos",
+    "meet_role": "Fundadora, Bluebay Agency"
   },
   "work": {
     "eyebrow": "Cómo Funciona",
@@ -593,7 +594,7 @@
       "p2_post": "para que tu experiencia llegue a quienes la buscan.",
       "p3": "No perseguimos tendencias ni posiciones por sí mismas. Construimos visibilidad con intención, basada en tu especialidad y en cómo buscan realmente tus futuros clientes.",
       "cta": "Estoy Listo",
-      "image": "Gráfico minimalista que sugiere visibilidad y búsqueda, azul marino sobre blanco",
+      "image": "Manos usando un teléfono junto a una laptop abierta y plantas pequeñas",
       "steps": [
         {
           "label": "Semana 1, Auditoría",

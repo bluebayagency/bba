@@ -247,7 +247,7 @@ function Approach() {
             className="aspect-[4/3] w-full"
           />
         </ScrollReveal>
-        <ScrollReveal className="hidden lg:block lg:col-start-1 lg:col-span-2 lg:row-start-2 lg:mt-20">
+        <ScrollReveal className="hidden lg:block lg:col-start-1 lg:col-span-2 lg:row-start-2 lg:mt-20 lg:pr-8 xl:pr-12">
           <ImageSlot
             src="/images/stock/BluebayAgency-Brand-Strategy.png"
             alt={imgs[0]}
@@ -311,7 +311,7 @@ function StudioCard() {
       />
       <div className="relative max-w-3xl mx-auto px-6">
         <ScrollReveal className="bg-white px-8 py-14 md:px-16 md:py-16 text-center shadow-[0_30px_80px_-40px_rgba(9,30,50,0.35)]">
-          <img src="/images/logos/bluebayagency-llc-logo.png" alt="Bluebay Agency" width={800} height={270} className="mx-auto h-12 md:h-16 w-auto" />
+          <img src="/images/logos/Bluebay-Agency-Logo-900x275.png" alt="Bluebay Agency" width={900} height={275} className="mx-auto h-12 md:h-16 w-auto" />
           <p className="mt-3 font-sans text-[10px] md:text-xs font-medium uppercase tracking-[0.3em] text-accent">{t('nav.tagline')}</p>
           <p className="mt-10 font-sans font-medium text-navy">
             {h('studio_pre')} <em className="italic">{h('studio_em')}</em>
@@ -345,11 +345,11 @@ function MeetBluebay() {
               className="aspect-[4/3] w-full"
             />
             <ImageSlot
-              src="/images/founder/bluebay-agency-founder-15538x10.jpg"
+              src="/images/stock/bluebay-agency-laptop-view.png"
               alt={h('meet_image')}
               label={h('meet_image')}
               placeholderText={ph}
-              position="center 25%"
+              position="center 45%"
               sizes="(min-width: 1024px) 25vw, 55vw"
               className="!absolute left-1/2 -translate-x-1/2 bottom-0 w-[55%] aspect-[3/4] ring-8 ring-white"
             />

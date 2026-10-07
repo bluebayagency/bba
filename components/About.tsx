@@ -58,7 +58,7 @@ export default function About() {
         </Container>
       </section>
 
-      {/* Meet Bluebay: text left, layered images right */}
+      {/* Meet Veronica: text left, layered images right */}
       <section className="bg-white pb-28 md:pb-40 overflow-hidden">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
@@ -66,6 +66,9 @@ export default function About() {
               <h2 className="font-canela-deck font-light text-navy leading-tight" style={{ fontSize: 'clamp(2.25rem, 4.5vw, 3.5rem)' }}>
                 {t('about.meet_pre')} <span className="font-medium">{t('about.meet_strong')}</span>
               </h2>
+              <p className="mt-3 font-sans text-xs md:text-sm font-light uppercase tracking-[0.3em] text-accent">
+                {t('about.meet_role')}
+              </p>
               {meet.map((p) => (
                 <Body key={p} className="mt-6">
                   {p}
@@ -83,16 +86,18 @@ export default function About() {
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="aspect-[4/3] w-full lg:w-[115%]"
               />
-              <ImageSlot
-                src="/images/founder/bluebay-agency-veronica-perez.png"
-                alt={t('about.meet_image')}
-                label={t('about.meet_image')}
-                placeholderText={ph}
-                shape="soft"
-                position="center 20%"
-                sizes="(min-width: 1024px) 25vw, 50vw"
-                className="!absolute left-8 md:left-16 bottom-0 w-1/2 aspect-[3/4] ring-8 ring-white"
-              />
+              <figure className="absolute left-8 md:left-16 bottom-0 w-1/2">
+                <ImageSlot
+                  src="/images/founder/bluebay-agency-veronica-perez.png"
+                  alt={t('about.meet_image')}
+                  label={t('about.meet_image')}
+                  placeholderText={ph}
+                  shape="soft"
+                  position="center 20%"
+                  sizes="(min-width: 1024px) 25vw, 50vw"
+                  className="aspect-[3/4] w-full ring-8 ring-white"
+                />
+              </figure>
             </ScrollReveal>
           </div>
         </Container>

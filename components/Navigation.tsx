@@ -90,10 +90,10 @@ export default function Navigation() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
           <a href="/" className="flex-shrink-0">
             <img
-              src="/images/logos/bluebayagency-llc-logo.png"
+              src="/images/logos/Bluebay-Agency-Logo-900x275.png"
               alt="Bluebay Agency"
-              width={800}
-              height={270}
+              width={900}
+              height={275}
               className="h-10 lg:h-12 w-auto object-contain object-left"
             />
           </a>

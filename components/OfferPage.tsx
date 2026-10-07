@@ -24,6 +24,7 @@ type Item = { label?: string; title?: string; desc: string }
 const introImages: Partial<Record<OfferSlug, { src: string; position?: string }>> = {
   'signature-website': { src: '/images/stock/bluebay-agency-brainstorm.png', position: '40% center' },
   'signature-brand': { src: '/images/stock/BluebayAgency-Brand-Strategy.png', position: 'center 45%' },
+  'signature-search': { src: '/images/stock/bluebay-agency-seo-desktop.jpg', position: '60% center' },
 }
 
 /** Landing page for one Signature offer. All copy lives under `offerPage.<slug>` in the locales. */
