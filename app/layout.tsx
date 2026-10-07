@@ -60,13 +60,13 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.bluebayagency.com'),
   title: {
-    default: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
+    default: 'Bluebay Agency | Strategic Website Partner for Health and Wellness Practitioners',
     template: '%s | Bluebay Agency',
   },
   description:
-    'Clarity, confidence, and a digital presence that finally feels like you. Website design, brand identity, and visibility for coaches, therapists, and wellness practitioners.',
+    'Clarity, confidence, and a digital presence that finally feels like you. Website design, brand identity, and visibility for coaches, therapists, and health and wellness practitioners.',
   keywords: [
-    'website design for wellness practitioners',
+    'website design for health and wellness practitioners',
     'therapist website design',
     'coach website design',
     'wellness website design',
@@ -82,9 +82,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
+    title: 'Bluebay Agency | Strategic Website Partner for Health and Wellness Practitioners',
     description:
-      'Website design, brand identity, and visibility for wellness practitioners. Fifteen years in the industry.',
+      'Website design, brand identity, and visibility for health and wellness practitioners. Fifteen years in the industry.',
     type: 'website',
     locale: 'en_US',
     url: 'https://www.bluebayagency.com',
@@ -94,15 +94,15 @@ export const metadata: Metadata = {
         url: '/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
         width: 1200,
         height: 630,
-        alt: 'Bluebay Agency: Strategic Website Partner for Wellness Practitioners',
+        alt: 'Bluebay Agency: Strategic Website Partner for Health and Wellness Practitioners',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bluebay Agency | Strategic Website Partner for Wellness Practitioners',
+    title: 'Bluebay Agency | Strategic Website Partner for Health and Wellness Practitioners',
     description:
-      'Strategic website partner for wellness practitioners.',
+      'Strategic website partner for health and wellness practitioners.',
     images: ['/images/stock/2025-oct-hermosa-beach-california-1200-mb.png'],
   },
   robots: {
@@ -126,7 +126,7 @@ const localBusinessSchema = {
   '@id': 'https://www.bluebayagency.com/#business',
   name: 'Bluebay Agency',
   description:
-    'Strategic website partner for coaches, therapists, and wellness practitioners. Fifteen years in web design. Based in the South Bay, California.',
+    'Strategic website partner for coaches, therapists, and health and wellness practitioners. Fifteen years in web design. Based in the South Bay, California.',
   url: 'https://www.bluebayagency.com',
   email: 'hello@bluebayagency.com',
   foundingDate: '2007',
@@ -150,7 +150,7 @@ const localBusinessSchema = {
     { '@type': 'Country', name: 'United States' },
   ],
   serviceType: [
-    'Website Design for Wellness Practitioners',
+    'Website Design for Health and Wellness Practitioners',
     'Brand Identity Design',
     'SEO and AI Search Visibility',
   ],

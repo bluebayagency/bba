@@ -4,7 +4,7 @@ import Services from '@/components/Services'
 import Footer from '@/components/Footer'
 
 const description =
-  'Three ways to work together, one strategic partner throughout: The Signature Website, The Signature Brand, and The Signature Search Visibility for wellness practitioners.'
+  'Three ways to work together, one strategic partner throughout: The Signature Website, The Signature Brand, and The Signature Search Visibility for health and wellness practitioners.'
 
 export const metadata: Metadata = {
   title: 'Services',

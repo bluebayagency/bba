@@ -4,7 +4,7 @@ import About from '@/components/About'
 import Footer from '@/components/Footer'
 
 const description =
-  'Where clarity meets beauty. Bluebay is a strategic partner for coaches, therapists, and wellness practitioners, with fifteen years in the industry.'
+  'Where clarity meets beauty. Bluebay is a strategic partner for coaches, therapists, and health and wellness practitioners, with fifteen years in the industry.'
 
 export const metadata: Metadata = {
   title: 'About',

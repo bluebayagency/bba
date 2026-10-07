@@ -345,13 +345,13 @@ function MeetBluebay() {
               className="aspect-[4/3] w-full"
             />
             <ImageSlot
-              src="/images/founder/bluebay-agency-founder-1462.JPG"
+              src="/images/founder/bluebay-agency-founder-15538x10.jpg"
               alt={h('meet_image')}
               label={h('meet_image')}
               placeholderText={ph}
-              position="center"
-              sizes="(min-width: 1024px) 32vw, 75vw"
-              className="!absolute left-1/2 -translate-x-1/2 bottom-0 w-[75%] aspect-[3/2] ring-8 ring-white"
+              position="center 25%"
+              sizes="(min-width: 1024px) 25vw, 55vw"
+              className="!absolute left-1/2 -translate-x-1/2 bottom-0 w-[55%] aspect-[3/4] ring-8 ring-white"
             />
           </ScrollReveal>
           <ScrollReveal delay={1}>
