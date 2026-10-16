@@ -26,8 +26,10 @@ const config: Config = {
       },
       fontFamily: {
         serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
-        canela: ['var(--font-canela)', 'Georgia', 'serif'],
-        'canela-deck': ['var(--font-canela-deck)', 'Georgia', 'serif'],
+        // Headline font is Roboto; the canela class names are kept so existing markup keeps working.
+        canela: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
+        'canela-deck': ['var(--font-roboto)', 'system-ui', 'sans-serif'],
+        roboto: ['var(--font-roboto)', 'system-ui', 'sans-serif'],
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
         montserrat: ['var(--font-montserrat)', 'system-ui', 'sans-serif'],
       },

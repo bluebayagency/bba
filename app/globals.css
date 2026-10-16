@@ -117,7 +117,7 @@ body {
 .wp-content h2,
 .wp-content h3,
 .wp-content h4 {
-  font-family: var(--font-canela-deck), Georgia, serif;
+  font-family: var(--font-roboto), system-ui, sans-serif;
   font-weight: 300;
   color: var(--navy);
   line-height: 1.15;
@@ -136,7 +136,7 @@ body {
 .wp-content ul li { list-style-type: disc; }
 .wp-content ol li { list-style-type: decimal; }
 .wp-content blockquote {
-  font-family: var(--font-canela-deck), Georgia, serif;
+  font-family: var(--font-roboto), system-ui, sans-serif;
   font-weight: 100;
   font-style: italic;
   font-size: clamp(1.2rem, 2.5vw, 1.6rem);

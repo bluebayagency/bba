@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Cormorant_Garamond, Inter, Montserrat } from 'next/font/google'
+import { Cormorant_Garamond, Inter, Montserrat, Roboto } from 'next/font/google'
 import localFont from 'next/font/local'
 import Script from 'next/script'
 import I18nProvider from '@/components/I18nProvider'
@@ -54,6 +54,14 @@ const inter = Inter({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
   variable: '--font-inter',
+  display: 'swap',
+})
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['100', '300', '400', '500', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-roboto',
   display: 'swap',
 })
 
@@ -155,7 +163,7 @@ const localBusinessSchema = {
     'SEO and AI Search Visibility',
   ],
   image: 'https://www.bluebayagency.com/images/stock/2025-oct-hermosa-beach-california-1200-mb.png',
-  logo: 'https://www.bluebayagency.com/images/logos/Bluebay-Agency-Logo-900x275.png',
+  logo: 'https://www.bluebayagency.com/images/logos/bluebay-agency-primary-logo.png',
   sameAs: [
     'https://share.google/EeYIuooVMIY5BSS2X',
     'https://www.instagram.com/bluebayagency/',
@@ -206,7 +214,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${inter.variable} ${montserrat.variable} ${canela.variable} ${canelaDeck.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${inter.variable} ${montserrat.variable} ${canela.variable} ${canelaDeck.variable} ${roboto.variable}`}>
       <head>
         <script
           type="application/ld+json"

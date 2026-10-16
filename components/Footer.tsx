@@ -33,11 +33,11 @@ export default function Footer() {
           <div>
             <a href="/" className="inline-block">
               <img
-                src="/images/logos/Bluebay-Agency-Logo-900x275-White.png"
+                src="/images/logos/bluebayagency-symbol-icon.png"
                 alt="Bluebay Agency"
-                width={900}
-                height={275}
-                className="h-auto w-44 md:w-52 object-contain object-left"
+                width={190}
+                height={178}
+                className="h-auto w-14 md:w-16 object-contain object-left brightness-0 invert"
               />
             </a>
             <p className="mt-4 font-sans text-xs font-medium uppercase tracking-[0.25em] text-white/70">{t('footer.tagline')}</p>

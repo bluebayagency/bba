@@ -5,12 +5,16 @@ import { usePathname } from 'next/navigation'
 import { useTranslation } from 'react-i18next'
 import { CONTACT_HREF } from './ui'
 
-const navLinks = [
-  { key: 'services', href: '/services' },
+// Desktop splits these around the centered logo; the mobile menu lists them in order.
+const leftLinks = [
   { key: 'about', href: '/about' },
+  { key: 'services', href: '/services' },
+] as const
+const rightLinks = [
   { key: 'work', href: '/work-with-us' },
   { key: 'contact', href: CONTACT_HREF },
 ] as const
+const navLinks = [...leftLinks, ...rightLinks]
 
 function GlobeIcon() {
   return (
@@ -79,47 +83,52 @@ export default function Navigation() {
     window.location.href = url.toString()
   }
 
+  const renderDesktopLink = ({ key, href }: { key: string; href: string }) => (
+    <a
+      key={key}
+      href={href}
+      aria-current={isActive(href) ? 'page' : undefined}
+      className={`nav-link font-montserrat text-xs font-medium uppercase tracking-[0.18em] transition-colors duration-200 ${
+        isActive(href) ? 'text-navy underline underline-offset-[6px] decoration-accent' : 'text-charcoal/80 hover:text-navy'
+      }`}
+    >
+      {t(`nav.${key}`)}
+    </a>
+  )
+
   return (
     <>
       <nav
         className={`fixed left-0 right-0 z-50 transition-all duration-300 bg-white border-b ${
           scrolled ? 'border-gray-border' : 'border-transparent'
-        } py-5`}
+        } py-5 lg:py-[10px]`}
         style={{ top: bannerOffset }}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
-          <a href="/" className="flex-shrink-0">
+        <div className="max-w-6xl mx-auto px-6 lg:px-8 flex items-center justify-between lg:grid lg:grid-cols-[1fr_auto_1fr]">
+          {/* Desktop: left links */}
+          <div className="hidden lg:flex items-center gap-9">
+            {leftLinks.map(renderDesktopLink)}
+          </div>
+
+          <a href="/" className="flex-shrink-0 lg:justify-self-center">
             <img
-              src="/images/logos/Bluebay-Agency-Logo-900x275.png"
+              src="/images/logos/bluebay-agency-primary-logo.png"
               alt="Bluebay Agency"
-              width={900}
-              height={275}
-              className="h-10 lg:h-12 w-auto object-contain object-left"
+              width={466}
+              height={315}
+              className="h-12 lg:h-[97px] w-auto object-contain object-left lg:object-center"
             />
           </a>
 
-          {/* Desktop nav: right-aligned, next to the language switcher */}
-          <div className="hidden lg:flex items-center gap-9 ml-auto mr-6">
-            {navLinks.map(({ key, href }) => (
-              <a
-                key={key}
-                href={href}
-                aria-current={isActive(href) ? 'page' : undefined}
-                className={`nav-link font-montserrat text-xs font-medium uppercase tracking-[0.18em] transition-colors duration-200 ${
-                  isActive(href) ? 'text-navy underline underline-offset-[6px] decoration-accent' : 'text-charcoal/80 hover:text-navy'
-                }`}
-              >
-                {t(`nav.${key}`)}
-              </a>
-            ))}
-          </div>
-
-          {/* Right: lang switcher + hamburger */}
-          <div className="flex items-center gap-3">
+          {/* Right: desktop links + lang switcher + hamburger */}
+          <div className="flex items-center justify-end gap-3">
+            <div className="hidden lg:flex items-center gap-9 mr-6">
+              {rightLinks.map(renderDesktopLink)}
+            </div>
             {/* Language switcher */}
             <button
               onClick={switchLang}
-              className="hidden sm:flex items-center gap-1.5 font-sans text-xs font-light text-charcoal/50 hover:text-navy px-2 py-1.5 transition-colors duration-200"
+              className="hidden sm:flex items-center gap-1.5 font-sans text-xs font-light text-charcoal/50 hover:text-navy px-2 lg:-mr-2 py-1.5 transition-colors duration-200"
               aria-label="Switch language"
             >
               <GlobeIcon />

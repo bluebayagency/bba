@@ -42,7 +42,7 @@ function Hero() {
   const { h, ph } = useHome()
   return (
     <section
-      className="relative flex flex-col lg:block bg-white pt-24 md:pt-28 lg:pt-0 lg:mt-24 lg:h-[min(85vh,760px,56.25vw)] lg:overflow-hidden"
+      className="relative flex flex-col lg:block bg-white pt-24 md:pt-28 lg:pt-0 lg:mt-[117px] lg:h-[min(85vh,760px,56.25vw)] lg:overflow-hidden"
       style={{ ['--hero-wall' as string]: HERO_WALL }}
     >
       <div className="order-2 lg:absolute lg:inset-0 lg:bg-[var(--hero-wall)]">
@@ -67,9 +67,12 @@ function Hero() {
               {h('hero_strong')} <em className="italic">{h('hero_em')}</em>
             </span>
           </h1>
-          <ButtonLink href="/services" className="mt-10 animate-fade-up-delay opacity-0">
-            {h('hero_cta')}
-          </ButtonLink>
+          <div className="mt-10 flex flex-col items-end gap-6 animate-fade-up-delay opacity-0">
+            <ButtonLink href="/services">{h('hero_cta')}</ButtonLink>
+            <ArrowLink href={CALENDLY_HREF} external>
+              {h('strategy_call')}
+            </ArrowLink>
+          </div>
         </div>
       </div>
     </section>
@@ -125,6 +128,9 @@ function Statement() {
         <p className="font-canela-deck font-light text-navy leading-[1.25]" style={{ fontSize: 'clamp(1.75rem, 3.4vw, 2.6rem)' }}>
           {h('statement_pre')} <Mark>{h('statement_mark')}</Mark>
         </p>
+        <ArrowLink href={CALENDLY_HREF} external className="mt-10">
+          {h('strategy_call')}
+        </ArrowLink>
       </ScrollReveal>
     </section>
   )
@@ -311,7 +317,7 @@ function StudioCard() {
       />
       <div className="relative max-w-3xl mx-auto px-6">
         <ScrollReveal className="bg-white px-8 py-14 md:px-16 md:py-16 text-center shadow-[0_30px_80px_-40px_rgba(9,30,50,0.35)]">
-          <img src="/images/logos/Bluebay-Agency-Logo-900x275.png" alt="Bluebay Agency" width={900} height={275} className="mx-auto h-12 md:h-16 w-auto" />
+          <img src="/images/logos/bluebayagency-symbol-icon.png" alt="Bluebay Agency" width={190} height={178} className="mx-auto h-14 md:h-20 w-auto" />
           <p className="mt-3 font-sans text-[10px] md:text-xs font-medium uppercase tracking-[0.3em] text-accent">{t('nav.tagline')}</p>
           <p className="mt-10 font-sans font-medium text-navy">
             {h('studio_pre')} <em className="italic">{h('studio_em')}</em>
