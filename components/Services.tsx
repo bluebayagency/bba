@@ -31,9 +31,6 @@ export default function Services() {
                 >
                   <div className="md:col-span-5">
                     <h3 className="font-canela-deck font-light text-navy text-3xl md:text-4xl leading-tight">{o.name}</h3>
-                    <p className="mt-3 font-sans text-xs md:text-sm font-medium uppercase tracking-[0.2em] text-accent">
-                      {o.price}
-                    </p>
                   </div>
                   <div className="md:col-span-7">
                     <Body className="text-lg">{o.desc}</Body>

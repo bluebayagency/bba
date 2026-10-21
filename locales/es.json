@@ -21,7 +21,6 @@
       "name": "The Signature Website",
       "home": "Un sitio web limpio y cuidado, creado para conectar y convertir.",
       "home_link": "Explorar The Signature Website",
-      "price": "Desde $7,500",
       "desc": "Un sitio web a medida, creado con estrategia y cuidado, diseñado para convertir visitas en consultas reservadas."
     },
     {
@@ -29,7 +28,6 @@
       "name": "The Signature Brand",
       "home": "Una marca que se ve alineada y se siente intencional, por dentro y por fuera.",
       "home_link": "Explorar The Signature Brand",
-      "price": "Desde $3,500",
       "desc": "Un sistema de marca completo, logotipo, colores, tipografías y la guía para usarlos con confianza."
     },
     {
@@ -37,7 +35,6 @@
       "name": "The Signature Search Visibility",
       "home": "Mayor visibilidad, en buscadores y en resultados de IA, para que las personas indicadas te encuentren.",
       "home_link": "Explorar The Signature Search Visibility",
-      "price": "Desde $2,500",
       "desc": "Trabajo de visibilidad para buscadores y herramientas de IA, para que tu experiencia llegue a quienes la buscan."
     }
   ],
@@ -414,7 +411,7 @@
     "outcome_label": "Resultado de Cliente",
     "outcome_link": "Leer el caso de estudio",
     "signature-website": {
-      "meta": "Un sitio web a medida para profesionales de la salud y el bienestar, creado para conectar, convertir y acompañar tu próxima etapa de crecimiento. Desde $7,500.",
+      "meta": "Un sitio web a medida para profesionales de la salud y el bienestar, creado para conectar, convertir y acompañar tu próxima etapa de crecimiento.",
       "eyebrow": "Eleva Tu Presencia en Línea",
       "title": [
         "Signature",
@@ -476,7 +473,6 @@
         "Consigue clientes de alto valor con un sitio que habla por sí solo",
         "Aumenta tráfico, ventas y claridad, sin complicaciones técnicas"
       ],
-      "price": "Desde $7,500, en un solo pago o con un plan de pagos.",
       "discount": "$500 de descuento al combinarlo con nuestro paquete Signature Brand.",
       "ready": "¿Listo para un sitio que se sienta como tú y que también funcione así?",
       "invest_cta": "Diseñar Mi Sitio Web",
@@ -497,7 +493,7 @@
       "proof_href": ""
     },
     "signature-brand": {
-      "meta": "Una identidad de marca estratégica para profesionales de la salud y el bienestar: logotipo, colores, tipografías y elementos visuales a medida. Desde $3,500.",
+      "meta": "Una identidad de marca estratégica para profesionales de la salud y el bienestar: logotipo, colores, tipografías y elementos visuales a medida.",
       "eyebrow": "Diseño de Identidad de Marca a Medida",
       "title": [
         "Signature",
@@ -559,7 +555,6 @@
         "Elevar tu presencia en línea",
         "Crear contenido con confianza y consistencia"
       ],
-      "price": "Desde $3,500, en un solo pago o con un plan de pagos.",
       "discount": "$500 de descuento al combinarlo con nuestro paquete Signature Website.",
       "ready": "Creemos una marca que se sienta cuidada. Inconfundiblemente tú.",
       "invest_cta": "Lo Quiero",
@@ -580,7 +575,7 @@
       "proof_href": ""
     },
     "signature-search": {
-      "meta": "SEO y visibilidad en búsquedas con IA para profesionales de la salud y el bienestar, para que las personas indicadas encuentren tu consulta. Desde $2,500.",
+      "meta": "SEO y visibilidad en búsquedas con IA para profesionales de la salud y el bienestar, para que las personas indicadas encuentren tu consulta.",
       "eyebrow": "SEO y Visibilidad en Búsquedas con IA",
       "title": [
         "Signature",
@@ -642,7 +637,6 @@
         "Más personas indicadas descubriendo tu consulta",
         "La confianza de que tu visibilidad va al ritmo de cómo se busca hoy"
       ],
-      "price": "Desde $2,500, más $600 al mes de forma continua.",
       "discount": "$300 de descuento en la configuración al combinarlo con nuestro paquete Signature Website.",
       "ready": "¿Listo para que encuentren tu consulta como se merece?",
       "invest_cta": "Hablemos",

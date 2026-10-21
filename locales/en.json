@@ -21,7 +21,6 @@
       "name": "The Signature Website",
       "home": "A clean, considered website built to connect and convert.",
       "home_link": "Explore The Signature Website",
-      "price": "Starting at $7,500",
       "desc": "A custom website, built with strategy and care, designed to turn visitors into booked consultations."
     },
     {
@@ -29,7 +28,6 @@
       "name": "The Signature Brand",
       "home": "A brand that looks aligned and feels intentional, inside and out.",
       "home_link": "Explore The Signature Brand",
-      "price": "Starting at $3,500",
       "desc": "A complete brand system, logo, colors, fonts, and the guide to use them with confidence."
     },
     {
@@ -37,7 +35,6 @@
       "name": "The Signature Search Visibility",
       "home": "Stronger visibility, in search and in AI results, so the right people find you.",
       "home_link": "Explore The Signature Search Visibility",
-      "price": "Starting at $2,500",
       "desc": "Visibility work for search and AI tools, so your expertise reaches the people searching for it."
     }
   ],
@@ -414,7 +411,7 @@
     "outcome_label": "Client Outcome",
     "outcome_link": "Read the case study",
     "signature-website": {
-      "meta": "A custom website for health and wellness practitioners, built to connect, convert, and support your next stage of growth. Starting at $7,500.",
+      "meta": "A custom website for health and wellness practitioners, built to connect, convert, and support your next stage of growth.",
       "eyebrow": "Elevate Your Online Presence",
       "title": [
         "Signature",
@@ -476,7 +473,6 @@
         "Sign high-value clients through a site that speaks for itself",
         "Increase traffic, sales, and clarity, with zero tech overwhelm"
       ],
-      "price": "Starting at $7,500, paid in full or through a payment plan.",
       "discount": "$500 off when paired with our Signature Brand package.",
       "ready": "Ready for a site that feels like you, and works like it too?",
       "invest_cta": "Design My Website",
@@ -497,7 +493,7 @@
       "proof_href": ""
     },
     "signature-brand": {
-      "meta": "A strategic brand identity for health and wellness practitioners: custom logo, colors, fonts, and visual elements. Starting at $3,500.",
+      "meta": "A strategic brand identity for health and wellness practitioners: custom logo, colors, fonts, and visual elements.",
       "eyebrow": "Custom Brand Identity Design",
       "title": [
         "Signature",
@@ -559,7 +555,6 @@
         "Elevating your online presence",
         "Empowering confident, consistent content creation"
       ],
-      "price": "Starting at $3,500, paid in full or through a payment plan.",
       "discount": "$500 off when paired with our Signature Website package.",
       "ready": "Let’s create a brand that feels considered. Unmistakably you.",
       "invest_cta": "I Want That",
@@ -580,7 +575,7 @@
       "proof_href": ""
     },
     "signature-search": {
-      "meta": "SEO and AI search visibility for health and wellness practitioners, so the right people find your practice in search and in AI answers. Starting at $2,500.",
+      "meta": "SEO and AI search visibility for health and wellness practitioners, so the right people find your practice in search and in AI answers.",
       "eyebrow": "SEO & AI Search Visibility",
       "title": [
         "Signature",
@@ -642,7 +637,6 @@
         "More of the right people discovering your practice",
         "Confidence that your visibility keeps pace with how people search now"
       ],
-      "price": "Starting at $2,500, plus $600 a month ongoing.",
       "discount": "$300 off setup when paired with our Signature Website package.",
       "ready": "Ready for your practice to be found the way it deserves?",
       "invest_cta": "Let’s Talk",

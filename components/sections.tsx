@@ -17,7 +17,7 @@ import {
   StatementBand,
 } from './ui'
 
-export type Offer = { id: string; name: string; home: string; home_link: string; price: string; desc: string }
+export type Offer = { id: string; name: string; home: string; home_link: string; desc: string }
 
 /** Each offer's dedicated landing page. */
 export const offerHref = (id: string) => `/services/${id}`

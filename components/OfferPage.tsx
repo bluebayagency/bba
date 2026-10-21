@@ -151,8 +151,7 @@ export default function OfferPage({ slug }: { slug: OfferSlug }) {
           <ScrollReveal>
             <h2 className="font-canela-deck font-medium italic text-navy text-2xl">{t('offerPage.invest')}</h2>
             <div aria-hidden="true" className="mt-3 h-px w-full bg-navy/40" />
-            <Body className="mt-6 text-lg">{c('price')}</Body>
-            <p className="mt-1 font-sans font-light italic text-charcoal/80">{c('discount')}</p>
+            <p className="mt-6 font-sans font-light italic text-charcoal/80">{c('discount')}</p>
             <Body className="mt-10">{c('ready')}</Body>
             <div className="mt-12 text-center">
               <ButtonLink href={CONTACT_HREF}>{c('invest_cta')}</ButtonLink>
