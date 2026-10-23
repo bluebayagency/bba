@@ -1,6 +1,6 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import DubsadoForm from './DubsadoForm'
 import { ArrowLink, Body, CALENDLY_HREF, Container } from './ui'
 
@@ -10,9 +10,8 @@ import { ArrowLink, Body, CALENDLY_HREF, Container } from './ui'
  * section at the end of the About page.
  */
 export default function Contact({ variant = 'page' }: { variant?: 'page' | 'about' }) {
-  const { t } = useTranslation()
   const isPage = variant === 'page'
-  const title = t('contact.title', { returnObjects: true }) as string[]
+  const title = t<string[]>('contact.title')
 
   return (
     <section id="contact" className={`${isPage ? 'bg-white pt-40 md:pt-52' : 'bg-sand pt-24 md:pt-36'} pb-28 md:pb-40`}>

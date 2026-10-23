@@ -1,6 +1,6 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import { offerHref, type Offer } from './sections'
 import { CONTACT_HREF, GOOGLE_REVIEWS_HREF, INSTAGRAM_HREF } from './ui'
 
@@ -16,7 +16,6 @@ const linkClass =
   'font-sans text-sm font-light text-white/80 underline underline-offset-4 decoration-white/30 hover:text-white hover:decoration-white transition-colors duration-200'
 
 export default function Footer() {
-  const { t } = useTranslation()
 
   // An "Email" link belongs here too, once the public inbox address is confirmed.
   const getInTouch = [
@@ -24,7 +23,7 @@ export default function Footer() {
     { label: t('footer.call'), href: 'tel:+12138677879' },
     { label: t('footer.text'), href: 'sms:+12138677879' },
   ]
-  const offers = (t('offers', { returnObjects: true }) as Offer[]).map((o) => ({ label: o.name, href: offerHref(o.id) }))
+  const offers = t<Offer[]>('offers').map((o) => ({ label: o.name, href: offerHref(o.id) }))
 
   return (
     <footer className="bg-navy text-white">

@@ -16,6 +16,16 @@ const nextConfig: NextConfig = {
         destination: '/services',
         permanent: true,
       },
+      {
+        source: '/blog/:path*',
+        destination: '/',
+        permanent: false,
+      },
+      {
+        source: '/es/blog/:path*',
+        destination: '/',
+        permanent: false,
+      },
     ]
   },
 }

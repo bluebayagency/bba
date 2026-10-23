@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import BeforeAfterSlider from './BeforeAfterSlider'
 import ScrollReveal from './ScrollReveal'
 import { Testimonial } from './sections'
@@ -10,7 +10,6 @@ import { Body, BrowserFrame, ButtonLink, Container, Display, Em, PageHeader, Rul
 const IMG_BASE = '/images/projects/thecouplestherapy'
 
 export default function CaseStudies() {
-  const { t } = useTranslation()
 
   return (
     <>

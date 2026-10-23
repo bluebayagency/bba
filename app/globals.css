@@ -105,56 +105,6 @@ body {
 }
 
 
-/* WordPress post content */
-.wp-content {
-  color: rgba(43, 58, 66, 0.85);
-  font-family: var(--font-inter), system-ui, sans-serif;
-  font-size: 1.0625rem;
-  font-weight: 300;
-  line-height: 1.8;
-}
-.wp-content h1,
-.wp-content h2,
-.wp-content h3,
-.wp-content h4 {
-  font-family: var(--font-roboto), system-ui, sans-serif;
-  font-weight: 300;
-  color: var(--navy);
-  line-height: 1.15;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-}
-.wp-content h2 { font-size: clamp(1.5rem, 3vw, 2.2rem); }
-.wp-content h3 { font-size: clamp(1.2rem, 2.5vw, 1.6rem); }
-.wp-content h4 { font-size: 1.1rem; font-family: var(--font-inter), system-ui, sans-serif; font-weight: 500; }
-.wp-content p { margin-bottom: 1.5rem; }
-.wp-content a { color: var(--navy); border-bottom: 1px solid rgba(9, 30, 50, 0.3); text-decoration: none; transition: border-color 0.2s; }
-.wp-content a:hover { border-color: var(--navy); }
-.wp-content ul,
-.wp-content ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
-.wp-content li { margin-bottom: 0.5rem; }
-.wp-content ul li { list-style-type: disc; }
-.wp-content ol li { list-style-type: decimal; }
-.wp-content blockquote {
-  font-family: var(--font-roboto), system-ui, sans-serif;
-  font-weight: 100;
-  font-style: italic;
-  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-  color: rgba(9, 30, 50, 0.7);
-  border-left: 2px solid var(--accent);
-  padding-left: 1.5rem;
-  margin: 2rem 0;
-  line-height: 1.6;
-}
-.wp-content img { width: 100%; height: auto; margin: 2rem 0; }
-.wp-content figure { margin: 2rem 0; }
-.wp-content figcaption { font-size: 0.8rem; color: rgba(43, 58, 66, 0.5); text-align: center; margin-top: 0.5rem; }
-.wp-content hr { border: none; border-top: 1px solid var(--gray-border); margin: 2.5rem 0; }
-.wp-content strong { font-weight: 500; color: var(--navy); }
-.wp-content code { font-size: 0.85em; background: var(--french-blue-light); padding: 0.15em 0.4em; }
-.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-
-
 /* Global focus-visible styles */
 :focus-visible {
   outline: 2px solid var(--navy);

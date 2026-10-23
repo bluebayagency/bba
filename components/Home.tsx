@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import NewsletterStrip from './NewsletterStrip'
 import ScrollReveal from './ScrollReveal'
 import TestimonialCarousel, { type Quote } from './TestimonialCarousel'
@@ -27,9 +27,8 @@ type WorkItem = { id: string; body: string; strong: string }
 type Path = { label: string; desc: string; kind: 'contact' | 'call' }
 
 function useHome() {
-  const { t } = useTranslation()
   const h = (key: string) => t(`home.${key}`)
-  const list = <T,>(key: string) => t(`home.${key}`, { returnObjects: true }) as T
+  const list = <T,>(key: string) => t<T>(`home.${key}`)
   return { t, h, list, ph: t('img.placeholder') }
 }
 
@@ -171,7 +170,7 @@ function Banner() {
 function WorkWithUs() {
   const { t, h, list } = useHome()
   const items = list<WorkItem[]>('work_items')
-  const offers = t('offers', { returnObjects: true }) as Offer[]
+  const offers = t<Offer[]>('offers')
   const [open, setOpen] = useState<number | null>(0)
 
   return (

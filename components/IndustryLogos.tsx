@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import ScrollReveal from './ScrollReveal'
 import { Container, Eyebrow } from './ui'
 
@@ -17,7 +17,6 @@ const industryLogos = [
 
 /** "Industry Experience" strip: grayscale client logos scrolling in a loop, with a pause button. */
 export default function IndustryLogos() {
-  const { t } = useTranslation()
   const [paused, setPaused] = useState(false)
 
   return (

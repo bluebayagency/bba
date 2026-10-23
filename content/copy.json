@@ -351,28 +351,6 @@
   "story": {
     "stat": "+65%"
   },
-  "lang": {
-    "switch_label": "Español",
-    "current": "EN"
-  },
-  "blogPage": {
-    "eyebrow": "Insights",
-    "h1": "Conversion, Design & Digital Growth",
-    "subtitle": "Strategy, design, and growth insights for wellness and modern brands building a stronger web presence.",
-    "read_article": "Read Article",
-    "back_to_blog": "Back to Blog",
-    "by": "By",
-    "published": "Published",
-    "all_posts": "All Articles",
-    "no_posts": "No articles found. Check back soon.",
-    "meta_description": "Web design, conversion strategy, and digital growth insights from Bluebay Agency.",
-    "share": "Share this article",
-    "related": "More from the Blog",
-    "cta_eyebrow": "Ready to Talk?",
-    "cta_heading": "Have a site in mind?",
-    "cta_body": "Let’s talk.",
-    "cta_button": "Book a Conversation"
-  },
   "footer": {
     "tagline": "Strategic Website Partner",
     "address": "2629 Manhattan Ave Suite 120, Hermosa Beach CA 90254",

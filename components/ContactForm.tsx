@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 
 type Status = 'idle' | 'sending' | 'sent' | 'error'
 type Values = { first_name: string; last_name: string; email: string; phone: string; message: string; company: string }
@@ -18,7 +18,6 @@ export default function ContactForm({
   /** Field fill: sand on white sections, white on sand sections. */
   fieldTone?: 'sand' | 'white'
 }) {
-  const { t } = useTranslation()
   const [values, setValues] = useState<Values>({ first_name: '', last_name: '', email: '', phone: '', message: '', company: '' })
   const [status, setStatus] = useState<Status>('idle')
   const [message, setMessage] = useState('')

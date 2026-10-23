@@ -1,6 +1,6 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import type { OfferSlug } from '@/lib/offers'
 import NewsletterStrip from './NewsletterStrip'
 import ScrollReveal from './ScrollReveal'
@@ -29,10 +29,9 @@ const introImages: Partial<Record<OfferSlug, { src: string; position?: string }>
 
 /** Landing page for one Signature offer. All copy lives under `offerPage.<slug>` in the locales. */
 export default function OfferPage({ slug }: { slug: OfferSlug }) {
-  const { t } = useTranslation()
   const c = (key: string) => t(`offerPage.${slug}.${key}`)
-  const list = <T,>(key: string) => t(`offerPage.${slug}.${key}`, { returnObjects: true }) as T
-  const offers = t('offers', { returnObjects: true }) as Offer[]
+  const list = <T,>(key: string) => t<T>(`offerPage.${slug}.${key}`)
+  const offers = t<Offer[]>('offers')
   const offerName = (id: string) => offers.find((o) => o.id === id)?.name ?? id
 
   const steps = list<Item[]>('steps')

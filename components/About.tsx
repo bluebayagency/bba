@@ -1,17 +1,16 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import Contact from './Contact'
 import IndustryLogos from './IndustryLogos'
 import ScrollReveal from './ScrollReveal'
 import { ArrowLink, Body, CONTACT_HREF, Container, ImageSlot } from './ui'
 
 export default function About() {
-  const { t } = useTranslation()
   const ph = t('img.placeholder')
-  const meet = t('about.meet_body', { returnObjects: true }) as string[]
-  const feel = t('about.feel_body', { returnObjects: true }) as string[]
-  const points = t('about.approach_points', { returnObjects: true }) as string[]
+  const meet = t<string[]>('about.meet_body')
+  const feel = t<string[]>('about.feel_body')
+  const points = t<string[]>('about.approach_points')
 
   return (
     <>

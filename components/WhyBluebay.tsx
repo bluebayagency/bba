@@ -1,6 +1,6 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import ScrollReveal from './ScrollReveal'
 
 const pillarIcons = [
@@ -23,9 +23,8 @@ const pillarIcons = [
 ]
 
 export default function WhyBluebay() {
-  const { t } = useTranslation()
-  const pillars = t('whyBluebay.pillars', { returnObjects: true }) as Array<{ num: string; title: string; desc: string }>
-  const differentiators = t('whyBluebay.differentiators', { returnObjects: true }) as string[]
+  const pillars = t<Array<{ num: string; title: string; desc: string }>>('whyBluebay.pillars')
+  const differentiators = t<string[]>('whyBluebay.differentiators')
 
   return (
     <section id="about-intro" className="bg-navy py-24 md:py-36 relative overflow-hidden">

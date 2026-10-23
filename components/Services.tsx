@@ -1,17 +1,16 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import ScrollReveal from './ScrollReveal'
 import { Banner, Intro, offerHref, TitleHeader, type Offer } from './sections'
 import { ArrowLink, Body, ButtonLink, CONTACT_HREF, Container, Display, Em, RuledHeading } from './ui'
 
 export default function Services() {
-  const { t } = useTranslation()
-  const offers = t('offers', { returnObjects: true }) as Offer[]
+  const offers = t<Offer[]>('offers')
 
   return (
     <>
-      <TitleHeader eyebrow={t('services.eyebrow')} lines={t('services.title', { returnObjects: true }) as string[]} />
+      <TitleHeader eyebrow={t('services.eyebrow')} lines={t<string[]>('services.title')} />
       <Banner pre={t('services.banner_pre')} mark={t('services.banner_mark')} />
       <Intro lead={t('services.lead')} paragraphs={[t('services.body')]} cta={false} />
 

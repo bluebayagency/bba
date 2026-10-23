@@ -1,17 +1,16 @@
 'use client'
 
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import ScrollReveal from './ScrollReveal'
 import { Banner, FAQList, TitleHeader } from './sections'
 import { Body, ButtonLink, CONTACT_HREF, Container, Em, RuledHeading } from './ui'
 
 export default function WorkWithUs() {
-  const { t } = useTranslation()
-  const steps = t('work.steps', { returnObjects: true }) as Array<{ title: string; desc: string }>
+  const steps = t<Array<{ title: string; desc: string }>>('work.steps')
 
   return (
     <>
-      <TitleHeader eyebrow={t('work.eyebrow')} lines={t('work.title', { returnObjects: true }) as string[]} />
+      <TitleHeader eyebrow={t('work.eyebrow')} lines={t<string[]>('work.title')} />
       <Banner pre={t('work.banner_pre')} mark={t('work.banner_mark')} />
 
       <section className="bg-white pt-24 md:pt-36 pb-24 md:pb-36">

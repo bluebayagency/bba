@@ -4,7 +4,7 @@ import Navigation from '@/components/Navigation'
 import OfferPage from '@/components/OfferPage'
 import { OFFER_SLUGS, isOfferSlug } from '@/lib/offers'
 import Footer from '@/components/Footer'
-import en from '@/locales/en.json'
+import { copy } from '@/lib/copy'
 
 type Params = Promise<{ offer: string }>
 
@@ -17,8 +17,8 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { offer } = await params
   if (!isOfferSlug(offer)) return {}
-  const name = en.offers.find((o) => o.id === offer)?.name ?? 'Services'
-  const description = en.offerPage[offer].meta
+  const name = copy.offers.find((o) => o.id === offer)?.name ?? 'Services'
+  const description = copy.offerPage[offer].meta
   return {
     title: name,
     description,

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import { ImageSlot } from './ui'
 
 // Same MailerLite list the site's newsletter form has used.
@@ -10,7 +10,6 @@ const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 /** "Stay Inspired" newsletter strip: image left, signup right. */
 export default function NewsletterStrip() {
-  const { t } = useTranslation()
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle')
   const [message, setMessage] = useState('')

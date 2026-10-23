@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Cormorant_Garamond, Inter, Montserrat, Roboto } from 'next/font/google'
 import localFont from 'next/font/local'
 import Script from 'next/script'
-import I18nProvider from '@/components/I18nProvider'
 import './globals.css'
 
 const GA_ID = 'G-WSRSNTKHJW'
@@ -236,7 +235,7 @@ export default function RootLayout({
         >
           Skip to main content
         </a>
-        <I18nProvider>{children}</I18nProvider>
+        {children}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"

@@ -1,7 +1,7 @@
 'use client'
 
 import type { ReactNode } from 'react'
-import { useTranslation } from 'react-i18next'
+import { t } from '@/lib/copy'
 import ScrollReveal from './ScrollReveal'
 import {
   ArrowLink,
@@ -69,7 +69,6 @@ export function Intro({
   image?: string
   cta?: boolean
 }) {
-  const { t } = useTranslation()
   const text = (
     <ScrollReveal>
       <h2 className="font-sans font-medium text-navy text-xl md:text-2xl leading-snug">{lead}</h2>
@@ -136,7 +135,6 @@ export function Outcomes({ line, items }: { line: ReactNode; items: string[] }) 
 }
 
 export function Testimonial({ tone = 'sand' }: { tone?: 'sand' | 'white' }) {
-  const { t } = useTranslation()
   const quote = t('testimonial.quote')
   const mark = t('testimonial.mark')
   const idx = quote.indexOf(mark)
@@ -167,8 +165,7 @@ export function Testimonial({ tone = 'sand' }: { tone?: 'sand' | 'white' }) {
 
 /** Ruled "Frequently Asked Questions" heading with a two-column Q&A grid. */
 export function FAQList({ headingLevel = 'h2', eyebrow }: { headingLevel?: 'h1' | 'h2'; eyebrow?: string }) {
-  const { t } = useTranslation()
-  const items = t('faq.items', { returnObjects: true }) as Array<{ q: string; a: string }>
+  const items = t<Array<{ q: string; a: string }>>('faq.items')
   const Heading = headingLevel
 
   return (
