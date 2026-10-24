@@ -4,6 +4,7 @@
     "about": "About",
     "work": "Work With Us",
     "contact": "Contact",
+    "shop": "Shop",
     "tagline": "Strategic Website Partner"
   },
   "cta": {
@@ -362,6 +363,8 @@
     "call": "Call",
     "contact_us": "Contact Us",
     "services": "Services",
+    "shop": "Shop",
+    "shop_guides": "Bluebay Guides",
     "text": "Text"
   },
   "newsletter": {

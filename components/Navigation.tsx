@@ -9,6 +9,7 @@ import { CONTACT_HREF } from './ui'
 const leftLinks = [
   { key: 'about', href: '/about' },
   { key: 'services', href: '/services' },
+  { key: 'shop', href: '/shop' },
 ] as const
 const rightLinks = [
   { key: 'work', href: '/work-with-us' },

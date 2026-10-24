@@ -86,6 +86,17 @@ export default function Footer() {
               ))}
             </ul>
           </nav>
+
+          <nav aria-label={t('footer.shop')} className="text-left lg:text-center">
+            <h2 className="font-sans text-sm font-medium text-white">{t('footer.shop')}</h2>
+            <ul className="mt-5 space-y-2">
+              <li>
+                <a href="/shop" className={linkClass}>
+                  {t('footer.shop_guides')}
+                </a>
+              </li>
+            </ul>
+          </nav>
           </div>
         </div>
 
