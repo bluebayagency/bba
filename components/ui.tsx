@@ -182,6 +182,7 @@ export function ImageSlot({
   sizes = '(min-width: 1024px) 50vw, 100vw',
   priority = false,
   position,
+  fit = 'cover',
 }: {
   src?: string
   alt?: string
@@ -192,12 +193,14 @@ export function ImageSlot({
   sizes?: string
   priority?: boolean
   position?: string
+  /** `contain` shows the whole image (e.g. product mockups with text near the edges). */
+  fit?: 'cover' | 'contain'
 }) {
   const style: CSSProperties | undefined = position ? { objectPosition: position } : undefined
   return (
     <div className={`relative overflow-hidden ${shapes[shape]} ${className}`}>
       {src ? (
-        <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className="object-cover" style={style} />
+        <Image src={src} alt={alt} fill priority={priority} sizes={sizes} className={fit === 'contain' ? 'object-contain' : 'object-cover'} style={style} />
       ) : (
         <div
           role="img"
